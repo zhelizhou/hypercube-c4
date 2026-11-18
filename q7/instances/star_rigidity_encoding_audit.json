@@ -1,0 +1,387 @@
+{
+  "counter_input_assignments_tested": 12288,
+  "counter_truth_table_passed": true,
+  "degree_iff_truth_assignments": 128,
+  "files": [
+    {
+      "file": "star_rigidity_p0_b4_case0_odd_degrees_cert.cnf",
+      "case": 0,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "11dc7e3537678813c8ddb8de07b718b8d9590bf558dac201b7ece2530fcb3ab1"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case1_odd_degrees_cert.cnf",
+      "case": 1,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "cd80da8cf1354ff0d86f6d2063e348653fe01a477cda7a142f36c08c189206ee"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case2_odd_degrees_cert.cnf",
+      "case": 2,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "a716facec2a9fdbf095360f317d3b0df8ee0ea577106b377df01b0d071dcf93b"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case3_odd_degrees_cert.cnf",
+      "case": 3,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "262546bca5e0674e8a3672bd36077e5a4fe2d3fc60906bff9068e3675a15be3b"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case4_odd_degrees_cert.cnf",
+      "case": 4,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "467f25129edd6bb378d4ab17a708e4f46d2a70d51a833cd46e53e2602735705e"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case5_odd_degrees_cert.cnf",
+      "case": 5,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "ca2c2093e45ed788ac5df5c2916a792934d591c5f076b230aa1751fa36a43b3c"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case6_odd_degrees_cert.cnf",
+      "case": 6,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "73ae9cf07ad6f35c47db27eb5d0f42eac0e66eb6e0c45c5d38c1ae3b00314b76"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case7_odd_degrees_cert.cnf",
+      "case": 7,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "1a86fe1b8366e4aed851a84a55d19c7cf61698dac189cff04e8c8d57def35116"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case8_odd_degrees_cert.cnf",
+      "case": 8,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "f2c033fe98b3cc0f93c30800ea05e90476f41c3a8e601cb828f565d63716a010"
+    },
+    {
+      "file": "star_rigidity_p0_b4_case9_odd_degrees_cert.cnf",
+      "case": 9,
+      "min_even3": 4,
+      "other_p": 0,
+      "variables": 2440,
+      "clauses": 12974,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 200,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "92fe429301aaf9aeb56e69924578e0b93e693f8e493ef01136859ea74e19f863"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case0_odd_degrees_cert.cnf",
+      "case": 0,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "51abe36ad4521df98347bc2f2f0a490d5c09e6c498635b6b21538561ddcee011"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case1_odd_degrees_cert.cnf",
+      "case": 1,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "5f3dffa092b3737f2509f7141386b97e32f233376a789740867fbfa9bec5519b"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case2_odd_degrees_cert.cnf",
+      "case": 2,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "816ee23213afcf907ae10c938e4f8737ebe9b2e62d3782af4b8bbeeb8195e520"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case3_odd_degrees_cert.cnf",
+      "case": 3,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "cb0069cf702d52374f5835c346c57dae4e87b17d7e0e55e76dcc1841ea0aa826"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case4_odd_degrees_cert.cnf",
+      "case": 4,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "69a6f8480c684d877b3d31b3c3ca5e611b985f6264d76794457fb1d5890a4539"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case5_odd_degrees_cert.cnf",
+      "case": 5,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "1bc06a6c7508a9fec3df003ca5a9f773c8174ea91446fb2774daab847132bc7e"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case6_odd_degrees_cert.cnf",
+      "case": 6,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "ea270dd0c10d5f7bef7eef35cb7258bc43fe46683d2d365974bef797d5f600f6"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case7_odd_degrees_cert.cnf",
+      "case": 7,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "551d3c612787540696c856a2463c358efdfd75677915aa20b16616f7166743bf"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case8_odd_degrees_cert.cnf",
+      "case": 8,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "d9ae78ae2737d21c3aa2844d7f54502749fecac50ae78f4a547edc292735ca8d"
+    },
+    {
+      "file": "star_rigidity_p1_b8_case9_odd_degrees_cert.cnf",
+      "case": 9,
+      "min_even3": 8,
+      "other_p": 1,
+      "variables": 3438,
+      "clauses": 14978,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 368,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 3100
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "36c618e9bb9de7f2fb44010bd979884ca05dd82ef764940ecfa883be98be70ee"
+    },
+    {
+      "file": "six_profiles_sat_m131_p0_case0_odd_degrees_cert.cnf",
+      "case": 0,
+      "min_even3": null,
+      "other_p": 0,
+      "variables": 2776,
+      "clauses": 13670,
+      "groups": {
+        "degree_and_star_definitions": 8384,
+        "C4_exclusion": 240,
+        "even_faces_exact_two_holes": 1126,
+        "degree_cardinality": 896,
+        "odd_faces_hole_equivalence": 1760,
+        "odd_hole_cardinality": 1264
+      },
+      "ordered_clause_match": true,
+      "cnf_sha256": "be0a3d1980eb040cb96214e0b3c24061ed84b7cee1950b08254d32bc80332b02"
+    }
+  ],
+  "imports_no_pysat": true,
+  "scope": "Independent complete clause reconstruction with independently implemented sequential counters; cardinality equivalence proved in star_rigidity_encoding_review.md."
+}

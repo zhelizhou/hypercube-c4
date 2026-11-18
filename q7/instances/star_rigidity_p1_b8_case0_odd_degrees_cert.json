@@ -1,0 +1,20 @@
+{
+  "m": null,
+  "other_p": 1,
+  "case": 0,
+  "explicit_odd": true,
+  "degree_counts": true,
+  "answer": false,
+  "seconds": 6.546999999991385,
+  "stats": {
+    "restarts": 191,
+    "conflicts": 115051,
+    "decisions": 153409,
+    "propagations": 33746590
+  },
+  "certificate_checked": false,
+  "min_even3": 8,
+  "cnf_sha256": "51abe36ad4521df98347bc2f2f0a490d5c09e6c498635b6b21538561ddcee011",
+  "proof_sha256": "d844094da143fa85594830d8e6bd3608c329ce25cf19793ba1fa9911b020ad30",
+  "proof_lines": 212799
+}

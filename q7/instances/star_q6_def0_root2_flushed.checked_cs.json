@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "method": "C# watched-literal RUP; retain original axioms; final empty may use all previously validated clauses",
+  "checked_additions": 291482,
+  "deletions": 257226,
+  "seconds": 94.2641168,
+  "cnf_sha256": "8f90783e2358a9b13da75de7bd551fb7da8768827c6318864072674687efc801",
+  "proof_sha256": "68442c125083a2e27487e9d8808846ccf0fce58422540c33af7b9000dccc58bb"
+}

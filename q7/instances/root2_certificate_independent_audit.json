@@ -1,0 +1,19 @@
+{
+  "clause_groups": {
+    "star_definition": 2560,
+    "C4": 240,
+    "face_one": 160,
+    "face_at_most_one": 960,
+    "root": 6,
+    "other_degrees": 496
+  },
+  "variables": 832,
+  "clauses": 4422,
+  "exact_multiset_match": true,
+  "degree_truth_table_assignments": 64,
+  "hashes_match_solver_and_checker": true,
+  "cnf_sha256": "8f90783e2358a9b13da75de7bd551fb7da8768827c6318864072674687efc801",
+  "proof_sha256": "68442c125083a2e27487e9d8808846ccf0fce58422540c33af7b9000dccc58bb",
+  "proof_lines": 548708,
+  "scope": "Independent encoding reconstruction and metadata audit; full RUP proof not rerun here."
+}

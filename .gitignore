@@ -1,0 +1,11 @@
+.artifacts/
+.replay/
+__pycache__/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.drup
+*.drat
