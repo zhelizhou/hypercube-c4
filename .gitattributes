@@ -1,7 +1,3 @@
 * text=auto
 q7/instances/** -text
-q8/** -text
-asymptotic/** -text
-*.bin binary
-*.npz binary
 *.pdf binary

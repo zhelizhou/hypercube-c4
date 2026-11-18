@@ -1,9 +1,0 @@
-{
-  "input": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/FROZEN_EDGE_MOMENTS.json",
-  "input_sha256": "9d539b8357946a1e72ac57c355baba66616ec7c3f7fb8acba38869fac189fcc5",
-  "root": 1,
-  "dimension": 7,
-  "complete_generators": 1716,
-  "time_limit_per_LP": 10,
-  "scope": "Exact edge-root finite8 moments of the frozen818 legalQ4 point; no newPSD/frequency validity assumed"
-}

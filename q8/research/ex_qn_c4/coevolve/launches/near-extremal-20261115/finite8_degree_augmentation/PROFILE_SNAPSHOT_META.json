@@ -1,7 +1,0 @@
-{
-  "remaining_count": 792,
-  "combined_excluded": 22,
-  "sha256": "452aa0e377ac002ae5687cd83268de253290e378e00a552c1f9e70840b6ce945",
-  "source": "../COMBINED_PROFILE_FILTER.json",
-  "note": "Frozen exact bytes at actual copy/read; earlier inspection saw792."
-}

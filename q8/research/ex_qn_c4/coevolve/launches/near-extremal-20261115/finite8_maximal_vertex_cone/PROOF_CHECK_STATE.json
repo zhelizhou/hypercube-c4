@@ -1,9 +1,0 @@
-{
-  "status": "completed",
-  "scope": "MV01-MV06 MAXIMAL_ONLY vertex253440domain, oracle/cuts/bridge/RLT/actualgraphs",
-  "acceptance_gate": "PASS",
-  "review_independence": "same-family",
-  "acceptance_status": "provisional",
-  "primary_proof_status": "open",
-  "timestamp": "2026-11-15T21:31:21.419139+00:00"
-}

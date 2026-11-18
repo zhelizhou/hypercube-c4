@@ -1,9 +1,0 @@
-{
-  "point_master": 56,
-  "point_path": "pool_vertex3_working_sets/point_bank/master_056.json",
-  "m683_excluded_rows_only": 19,
-  "weight_on_these_19_known_impossible_profile_columns": 0.0012048282213267822,
-  "m684to688_touched": false,
-  "filter_sha256": "ce87cd66b7676def3d18c9495a5cb5f14144f859c3b795c5be2693841a2ab1b4",
-  "scope_not_changed": true
-}

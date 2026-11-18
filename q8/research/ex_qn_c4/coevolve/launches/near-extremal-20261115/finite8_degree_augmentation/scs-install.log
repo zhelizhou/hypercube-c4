@@ -1,6 +1,0 @@
-Collecting scs
-  Downloading scs-3.3.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (10 kB)
-Downloading scs-3.3.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (43.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.3/43.3 MB 24.2 MB/s eta 0:00:00
-Installing collected packages: scs
-Successfully installed scs-3.3.2

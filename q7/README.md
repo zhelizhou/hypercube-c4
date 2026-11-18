@@ -5,7 +5,6 @@ The [paper](../paper/hypercube-c4.pdf) proves ex(Q₇, C₄) = 304. Its certific
 - [instances/](instances/) contains the 21 DIMACS inputs, two-hole orbits, hashes and archived checking reports.
 - [tools/](tools/) contains the original PowerShell RUP checkers.
 - [witness-304.json](witness-304.json) contains a local witness. See the introduction for attribution of the previously known lower bound.
-- [source-proof-zh.html](source-proof-zh.html) is the historical Chinese draft. The manuscript contains the corrected parity-side and five-face degree statements.
 
 With Python 3.11 or later, check the witness and all 21 formula hashes from the repository root:
 
@@ -13,10 +12,10 @@ With Python 3.11 or later, check the witness and all 21 formula hashes from the 
 python3 q7/verify.py
 ~~~
 
-To also check the trace hashes, extract the three trace archives from the [artifact release](https://github.com/zhelizhou/hypercube-c4/releases/tag/artifacts-v0.1) into `q7/instances/`. These commands require authenticated GitHub CLI access and tar with Zstandard support:
+To also check the trace hashes, extract the three trace archives from the [artifact release](https://github.com/zhelizhou/hypercube-c4/releases/tag/q7-artifacts-v0.1) into `q7/instances/`. These commands require authenticated GitHub CLI access and tar with Zstandard support:
 
 ~~~bash
-gh release download artifacts-v0.1 --pattern 'q7-*-traces.tar.zst' --dir .artifacts
+gh release download q7-artifacts-v0.1 --pattern 'q7-*-traces.tar.zst' --dir .artifacts
 for archive in .artifacts/q7-*-traces.tar.zst; do
     tar --zstd -xf "$archive" -C q7/instances
 done
