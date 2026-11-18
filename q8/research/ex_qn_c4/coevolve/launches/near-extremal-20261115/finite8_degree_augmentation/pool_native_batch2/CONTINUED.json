@@ -1,0 +1,24 @@
+{
+  "scope": "maximal m683..688 shared lambda alpha beta, L1 artificial phaseI with native reusable basis",
+  "library": 14090,
+  "alpha": 1428,
+  "beta": 1751,
+  "initial_lambda_columns": 407,
+  "initial_valid_inequalities": 1463,
+  "equalities": 89,
+  "new_gates": [
+    "global leaf N1<=N8",
+    "230 raw retained leaf hist forbidden",
+    "2 connector finite6",
+    "9 retained neighbor degree capacities"
+  ],
+  "V05": "freshPASS same-family/provisional",
+  "even_gate": "DROP",
+  "fixed683density": false,
+  "old23exclusions": "not applied",
+  "initialization": "explicit feasible artificial basis or actual full native checkpoint; no crossover",
+  "seconds": 240.0,
+  "batch": 64,
+  "full_library_priced": true,
+  "fullQ4NO": false
+}

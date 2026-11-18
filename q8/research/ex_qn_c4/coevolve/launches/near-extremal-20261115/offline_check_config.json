@@ -1,0 +1,100 @@
+{
+  "n": 8,
+  "goal": {
+    "metric": "edges",
+    "sense": "max",
+    "target": 683,
+    "conditions": []
+  },
+  "provider": {
+    "backend": "offline"
+  },
+  "seed": 23,
+  "search_steps": 8,
+  "max_graphs": 4,
+  "program_timeout_seconds": 60,
+  "bootstrap_random": 2,
+  "seed_files": [
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_seed_isometries_cycle011/seed1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_seed_isometries_cycle011/seed2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_seed_isometries_cycle011/seed3.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_seed_isometries_cycle011/seed4.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed1_delete1_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed1_delete1_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed1_delete1_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed1_delete2_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed1_delete2_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed1_delete2_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed2_delete1_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed2_delete1_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed2_delete1_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed2_delete2_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed2_delete2_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed2_delete2_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed3_delete1_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed3_delete1_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed3_delete1_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed3_delete2_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed3_delete2_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed3_delete2_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed4_delete1_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed4_delete1_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed4_delete1_2.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed4_delete2_0.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed4_delete2_1.edges",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/seeds/seed4_delete2_2.edges"
+  ],
+  "metrics": [
+    {
+      "name": "q7_edges_min",
+      "kind": "face_aggregate",
+      "dimension": 7,
+      "metric": "edges",
+      "aggregate": "min"
+    },
+    {
+      "name": "q7_edges_max",
+      "kind": "face_aggregate",
+      "dimension": 7,
+      "metric": "edges",
+      "aggregate": "max"
+    },
+    {
+      "name": "q7_J_min",
+      "kind": "face_aggregate",
+      "dimension": 7,
+      "metric": "q7_J",
+      "aggregate": "min"
+    },
+    {
+      "name": "q7_J_sum",
+      "kind": "face_aggregate",
+      "dimension": 7,
+      "metric": "q7_J",
+      "aggregate": "sum"
+    }
+  ],
+  "initial_inequalities": [
+    {
+      "name": "unrestricted_682_conjecture",
+      "coefficients": {
+        "edges": 1
+      },
+      "rhs": 682,
+      "conditions": [],
+      "rationale": "Research target, not an established unrestricted upper bound."
+    }
+  ],
+  "exhaustive_oracle": false,
+  "research_context": "Current reviewed unrestricted Q8 interval 682..687. Odd-square maximum is 682. A 683+ C4-free graph needs at least 3 deletions and 4 additions from EVERY odd682 graph, and at least 5 toggles from EVERY odd graph. No improvement in known seed's <=3 coordinate-direction domain; do not represent a bounded search in closed families as new research. Q7 J>=73 is open and only a sufficient gate for the min4 branch at 687. Four low-degree Q8 rows remain. Local statistics alone do not ensure simultaneous face realizability. Seek different programs, genuinely mixed moves or nonodd construction mechanisms. Generated conjectures must preserve their actual conditions. q7_J_sum is a sum over all 16 facets, not the historical S8 normalization. Near-extremal campaign: focus on 680..682 edges and target 683. 680 is a heuristic QUALITY threshold, not a theorem premise. Derived 680/681 samples obtained by deleting one/two edges are calibration data, not novel constructions. Do not restrict future searches to that deletion family or restart its proved-small repair exclusions. Intermediate states may lose more edges before repairing. Upper discovery prioritizes dense samples, but every archived graph still checks every applicable inequality. Conditional conjectures edges>=680 are relevant to every 683+ graph; unrelated conditions require their own coverage proof. Show actual mathematics connecting learned correlations to the Q8 goal.",
+  "quality_band": {
+    "min_edges": 680
+  },
+  "focus_schedule": [
+    "objective",
+    "challenge",
+    "objective",
+    "novelty"
+  ],
+  "config_source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/configs/q8_near_extremal.json"
+}

@@ -1,0 +1,124 @@
+{
+  "status": "AUTHOR_PROOF_AND_EXACT_CHECKS_COMPLETE_INDEPENDENT_REVIEW_SEPARATE",
+  "claim": "For a specified parity of any C4-free Q6 with exactly three full roots, S+L<=158; no minimum-degree conditions on either side.",
+  "corollary": "If the unique fourth code point has degree>=3 then S+L<=155, with additional pattern refinements in separate corollary.",
+  "all_processes_terminal": true,
+  "active_handles": [],
+  "files": {
+    "CLIQUES.json": {
+      "sha256": "d32b761237cd1725bfff707748511573c38a97b0b2080a1150c5a351c49a1d24",
+      "bytes": 50659
+    },
+    "EXACT_CHECK.json": {
+      "sha256": "0126cff0221640dbb93935da6c944b80c605bb5faed9baef76ee87fc683a34a3",
+      "bytes": 4203
+    },
+    "ORIGIN_CHECK.json": {
+      "sha256": "2354091f835e951e249bffa3518e8bd0ae996abfbf3ef8a2eeaf0e95c9ec6740",
+      "bytes": 7935
+    },
+    "ORIGIN_COROLLARY.md": {
+      "sha256": "d6eceb810312e1ffeb9c9a529fe817e0597c434b0f0c148949ecc32aaea29584",
+      "bytes": 1880
+    },
+    "PACKING.json": {
+      "sha256": "b3c2a66fba337f1982693c48141e0410b72e16df2094d410e6ee8931b0f8c13d",
+      "bytes": 293879
+    },
+    "PROOF.md": {
+      "sha256": "9c7b7ceb2b11e3a07669cea8dc3b7118f6c75120e6e0136037a9522d342a23e4",
+      "bytes": 10547
+    },
+    "REPORT.md": {
+      "sha256": "3b784a7efe74ad34431b8f8e95a7823f567c1b61a18d7f4c9dc7dd0aa456ffae",
+      "bytes": 4617
+    },
+    "check_exact.py": {
+      "sha256": "d4c3727d9c3965999b33e169f4c17bf9d6bdecc3d8165a20d0518db33c86c41a",
+      "bytes": 7603
+    },
+    "check_exact.stdout.json": {
+      "sha256": "0126cff0221640dbb93935da6c944b80c605bb5faed9baef76ee87fc683a34a3",
+      "bytes": 4203
+    },
+    "check_origin.py": {
+      "sha256": "07154c13b7c7859ca2233ae060e98bcfcf02356174e4b49917be7cd09a8fbce7",
+      "bytes": 1351
+    },
+    "check_origin.stdout.json": {
+      "sha256": "66ee10f53968c5ffbe4a4b9632dea8d8943af654f7de608db47cf670cf3052fc",
+      "bytes": 622
+    },
+    "cliques.py": {
+      "sha256": "d23389427bddaf6afa69a107c08f13ef26c5d29e383ac4b48826a4f176b54f1a",
+      "bytes": 3158
+    },
+    "cliques.stdout.json": {
+      "sha256": "d42045e2842e264352205afb19b276d77b2df8c63c0318ac0f00b3646bc40f27",
+      "bytes": 3145
+    },
+    "probe.py": {
+      "sha256": "60e51eec630849e7eb04751710e1dd0aedce3c7eebebd35b47687c0ab5d36027",
+      "bytes": 3691
+    },
+    "probe.stdout.json": {
+      "sha256": "f4de48eaacf8f9eef96a48d7d36386244e4a61287e398ada0d0fe804a7cefec3",
+      "bytes": 612
+    }
+  },
+  "actual_read_scope": [
+    {
+      "path": "/mnt/c/Users/Anony/Desktop/project/research/ex_qn_c4/MISSION.md",
+      "sha256": "0a8e1d871df276400e2042fe8b7d69777579b534c5d6b8d3fcaa4511cbe40e5d",
+      "scope": "Full 205-line current mission, contextual scope only; mission status claims not independently re-audited."
+    },
+    {
+      "path": "/mnt/c/Users/Anony/Desktop/project/research/ex_qn_c4/research-wiki/ideas/q8-low-degree-gates.md",
+      "sha256": "93012073a4938ece5839afa609460e904c0c68e70ace4598cc52349025dfecd6",
+      "scope": "Full current entity through Cycle010, navigation and existing accepted scope."
+    },
+    {
+      "path": "/mnt/c/Users/Anony/Desktop/project/research/ex_qn_c4/proofs/q6_four_full_capacity_cycle010/probe_star_packing.py",
+      "sha256": "fed2b7e35601feab7dac94198711a11a3fed88a720695112abe3b641e7fd2f74",
+      "scope": "Full 49-line method-source script; not executed this task."
+    },
+    {
+      "path": "q6_sources/q8_upper_independent/REFINEMENT_K3.md",
+      "sha256": "9630851daa0418e70d7ecc0cab479fabe17cceae8e0d659362ca4369089f11c9",
+      "scope": "Full original statement/proof-comparison document; no historical UNSAT replay."
+    },
+    {
+      "path": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21.json",
+      "sha256": "5958208848c1448e67ba24132177526629dce58c8bedf209fc48b5fff59938c2",
+      "scope": "Named literal witness fully read and independently checked against cube edges and all 240 squares."
+    },
+    {
+      "path": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21_oppmin3.json",
+      "sha256": "813231a7fb68f2712e2a435b7cca3745fe798d8809fa8df6a17becd98633cb36",
+      "scope": "Named literal witness fully read and independently checked against cube edges and all 240 squares."
+    }
+  ],
+  "completed_computation": {
+    "initial_face_dual_H": 27,
+    "high_star_columns": 213,
+    "maximal_cliques": 422,
+    "exact_clique_primal_and_dual_H": 23,
+    "short_capacity_slots": 23,
+    "full_triples_checked": 480,
+    "isometries_checked": 23040,
+    "origin_masks_checked": 41
+  },
+  "not_performed": [
+    "full-graph SAT",
+    "full integer optimization",
+    "old c3 trace replay",
+    "broad catalog scan",
+    "Lean or canonical PROOF_AUDIT"
+  ],
+  "scope_boundaries": [
+    "Fractional primal is not a graph, not a completion, not sharpness of the graph theorem.",
+    "The first weak face relaxation has a verified upper dual 27, without an exact primal claim.",
+    "Existing unrelated source files and all shared records remain unmodified.",
+    "First proof wording about parity corrected after Root/reviewer comments; mathematical cases and all core computational inputs unchanged."
+  ]
+}

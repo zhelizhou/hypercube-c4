@@ -1,0 +1,183 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{lemma}{Lemma}\newtheorem{theorem}{Theorem}
+\begin{document}
+\title{A common-face parity obstruction for two degree-three and two degree-four roots}
+\maketitle
+\section{T01: Exact original-domain caller}
+Let$G\subseteq Q_8$ be any C4-free graph with683 edges and one
+specified parity profile
+\[
+           (n_0,\ldots,n_8)=(0,0,0,2,2,80,40,3,1).       \tag{1}
+\]
+The opposite parity is unrestricted. The specified class has128 roots
+and degree sum683. The reviewed actual-face theorem in
+\texttt{../q8\_crowded\_faces/main.tex}, with its declared historical
+316/317/321 imports and assurance, gives
+\[
+ C=2\cdot177+2\cdot66+3\cdot105+345=1146,
+ \qquad\Phi_*\le3.                                    \tag{2}
+\]
+Every actual coordinate$Q_6$ face has a specified-side low-root count
+$L_F$. The loss$5L_F/2-t_*(L_F)$ is zero for$L_F=0,2$,
+$3/2$ for$L_F=1,3$, and at least6 for$L_F\ge4$. Thus all$L_F\le3$
+and at most two actual faces have odd$L_F$. Their total number is even
+because the total low incidence is$2\cdot18+2\cdot6=48$.
+Only the upper bound of two will be used.
+
+Let$x_1,x_2$ be the actual degree-three roots with retained masks$A,B$,
+and$y_1,y_2$ the actual degree-four roots with masks$R,S$.
+All four positions are distinct and have the same parity; the retained
+masks may repeat. Other specified roots have degree at least five,
+so none becomes low on a$Q_6$ face. All faces and masks below refer to
+one common cube, not separately normalized observations.
+
+\section{T02: Actual low-face sets and an intersection bound}
+For any actual root$v$, let$W(v,M,d)$ be its set of containing$Q_6$
+faces on which a retained mask$M$ of size$d$ gives degree at most two.
+Faces are labeled by an omitted pair$I$ and their actual two fixed bits.
+At$d=3$, this set consists of the face with bits$v_I$ for each pair
+meeting$M$, so it has size18. At$d=4$, the pair must be contained in$M$,
+so the set has size6. Put
+\[
+ U=W(x_1,A,3),\quad V=W(x_2,B,3),\quad
+ P=W(y_1,R,4),\quad Q=W(y_2,S,4).
+\]
+The actual odd-face set is exactly
+\[
+                       O=U\mathbin\triangle V
+                           \mathbin\triangle P\mathbin\triangle Q,
+               \qquad |O|\le2.                         \tag{3}
+\]
+This is a literal identity of112-bit face sets, retaining fixed bits.
+No compatibility or completion of independently selected local faces
+is being assumed.
+
+\begin{lemma}
+If$A\ne B$, then$|U\cap V|\le10$.
+\end{lemma}
+\begin{proof}
+Let$D$ be the set of coordinates where$x_1,x_2$ differ. Distinct
+same-parity positions have$|D|\ge2$. A common containing face must
+omit a pair in the agreeing coordinates$C=[8]\setminus D$, whose
+size is at most six, and that pair must meet both$A$ and$B$.
+Enlarge$C$ to any six-set$H$; this only adds possible pairs.
+Put$A'=A\cap H$, $B'=B\cap H$. If either has size at most two,
+at most$\binom62-\binom42=9$ pairs meet it. Otherwise both have
+size three, and since$A\ne B$ they are distinct, with
+$s=|A'\cap B'|\le2$. Inclusion--exclusion counts the pairs meeting
+both as
+\[
+ \binom62-\binom32-\binom32+\binom s2
+                         =9+\binom s2\le10.
+\]
+A pair determines at most one common actual fixed-bit face, which
+proves the assertion.
+\end{proof}
+If$A\ne B$, this lemma and$|U|=|V|=18$ give
+$|U\triangle V|\ge16$. Since$|P\triangle Q|\le12$, the elementary
+set inequality$|X\triangle Y|\ge|X|-|Y|$ gives
+\[
+                         |O|\ge16-12=4,                \tag{4}
+\]
+contrary to(3). Thus any hypothetical input must have$A=B$.
+
+\section{T03: Equal three-masks force equal four-masks}
+For each omitted pair$I$, sum the four actual fixed-bit low counts
+modulo two. If$A=B$, the two degree-three contributions cancel,
+regardless of their different positions. The directional parity is
+\[
+       t_I=\mathbf1_{I\subseteq R}+\mathbf1_{I\subseteq S}
+                                  \pmod2.               \tag{5}
+\]
+Every$I$ with$t_I=1$ has at least one actual odd face above it;
+different$I$ have disjoint face fibers. Hence
+$\#\{I:t_I=1\}\le|O|\le2$.
+If$R\ne S$, let$r=|R\cap S|\le3$. Their six-pair incidence sets
+have symmetric difference of size
+\[
+                         12-2\binom r2\ge6,             \tag{6}
+\]
+contradicting this bound. Therefore$R=S$ as well. This argument permits
+all repeated-mask inputs from the outset; it does not assume a
+representative direction table is complete.
+
+\section{T04: The equal-mask case still forces four actual odd faces}
+Now assume$A=B$ and$R=S$. Apply one common translation to the entire
+marked cube, sending$x_1$ to0 and$x_2$ to the nonzero even position
+with support$D$. All other positions and every fixed-bit face are
+transported by this same translation.
+
+If$|D|\ge4$, there are at most four agreeing coordinates and at most
+six common containing$Q_6$ faces. Thus$|U\cap V|\le6$,
+$|U\triangle V|\ge24$, and$|O|\ge24-12=12>2$.
+It remains that$|D|=2$. Write$h=|D\cap A|$.
+Common low faces correspond exactly to pairs among the six agreeing
+coordinates meeting$A\setminus D$, so
+\[
+       |U\cap V|=\binom62-\binom{3+h}2.                \tag{7}
+\]
+For$h=1,2$, these intersections are9,5 respectively. Hence
+$|U\triangle V|$ is18 or26, and again subtracting the at-most12
+faces in$P\triangle Q$ leaves at least6 odd faces.
+
+Finally suppose$D\cap A=\varnothing$. The exact symmetric difference
+$U\triangle V$ is supported on the six omitted pairs
+\[
+                         I=\{a,d\},\quad a\in A,d\in D. \tag{8}
+\]
+For each such pair there are exactly two distinct actual faces in the
+symmetric difference: the face with fixed bits0 and the face with
+fixed bits equal to$D_I$, which has one bit equal to one. For all other
+pairs the two degree-three low-face contributions cancel or are absent.
+The sets$P,Q$ have no face above any pair not contained in$R$.
+Because$|R|=4$ whereas$|A\cup D|=5$, at least two of the six pairs
+in(8) are not contained in$R$: if some$a\in A$ is missing, the two
+pairs with that$a$ are missing; if all of$A$ is contained, some$d\in D$
+is missing, giving three missing pairs. Above each such missing pair,
+the two actual faces from$U\triangle V$ cannot be canceled by$P$ or$Q$.
+Therefore
+\[
+                              |O|\ge4,                  \tag{9}
+\]
+contrary to(3). All cases have now been exhausted.
+
+\begin{theorem}
+No683-edge C4-free subgraph of$Q_8$ has profile(1) on either parity,
+with the opposite parity unrestricted.
+\end{theorem}
+\begin{proof}
+An arbitrary such graph gives the four actual roots and odd-face bound
+in T01--T02. If$A\ne B$, (4) contradicts that bound. If$A=B$, T03
+forces$R=S$, and T04 gives a contradiction in every possible distance
+and retained-mask intersection. No arbitrary common position was
+removed and no separate gauges were combined.
+\end{proof}
+
+\section{T05: Optional finite calibration and remaining scope}
+Before the shorter intersection argument was extracted,
+\texttt{rebuild\_directions.py} independently regenerated the full
+four normalized$A,B$ cases, enumerating all2485 unordered pairs of
+four-masks per case, repetitions allowed. It verified the previously
+unproved input table:0,0,7,70 direction pairs survive the necessary
+at-most-two-odd-pair condition. At$|A\cap B|=2$, their common-coordinate
+stabilizer has order96 and two orbits of sizes3 and4, represented by
+$(R,S)=(60,204)$ and$(116,120)$.
+\texttt{check\_t2\_positions.py} then exhausted127\,$\cdot$\,126\,$\cdot$\,125
+$=2000250$ actual distinct even position triples for each representative,
+with the first three-root at0. It computed all112 actual low-face bits,
+finding minimum odd-face count12 in both complete domains. No cutoff
+was used. These outputs are saved in\texttt{REBUILT\_DIRECTIONS.json}
+and\texttt{T2\_POSITION\_CHECK.json}. They are calibration only:
+the theorem's proof is the analytic T01--T04 argument and does not
+import this enumeration or the supplied direction table.
+
+This is an author local theorem candidate for Root's fresh review,
+modulo the existing actual-face imports. No historical certificate was
+replayed; no SAT solver, Lean or TeX/PDF compilation is claimed.
+No ordinary/high-star or hole completion remains as an unproved
+premise: the weaker necessary common low-face geometry is already
+impossible. The other$C=1146$ rows and the full unrestricted bound
+$\operatorname{ex}(Q_8,C_4)\le682$ remain open. Frozen prior proofs,
+reviews, shared wiki and MathRSI were not edited.
+\end{document}

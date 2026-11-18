@@ -1,0 +1,48 @@
+{
+  "status": "PASS_EXACT_GEOMETRY_AND_LDL",
+  "scope": "Second author implementation of all818 local geometric scores and all six exact PSD moments; exact direct-root/Q4 bridge regression on actual682 Q8. No independent-agent review and no Q8 counterexample.",
+  "point_support": 818,
+  "density_exact": "76799371703/113777777664",
+  "threshold": "683/1024",
+  "strict_gap_exact": "455241445/56888888832",
+  "blocks": [
+    {
+      "block": 0,
+      "rank": 0,
+      "status": "ZERO_PSD"
+    },
+    {
+      "block": 1,
+      "rank": 16,
+      "status": "EXACT_LDL_POSITIVE"
+    },
+    {
+      "block": 2,
+      "rank": 0,
+      "status": "ZERO_PSD"
+    },
+    {
+      "block": 3,
+      "rank": 0,
+      "status": "ZERO_PSD"
+    },
+    {
+      "block": 4,
+      "rank": 16,
+      "status": "EXACT_LDL_POSITIVE"
+    },
+    {
+      "block": 5,
+      "rank": 4,
+      "status": "EXACT_LDL_POSITIVE"
+    }
+  ],
+  "actual_seed_bridge": {
+    "Q4_restrictions": 1120,
+    "face_roots": 1792,
+    "vertex_roots": 256,
+    "direct_empirical_outer_product_moments_equal_local_Q4_sum": true
+  },
+  "point_sha256": "fdbd082699eff6d46899d6a501945881cf6f6fed48735dd3a326c5db8080aec6",
+  "source_sha256": "bace65c9200e75b48b80178f5b7426da3b31c899f39ea7e6b88c4ce99f397841"
+}

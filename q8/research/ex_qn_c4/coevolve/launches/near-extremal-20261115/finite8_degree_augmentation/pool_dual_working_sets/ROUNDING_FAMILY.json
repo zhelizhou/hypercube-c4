@@ -1,0 +1,993 @@
+{
+  "scope": "Full-state finite6-valid kernels for all C4-free Q8; not PSD; add each expected feature with nonnegativeweight.",
+  "full_state_definition": "q_i = bit-th bit of original full-face flagcode assigned state IDi",
+  "kernel_formula": "36qiqj-3(2t+1)(qi+qj)+t(t+1)",
+  "exact_validity": "For integer six-countx, L=q.x integer0..6 and xQx=36(L-t)(L-t-1)>=0.",
+  "common_root_average": "Use unchanged finite_flags.local_coefficients, whose coefficients already average Q under common root stabilizer. No extra off-diagonal factor.",
+  "normalization": "feature(K)=sum c_bij(K)Qij/(64512*positive_scale)",
+  "q_classes": [
+    {
+      "block": 0,
+      "root_mask": 0,
+      "representative_bit": 0,
+      "full_dimension": 240,
+      "root_stabilizer_order": 8
+    },
+    {
+      "block": 0,
+      "root_mask": 0,
+      "representative_bit": 4,
+      "full_dimension": 240,
+      "root_stabilizer_order": 8
+    },
+    {
+      "block": 1,
+      "root_mask": 1,
+      "representative_bit": 0,
+      "full_dimension": 212,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 1,
+      "root_mask": 1,
+      "representative_bit": 2,
+      "full_dimension": 212,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 1,
+      "root_mask": 1,
+      "representative_bit": 4,
+      "full_dimension": 212,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 1,
+      "root_mask": 1,
+      "representative_bit": 5,
+      "full_dimension": 212,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 1,
+      "root_mask": 1,
+      "representative_bit": 7,
+      "full_dimension": 212,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 2,
+      "root_mask": 3,
+      "representative_bit": 0,
+      "full_dimension": 190,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 2,
+      "root_mask": 3,
+      "representative_bit": 1,
+      "full_dimension": 190,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 2,
+      "root_mask": 3,
+      "representative_bit": 3,
+      "full_dimension": 190,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 2,
+      "root_mask": 3,
+      "representative_bit": 4,
+      "full_dimension": 190,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 2,
+      "root_mask": 3,
+      "representative_bit": 6,
+      "full_dimension": 190,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 3,
+      "root_mask": 6,
+      "representative_bit": 0,
+      "full_dimension": 187,
+      "root_stabilizer_order": 4
+    },
+    {
+      "block": 3,
+      "root_mask": 6,
+      "representative_bit": 4,
+      "full_dimension": 187,
+      "root_stabilizer_order": 4
+    },
+    {
+      "block": 3,
+      "root_mask": 6,
+      "representative_bit": 5,
+      "full_dimension": 187,
+      "root_stabilizer_order": 4
+    },
+    {
+      "block": 4,
+      "root_mask": 7,
+      "representative_bit": 0,
+      "full_dimension": 170,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 4,
+      "root_mask": 7,
+      "representative_bit": 2,
+      "full_dimension": 170,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 4,
+      "root_mask": 7,
+      "representative_bit": 4,
+      "full_dimension": 170,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 4,
+      "root_mask": 7,
+      "representative_bit": 5,
+      "full_dimension": 170,
+      "root_stabilizer_order": 2
+    },
+    {
+      "block": 4,
+      "root_mask": 7,
+      "representative_bit": 7,
+      "full_dimension": 170,
+      "root_stabilizer_order": 2
+    }
+  ],
+  "cuts": [
+    {
+      "block": 0,
+      "bit": 0,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 0,
+      "bit": 0,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 0,
+      "bit": 0,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 0,
+      "bit": 0,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 0,
+      "bit": 0,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 0,
+      "bit": 0,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 0,
+      "bit": 4,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 0,
+      "bit": 4,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 0,
+      "bit": 4,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 0,
+      "bit": 4,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 0,
+      "bit": 4,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 0,
+      "bit": 4,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 0,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 0,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 0,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 0,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 0,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 0,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 2,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 2,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 2,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 2,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 2,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 2,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 4,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 4,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 4,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 4,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 4,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 4,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 5,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 5,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 5,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 5,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 5,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 5,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 7,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 1,
+      "bit": 7,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 7,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 7,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 1,
+      "bit": 7,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 1,
+      "bit": 7,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 0,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 0,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 0,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 0,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 0,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 0,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 1,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 1,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 1,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 1,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 1,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 1,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 3,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 3,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 3,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 3,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 3,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 3,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 4,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 4,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 4,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 4,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 4,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 4,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 6,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 2,
+      "bit": 6,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 6,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 6,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 2,
+      "bit": 6,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 2,
+      "bit": 6,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 3,
+      "bit": 0,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 3,
+      "bit": 0,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 3,
+      "bit": 0,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 3,
+      "bit": 0,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 3,
+      "bit": 0,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 3,
+      "bit": 0,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 3,
+      "bit": 4,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 3,
+      "bit": 4,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 3,
+      "bit": 4,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 3,
+      "bit": 4,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 3,
+      "bit": 4,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 3,
+      "bit": 4,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 3,
+      "bit": 5,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 3,
+      "bit": 5,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 3,
+      "bit": 5,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 3,
+      "bit": 5,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 3,
+      "bit": 5,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 3,
+      "bit": 5,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 0,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 0,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 0,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 0,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 0,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 0,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 2,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 2,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 2,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 2,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 2,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 2,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 4,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 4,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 4,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 4,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 4,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 4,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 5,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 5,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 5,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 5,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 5,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 5,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 7,
+      "t": 0,
+      "scale": 30,
+      "feature_denominator": 1935360
+    },
+    {
+      "block": 4,
+      "bit": 7,
+      "t": 1,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 7,
+      "t": 2,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 7,
+      "t": 3,
+      "scale": 12,
+      "feature_denominator": 774144
+    },
+    {
+      "block": 4,
+      "bit": 7,
+      "t": 4,
+      "scale": 20,
+      "feature_denominator": 1290240
+    },
+    {
+      "block": 4,
+      "bit": 7,
+      "t": 5,
+      "scale": 30,
+      "feature_denominator": 1935360
+    }
+  ],
+  "state_source_sha256": "e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25"
+}

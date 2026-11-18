@@ -1,0 +1,1 @@
+The first F2 preparation was run from oracle/ with a redundant coevolve-relative prefix. No input was written, and the native program aborted at input.good() before any graph evaluation (exit134). This was an execution/path error, not an oracle result. Preparation below uses the correct cwd; only its successful full output is a mathematical separation result.

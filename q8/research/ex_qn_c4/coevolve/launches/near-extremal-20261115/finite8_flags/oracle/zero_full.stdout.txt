@@ -1,0 +1,5 @@
+PASS: independent coverage of all 8421604 ordered Q3 layer pairs by 90179 disjoint automorphism orbits.
+PASS: all 13150453 legal marked completions enumerated.
+PASS: all 3312331 symmetry-reduced representatives verified by direct integer counting.
+EXACT_MAX 48384 / 64512
+WORST_GRAPH 3887851501

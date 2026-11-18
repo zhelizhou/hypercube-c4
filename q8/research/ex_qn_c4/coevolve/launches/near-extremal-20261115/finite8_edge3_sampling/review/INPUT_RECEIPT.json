@@ -1,0 +1,170 @@
+{
+  "files": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/PROOF.md": {
+      "sha256": "dff965d0560df70a405d3758aeb13223c80e104faf72870f04be7e963376ade0",
+      "bytes": 8270
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/edge3.py": {
+      "sha256": "fff9ce66f09f6759752095f4f15e9f4d51bbcb98bd6ce29294c313a5d83c79a4",
+      "bytes": 1615
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/export.py": {
+      "sha256": "fb4b815251e56e7a5728d0c9474577d5f99fc783a0303461c9fdff7ad615ddf4",
+      "bytes": 3157
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/verify_actual.py": {
+      "sha256": "7b98fc8d52f0ce9391cfdf2f6737f5fb74ccdaa9b96715e512907fd955cae8e3",
+      "bytes": 2383
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/INTERFACE.json": {
+      "sha256": "93eb5d2c0c8c69a289620d08312c12c1aa49224b3f990b1878030f59bbb9bd8b",
+      "bytes": 1348
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/FILES_SHA256.json": {
+      "sha256": "2d6986531cd7e1a740eaccdb61b925fa6cb2a67c47388c2dfcd58a99bc59f9ee",
+      "bytes": 1653
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/edge3_quad_lift/PROOF.md": {
+      "sha256": "99d5bb05bc22226527cd33d901f8366e5acc094e1509fae3386f5fad8a2999ca",
+      "bytes": 5005
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/edge3_quad_lift/build_check_lift.py": {
+      "sha256": "d56f4cd2d500df9c18344970f44f589d227c325b6609345b08ef06d413f791d2",
+      "bytes": 3634
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/finite_flags.py": {
+      "sha256": "e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25",
+      "bytes": 6881
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/import_edge3_sampling.py": {
+      "sha256": "4f8202fbd16339cae6bf021e81eb8520e34839a27026f26af4e380826427b43d",
+      "bytes": 4087
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/vertex_priced_working_sets.py": {
+      "sha256": "2c7944e84bd6c1583025dfd84c3ca8296e9e91bef4beabaeafcba4e61ed313c0",
+      "bytes": 24644
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/extract_native_dual_oracle.py": {
+      "sha256": "897184803df7f24b48d0b66d864ff4c992bcce4b71cf2575699c8a3298390953",
+      "bytes": 5061
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/run_local_score_oracle.py": {
+      "sha256": "4bcb3cfb829f717ea651572645cab488d784bbd0de1b324b925f15e6e82ec675",
+      "bytes": 3168
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/prepare_maximal_scope.py": {
+      "sha256": "851df05e9d860e2db32ff11c88b225976bda4d5a99a138b45de14f9cdfe6ad5b",
+      "bytes": 9440
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/PROOF.md": {
+      "sha256": "ea26239639f647ecefcff1479c19f1b290bb5aff302b9bb46006c68ac29eaa4b",
+      "bytes": 6514
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/SOURCE_0_GENERATOR_HISTOGRAMS.json": {
+      "sha256": "d6c9385399fda253ab516f0bcc49982236651d1a97f6693defd28d6a4606e07f",
+      "bytes": 238526
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/SOURCE_1_GENERATOR_HISTOGRAMS.json": {
+      "sha256": "b6425ccefcae05b586c78e2448d38bd5899c8064a6fcdf4818e711767b983b36",
+      "bytes": 193909
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/SOURCE_2_GENERATOR_DEDUPLICATION.json": {
+      "sha256": "00c05b46a4a67e85a8bdb5b32b53e597ba24261a8eb552ef278594d22ed38e7c",
+      "bytes": 75418
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/SOURCE_3_GENERATOR_DEDUPLICATION.json": {
+      "sha256": "4685e27fc3257dcc7f13265f88f64fc875a62844b8a7c0e10176efd66904c49e",
+      "bytes": 121494
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/SOURCE_4_POOL_GRAPH_CODES.json": {
+      "sha256": "f791e08fd97bd35d56d05c09ec8fb2fb44ef6f6c81cfbfabeec098ec1288044a",
+      "bytes": 163131
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/BETA_HYPERGEOM_FULL_204x5148.npz": {
+      "sha256": "a4186992b8dc2ddc46910decb3c7a0b1ad31006694811b18c1c06d541643cd20",
+      "bytes": 84397
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/BETA_HYPERGEOM_CURRENT_204x1751.npz": {
+      "sha256": "8de369ee505d4bd191fd324566afa8ec099faab2e2f21547381abe149ba689b4",
+      "bytes": 25860
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/ORDER.json": {
+      "sha256": "bc5db92914103b0cd799a9ca19565f767829f71576e910497e7ae738c555bde3",
+      "bytes": 317636
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/LOCAL_COUNTS_204x14090.npz": {
+      "sha256": "31f252ea4c026a62c97de12b12903058cca82096313cb4b354b4b29923426f99",
+      "bytes": 826611
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/edge3_quad_lift/L_CURRENT_POOL_14090x204.npz": {
+      "sha256": "115c0bed1fbfe109abf1cc624207b279eb55ff5b01e38ec948f3e11d2a43bc3c",
+      "bytes": 592310
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/edge3_quad_lift/EDGE3_LIFT_PACKED_KERNELS.npz": {
+      "sha256": "42ed0c23d53d9321bca53ecc41b0f61f9586c9a60dd8d07b010098c2fc04cc16",
+      "bytes": 2266776
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/edge3_quad_lift/ROW_ORDER.json": {
+      "sha256": "53b9f21587a74878dbed7e911303b8a6c32c7ba54f1546047fa7cbb9bcd244ca",
+      "bytes": 10357
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_vertex_priced/POOL_GRAPH_CODES.json": {
+      "sha256": "f791e08fd97bd35d56d05c09ec8fb2fb44ef6f6c81cfbfabeec098ec1288044a",
+      "bytes": 163131
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_vertex_priced/INTEGER_FEATURES.npz": {
+      "sha256": "46f70450d889cea10bd9d0fc73872c188bc7458f39c3ae6c3a127da792a69f2b",
+      "bytes": 4283956
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator": {
+      "sha256": "1a412cd6e6de274df4f7c1fe813d1195255e8c787dbdb6993b221e31300123b7",
+      "bytes": 70472
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator.cpp": {
+      "sha256": "f85871b29940f76277a23696280245764f0089554fe6dade6c80e3bfb08aa2e5",
+      "bytes": 9595
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/keys.bin": {
+      "sha256": "dcae76d76813708a3c625bd09d9782c651be45eb3a1ec2799e1831b3eb789ce1",
+      "bytes": 360716
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges": {
+      "sha256": "185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c",
+      "bytes": 4869
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/CALIBRATION.edges": {
+      "sha256": "c5a8229e71f85a76a0f225233285241324816024772c80878b6d51b2cf1480af",
+      "bytes": 4042
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/review/SAME_PARITY_COUNTEREXAMPLE.edges": {
+      "sha256": "53bf8547e15ed87236da70001e9aa80a8d59757714e38133b8ae79f3e9662cfa",
+      "bytes": 4176
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/INPUT_MASTER195.json": {
+      "sha256": "cbb11b4baa8675f7638bfc0a84d857963623ce4473628dc8bb60abeff1b4d281",
+      "bytes": 363321
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/MASTER195_DIAGNOSTIC.json": {
+      "sha256": "baa9ef894dce1fca4501df263cbb522003c3a9ac25ea41ed9b541e1a62a78d37",
+      "bytes": 56012
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_vertex_priced/EXTRA_EQUALITY_LAYOUT.json": {
+      "sha256": "fc339d49590a08d9e66713f71c319c6a7e4f3d7fad91b24cca4bab8a492feac2",
+      "bytes": 656
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_vertex_priced/edge_vertex_bridge_inputs/BALANCE_CURRENT_36x1751.npz": {
+      "sha256": "8a36bf787e2e9d8e82330305871d0daf109540a91be91e6baa31650e85dd3623",
+      "bytes": 12075
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_vertex_priced/edge_vertex_bridge_inputs/MOMENT_BETA_CURRENT_27x1751.npz": {
+      "sha256": "0a49128e5b3ec40a4c059c11754d2145214a1fbe3e22605c0bf3a1048e936219",
+      "bytes": 21168
+    },
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_vertex_priced/edge_vertex_bridge_inputs/MOMENT_PACKED9_SELECTOR_TWICE_27x45.npz": {
+      "sha256": "618350b71e0d4eac372c301a1f1419129a7ed1ffea9a994be179960876ccfec0",
+      "bytes": 1180
+    }
+  },
+  "scope": "Declared actually read proof/code/data inputs. Source-unit coverage and semantic closure are separate artifacts.",
+  "generated_by": "independent_check.py"
+}

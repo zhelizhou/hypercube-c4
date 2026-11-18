@@ -1,0 +1,39 @@
+{
+  "status": "analytic L1 accepted by independent local reviewer; historical unique-degree2 import retained",
+  "theorem": "C4-free Q6, specified parity exactly one degree1 vertex and other31 degree>=3, opposite parity unrestricted: sum binom(degree,3)<=158.",
+  "import": "Accepted unique-degree2 specified-parity star158 theorem; historical certificates not replayed here.",
+  "run": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 check_layers.py",
+    "exit_code": 0,
+    "solver_called": false,
+    "arithmetic": "Python exact integers",
+    "Q4_labeled_cases": 4096,
+    "Q4_C4_free_cases": 3715,
+    "near_full_local_cases": 370,
+    "integer_rows": 12,
+    "bound_survivors_before_final_geometry": 1,
+    "final_geometry": "six upward-double four-subsets must lie in five positions"
+  },
+  "files": {
+    "PROOF.md": "39e1f9a86971aed331185ce01711a2f507cc4dd95290e123b1bb9fc20569995d",
+    "check_layers.py": "b12bdc62a5a76b5d68a067bbdc087d9a9d6b71ad18dfdc3ff029242c43f31978",
+    "CHECK_RESULTS.json": "e491d74146052922731d6b4563d55916b54acca9ddd24d114b3b6c3e662e3f37",
+    "integer_branches.json": "778f38431120eaa6ab0fd120411d25da45d1c36fff630286e23ecd47adf22c94",
+    "check_layers.stdout.txt": "e491d74146052922731d6b4563d55916b54acca9ddd24d114b3b6c3e662e3f37"
+  },
+  "imports": {
+    "q6_sources/q8_upper_independent/REFINEMENT_688.md": "a2260728d115b4ce13c602edbb7f3a755d45b883640e7dff0adff6b6372fd16f",
+    "q6_sources/q8_upper_independent/results/low2_star158_certificate_manifest.json": "e6a1587189270b4b7bbd1479d8c99fc38b3bf8d37cc6b7f2d337d4e174ad4ff7"
+  },
+  "scope_limits": [
+    "No global Q6 graph enumeration",
+    "No new SAT certificate used",
+    "No claim to exclude Q8 degree3 or all 687-edge graphs",
+    "No novelty conclusion"
+  ],
+  "format_only_correction": "Five U+0008+eta sequences replaced by literal backslash-beta; mathematics unchanged.",
+  "independent_review": {
+    "review/REVIEW.md": "e44d3e22ebf0bc229b12a1d4b0d187e097d803fd88986e44fc7342a2f4a4af67",
+    "review/REVIEW_RECEIPT.json": "98d1395e1bd751e9a03ecca47d31fd664cd9bcd1be07f7a943a651ca6e7fef1d"
+  }
+}

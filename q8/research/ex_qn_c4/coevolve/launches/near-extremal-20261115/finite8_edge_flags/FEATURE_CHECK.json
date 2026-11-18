@@ -1,0 +1,29 @@
+{
+  "scope": "Exact local featureaverages andfinite7->face pullback; snapshot isnot acceptedfeasiblepoint",
+  "checks": [
+    {
+      "cut": "frozen_root0",
+      "actual682_seed_mean": "1/3840",
+      "frozen818_mean": "-2538308879/1422222220800",
+      "intermediate_degree_snapshot_mean": "10188670381512274742682293/201600000000001478562906240",
+      "newlegal_oracle_graph1774744440_feature": "11/28",
+      "lift_checks": 3
+    },
+    {
+      "cut": "frozen_root1",
+      "actual682_seed_mean": "1/2944",
+      "frozen818_mean": "-2312296797/363456789760",
+      "intermediate_degree_snapshot_mean": "5857286169131983333336069/154560000000001133564894784",
+      "newlegal_oracle_graph1774744440_feature": "11/28",
+      "lift_checks": 3
+    },
+    {
+      "cut": "degree_snapshot_root0",
+      "actual682_seed_mean": "1/3840",
+      "frozen818_mean": "-2538308879/1422222220800",
+      "intermediate_degree_snapshot_mean": "-11552289982752784987417/11200000000000082142383680",
+      "newlegal_oracle_graph1774744440_feature": "11/120",
+      "lift_checks": 3
+    }
+  ]
+}

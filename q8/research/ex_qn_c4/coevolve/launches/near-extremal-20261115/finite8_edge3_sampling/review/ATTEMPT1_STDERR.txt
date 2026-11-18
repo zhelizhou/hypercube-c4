@@ -1,0 +1,12 @@
+/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/deps/scipy/sparse/_index.py:216: SparseEfficiencyWarning: Changing the sparsity structure of a csr_matrix is expensive. lil and dok are more efficient.
+  self._set_arrayXarray(i, j, x)
+Traceback (most recent call last):
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/review/independent_check.py", line 432, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/review/independent_check.py", line 425, in main
+    functional=functional_checks(graphs,localL,K)
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge3_sampling/review/independent_check.py", line 326, in functional_checks
+    assert scores==[(g,int(s),64512) for g,s in zip(native_graphs,native_expect)]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

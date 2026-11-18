@@ -1,0 +1,323 @@
+{
+  "generated_at": "2026-11-15T21:33:10.230820+00:00",
+  "quantified_statement": "For every spanning C4-free G subset Q8, its common actual empirical beta/gamma/lambda obey all162 incidence identities,36 mixed balances and27 degree-group moment identities, with the exact packed contract.",
+  "typed_symbols": {
+    "G": "spanning simple C4-free subgraph of Q8 on256 vertices",
+    "d(v)": "integer0..8; full degree in the same G",
+    "j": "vertex-fixed square state ID0..8",
+    "k_j": "number0,1,2 of retained edges at the marked vertex",
+    "x_v": "nonnegative integer9-vector with total28",
+    "gamma_(d,x)": "fraction over all256 vertices, total1",
+    "mu_dj": "global degree-conditioned first count sum divided by256, not conditioned probability",
+    "r": "root retention0/1",
+    "y": "total-seven nonnegative integer vector of length8\u2212r",
+    "beta_(r,y)": "mass over all1024 ambient edges, total1 before optional class aggregation",
+    "C": "integer map with162 rows and5148 universal columns; each column total14",
+    "lambda": "distribution of1120 actual coordinate Q4 restrictions of the same G",
+    "R": "ordered local9x9 integer matrix, M5=R/64512",
+    "U": "Root alternate2R, M5=U/129024; the interface uses U locally for R",
+    "f": "packed45: diagonalRii, offdiagonal2Rij",
+    "W": "integer27x45 selector yielding2 times R row-group sums",
+    "B36": "integer mixed retained-minus-missing rows, no denominator",
+    "B27": "integer degree-weighted C_all rows",
+    "L27": "integer196WF_vertex.T; one column per actual feature graph",
+    "F_g(d)": "pointwise counts choose(8\u2212d,2),d(8\u2212d),choose(d,2)"
+  },
+  "obligations": [
+    {
+      "obligation_id": "O01",
+      "source_unit_ids": [
+        "P01"
+      ],
+      "statement": "The vertex-fixed axis action yields exactly nine states with the stated retained-incidence counts.",
+      "dependencies": [],
+      "hypotheses": [
+        "The marked vertex is fixed; no translation quotient is taken"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Enumerated all15 legal labelled square codes under the single actual axis-swap permutation; read literal graph projections."
+    },
+    {
+      "obligation_id": "O02",
+      "source_unit_ids": [
+        "P01"
+      ],
+      "statement": "An edge histogram recovers both full endpoint degrees and both actual vertex-square states. C has total mass14.",
+      "dependencies": [
+        "O01"
+      ],
+      "hypotheses": [
+        "Seven external directions",
+        "A retained root excludes raw state7"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "All5148 histograms independently realized as literal C4-free graphs; all162 entries rebuilt from actual endpoint degrees/14 observations."
+    },
+    {
+      "obligation_id": "O03",
+      "source_unit_ids": [
+        "P01"
+      ],
+      "statement": "C is invariant under one synchronized endpoint reversal.",
+      "dependencies": [
+        "O02"
+      ],
+      "hypotheses": [
+        "One common endpoint action; no independent per-flag quotient"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "A root reversal swaps the two endpoints and bits0/1 together. All5148 reversed columns compared exactly."
+    },
+    {
+      "obligation_id": "O04",
+      "source_unit_ids": [
+        "P02"
+      ],
+      "statement": "For each d,j and r, the actual incidence sum equals k_j or2\u2212k_j times the vertex-state count.",
+      "dependencies": [
+        "O02",
+        "O03"
+      ],
+      "hypotheses": [
+        "G is a spanning C4-free subgraph of Q8",
+        "beta, gamma and lambda are empirical data of the same actual G"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Explicit bijection (v,unordered pair,one incident ambient root edge). Nine actual graphs/all162 equations checked exactly."
+    },
+    {
+      "obligation_id": "O05",
+      "source_unit_ids": [
+        "P02"
+      ],
+      "statement": "Normalized incidence gives mu=2E_beta C_all and the36 integer mixed-state balances.",
+      "dependencies": [
+        "O04"
+      ],
+      "hypotheses": [
+        "Gamma normalized over256 vertices",
+        "Beta normalized over1024 ambient edges"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "1024/256=4 and two root choices. Direct integer C_all=2T checked; B36 exported with retained-minus-missing sign."
+    },
+    {
+      "obligation_id": "O06",
+      "source_unit_ids": [
+        "P03"
+      ],
+      "statement": "At a degree-d vertex the three state-group sums are choose(8\u2212d,2),d(8\u2212d),choose(d,2).",
+      "dependencies": [
+        "O01"
+      ],
+      "hypotheses": [
+        "d is the full degree of that same marked vertex"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Choose missing/retained incident directions. All vertices of nine graphs checked, including both parities and degrees0/8."
+    },
+    {
+      "obligation_id": "O07",
+      "source_unit_ids": [
+        "P03"
+      ],
+      "statement": "M5(lambda)=E_gamma[xxT]/784 on all81 entries.",
+      "dependencies": [
+        "O01"
+      ],
+      "hypotheses": [
+        "G is a spanning C4-free subgraph of Q8",
+        "beta, gamma and lambda are empirical data of the same actual G"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Global completion multiplicities1/5/15 times local ordered weights360/72/24 are uniformly360; denominators checked. All1120 restrictions per calibration rebuilt."
+    },
+    {
+      "obligation_id": "O08",
+      "source_unit_ids": [
+        "P03"
+      ],
+      "statement": "The27 degree-group beta/lambda equations have factor392.",
+      "dependencies": [
+        "O05",
+        "O06",
+        "O07"
+      ],
+      "hypotheses": [
+        "G is a spanning C4-free subgraph of Q8",
+        "beta, gamma and lambda are empirical data of the same actual G"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Multiply the pointwise group sum by the same x_i, take finite sums and use784/2=392; independently rebuilt B27 and all calibration pairings."
+    },
+    {
+      "obligation_id": "O09",
+      "source_unit_ids": [
+        "P04"
+      ],
+      "statement": "The packed diagonal/off-diagonal selector satisfies Wf=2R-group and2304B27 beta=7WF.T lambda.",
+      "dependencies": [
+        "O08"
+      ],
+      "hypotheses": [
+        "f diagonal=Rii, offdiagonal=2Rij",
+        "M5=R/64512"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Constructed all27x45 W entries separately; exact392/(2*64512)=7/2304; all14090x45 actual stored feature coefficients independently rebuilt."
+    },
+    {
+      "obligation_id": "O10",
+      "source_unit_ids": [
+        "P04"
+      ],
+      "statement": "For any newly priced legal graph column with the same packed contract, the correct new L column is196Wf.",
+      "dependencies": [
+        "O09"
+      ],
+      "hypotheses": [
+        "Same original lambda variable",
+        "New feature uses the same packed45 contract"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Universal linear algebra196*(2Rgroup)=392Rgroup; additionally exercised31 legal out-of-pool single-edge columns."
+    },
+    {
+      "obligation_id": "O11",
+      "source_unit_ids": [
+        "P05"
+      ],
+      "statement": "The universal domain is the5148 total-seven histograms in the original frozen order.",
+      "dependencies": [
+        "O02"
+      ],
+      "hypotheses": [
+        "No maximality/leaf pruning applied to the universal domain"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Independent separator enumeration sorted by expanded state sequences matches every actual source histogram;3432+1716 counts and all boundaries included."
+    },
+    {
+      "obligation_id": "O12",
+      "source_unit_ids": [
+        "P05"
+      ],
+      "statement": "All old/current stored duplicate classes preserve C, B36 and B27; the actual column adapters and all frozen orders are correct.",
+      "dependencies": [
+        "O08",
+        "O11"
+      ],
+      "hypotheses": [
+        "Current adapter is restricted by separate pruning",
+        "Masses aggregate by addition without class-size factors"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Every old class member checked over5148 inputs; every current member checked over3202 retained inputs. Actual current3432 list/1751 selected indices mapped by histograms. All row/column orders and all sparse exports mirrored exactly. The actual682 seed current-class beta and same1120-slice lambda satisfy the packed consumer exactly."
+    },
+    {
+      "obligation_id": "O13",
+      "source_unit_ids": [
+        "P06"
+      ],
+      "statement": "The finite actual-graph and boundary calibration claims and stated mutation rejections hold.",
+      "dependencies": [
+        "O04",
+        "O07",
+        "O09"
+      ],
+      "hypotheses": [
+        "Finite calibrations supplement the universal proof; they do not replace it"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Nine independent whole-Q8 graph runs;1024 edge/256 vertex/1120 restriction observations each; all five specified mutations rejected."
+    },
+    {
+      "obligation_id": "O14",
+      "source_unit_ids": [
+        "P06"
+      ],
+      "statement": "The stored master050 decimal-rational tuple violates the new necessary equations with the reported exact maxima.",
+      "dependencies": [
+        "O09",
+        "O12"
+      ],
+      "hypotheses": [
+        "Diagnostic is of this frozen tuple only",
+        "No feasible-Q8 or global-infeasibility assertion"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "All63 exact row residuals rebuilt directly from original serialized decimals and literal local graphs, no renormalization; maxima recorded in INDEPENDENT_RESULTS.json."
+    },
+    {
+      "obligation_id": "O15",
+      "source_unit_ids": [
+        "P00",
+        "P05",
+        "P06",
+        "P07"
+      ],
+      "statement": "The conclusion is scoped to universal necessary identities and specified finite interfaces; main682 remains OPEN.",
+      "dependencies": [
+        "O08",
+        "O10",
+        "O12",
+        "O14"
+      ],
+      "hypotheses": [
+        "No conclusions beyond the declared bounded package"
+      ],
+      "status": "DISCHARGED",
+      "evidence": "Complete statement/conclusion and README/interface scope checked. No row-rank63, complete-Q4 classification, pruning-theorem, realizability, numerical NO or Lean claim inferred."
+    }
+  ],
+  "dependency_topological_order": [
+    "O01",
+    "O02",
+    "O06",
+    "O07",
+    "O03",
+    "O11",
+    "O04",
+    "O05",
+    "O08",
+    "O09",
+    "O12",
+    "O10",
+    "O13",
+    "O14",
+    "O15"
+  ],
+  "dependency_cycles": [],
+  "all_application_hypotheses_checked": true,
+  "limit_order_map": "No asymptotics or limits. All expectations and rearrangements are finite uniform sums.",
+  "counterexample_pass": {
+    "executed": true,
+    "actual_graph_count": 9,
+    "attempts": [
+      "all5148 legal raw histograms including zeros/pure states",
+      "synchronized endpoint reversal for all5148 columns",
+      "degree0 and8",
+      "both vertex parities",
+      "nonmaximal empty/matching/star/deleted-edge graphs",
+      "asymmetric actual584 graph",
+      "all14090 stored local graphs",
+      "31 out-of-pool newly packed graph columns",
+      "five rejected mutations"
+    ],
+    "mathematical_counterexamples_found": 0
+  },
+  "open_fatal": 0,
+  "open_critical": 0,
+  "open_major": 0,
+  "open_minor": 0,
+  "independent_exact_results": "INDEPENDENT_RESULTS.json",
+  "scope_exclusions": [
+    "main682 bound",
+    "whole-model infeasibility",
+    "global realizability",
+    "separate maximality/leaf pruning theorem",
+    "complete Q4 classification",
+    "63-row independence",
+    "Lean formalization"
+  ]
+}

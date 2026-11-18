@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/review/generic_interface_checks.py", line 120, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/review/generic_interface_checks.py", line 68, in main
+    blocks, got_scale = score.full_face_kernel(path)
+                        ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_connector_frequency/score.py", line 29, in full_face_kernel
+    cut = load(block)
+  File "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_connector_frequency/score.py", line 16, in load
+    return next(c for c in json.loads((HERE / 'CONNECTOR_CUTS.json').read_text())['cuts'] if c['block'] == block)
+StopIteration

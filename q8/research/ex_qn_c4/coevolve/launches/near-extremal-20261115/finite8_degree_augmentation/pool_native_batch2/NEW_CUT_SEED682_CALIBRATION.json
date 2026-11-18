@@ -1,0 +1,18 @@
+{
+  "status": "PASS_EXACT_NEW_CONDITIONAL_VERTEX_AND_RETAINED_KERNEL_CALIBRATION",
+  "source_cut_sha256": "3fa10e709eadee698eaacf4d1a406db23c3cefd97c65d4aeb747d1e70d1489ac",
+  "m682_seed_outside_counterexample_union": true,
+  "actual_vertices": 256,
+  "all256_degree_Omega_group_totals": true,
+  "all256_integer_conditional_kernel_plus_bias_nonnegative": true,
+  "minimum_vertex_raw_slack": 82,
+  "mean_joint_normalized": "230171833/50176000000",
+  "exact_local_plus_alpha_equals_actual_vertex_average": true,
+  "retained_fixed_and_dynamic_kernels_checked": 165,
+  "initial_PSD_coordinate_rows_to_omit": 1008,
+  "why_omitting_is_exact": "Every local diagonal coefficient is a nonnegative count, hence lambda>=0 implies all1008diagonal PSD directions; actual predicate PSD>=0 not uniform positive margin",
+  "profile_count": 1428,
+  "fixed683_density": false,
+  "even_gate": "DROPPED",
+  "primary683_goal": "OPEN"
+}

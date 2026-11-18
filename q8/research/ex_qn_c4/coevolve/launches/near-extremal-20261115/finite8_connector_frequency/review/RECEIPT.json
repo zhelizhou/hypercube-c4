@@ -1,0 +1,125 @@
+{
+  "schema": "source-unit-execution-coverage-v1",
+  "shard_id": "fresh_connector_frequency_review",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "ultra",
+  "actual_model": null,
+  "actual_reasoning": null,
+  "identity_attestation": "unavailable",
+  "reviewer_route": {
+    "backend": "codex",
+    "host": "codex",
+    "source": "host-default",
+    "model": "gpt-6.1-sol",
+    "effort": "ultra",
+    "transport": "native",
+    "fresh_tool": "spawn_agent",
+    "continuation_tool": "send_input"
+  },
+  "recursion": false,
+  "children_spawned": 0,
+  "max_turns": 8,
+  "restriction_enforcement": "prompt-only",
+  "render_html": false,
+  "tex_conversion": false,
+  "write_scope": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_connector_frequency/review",
+  "assigned_unit_ids": [
+    "PROOF.md:1",
+    "PROOF.md:3",
+    "PROOF.md:18",
+    "PROOF.md:36",
+    "PROOF.md:49",
+    "PROOF.md:84",
+    "PROOF.md:104",
+    "PROOF_SKELETON.md:1"
+  ],
+  "covered_unit_ids": [
+    "PROOF.md:1",
+    "PROOF.md:3",
+    "PROOF.md:18",
+    "PROOF.md:36",
+    "PROOF.md:49",
+    "PROOF.md:84",
+    "PROOF.md:104",
+    "PROOF_SKELETON.md:1"
+  ],
+  "uncovered_unit_ids": [],
+  "source_unit_coverage": 1.0,
+  "status": "COMPLETE",
+  "source_units": [
+    {
+      "id": "PROOF.md:1",
+      "path": "PROOF.md",
+      "first_line": 1,
+      "last_line": 2,
+      "heading": "# Connector projection: two exact all-full-state finite-six cuts"
+    },
+    {
+      "id": "PROOF.md:3",
+      "path": "PROOF.md",
+      "first_line": 3,
+      "last_line": 17,
+      "heading": "## Scope and fixed input"
+    },
+    {
+      "id": "PROOF.md:18",
+      "path": "PROOF.md",
+      "first_line": 18,
+      "last_line": 35,
+      "heading": "## 1. Projection and actual frequency condition"
+    },
+    {
+      "id": "PROOF.md:36",
+      "path": "PROOF.md",
+      "first_line": 36,
+      "last_line": 48,
+      "heading": "## 2. Exact moments and PSD qualification"
+    },
+    {
+      "id": "PROOF.md:49",
+      "path": "PROOF.md",
+      "first_line": 49,
+      "last_line": 83,
+      "heading": "## 3. Complete finite-domain LPs and final exact kernels"
+    },
+    {
+      "id": "PROOF.md:84",
+      "path": "PROOF.md",
+      "first_line": 84,
+      "last_line": 103,
+      "heading": "## 4. Root action, full-state lift and caller"
+    },
+    {
+      "id": "PROOF.md:104",
+      "path": "PROOF.md",
+      "first_line": 104,
+      "last_line": 114,
+      "heading": "## 5. Consumer and verification"
+    },
+    {
+      "id": "PROOF_SKELETON.md:1",
+      "path": "PROOF_SKELETON.md",
+      "first_line": 1,
+      "last_line": 11,
+      "heading": "# Review inventory for the connector-frequency proof"
+    }
+  ],
+  "audited_input_hashes": {
+    "PROOF.md": "ca896326a9ba7c522a2e229c6e92f34002bc63a8c22b284451d9b4027bc18e3a",
+    "PROOF_SKELETON.md": "6cbbedc469dd1077f500329273f39312d82e41bd8793c21174d452957a197486",
+    "INPUT_POINT.json": "223b58046502fdd7eae1847fc6fc9ab3f27dfbeca9c1f1647b14f06a54d28aa9",
+    "CONNECTOR_CUTS.json": "df8f3df8d2deafd23194d6e0f849b6c8416b3dd5ac897c01d3c45bab38d74259",
+    "PROJECTED_MOMENTS.json": "d3e154d1d087820a830029e0d8b46bc2f2fc613c5ba8826a27081ee6ab24beeb",
+    "PSD_ELIGIBILITY.json": "bf9cc1a4c25d9171a8c6ed13d2d2e527a7cf91897ae3eec4e7bc912b6b14aadf",
+    "block0.EXACT_SEPARATOR.json": "860a7767c1402005c12b84ad1c6c68bbbc4c8f5516f129e0969b2adecfd21bf7",
+    "block4.EXACT_SEPARATOR.json": "86ff924cd7c497c858dfbcde28f2d15cd82146892b85c2e54dbca10277f0cffc",
+    "score.py": "71dcb4b2c090a41085ed844026fda040328d6bde5511bbc2bef392809925ac80",
+    "verify.py": "4f8041ff044f97338339274236219af840516275b8f18e15e2d07a5c8eb04d2c",
+    "project.py": "b4581a9ba88a9430125e06c5977aa360473a18fb733d2d4022afb28fb65241cf",
+    "certify_separator.py": "1d359689c7cf087694cd7bc8c0f3962fc158688200fb1e4a7aa633a12dd084fc",
+    "membership.py": "74564608bc50b51117679481dfb26c6d437584697f853650062ce96f33856797",
+    "REVIEWER_ROUTE.json": "b12aa140373395353a78ec350c68e7988ef15a02ac6a3b8f503ffa9f5d41ac7e"
+  },
+  "coverage_limit": "Execution coverage of declared source units only; does not by itself guarantee mathematical completeness.",
+  "generated_at": "2026-11-15T20:38:49.853014+00:00"
+}

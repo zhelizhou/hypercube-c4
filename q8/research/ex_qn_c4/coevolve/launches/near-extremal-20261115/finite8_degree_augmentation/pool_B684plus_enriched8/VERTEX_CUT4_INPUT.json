@@ -1,0 +1,10 @@
+{
+  "status": "FOURTH_VERTEX_CUT_AND_ADAPTIVE_PRICING_READY",
+  "source_sha256": "102e7770ebaec38954fb3aac9dccc618559b9c67421f4bedcc4d7bf4cb5b04ea",
+  "baseline_valid_rows": 4864,
+  "alpha1409": 1409,
+  "retains_all_oldcuts": true,
+  "recurring_discovery_script": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/price_vertex_point.py",
+  "recurring_independent_script": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/check_vertex_cut.py",
+  "boundedNoCut_not_membership": true
+}

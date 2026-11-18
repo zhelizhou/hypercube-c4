@@ -1,0 +1,79 @@
+{
+  "objective": "证明ex(Q_8,C_4)=682。可以参考本地的对于n=7情形304的上界证明，但是不要参考已有的n=8的进展。",
+  "goal_status": "incomplete",
+  "goal_turn_classification": "progress",
+  "previous_goal_turn_classification": "progress",
+  "target_682_proved": false,
+  "independently_established_intermediate_upper": 688,
+  "new_local_lemma": "For a minimum-degree3 C4-free Q6 with130 edges, each parity has at most one degree6 vertex. Also m+N6_total<=132 and m+2N6(P)<=133 under whole minimum degree3.",
+  "local_certificate_cases": 44,
+  "checked_clause_additions": 6519933,
+  "new_this_goal_turn_cases": 11,
+  "new_this_goal_turn_checked_additions": 739254,
+  "remaining_688_parity_types_N4_N7": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "two_degree_four_root_K_values": [
+    3
+  ],
+  "independent_encoding_audit": "passed",
+  "independent_RUP_replays": "passed",
+  "arithmetic_and_case_symmetry_audit": "passed",
+  "next_action": "Continue forced Q7 M300/P-eight-full-root analysis with the actual Q8-induced opposite-side restrictions and new local rigidity. Earlier pair/pattern probes are UNKNOWN, not exclusions. All remaining688 types and687..683 still require exclusion.",
+  "source_boundary": "Read the permitted Q7 proof and generic Q3-Q7 benchmark constructor only; do not import pre-existing Q8 progress outside this new project. This project's newly generated evidence may be continued.",
+  "K3_canonical_cases": 9,
+  "K3_facet_edge_count_multiset": {
+    "300": 9,
+    "302": 5,
+    "303": 2
+  },
+  "refuted_conjecture": "4m+N3+3N6<=532 for all minimum-degree3 Q6 graphs is false; checked counterexamples retained.",
+  "latest_audit": "results/local_pair_certificate_manifest.json",
+  "K3_bounded_probe_statuses": {
+    "0": "UNKNOWN",
+    "1": "UNKNOWN",
+    "2": "UNKNOWN",
+    "3": "UNKNOWN",
+    "4": "UNKNOWN",
+    "5": "UNKNOWN",
+    "6": "UNKNOWN",
+    "7": "UNKNOWN",
+    "8": "UNKNOWN"
+  },
+  "current_turn_processes": "all terminal",
+  "goal_controller_status": "usageLimited",
+  "density_audit": "results/local_density_audit.json",
+  "mixed_stack_audit": "results/mixed_stack_audit.json",
+  "mixed_stack_families": 21,
+  "mixed_stack_automorphic_pairs": 967680,
+  "refuted_conjectures": [
+    "4m+N3+3N6<=532 for all minimum-degree3 Q6 graphs",
+    "Strict 4m+N3+2N6<532 whenever a full root exists"
+  ],
+  "unproved_conjectures": [
+    "4m+N3+2N6<=532 for all minimum-degree3 Q6 graphs",
+    "Q7 specified parity minimum4 implies m+N6(P)+3N7(P)<=304",
+    "All C4-free Q7 satisfy 2m+N_ge6<=608"
+  ],
+  "stronger_Q7_box_probe_statuses": {
+    "0": "UNKNOWN",
+    "1": "UNKNOWN",
+    "2": "UNKNOWN"
+  },
+  "box_pattern_audit": "results/box_pattern_audit.json"
+}

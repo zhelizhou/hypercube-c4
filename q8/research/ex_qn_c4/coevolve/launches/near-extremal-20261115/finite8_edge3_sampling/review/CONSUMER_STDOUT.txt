@@ -1,0 +1,45 @@
+{
+  "status": "PASS_BOUND_CONSUMER_AND_ADVERSARIES",
+  "frozen_manifest_all_entries_match": true,
+  "interface_source_hashes_match": true,
+  "actual_consumer_kernel_all_entries_match": true,
+  "actual_consumer_H_all_entries_match": true,
+  "equality_start": 152,
+  "dual_normalization": "K/80 with beta -H/70",
+  "separate_flag_normalization_counterexample": {
+    "block": 0,
+    "root": 0,
+    "row": 0,
+    "flags": [
+      1,
+      2
+    ],
+    "individually_minimized_flags": [
+      1,
+      1
+    ],
+    "actual_A": 2,
+    "wrong_A": 4
+  },
+  "exact_nonPSD_kernel_witness": {
+    "block": 0,
+    "row": 0,
+    "flags": [
+      0,
+      6
+    ],
+    "principal_matrix": [
+      [
+        80,
+        -8
+      ],
+      [
+        -8,
+        0
+      ]
+    ],
+    "determinant": -64
+  },
+  "empty_root1_mass_zero_adversary": true,
+  "scope": "Source/consumer binding and adversarial checks only; no LP/full scan/global dual claim."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "LOCAL_IMPORT_PREMISES_DISCHARGED_BY_TARGETED_VERIFICATION",
+  "theorem": "For arbitraryC4freeQ6, either specifiedparity, unrestrictedopposite degrees:4S+2c<=632+5L",
+  "case_count": 25,
+  "fresh_verified_RUP_additions": 4383882,
+  "navigation_only_hash_changes": [
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/research-wiki/index.md"
+  ],
+  "Root_read_complete_proof_and_verification": true,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "actual_model_identity": null,
+  "scope": "Deterministiclocal mathrsi-verify plusfreshimportreview, notanewcanonicalproof-checkerrun. Existingrawaudits retain historicalscope; finalwhole682proof-checker mustconsume thisclosure. NooldGoal/search/sourcewrite.",
+  "files": {
+    "PROOF.md": "a466000782cc76b1ff8da0b6c12728fb679fb278109894d0aec5c4072827c49a",
+    "VERIFICATION.md": "f3777baaa4c1d9c51470c6748899924aeb3a0fb032a2a5a31174070edfd28050",
+    "FRESH_REPLAYS.json": "9d7a4b741e56cad881f01d3481477462986a97de677043cdec19ba4cd2b9f28f",
+    "SOURCE_UNITS.json": "5f5221b12e773b6d7dc642da18ae8ab892ada40ae21080f66bfcfbdfdb723224",
+    "DEPENDENCIES.json": "ae27f71c215a3c6fcfd9ad35a6cdd78ff80aac05983e5bd8e86d8649ff5be743"
+  },
+  "Root_matched_source_units": 29
+}

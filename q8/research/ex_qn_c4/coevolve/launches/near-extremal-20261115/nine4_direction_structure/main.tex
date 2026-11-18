@@ -1,0 +1,140 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\begin{document}
+\title{All direction multisets for the critical nine-degree-four profile}
+\author{Near-extremal campaign, 2026-11-15}
+\maketitle
+\section{N01: Scope and actual-face input}
+Let $G\subseteq Q_8$ be C4-free with683 edges and suppose one specified
+global parity has degree profile $(0,0,0,0,9,71,45,2,1)$.
+Let $R_1,\ldots,R_9\subseteq[8]$ be the entire retained direction sets
+of its nine degree-four roots; repetitions are allowed.
+The actual-face equality gate in q8\_equality\_profiles/main.tex,
+with its declared local imports, gives $L_F\in\{0,2\}$ for all112
+actual $Q_6$ faces. Every other specified root has degree at least five
+and is never low on a $Q_6$ face. For each omitted coordinate pair
+$\{a,b\}$, summing its four fixed-bit faces therefore gives
+\[
+       \#\{j:\{a,b\}\subseteq R_j\}\equiv0\pmod2.       \tag{1}
+\]
+\begin{theorem}
+After one simultaneous coordinate permutation and a relabeling of the
+nine roots, identify the eight coordinates with $\mathbb F_2^3$.
+The nine direction sets are precisely
+\[
+ \{\{x:\ell(x)=1\}:0\ne\ell\in(\mathbb F_2^3)^*\}
+                 \ \mathbin{\uplus}\ \{T,T\},          \tag{2}
+\]
+where $T$ is some four-element subset of the eight coordinates.
+There are four possible types of $T$ under the group preserving the
+seven displayed masks: $0\notin T$ with its complement in the seven
+nonzero points a line or an independent triple, and $0\in T$ with
+$T\setminus\{0\}$ a line or an independent triple.
+\end{theorem}
+This is a necessary classification of directions. It does not classify
+the nine actual vertex positions, supply a683-edge completion, exclude
+the whole degree profile, or prove the original upper682.
+
+\section{N02: An even orthogonal code from the same masks}
+For each coordinate$a$, form $u_a\in\mathbb F_2^9$ whose$j$th entry
+records membership $a\in R_j$. Equation(1) says
+$u_a\cdot u_b=0$ for distinct$a,b$. Summing (1) over $b\ne a$
+counts $3\operatorname{wt}(u_a)$, so every $u_a$ is even and
+$u_a\cdot u_a=0$ also. Their span$U$ is thus an even self-orthogonal
+binary subspace. It has full support on all nine column coordinates,
+since each $R_j$ has four elements.
+
+The even subspace $E\subseteq\mathbb F_2^9$ has dimension eight.
+Its dot-product radical is zero: the orthogonal complement of $E$
+in the full space is the span of the all-one vector, which is odd.
+The restricted form is alternating. If an isotropic subspace has
+dimension$k<4$, its orthogonal complement in$E$ has dimension$8-k>k$;
+choose a vector in that complement outside the current isotropic
+subspace, and extend the latter by one dimension. Repeating gives an even self-orthogonal dimension-four
+space $C\supseteq U$. Its support remains full.
+
+\section{N03: Full-support dimension-four codes of length nine}
+\begin{lemma}
+Every full-support even self-orthogonal dimension-four code of length
+nine is the direct sum of a length-two repetition code and a
+length-seven dimension-three code all of whose nonzero words have
+weight four. The weight-two word is unique.
+\end{lemma}
+\begin{proof}
+A weight-eight word would omit one coordinate$r$. Orthogonality
+with it and evenness of any codeword$z$ imply $z_r=0$, contrary to
+full support. Suppose there were no weight-two word. The fifteen
+nonzero words would have weights four or six. Every coordinate is
+one on exactly eight codewords, so the sum of weights is72. Thus six
+words have weight six and nine have weight four.
+
+The zero sets of the six weight-six words are triples. Two distinct
+such triples intersect in exactly one point: their corresponding
+weight-six words intersect in four points, since their intersection
+is even, at least three, and less than six. Any one triple meets five
+others on only three points, so some three triples have a common
+point. Their pairwise intersections are that same point; consequently
+their binary sum has weight seven. The binary sum of the three
+corresponding weight-six codewords is its complement, a weight-two
+word. This contradiction proves the existence of a weight-two word$b$.
+
+Orthogonality to$b$ makes its two entries equal in every codeword.
+Subtracting$b$ when necessary decomposes $C$ as $\langle b\rangle$
+plus an even self-orthogonal dimension-three code$D$ supported on the
+other seven coordinates, with full support there. If$D$ contained a
+weight-two word, stripping it in the same way would give a full-support
+even self-orthogonal dimension-two code on five coordinates. Its three
+nonzero words have total weight ten, hence weights two, four, four;
+the two weight-four words intersect in three coordinates, contradicting
+orthogonality. Thus$D$ has no weight-two word. A weight-six word of$D$
+would force its omitted coordinate to be zero in every even codeword,
+again contradicting full support. All seven nonzero words of$D$
+therefore have weight four. This also proves uniqueness of$b$.
+\end{proof}
+
+\section{N04: Recovering the eight coordinate points}
+Choose a basis for$D$, and label its seven columns by vectors
+$p\in\mathbb F_2^3$ with multiplicities$m_p$. Each nonzero basis
+combination has weight four, so its character sum is$7-2\cdot4=-1$;
+the zero character sum is seven. Character orthogonality, obtained by
+pairing $x$ with $x+e_i$ when the$i$th coefficient is nonzero, gives
+$m_0=0$ and $m_p=1$ for every$p\ne0$. Thus the words of$D$ have
+entries $a\cdot p$, $p\ne0$, for $a\in\mathbb F_2^3$.
+
+Each of the eight actual rows$u_a\in C$ is consequently of the form
+\[
+              ((x\cdot p)_{p\ne0},\tau,\tau).
+\]
+Let$n_x$ count rows with first parameter$x$. Each of the first seven
+original columns has weight four, because its original retained mask
+has size four. Therefore $\sum_x n_x=8$ and
+$\sum_x n_x(-1)^{x\cdot p}=0$ for every$p\ne0$. The same elementary
+character inversion yields $n_x=1$ for all eight$x$. One coordinate
+permutation identifies those rows with the eight points$x$.
+The two remaining columns are identical, and their common support$T$
+has size four. This proves(2). The change of column labels only
+relabels roots; no root was moved or translated separately.
+
+\section{N05: Four types and exact finite calibration}
+The permutations preserving the seven nonzero linear-function masks
+are exactly $\operatorname{GL}(3,2)$ on the seven nonzero coordinate
+points, fixing zero. Indeed the induced permutation preserves the
+three-dimensional mask space and therefore acts by an invertible
+linear transformation; conversely every such transformation preserves
+that space. A three-subset of the seven nonzero points is either a
+line $\{a,b,a+b\}$ or a linearly independent triple. Each type is a
+single orbit because a map between ordered independent pairs or bases
+extends linearly. There are seven lines and28 independent triples.
+According to whether zero is in$T$, use either its nonzero complement
+or its three nonzero members. This gives the four types with sizes
+7,28,7,28, respectively, accounting for all70 four-subsets.
+
+The accompanying enumeration independently generates all even
+self-orthogonal subspaces of dimensions zero through four without
+quotienting by a group. The counts are $1,255,5355,11475,2295$; of
+the last,1080 have full support. Every such space has the decomposition
+proved above. This is a calibration of the elementary proof, not a
+substitute for coverage of actual root positions or completions.
+\end{document}

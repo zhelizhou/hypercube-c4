@@ -1,0 +1,266 @@
+{
+  "scope": "Frozen theorem-bearing scientific units and all relevant implementation/import interfaces. Sequential extraction, no child delegation. Receipt proves source-unit execution coverage only, not obligation completeness.",
+  "canonical_source": "PROOF.md",
+  "canonical_source_sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27",
+  "source_units": [
+    {
+      "source_unit_id": "SCOPE",
+      "file": "PROOF.md",
+      "line_start": 1,
+      "line_end": 4,
+      "title": "Scope and exclusions",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "MV01",
+      "file": "PROOF.md",
+      "line_start": 5,
+      "line_end": 28,
+      "title": "Marked-state maximality argument",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "MV02",
+      "file": "PROOF.md",
+      "line_start": 29,
+      "line_end": 61,
+      "title": "Complete refined domains",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "MV03",
+      "file": "PROOF.md",
+      "line_start": 62,
+      "line_end": 92,
+      "title": "Actual lambda/alpha/gamma moment bridge",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "MV04",
+      "file": "PROOF.md",
+      "line_start": 93,
+      "line_end": 114,
+      "title": "Exact pricing, biases and folded normalization",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "MV05",
+      "file": "PROOF.md",
+      "line_start": 115,
+      "line_end": 135,
+      "title": "Nine RLT consequences",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "MV06",
+      "file": "PROOF.md",
+      "line_start": 136,
+      "line_end": 161,
+      "title": "Saved cut, graph and nonmaximal boundary evidence",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "CALLER",
+      "file": "PROOF.md",
+      "line_start": 162,
+      "line_end": 177,
+      "title": "Reproduction and generic discovery contract",
+      "sha256": "sha256:5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27"
+    },
+    {
+      "source_unit_id": "TEX-FRONT",
+      "file": "main.tex",
+      "line_start": 1,
+      "line_end": 16,
+      "title": "TeX FRONT counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-MV01",
+      "file": "main.tex",
+      "line_start": 17,
+      "line_end": 56,
+      "title": "TeX MV01 counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-MV02",
+      "file": "main.tex",
+      "line_start": 58,
+      "line_end": 84,
+      "title": "TeX MV02 counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-MV03",
+      "file": "main.tex",
+      "line_start": 86,
+      "line_end": 117,
+      "title": "TeX MV03 counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-MV04",
+      "file": "main.tex",
+      "line_start": 119,
+      "line_end": 156,
+      "title": "TeX MV04 counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-MV05",
+      "file": "main.tex",
+      "line_start": 158,
+      "line_end": 171,
+      "title": "TeX MV05 counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-MV06",
+      "file": "main.tex",
+      "line_start": 173,
+      "line_end": 206,
+      "title": "TeX MV06 counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "TEX-END",
+      "file": "main.tex",
+      "line_start": 208,
+      "line_end": 217,
+      "title": "TeX END counterpart",
+      "sha256": "sha256:164519634f9696e5c5c04ab1b5dc20e0de18d054ba832b7579022521df21f01a"
+    },
+    {
+      "source_unit_id": "CPP",
+      "file": "price_domain.cpp",
+      "line_start": 1,
+      "line_end": 56,
+      "title": "Native full-domain parser/enumeration/score",
+      "sha256": "sha256:a05eb5b7737aa69f61170779c6932ed114d7b347b15b9e7e8330c5e04fb9be8b"
+    },
+    {
+      "source_unit_id": "CLI",
+      "file": "price_point.py",
+      "line_start": 1,
+      "line_end": 133,
+      "title": "Bounded caller and exact acceptance consumer",
+      "sha256": "sha256:98fffe0799f54199f69e8266a2544c828da510bc8e260c54d6123414e549978e"
+    },
+    {
+      "source_unit_id": "AUTHORCHECK",
+      "file": "check.py",
+      "line_start": 1,
+      "line_end": 157,
+      "title": "Author check provenance; not proof premise",
+      "sha256": "sha256:48c5726e6b287922457941866d3ab8f94a0a6cbca8e95e6f1d6b07cf826e6196"
+    },
+    {
+      "source_unit_id": "IMPORT-STATE",
+      "file": "../finite8_flags/main.tex",
+      "line_start": 116,
+      "line_end": 131,
+      "title": "Imported marked vertex state definition",
+      "sha256": "sha256:ef3981ad303489f22a40589efd4c424459e6b552dc3ab6ca7d87fc3814b2550c"
+    },
+    {
+      "source_unit_id": "IMPORT-SCORE",
+      "file": "../finite8_flags/main.tex",
+      "line_start": 146,
+      "line_end": 157,
+      "title": "Imported local vertex functional",
+      "sha256": "sha256:ef3981ad303489f22a40589efd4c424459e6b552dc3ab6ca7d87fc3814b2550c"
+    },
+    {
+      "source_unit_id": "IMPORT-NORM",
+      "file": "../finite8_flags/main.tex",
+      "line_start": 168,
+      "line_end": 208,
+      "title": "Imported denominator and folded coordinates",
+      "sha256": "sha256:ef3981ad303489f22a40589efd4c424459e6b552dc3ab6ca7d87fc3814b2550c"
+    },
+    {
+      "source_unit_id": "IMPORT-BRIDGE",
+      "file": "../finite8_flags/main.tex",
+      "line_start": 259,
+      "line_end": 290,
+      "title": "Imported vertex sampling derivation",
+      "sha256": "sha256:ef3981ad303489f22a40589efd4c424459e6b552dc3ab6ca7d87fc3814b2550c"
+    },
+    {
+      "source_unit_id": "IMPL-MASK",
+      "file": "../finite8_flags/finite_flags.py",
+      "line_start": 14,
+      "line_end": 32,
+      "title": "Existing mask edge order",
+      "sha256": "sha256:e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25"
+    },
+    {
+      "source_unit_id": "IMPL-VERTEX",
+      "file": "../finite8_flags/finite_flags.py",
+      "line_start": 105,
+      "line_end": 151,
+      "title": "Existing vertex coefficients/restrictions",
+      "sha256": "sha256:e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25"
+    }
+  ],
+  "planned_unit_ids": [
+    "SCOPE",
+    "MV01",
+    "MV02",
+    "MV03",
+    "MV04",
+    "MV05",
+    "MV06",
+    "CALLER",
+    "TEX-FRONT",
+    "TEX-MV01",
+    "TEX-MV02",
+    "TEX-MV03",
+    "TEX-MV04",
+    "TEX-MV05",
+    "TEX-MV06",
+    "TEX-END",
+    "CPP",
+    "CLI",
+    "AUTHORCHECK",
+    "IMPORT-STATE",
+    "IMPORT-SCORE",
+    "IMPORT-NORM",
+    "IMPORT-BRIDGE",
+    "IMPL-MASK",
+    "IMPL-VERTEX"
+  ],
+  "completed_unit_ids": [
+    "SCOPE",
+    "MV01",
+    "MV02",
+    "MV03",
+    "MV04",
+    "MV05",
+    "MV06",
+    "CALLER",
+    "TEX-FRONT",
+    "TEX-MV01",
+    "TEX-MV02",
+    "TEX-MV03",
+    "TEX-MV04",
+    "TEX-MV05",
+    "TEX-MV06",
+    "TEX-END",
+    "CPP",
+    "CLI",
+    "AUTHORCHECK",
+    "IMPORT-STATE",
+    "IMPORT-SCORE",
+    "IMPORT-NORM",
+    "IMPORT-BRIDGE",
+    "IMPL-MASK",
+    "IMPL-VERTEX"
+  ],
+  "failed_unit_ids": [],
+  "uncovered_unit_ids": [],
+  "coverage_complete": true,
+  "extraction_mode": "sequential Tier 3 under parent no-child restriction",
+  "generated_at": "2026-11-15T21:25:35.768386+00:00"
+}

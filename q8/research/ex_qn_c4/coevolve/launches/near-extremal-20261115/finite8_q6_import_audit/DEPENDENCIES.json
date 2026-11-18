@@ -1,0 +1,164 @@
+{
+  "status": "all listed local dependencies discharged at declared assurance",
+  "acyclic": true,
+  "topological_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "MIN3-W",
+    "E",
+    "F1",
+    "F2",
+    "COMPLETE",
+    "317",
+    "321",
+    "GATE"
+  ],
+  "nodes": [
+    {
+      "id": "A",
+      "claim": "One specified parity has S<=160 and c<=4; unique full3/full4 code geometry",
+      "uses": [],
+      "evidence": [
+        "PROOF.md#A",
+        "COVERAGE.json"
+      ]
+    },
+    {
+      "id": "B",
+      "claim": "minimum specified parity degree3 implies S<=158",
+      "uses": [
+        "A"
+      ],
+      "evidence": [
+        "six finite input reconstructions and fresh RUP replays"
+      ]
+    },
+    {
+      "id": "C",
+      "claim": "exactly one degree2 specified root, all others degree>=3, implies S<=158",
+      "uses": [
+        "A"
+      ],
+      "evidence": [
+        "17 finite input reconstructions, full labelled orbit cover and fresh RUP replays"
+      ]
+    },
+    {
+      "id": "D",
+      "claim": "exactly3 full roots and missing fourth root degree>=3 imply S+L<=155",
+      "uses": [
+        "A"
+      ],
+      "evidence": [
+        "23 slots; CONNECTIONS.json; isolated/three_full/EXACT_CHECK.json"
+      ]
+    },
+    {
+      "id": "MIN3-W",
+      "claim": "minimum specified parity degree3 implies 2S+c<=316",
+      "uses": [
+        "A",
+        "B",
+        "D"
+      ],
+      "evidence": [
+        "congruence table in PROOF.md#D",
+        "CONNECTIONS.json"
+      ]
+    },
+    {
+      "id": "E",
+      "claim": "at most one specified root of degree<=2 implies S<=158",
+      "uses": [
+        "A",
+        "B",
+        "C"
+      ],
+      "evidence": [
+        "analytic degree1 layer proof plus degree0 harmless edge addition; isolated/CHECK_RESULTS.json"
+      ]
+    },
+    {
+      "id": "F1",
+      "claim": "four full roots, exactly one degree2 specified root, all others>=3 imply S<=155",
+      "uses": [
+        "A"
+      ],
+      "evidence": [
+        "q6_code_degree_4_score17_low1.receipt.json"
+      ]
+    },
+    {
+      "id": "F2",
+      "claim": "four full roots, exactly two degree2 specified roots, all others>=3 imply S<=157",
+      "uses": [
+        "A"
+      ],
+      "evidence": [
+        "q6_code_degree_4_score18_low2.receipt.json"
+      ]
+    },
+    {
+      "id": "COMPLETE",
+      "claim": "four-full one/two low stars can safely be changed to degree2 preserving S,c and other P degrees",
+      "uses": [
+        "A"
+      ],
+      "evidence": [
+        "PROOF.md#F",
+        "CONNECTIONS.json"
+      ]
+    },
+    {
+      "id": "317",
+      "claim": "at most one specified root of degree<=2 implies 2S+c<=317",
+      "uses": [
+        "MIN3-W",
+        "E",
+        "F1",
+        "COMPLETE"
+      ],
+      "evidence": [
+        "PROOF.md#G",
+        "CONNECTIONS.json"
+      ]
+    },
+    {
+      "id": "321",
+      "claim": "at most two specified roots of degree<=2 imply 2S+c<=321",
+      "uses": [
+        "A",
+        "317",
+        "F2",
+        "COMPLETE"
+      ],
+      "evidence": [
+        "PROOF.md#G",
+        "CONNECTIONS.json"
+      ]
+    },
+    {
+      "id": "GATE",
+      "claim": "arbitrary C4-free Q6, either specified parity:4S+2c<=632+5L; opposite parity unrestricted",
+      "uses": [
+        "A",
+        "MIN3-W",
+        "317",
+        "321"
+      ],
+      "evidence": [
+        "PROOF.md#G",
+        "CONNECTIONS.json"
+      ]
+    }
+  ],
+  "not_dependencies": [
+    "source branch global687/688 claims",
+    "q6_roots3_star158204462-add trace",
+    "eleven alternate degree1 SAT traces",
+    "any opposite-parity minimum-degree premise"
+  ],
+  "remaining_main_goal": "OPEN: prove the active Q8 upper bound682 separately"
+}

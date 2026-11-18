@@ -1,0 +1,723 @@
+\documentclass[11pt,reqno]{amsart}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=28mm]{geometry}
+\usepackage[expansion=false]{microtype}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Finite and Asymptotic Bounds for C4-Free Subgraphs of Hypercubes}}
+
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newcommand{\ex}{\operatorname{ex}}
+\newcommand{\one}{\mathbf{1}}
+
+\title[Bounds for four-cycle-free subgraphs of hypercubes]
+  {Finite and Asymptotic Bounds for \texorpdfstring{$C_4$}{C4}-Free Subgraphs of Hypercubes}
+% Add author names and affiliations here.
+\thanks{Working draft. The proof in dimension seven is included. The proofs
+of the dimension-eight and asymptotic bounds will appear in the full manuscript.}
+
+\begin{document}
+
+\begin{abstract}
+Let \(\ex(Q_n,C_4)\) denote the largest number of edges in a
+\(C_4\)-free subgraph of the \(n\)-dimensional hypercube. We prove that
+\(\ex(Q_7,C_4)=304\). In a hypothetical \(305\)-edge subgraph, counting
+three-edge stars on the two parity classes forces every degree to be
+four or five. A square-counting identity and a relation between opposite
+facets then reduce the proof to five possible exceptions to a local
+inequality. Three six-dimensional obstruction lemmas, established using
+independently checked propositional refutations, complete the argument.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+The hypercube \(Q_n\) has vertex set \(\{0,1\}^n\), with two vertices
+adjacent when they differ in exactly one coordinate. Following
+Erd\H{o}s~\cite{erdos}, we consider the extremal function
+\[
+  f(n)=\ex(Q_n,C_4)
+       =\max\{e(G):G\subseteq Q_n,\ G\text{ is }C_4\text{-free}\}.
+\]
+Writing \(\rho_n=f(n)/(n2^{n-1})\), the corresponding asymptotic
+question concerns
+\[
+  \pi_\square(C_4)=\lim_{n\to\infty}\rho_n.
+\]
+The limit exists by averaging over coordinate faces. Keeping the edges
+between alternating pairs of consecutive weight layers gives density at
+least \(1/2\) by choosing the denser of the two alternating classes.
+Brass, Harborth, and Nienborg~\cite{bhn} gave stronger finite-dimensional
+constructions, and Baber~\cite{baber} proved the asymptotic upper bound
+\(\pi_\square(C_4)\le 0.60318\) using flag algebras. In small dimensions,
+Harborth and Nienborg~\cite{hn} determined \(f(6)=132\).
+
+An odd-square edge set meets every coordinate square in one or three
+edges and is therefore \(C_4\)-free. The fully frustrated hypercube
+construction of Derrida, Pomeau, Toulouse, and Vannimenus~\cite{dptv}
+attains \(304\) edges in dimension seven. Marinari, Parisi, and
+Ritort~\cite{mpr} reported the corresponding attainment in dimension
+eight in the spin formulation. Minamoto~\cite{minamoto} gives
+machine-verifiable edge lists for the \(304\)- and \(682\)-edge odd-square
+constructions and determines the odd-square optima in these dimensions.
+Minamoto's Open Problem~1 asks whether the seven-dimensional bound is
+also exact in the unrestricted class. Our first result answers this
+question.
+
+\begin{theorem}\label{thm:q7}
+The maximum number of edges in a \(C_4\)-free subgraph of \(Q_7\) is
+\(304\).
+\end{theorem}
+
+We also obtain the following two bounds for unrestricted \(C_4\)-free
+subgraphs. Their proofs are reserved for the full manuscript.
+
+\begin{theorem}\label{thm:q8}
+In dimension eight,
+\[
+  682\le \ex(Q_8,C_4)\le 683.
+\]
+\end{theorem}
+
+\begin{theorem}\label{thm:asymptotic}
+The asymptotic edge density satisfies
+\[
+  \pi_\square(C_4)\le
+  \frac{332729110702593}{562949953421312}
+  =0.591045631464114\ldots .
+\]
+\end{theorem}
+
+The three proofs use restrictions of a single graph to coordinate faces.
+For Theorem~\ref{thm:q7}, the central inequality relates the number of
+edges in a six-dimensional facet to the difference between two types of
+squares in that facet. Counting across opposite facets reduces possible
+violations to five profiles. The required local exclusions are certified
+by \(21\) finite propositional refutations. For Theorem~\ref{thm:q8}, a
+different six-dimensional inequality reduces the problem to
+inclusion-maximal graphs with \(684\) to \(688\) edges. A rational
+certificate then uses relations among four-dimensional restrictions,
+parity-side degree distributions, and edge-neighborhood histograms.
+For Theorem~\ref{thm:asymptotic}, we bound a flag-algebra score using the
+constraint that overlapping faces agree on their common edges.
+
+Section~\ref{sec:prelims} gives the basic counting identities.
+Section~\ref{sec:q7} proves Theorem~\ref{thm:q7}.
+Appendix~\ref{app:certificates} specifies the finite encodings, the
+symmetry reduction, and the proof checks used in that argument.
+
+\section{Coordinate faces and counting identities}\label{sec:prelims}
+
+We treat subgraphs as spanning by allowing isolated vertices. Let
+\(P_0\) and \(P_1\) be the two classes of vertices according to the parity
+of their Hamming weight. A \(k\)-dimensional coordinate face is obtained
+by choosing \(k\) free coordinates and fixing the remaining coordinates.
+We use \(G[F]\) for the restriction of a graph \(G\) to a face \(F\).
+When the ambient face is understood, we use the same letter for its
+restriction. An \((n-1)\)-dimensional coordinate face of \(Q_n\) is a
+\emph{facet}. Write \(d_G(v)\) for degree and \(e(G)\) for edge count.
+
+\begin{lemma}[Face multiplicities]\label{lem:multiplicities}
+There are \(\binom nk 2^{n-k}\) coordinate \(k\)-faces of \(Q_n\), and
+each coordinate \(r\)-face lies in \(\binom{n-r}{k-r}\) of them for
+\(r\le k\le n\). In particular, restricting to a uniformly random
+\(k\)-face preserves the expected edge density.
+\end{lemma}
+
+\begin{proof}
+To extend an \(r\)-face to a \(k\)-face, choose \(k-r\) additional
+coordinates to free. In the edge case this gives
+\[
+  \mathbb{E}_F e(G[F])
+   = e(G)\frac{\binom{n-1}{k-1}}{\binom nk\,2^{n-k}}
+   = \frac{k2^{k-1}}{n2^{n-1}}\,e(G).
+\]
+\end{proof}
+
+Restrictions preserve \(C_4\)-freeness. Applying
+Lemma~\ref{lem:multiplicities} to an extremal graph gives
+\(\rho_n\le\rho_k\) for \(1\le k\le n\).
+
+A \emph{full three-star} consists of three retained edges incident
+with a common vertex, its root. The three directions determine a
+unique coordinate \(3\)-face containing the star. For a parity class
+\(P\), write
+\[
+  S_P(G)=\sum_{v\in P}\binom{d_G(v)}{3}.
+\]
+
+\begin{lemma}[Star capacity]\label{lem:star}
+In a \(C_4\)-free graph, each coordinate \(3\)-face contains at most
+one full three-star rooted on a specified parity side. Consequently
+\[
+  S_P(G)\le \binom{n}{3}2^{n-3}.
+\]
+The difference counts the \(3\)-faces \emph{missing a \(P\)-star}.
+\end{lemma}
+
+\begin{proof}
+Two distinct same-parity vertices of a \(3\)-face differ in exactly
+two coordinates. If both were roots of full stars in the face, the four
+edges in those two directions incident with the two roots would form a
+\(C_4\). Summing over the \(3\)-faces proves the bound and the counting
+interpretation.
+\end{proof}
+
+Write \(a_0(G)\) for the number of empty coordinate squares and
+\(a_{\mathrm{opp}}(G)\) for the number with exactly two retained edges
+that are opposite. Define \(D(G)=a_0(G)-a_{\mathrm{opp}}(G)\).
+
+\begin{lemma}[Square identity]\label{lem:square}
+If \(G\subseteq Q_n\) is \(C_4\)-free, then
+\begin{equation}\label{eq:square}
+  \sum_{v}d_G(v)^2
+    =2n\,e(G)-2\binom n2 2^{n-2}+2D(G).
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Every adjacent pair of retained edges belongs to a unique square. In a
+square with \(k\) retained edges, the number of adjacent pairs is
+\(k-1+\one_{\{\text{empty}\}}-\one_{\{\text{two opposite edges}\}}\),
+as is seen by considering \(k=0,1,2,3\). Each retained edge lies in
+\(n-1\) squares. Summing over squares gives
+\(\sum_v\binom{d_G(v)}2=(n-1)e(G)-\binom n2 2^{n-2}+D(G)\).
+Now use \(d^2=2\binom d2+d\) and \(\sum_v d_G(v)=2e(G)\).
+\end{proof}
+
+\section{The exact extremal number in dimension seven}\label{sec:q7}
+
+\subsection{Local obstructions in dimension six}
+
+\begin{lemma}[A single degree-two vertex]\label{lem:root}
+There is no \(C_4\)-free subgraph of \(Q_6\) in which one parity side
+has exactly one vertex of degree two, all its other vertices have
+degree in \(\{3,4,5\}\), and its star count is \(160\).
+\end{lemma}
+
+\begin{proof}
+Translate the degree-two vertex to the origin and permute coordinates
+so that its two retained directions are \(0\) and \(1\). Use a Boolean
+variable for each of the \(192\) edges and an indicator for each of
+the \(640\) candidate full stars rooted on the even side. For each
+square add a clause forbidding its four edges from all being retained.
+Set each star indicator equal to the conjunction of its three edges.
+The star-count hypothesis and Lemma~\ref{lem:star} require exactly
+one even-rooted star in each of the \(160\) three-dimensional faces.
+Fix the six incident edge variables at the origin and impose the
+stated degree bounds at the remaining \(31\) even vertices.
+
+A graph in the statement would satisfy this formula, with the star
+indicators set by its edges. The resulting CNF has \(832\) variables
+and \(4422\) clauses. The proof check in
+Appendix~\ref{app:replay} verifies a refutation of this formula.
+\end{proof}
+
+\begin{lemma}[Two star-count bounds]\label{lem:rigid}
+Let \(H\subseteq Q_6\) be \(C_4\)-free, with all degrees in
+\(\{3,4,5\}\).
+\begin{enumerate}
+\item[\(\mathrm{R0}\).] If the two parity star counts are \(158,158\),
+  then \(e(H)\ge132\).
+\item[\(\mathrm{R1}\).] If the two parity star counts are \(158,155\)
+  in either order, then \(e(H)\ge130\).
+\end{enumerate}
+\end{lemma}
+
+\begin{proof}
+On a parity side with \(b\) vertices of degree three,
+\begin{equation}\label{eq:local-stars}
+  S=6e(H)-640+3b.
+\end{equation}
+Indeed, \(\binom d3=6d-20+3\one_{\{d=3\}}\) for \(d\in\{3,4,5\}\),
+and the side has \(32\) vertices. Thus on a side with \(S=158\) one
+has \(b=266-2e(H)\). A counterexample to \(\mathrm{R0}\) has \(b\ge4\)
+on that side, and a counterexample to \(\mathrm{R1}\) has \(b\ge8\).
+
+Each \(Q_6\) has \(160\) coordinate \(3\)-faces, so this side misses
+a star in exactly two of them. Normalize the first such face to the
+face with free coordinates \(0,1,2\) and all other coordinates zero.
+This also allows us to use even parity for the side of interest.
+The stabilizer of this face preserving even parity has ten orbits on
+the remaining faces, derived in Appendix~\ref{app:orbits}. For each
+orbit, require the stated two missing even stars, the appropriate
+number of missing odd stars (two or five), the degree bounds, and the
+lower bound on \(b\). Each counterexample therefore extends to one
+of the ten Boolean inputs for the corresponding assertion.
+Appendices~\ref{app:encoding} and~\ref{app:replay} give the encoding
+and the refutations of all twenty inputs.
+\end{proof}
+
+\subsection{Degrees in a hypothetical 305-edge graph}
+
+If a counterexample to the upper bound contains more than \(305\)
+edges, delete edges until exactly \(305\) remain. We therefore fix a
+\(C_4\)-free graph \(G\subseteq Q_7\) with \(e(G)=305\). Throughout this
+subsection, counts \(a,b,c\) refer to one chosen parity side \(P\).
+
+\begin{lemma}[Initial degree restrictions]\label{lem:initial}
+On each parity side of \(G\), the degrees belong to \(\{3,4,5\}\)
+and at most two vertices have degree three.
+\end{lemma}
+
+\begin{proof}
+Let \(\omega(d)=\binom d3-6d+20\). Its values at \(d=0,\ldots,7\) are
+\(20,14,8,3,0,0,4,13\), respectively. Since each side has \(64\)
+vertices with degree sum \(305\), Lemma~\ref{lem:star} gives
+\[
+  \sum_{v\in P}\omega(d_G(v))=S_P(G)-550\le10 .
+\]
+In particular, degrees \(0,1,7\) are excluded. Let \(a,b,c\) count
+vertices of degrees \(2,3,6\) in \(P\), respectively. The penalty
+bound and the degree sum yield
+\begin{equation}\label{eq:penalty}
+  8a+3b+4c\le10,\qquad n_4(P)=15-3a-2b+c.
+\end{equation}
+
+For each \(6\)-facet \(H\), put \(\delta_H=132-e(H)\) and
+let \(A_H,B_H,C_H\) count degrees \(1,2,6\) in \(P\cap V(H)\)
+after restriction. Write \(g(d)=(d-4)(d-5)/2\). For the possible
+local degrees \(1\le d\le6\), one has
+\[
+  \binom d3=3g(d)+6d-20
+      -4\one_{\{d=1\}}-\one_{\{d=2\}}+\one_{\{d=6\}} .
+\]
+The local degree sum on one side is \(e(H)\), and its star count is
+at most \(160\). Rearranging and rounding down gives
+\begin{equation}\label{eq:floor}
+  \sum_{v\in P\cap V(H)}g(d_H(v))
+  \le 2+2\delta_H+
+      \left\lfloor\frac{2+4A_H+B_H-C_H}{3}\right\rfloor .
+\end{equation}
+
+A vertex of degree \(d\) occurs in seven facets, with local degree
+\(d-1\) in \(d\) of them and \(d\) in the remaining \(7-d\).
+Its contribution to the sum of the left-hand sides is
+\(d\,g(d-1)+(7-d)g(d)\), taking values \(27,13,4,0,1\)
+for \(d=2,3,4,5,6\). By \eqref{eq:penalty} the total is
+\(60+15a+5b+5c\). Each edge belongs to six facets, so
+\(\sum_H\delta_H=14\cdot132-6\cdot305=18\).
+
+If \(a=0\), then \(A_H=0\) and each floor in \eqref{eq:floor}
+is at most \(B_H\). Each global degree-three vertex contributes to
+\(B_H\) in three facets, giving \(\sum_H B_H=3b\).
+If \(a=1\), then \eqref{eq:penalty} gives \(b=c=0\). The sole
+degree-two vertex contributes \(A_H=1\) in two facets and
+\(B_H=1\) in five others, and the sum of the floors is \(9\).
+These cases exhaust \(a\) by \eqref{eq:penalty}. Summing
+\eqref{eq:floor} gives
+\[
+  60+15a+5b+5c\le 64+9a+3b,
+  \qquad 6a+2b+5c\le4 .
+\]
+Thus \(a=c=0\) and \(b\le2\) on the chosen side. The argument
+applies to either parity side.
+\end{proof}
+
+\begin{lemma}[The degree sequence]\label{lem:degrees}
+Each parity side of \(G\) has \(15\) vertices of degree four and
+\(49\) of degree five.
+\end{lemma}
+
+\begin{proof}
+Fix one parity side \(P\). By Lemma~\ref{lem:initial} the number \(b\)
+of degree-three vertices on this side belongs to \(\{0,1,2\}\).
+
+If \(b=2\), equality holds throughout the summed bounds in the proof
+of Lemma~\ref{lem:initial}. In particular,
+\(\lfloor(2+B_H)/3\rfloor=B_H\) for every facet, so \(B_H\in\{0,1\}\).
+Since \(\sum_H B_H=3b=6\), six facets have \(B_H=1\). In each such
+facet equality in \eqref{eq:floor} implies a star count of \(160\).
+Indeed, \(2+B_H=3\) is divisible by three, so the rounding step
+loses nothing there. The other \(31\) vertices on that side have
+local degree in \(\{3,4,5\}\). This contradicts
+Lemma~\ref{lem:root}.
+
+If \(b=1\), the unique degree-three vertex of \(P\) belongs to seven
+facets. It drops to degree two in three and retains degree three in
+four. The seven facets omitting the vertex and the four in which it
+retains its degree all have their local degrees on \(P\) in
+\(\{3,4,5\}\). Since
+\(\binom33\equiv\binom43\equiv\binom53\equiv1\pmod3\),
+these eleven facets have star counts congruent to \(32\pmod3\),
+hence at most \(158\).
+In the three other facets, the star count is congruent to \(31\pmod3\),
+and Lemma~\ref{lem:root} excludes \(160\), so it is at most \(157\).
+But \(S_P(G)=6\cdot305-20\cdot64+3=553\).
+Each full three-star occurs in four facets by
+Lemma~\ref{lem:multiplicities}. The sum of the facet star counts is
+then \(4\cdot553=2212\), exceeding \(3\cdot157+11\cdot158=2209\).
+
+Consequently \(b=0\) on either side. The degree sum \(305\) on a
+side of size \(64\) gives the stated counts.
+\end{proof}
+
+The degree sequence in Lemma~\ref{lem:degrees} gives
+\(\sum_v d_G(v)^2=2(15\cdot4^2+49\cdot5^2)=2930\).
+Using \eqref{eq:square} with \(n=7\) and \(e(G)=305\) yields
+\begin{equation}\label{eq:globalD}
+  D(G)=2.
+\end{equation}
+
+\subsection{Opposite facets and the square inequality}
+
+In each \(6\)-facet \(H\) of \(G\), every local degree is in
+\(\{3,4,5\}\). For \(i=0,1\) write \(b_{H,i}\) and \(S_{H,i}\)
+for the degree-three count and star count on its side inherited from
+\(P_i\). Set
+\[
+  \delta_H=132-e(H),\qquad p_{H,i}=(158-S_{H,i})/3,\qquad
+  p_H=p_{H,0}+p_{H,1}.
+\]
+By \eqref{eq:local-stars}, \(S_{H,i}\equiv2\pmod3\), and
+Lemma~\ref{lem:star} gives \(S_{H,i}\le158\). Thus \(p_{H,i}\)
+is a nonnegative integer.
+
+\begin{lemma}[Local identities]\label{lem:local-identities}
+Every such facet \(H\) satisfies
+\begin{equation}\label{eq:local-identities}
+  \delta_H\ge0,\qquad
+  b_{H,i}=2+2\delta_H-p_{H,i},\qquad D(H)=\delta_H-p_H .
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Substituting the definitions of \(p_{H,i}\) and \(\delta_H\) into
+\eqref{eq:local-stars} gives the identity for \(b_{H,i}\).
+For degrees \(3,4,5\), the polynomial \((d-4)(d-5)\) equals
+\(2\one_{\{d=3\}}\). Summing and using \eqref{eq:square} in
+dimension six gives
+\[
+  b_{H,0}+b_{H,1}=400-3e(H)+D(H)=4+3\delta_H+D(H).
+\]
+Comparing with \(b_{H,0}+b_{H,1}=4+4\delta_H-p_H\) yields the
+identity for \(D(H)\).
+
+To prove nonnegativity of \(\delta_H\), note that
+\(6e(H)-640\le S_{H,i}\le158\), so \(e(H)\le133\).
+If \(e(H)=133\), both parity star counts are \(158\), and
+\eqref{eq:local-stars} forces \(b_{H,0}=b_{H,1}=0\).
+All degrees in \(H\) are then four or five. On restriction to any
+\(5\)-facet \(K\) of \(H\), the local degrees belong to \(\{3,4,5\}\),
+since deleting one coordinate removes at most one incident edge.
+Each of the \(16\) vertices on the chosen side of \(K\) therefore
+contributes \(1\pmod3\) to its star count. There are \(40\)
+coordinate \(3\)-faces in \(K\), so the number of its faces missing
+a star on that side is \(40-S_{K,i}\equiv0\pmod3\).
+Star status in a coordinate \(3\)-face depends only on its own edges.
+The missing faces in \(K\) are therefore among the two missing faces
+on that side of \(H\). It follows that every \(K\) has zero missing
+faces, which is impossible since each missing \(3\)-face of \(H\)
+lies in three \(5\)-facets. This gives \(e(H)\le132\).
+\end{proof}
+
+\begin{lemma}[Opposite facets]\label{lem:opposite}
+For opposite \(6\)-facets \(H,H'\),
+\begin{equation}\label{eq:opposite}
+  3\delta_H+\delta_{H'}\le11+p_H .
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Let \(L_{H,i}\) count globally degree-four vertices of \(P_i\)
+in \(H\), and let \(L_H=L_{H,0}+L_{H,1}\). Let \(t\) count
+retained edges between \(P_0\cap V(H)\) and \(P_1\cap V(H')\).
+The global degree sums on these two sets are
+\[
+  e(H)+t=160-L_{H,0},
+  \qquad e(H')+t=160-L_{H',1}.
+\]
+Subtract and use \(L_{H,1}+L_{H',1}=15\) to obtain
+\(\delta_H-\delta_{H'}=L_H-15\).
+Each local degree-three vertex was globally of degree four, so
+\(L_H\ge b_{H,0}+b_{H,1}=4+4\delta_H-p_H\).
+Rearranging gives \eqref{eq:opposite}.
+\end{proof}
+
+\begin{proposition}[The facet inequality]\label{prop:facet}
+Every \(6\)-facet \(H\) of \(G\) satisfies \(2D(H)\le\delta_H\).
+\end{proposition}
+
+\begin{proof}
+If \(2D(H)>\delta_H\), then \(2p_H<\delta_H\) by
+\eqref{eq:local-identities}. The nonnegativity of \(\delta_{H'}\)
+and \eqref{eq:opposite} give
+\[
+  3\delta_H\le11+p_H\le11+\frac{\delta_H-1}{2},
+  \qquad 5\delta_H\le21 .
+\]
+Thus \(1\le\delta_H\le4\), and substituting each possible value
+leaves the five rows of Table~\ref{tab:profiles}, up to exchanging
+the parity sides. The rows with \(p_H=0\) have star counts
+\((158,158)\), and the rows with \(p_H=1\) have star counts
+\((158,155)\) up to order. Lemma~\ref{lem:rigid} rules out every row.
+\end{proof}
+
+\begin{table}[H]
+\centering
+\small
+\begin{tabular}{@{}rrrccc@{}}
+\toprule
+\(\delta_H\) & \(p_H\) & \(e(H)\) &
+\((b_{H,0},b_{H,1})\) & \((S_{H,0},S_{H,1})\) & Obstruction\\
+\midrule
+1 & 0 & 131 & \((4,4)\) & \((158,158)\) & \(\mathrm{R0}\)\\
+2 & 0 & 130 & \((6,6)\) & \((158,158)\) & \(\mathrm{R0}\)\\
+3 & 0 & 129 & \((8,8)\) & \((158,158)\) & \(\mathrm{R0}\)\\
+3 & 1 & 129 & \((7,8)\) & \((155,158)\) & \(\mathrm{R1}\)\\
+4 & 1 & 128 & \((9,10)\) & \((155,158)\) & \(\mathrm{R1}\)\\
+\bottomrule
+\end{tabular}
+\caption{The five possible violations of the facet inequality, with
+the obstruction from Lemma~\ref{lem:rigid}.}\label{tab:profiles}
+\end{table}
+
+\subsection{Completion of the proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:q7}]
+Each square lies in five \(6\)-facets and makes the same contribution
+to \(D\) in each restriction. Each edge lies in six \(6\)-facets.
+Summing Proposition~\ref{prop:facet} over all fourteen facets and using
+\eqref{eq:globalD} gives
+\[
+  20=2\cdot5D(G)=\sum_H 2D(H)
+    \le \sum_H\delta_H
+    =14\cdot132-6\cdot305=18 ,
+\]
+a contradiction. The \(304\)-edge construction
+\cite{dptv,minamoto} completes the proof.
+\end{proof}
+
+\appendix
+\section{Certificates for the six-dimensional obstructions}
+\label{app:certificates}
+
+\subsection{Symmetry reduction for the two missing stars}
+\label{app:orbits}
+
+Represent a \(3\)-face by a pair \((J,z)\), where \(J\) is its
+three-coordinate free set, and \(z\) records its fixed bits and has
+zeros on \(J\). We use the integers whose set bits encode \(J\) and
+\(z\) in Table~\ref{tab:orbits}, numbering coordinates from \(0\).
+Fix the first missing face at \((7,0)\) and write \(A=\{0,1,2\}\)
+and \(B=\{3,4,5\}\). This normalization is possible by translating
+from a vertex of the specified parity side of the first face and
+permuting coordinates. Its stabilizer on the chosen even side consists
+of independent permutations within \(A\) and \(B\) and the four
+even translations supported in \(A\). Its order is \(3!\,3!\,4=144\).
+
+To see that Table~\ref{tab:orbits} covers all second faces, put
+\(s=|J\cap A|\). When \(s>0\), an even translation on \(A\) can
+change any pattern on \(A\setminus J\), with one free coordinate
+absorbing the parity constraint. On \(B\setminus J\) the invariant
+is the Hamming weight of the fixed bits. Thus for \(s>0\) and fixed
+weight \(w\) on \(B\setminus J\), the orbit has size
+\[
+  \binom 3s^{\!2}\,2^{3-s}\binom{s}{w}.
+\]
+The case \(s=3,w=0\) is the first face itself. When \(s=0\),
+the fixed pattern on \(A\) has invariant parity, giving two orbits
+of size four. The listed orbits are disjoint and cover the other
+\(159\) faces.
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}rcrrr@{}}
+\toprule
+Case & Second face \((J,z)\) & Orbit size &
+\(\mathrm{R0}\) additions & \(\mathrm{R1}\) additions\\
+\midrule
+0 & \((7,8)\)   &  3 &    31{,}234 &   115{,}050\\
+1 & \((7,24)\)  &  3 &   118{,}954 &   448{,}387\\
+2 & \((7,56)\)  &  1 &   929{,}905 &   997{,}572\\
+3 & \((11,0)\)  & 18 &   398{,}037 & 1{,}193{,}666\\
+4 & \((11,16)\) & 36 &   556{,}394 & 1{,}096{,}140\\
+5 & \((11,48)\) & 18 &   755{,}077 & 1{,}160{,}105\\
+6 & \((25,0)\)  & 36 &   331{,}182 &   990{,}166\\
+7 & \((25,32)\) & 36 &   600{,}382 & 1{,}164{,}830\\
+8 & \((56,0)\)  &  4 &   726{,}716 & 1{,}227{,}344\\
+9 & \((56,1)\)  &  4 &   391{,}579 &   680{,}982\\
+\midrule
+ & Total & 159 & 4{,}839{,}460 & 9{,}074{,}242\\
+\bottomrule
+\end{tabular}
+\caption{Orbit representatives and checked clause additions for the
+two star-count obstructions.}\label{tab:orbits}
+\end{table}
+
+\subsection{Boolean encodings}\label{app:encoding}
+
+For an ambient edge \(e\), let \(x_e\) indicate retention in the graph.
+Each coordinate square receives a clause consisting of the negations
+of its four edge variables. For a candidate star with edge variables
+\(x_1,x_2,x_3\) and indicator \(s\), add the three clauses
+\(\neg s\vee x_i\) and the clause
+\(s\vee\neg x_1\vee\neg x_2\vee\neg x_3\).
+On a given parity side of a \(3\)-face there are four candidate stars.
+Their pairwise exclusion clauses enforce at most one, and their
+disjunction enforces at least one when required. To bound a vertex
+degree between three and five, add the positive clause for each
+four-element subset of its incident edges and the negative clause on
+all six. For Lemma~\ref{lem:root}, use the degree bounds on the other
+even vertices, six unit clauses at the origin, and exactly one even
+star in each \(3\)-face. The opposite parity side is unrestricted
+except for the square constraints.
+
+For Lemma~\ref{lem:rigid}, impose the degree bounds at every vertex.
+At each even vertex define a degree-three indicator \(z\) using
+\(\neg z\vee\bigvee_{e\in U}\neg x_e\) for each four-element subset
+\(U\) of incident edges and \(z\vee\bigvee_{e\in T}x_e\) for each
+three-element subset \(T\). With the degree bounds, \(z\) is true
+exactly at degree three. For each orbit representative, forbid the
+four even stars on each of the two specified missing faces and
+require exactly one even star on all other faces. For each face,
+the odd-side missing-star variable \(h\) is encoded by
+\(h\vee s_1\vee s_2\vee s_3\vee s_4\) and the four clauses
+\(\neg h\vee\neg s_i\), where the \(s_i\) are its odd star
+indicators. Count exactly two true \(h\)'s and at least four
+true \(z\)'s for \(\mathrm{R0}\), or exactly five true \(h\)'s
+and at least eight true \(z\)'s for \(\mathrm{R1}\).
+
+For completeness, consider the auxiliary formula enforcing at most
+\(k\) true literals among \(\ell_1,\ldots,\ell_N\), for
+\(0<k<N-1\). Use variables \(q_{i,j}\) for \(1\le i\le N-k\)
+and \(1\le j\le k\) and the clause families
+\[
+  \begin{array}{ll}
+  \neg\ell_i\vee q_{i,1},&
+  \neg q_{i,j}\vee q_{i+1,j}\quad(i<N-k),\\[2pt]
+  \neg\ell_{i+j}\vee\neg q_{i,j}\vee q_{i,j+1}\quad(j<k),&
+  \neg\ell_{i+k}\vee\neg q_{i,k}.
+  \end{array}
+\]
+Assign \(q_{i,j}\) true if the first \(i+j-1\) inputs contain
+at least \(j\) true literals. This extends every assignment satisfying
+the bound. Conversely, the first three clause families force the
+corresponding variables for all reached prefix thresholds. An induction
+on the prefix length proves this claim. A threshold already reached
+in the shorter prefix propagates by the second family. A threshold
+first reached by the last input follows from the third family or, for
+\(j=1\), the first. If the \((k+1)\)-st true input is at position
+\(p\), the forced \(q_{p-k,k}\) and \(\ell_p\) contradict the last
+family. The bounds \(k=0,N-1,N\) are represented by negative unit
+clauses, one all-negative clause, and no clauses, respectively.
+Lower bounds use the upper bound on the negated inputs, and exact
+counts impose both bounds with separate auxiliary variables.
+
+\subsection{Proof checking and the certificate inventory}
+\label{app:replay}
+
+For a proposed derived clause \(C\), the checker assumes the
+negation of all its literals and applies unit propagation to the
+input and previously verified clauses. A conflict implies \(C\).
+Inductively, every verified clause follows from the input. The
+checker can use a previously verified clause after deletion, since
+the clause remains an input consequence. A verified empty clause
+therefore proves unsatisfiability. The checks use unit propagation
+with no calls to the solver that generated the traces.
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Obstruction & Inputs & Variables per input & Clauses per input &
+Checked additions\\
+\midrule
+Lemma~\ref{lem:root} & 1 & 832 & 4{,}422 & 291{,}482\\
+\(\mathrm{R0}\) & 10 & 2{,}440 & 12{,}974 & 4{,}839{,}460\\
+\(\mathrm{R1}\) & 10 & 3{,}438 & 14{,}978 & 9{,}074{,}242\\
+\midrule
+Total & 21 & & & 14{,}205{,}184\\
+\bottomrule
+\end{tabular}
+\caption{The finite inputs and verified clause additions. The counts
+of additions include the empty clause in each refutation.}
+\label{tab:checks}
+\end{table}
+
+The files for Lemma~\ref{lem:root} have stem
+\path{star_q6_def0_root2_flushed}. For orbit \(j\) of
+Table~\ref{tab:orbits}, replace \texttt{X} by \(j\) in
+\path{star_rigidity_p0_b4_caseX_odd_degrees_cert} for \(\mathrm{R0}\)
+or \path{star_rigidity_p1_b8_caseX_odd_degrees_cert} for \(\mathrm{R1}\).
+The extensions \texttt{.cnf} and \texttt{.drup} identify the input
+and its trace. The archive lists the SHA-256 digests in
+\path{star_rigidity_certificate_manifest.json}.
+The file \path{local_rigidity_final_audit.json} summarizes the input
+reconstruction and proof checks, including the single degree-two
+obstruction.
+
+The checkers are
+\path{check_drup.ps1} for the single degree-two obstruction and
+\path{check_drup_history_fast.ps1} for the twenty orbit inputs.
+Run either checker with its \texttt{-Prefix} argument set to the
+corresponding input stem. The archived runs checked the additions
+listed in Table~\ref{tab:checks}. The matching lower-bound edge list
+is available in Minamoto's repository~\cite{minamotodata}.
+
+\subsection*{Data and code availability}
+The manuscript, inputs, and verification programs are available in the
+\href{https://github.com/zhelizhou/hypercube-c4}{companion repository}.
+The README for each result identifies its proof, replay commands, and
+any required release assets.
+
+\begin{thebibliography}{9}
+
+\bibitem{baber}
+R.~Baber,
+\emph{Tur\'an densities of hypercubes},
+\href{https://arxiv.org/abs/1201.3587v2}{arXiv:1201.3587v2}, 2012.
+
+\bibitem{bhn}
+P.~Brass, H.~Harborth, and H.~Nienborg,
+\emph{On the maximum number of edges in a \(C_4\)-free subgraph of \(Q_n\)},
+J. Graph Theory \textbf{19} (1995), 17--23.
+\href{https://doi.org/10.1002/jgt.3190190104}{doi:10.1002/jgt.3190190104}.
+
+\bibitem{dptv}
+B.~Derrida, Y.~Pomeau, G.~Toulouse, and J.~Vannimenus,
+\emph{Fully frustrated simple cubic lattices and the overblocking effect},
+J. Physique \textbf{40} (1979), 617--626.
+\href{https://doi.org/10.1051/jphys:01979004006061700}
+{doi:10.1051/jphys:01979004006061700}.
+
+\bibitem{erdos}
+P.~Erd\H{o}s,
+\emph{On some problems in graph theory, combinatorial analysis and combinatorial number theory},
+in \emph{Graph Theory and Combinatorics}, B.~Bollob\'as (ed.),
+Academic Press, London, 1984, pp.~1--17.
+
+\bibitem{hn}
+H.~Harborth and H.~Nienborg,
+\emph{Maximum number of edges in a six-cube without four-cycles},
+Bull. Inst. Combin. Appl. \textbf{12} (1994), 55--60.
+
+\bibitem{mpr}
+E.~Marinari, G.~Parisi, and F.~Ritort,
+\emph{The fully frustrated hypercubic model is glassy and aging at large \(D\)},
+J. Phys. A \textbf{28} (1995), 327--334.
+\href{https://arxiv.org/abs/cond-mat/9410089}{arXiv:cond-mat/9410089}.
+
+\bibitem{minamoto}
+M.~Minamoto,
+\emph{\(C_4\)-free subgraphs of the hypercubes \(Q_6\), \(Q_7\), and \(Q_8\):
+odd squares, fully frustrated models, and computational structure},
+\href{https://arxiv.org/abs/2603.29127v5}{arXiv:2603.29127v5}, 2026.
+
+\bibitem{minamotodata}
+M.~Minamoto,
+\emph{Supplementary data and code for the hypercube constructions},
+\href{https://github.com/minamominamoto/c4free-hypercube}
+{GitHub repository}.
+
+\end{thebibliography}
+
+\end{document}

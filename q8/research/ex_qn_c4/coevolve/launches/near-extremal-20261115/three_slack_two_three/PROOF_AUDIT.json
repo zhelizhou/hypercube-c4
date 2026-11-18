@@ -1,0 +1,47 @@
+{
+  "audit_skill": "proof-checker",
+  "verdict": "PASS",
+  "reason_code": "analytic_row_exclusion_complete_modulo_declared_historical_imports",
+  "summary": "Analytic two3/two4 C1146 row exclusion passes modulo declared historical local imports; native same-family review is provisional. Full upper682 remains OPEN.",
+  "audited_input_hashes": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_two_three/main.tex": "sha256:09a72301dc07a5d48d80a40e03cc6f5cf2bb402ce5e036edc8ac1b8928eaa7cf",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_two_three/PROOF_SKELETON.md": "sha256:3477ef00f97a25d6d5ffc7b326acd135ebceecfc403b69dbaee1657daf3ba8b7",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/q8_crowded_faces/main.tex": "sha256:e10d8fe17b4c760f7431653b85ef2a4460f48c9af02901f68e252604bed933d1",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/GENERAL_WEIGHTED_GATE.md": "sha256:2a67bbee9027457ecfcafb07376dbae69fa67f87994c1f1883b4b318acb0698d",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/local_weighted/PROOF.md": "sha256:d89d28cf29345145bcba76eaee444f45908f1fe5ab98db6148208e9e4fef554f",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/local_weighted/TWO_LOW_EXTENSION.md": "sha256:21bd93947610aa60f4c0df6c6e66462dfb6903d4dc7df5d3fa301b019b41eb63",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q6_three_full_structure_cycle010/PROOF.md": "sha256:9c7b7ceb2b11e3a07669cea8dc3b7118f6c75120e6e0136037a9522d342a23e4",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_triple_geometry_cycle010/PROOF.md": "sha256:d7bafd0af86b3a6cbdfe1c9faf2add1f684db0c03eb18e1cc3cfdf188ebdfd47",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/analytic/PROOF.md": "sha256:39e1f9a86971aed331185ce01711a2f507cc4dd95290e123b1bb9fc20569995d",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/Q8_BRIDGE.md": "sha256:6e975f65f70e9418602d553d4ff13f811a3ba720e08b2988b5676300f4e2a7df",
+    "q6_sources/q8_upper_independent/REFINEMENT_688.md": "sha256:a2260728d115b4ce13c602edbb7f3a755d45b883640e7dff0adff6b6372fd16f",
+    "q6_sources/q8_upper_independent/REFINEMENT_K3.md": "sha256:9630851daa0418e70d7ecc0cab479fabe17cceae8e0d659362ca4369089f11c9"
+  },
+  "trace_path": "review/",
+  "thread_id": null,
+  "reviewer_task": "/root/review_two_three_two_four",
+  "reviewer_model": null,
+  "reviewer_reasoning": null,
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "ultra",
+  "generated_at": "2026-11-15T18:39:28.171554+00:00",
+  "details": {
+    "theorems_audited": 2,
+    "source_units_audited": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05"
+    ],
+    "issues": [],
+    "acceptance_classification": "same-family / provisional",
+    "historical_imports_reverified": false,
+    "counterexample_pass_complete": true,
+    "scope": "Complete 683-edge marginal row (0,0,0,2,2,80,40,3,1), either specified parity, opposite unrestricted; conditional only on declared historical Q6 imports. No unrestricted upper-bound verdict.",
+    "full_unrestricted_upper_682_status": "OPEN"
+  },
+  "primary_proof_status": "open",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional"
+}

@@ -1,0 +1,273 @@
+{
+  "status": "PASS",
+  "scope": "one historical CNF reconstructed and strictly replayed; full-root geometry and arithmetic",
+  "historical_input": {
+    "name": "q6_code_degree_4_score17_low1",
+    "cnf_sha256": "8efca10e1cce9829a5b97cbc3adcf7feec2541028d9ad926ac5f767d3a4b62d9",
+    "proof_sha256": "329f049d95235efd001c5fb7eccbd857ff505237b8d9a52d745f4b9baf79d828",
+    "reconstructed": {
+      "variables": 1486,
+      "clauses": 5905,
+      "independently_rebuilt": true
+    }
+  },
+  "strict_replay": {
+    "returncode": 0,
+    "seconds": 0.10273634499753825,
+    "result": {
+      "valid": true,
+      "final_empty_clause": true,
+      "verified_additions": 2618,
+      "deletions_ignored": 2777
+    },
+    "checker_binary_sha256": "8474c69adb6ff44983a38faf0cb6599db26786d32de242707741410884fe820d",
+    "checker_source_sha256": "a820366a44435d9dbad99056b8b4c2ef67461e85f2b7c8d434bfba8a50d03dae"
+  },
+  "all_four_full_codes": 120,
+  "each_code_outside_distance_two_histogram": {
+    "2": 24,
+    "3": 4
+  },
+  "canonical_code": [
+    0,
+    15,
+    51,
+    60
+  ],
+  "canonical_outside_points": [
+    {
+      "vertex": 3,
+      "distance_two_full_roots": [
+        0,
+        15,
+        51
+      ]
+    },
+    {
+      "vertex": 5,
+      "distance_two_full_roots": [
+        0,
+        15
+      ]
+    },
+    {
+      "vertex": 6,
+      "distance_two_full_roots": [
+        0,
+        15
+      ]
+    },
+    {
+      "vertex": 9,
+      "distance_two_full_roots": [
+        0,
+        15
+      ]
+    },
+    {
+      "vertex": 10,
+      "distance_two_full_roots": [
+        0,
+        15
+      ]
+    },
+    {
+      "vertex": 12,
+      "distance_two_full_roots": [
+        0,
+        15,
+        60
+      ]
+    },
+    {
+      "vertex": 17,
+      "distance_two_full_roots": [
+        0,
+        51
+      ]
+    },
+    {
+      "vertex": 18,
+      "distance_two_full_roots": [
+        0,
+        51
+      ]
+    },
+    {
+      "vertex": 20,
+      "distance_two_full_roots": [
+        0,
+        60
+      ]
+    },
+    {
+      "vertex": 23,
+      "distance_two_full_roots": [
+        15,
+        51
+      ]
+    },
+    {
+      "vertex": 24,
+      "distance_two_full_roots": [
+        0,
+        60
+      ]
+    },
+    {
+      "vertex": 27,
+      "distance_two_full_roots": [
+        15,
+        51
+      ]
+    },
+    {
+      "vertex": 29,
+      "distance_two_full_roots": [
+        15,
+        60
+      ]
+    },
+    {
+      "vertex": 30,
+      "distance_two_full_roots": [
+        15,
+        60
+      ]
+    },
+    {
+      "vertex": 33,
+      "distance_two_full_roots": [
+        0,
+        51
+      ]
+    },
+    {
+      "vertex": 34,
+      "distance_two_full_roots": [
+        0,
+        51
+      ]
+    },
+    {
+      "vertex": 36,
+      "distance_two_full_roots": [
+        0,
+        60
+      ]
+    },
+    {
+      "vertex": 39,
+      "distance_two_full_roots": [
+        15,
+        51
+      ]
+    },
+    {
+      "vertex": 40,
+      "distance_two_full_roots": [
+        0,
+        60
+      ]
+    },
+    {
+      "vertex": 43,
+      "distance_two_full_roots": [
+        15,
+        51
+      ]
+    },
+    {
+      "vertex": 45,
+      "distance_two_full_roots": [
+        15,
+        60
+      ]
+    },
+    {
+      "vertex": 46,
+      "distance_two_full_roots": [
+        15,
+        60
+      ]
+    },
+    {
+      "vertex": 48,
+      "distance_two_full_roots": [
+        0,
+        51,
+        60
+      ]
+    },
+    {
+      "vertex": 53,
+      "distance_two_full_roots": [
+        51,
+        60
+      ]
+    },
+    {
+      "vertex": 54,
+      "distance_two_full_roots": [
+        51,
+        60
+      ]
+    },
+    {
+      "vertex": 57,
+      "distance_two_full_roots": [
+        51,
+        60
+      ]
+    },
+    {
+      "vertex": 58,
+      "distance_two_full_roots": [
+        51,
+        60
+      ]
+    },
+    {
+      "vertex": 63,
+      "distance_two_full_roots": [
+        15,
+        51,
+        60
+      ]
+    }
+  ],
+  "one_low_integer_bounds": [
+    {
+      "c6": 0,
+      "S_bound": 157,
+      "weighted_bound": 314
+    },
+    {
+      "c6": 1,
+      "S_bound": 158,
+      "weighted_bound": 317
+    },
+    {
+      "c6": 2,
+      "S_bound": 156,
+      "weighted_bound": 314
+    },
+    {
+      "c6": 3,
+      "S_bound": 157,
+      "weighted_bound": 317
+    },
+    {
+      "c6": 4,
+      "S_bound": 155,
+      "weighted_bound": 314
+    }
+  ],
+  "source_hashes": {
+    "q6_sources/q8_upper_independent/REFINEMENT_K3.md": "9630851daa0418e70d7ecc0cab479fabe17cceae8e0d659362ca4369089f11c9",
+    "q6_sources/q8_upper_independent/q6_degree_cnf.py": "c55a8ebfecd1a81c00cb4c87debc4c47be56259a6b9448f453d35bd4a31a092b",
+    "q6_sources/q8_upper_independent/rebuild_degree_cnf.py": "e4fbf187f67db2733a29e63ddb8671bf1b8614882c4a0a9578e8a81ccb632496",
+    "q6_sources/q8_upper_independent/rebuild_local_cnf.py": "c49d619bde50f9e8000df0c681384e1ba8e98bf06bf34e9722baffd4fbd74146"
+  },
+  "script_sha256": "46f5079ec35c86ae5adec2caeed38de949f096812859960c031705d2e08f3673"
+}

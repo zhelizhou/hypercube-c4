@@ -1,0 +1,12 @@
+{
+  "start_equality_index": 152,
+  "rows": 204,
+  "lambda_feature": "L/64 = K_packed F.T/(80*64512)",
+  "beta_feature": "-H/70",
+  "lift_packed": "edge3_sampling_inputs/LIFT_EDGE3_LIFT_PACKED_KERNELS.npz",
+  "beta_hypergeom": "edge3_sampling_inputs/BETA_HYPERGEOM_CURRENT_204x1751.npz",
+  "original_quadratic_weight_factor": "1/80",
+  "fullQ4_oracle_family_unchanged": true,
+  "K_vertexblock_iszero": true,
+  "total_equalities_with_prior63": 356
+}

@@ -1,0 +1,8 @@
+{
+  "discovery_rounds": 33,
+  "all_33_query_oracle_files_present": true,
+  "one_round_generic_cli_receipt_present": true,
+  "same_frozen_input": true,
+  "manifest_matches": true,
+  "discovery_not_rerun": true
+}

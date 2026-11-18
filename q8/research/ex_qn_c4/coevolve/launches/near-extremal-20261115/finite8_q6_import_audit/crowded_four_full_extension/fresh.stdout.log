@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "exactly four full specified-parity Q6 roots imply S+L<=144; no opposite restrictions; no graph census",
+  "four_full_codes": 120,
+  "orbit_isometries_enumerated": 23040,
+  "local_stars_tested": 1792,
+  "cross_patterns_tested": 192,
+  "degree4_count_cap": 12,
+  "conclusion": "S+L=80+28+3N4<=144",
+  "historical_pair_receipt_compared": true,
+  "all_current_C01_local_imports_closed_with_parent_audit": true,
+  "original_main_goal": "OPEN",
+  "checker_sha256": "2ac4d07fbeaccb4e418a434c0206f83a116d9621a00223cf92f5cc000e7fc95d"
+}

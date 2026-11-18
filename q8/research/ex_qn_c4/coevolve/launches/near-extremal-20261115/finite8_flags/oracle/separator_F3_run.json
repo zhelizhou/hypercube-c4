@@ -1,0 +1,13 @@
+{
+  "command": [
+    "./finite8_separator",
+    "separator_F3_matrices.txt",
+    "--linear",
+    "separator_F3_linear.txt"
+  ],
+  "returncode": 0,
+  "seconds": 2.3105808539985446,
+  "matrices_sha256": "e5d9f40cb3e8722813b4420af18ebb7ceff1bc1dca029ed0372e755d89e74915",
+  "linear_sha256": "89659fb94ca2f2b5cc8aa5ec673059ebe17296bbb8b88f50449007787411e322",
+  "stdout_sha256": "cce397bbc56ef670dd165aef9b2bcb85050dacea63ce64b1e2813b6c2e6c3756"
+}

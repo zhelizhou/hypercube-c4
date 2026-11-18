@@ -1,0 +1,19 @@
+{
+  "status": "EXACT_FULL_THIRD_ORDER_EDGE_SAMPLING_INTERFACE",
+  "equation": "35 LOCAL_COUNTS lambda =32 BETA_HYPERGEOM beta",
+  "rows": 204,
+  "rows_independent": false,
+  "full_beta": 5148,
+  "current_beta": 1751,
+  "lambda_library": 14090,
+  "all_original2788_and_current1751_dedup_classes_preserve_H": true,
+  "source_hashes": {
+    "SOURCE_0_GENERATOR_HISTOGRAMS.json": "d6c9385399fda253ab516f0bcc49982236651d1a97f6693defd28d6a4606e07f",
+    "SOURCE_1_GENERATOR_HISTOGRAMS.json": "b6425ccefcae05b586c78e2448d38bd5899c8064a6fcdf4818e711767b983b36",
+    "SOURCE_2_GENERATOR_DEDUPLICATION.json": "00c05b46a4a67e85a8bdb5b32b53e597ba24261a8eb552ef278594d22ed38e7c",
+    "SOURCE_3_GENERATOR_DEDUPLICATION.json": "4685e27fc3257dcc7f13265f88f64fc875a62844b8a7c0e10176efd66904c49e",
+    "SOURCE_4_POOL_GRAPH_CODES.json": "f791e08fd97bd35d56d05c09ec8fb2fb44ef6f6c81cfbfabeec098ec1288044a"
+  },
+  "scope": "GeneralC4freeQ8 identity; current1751adapter has separately justified maximal/leafdomain. All204localcounts admit the exactfullflagpairlift in ../finite8_degree_augmentation/edge3_quad_lift/; include its K/80 dual contribution in the existingcompleteQ4functional.",
+  "extra_oracle_score": "For integer204rowweights v, add sum_z v_z*LOCAL_COUNTS_z(K). Localcounts include BOTH endpointorientations; arbitrary suchscore isQ4isometry invariant."
+}

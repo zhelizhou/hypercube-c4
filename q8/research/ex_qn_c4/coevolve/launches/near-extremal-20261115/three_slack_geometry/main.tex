@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{lemma}{Lemma}\newtheorem{theorem}{Theorem}
+\begin{document}
+\title{A parity obstruction for the one-degree-two/four-degree-three profile}
+\maketitle
+\section{S01: Original-domain caller and three units of actual slack}
+Let$G\subseteq Q_8$ be any C4-free graph with683 edges, and suppose
+one specified global parity has degree counts
+\[
+           (n_0,\ldots,n_8)=(0,0,1,4,0,70,52,1,0).       \tag{1}
+\]
+The opposite parity is unrestricted. The specified parity has128 vertices and degree sum683.
+Use the reviewed actual-face theorem in
+\texttt{../q8\_crowded\_faces/main.tex}, with exactly its declared
+historical316/317/321 local imports and assurance. It gives
+\[
+ C(P)+\Phi_*\le1149,\qquad
+ C(P)=333+4\cdot177+105=1146,\quad\Phi_*\le3.             \tag{2}
+\]
+For each actual coordinate$Q_6$ face$F$, let$L_F$ count specified-parity
+roots of restricted degree at most two. The summand of$\Phi_*$ is
+$5L_F/2-t_*(L_F)$. It is zero at$L_F=0,2$, equals$3/2$ at$L_F=1,3$,
+and is at least6 whenever$L_F\ge4$. Thus every$L_F\le3$ and at most
+two of the112 actual faces have odd$L_F$. In fact their number is0 or2,
+since the total low-root incidence is$28+4\cdot18=100$, which is even.
+Only the upper bound of two is needed below.
+
+\section{S02: Transport from the same actual faces to direction pairs}
+Denote the unique degree-two root by$z$, and the four degree-three roots
+by$x_1,\ldots,x_4$, with their actual retained direction sets$A_i$,
+$|A_i|=3$. Repeated$A_i$ are permitted. Every other specified root has
+global degree at least five and cannot become low after two directions
+are omitted. No normalization, choice of another gauge, position
+classification, or condition on the retained pair at$z$ is needed.
+
+For an omitted coordinate pair$I$, the four actual faces are
+$F(I,b)$ for$b\in\{0,1\}^I$. Set
+\[
+ t_I=\sum_{b\in\{0,1\}^I}L_{F(I,b)}\pmod2,
+ \qquad T=\{I:t_I=1\}.                                 \tag{3}
+\]
+Each root occurs in exactly one of these four faces, with its own actual
+fixed bits. The degree-two root is always low there; a degree-three root
+is low exactly when$I\cap A_i\ne\varnothing$. Therefore the exact
+same-object identity is
+\[
+ t_I=1+\sum_{i=1}^4\mathbf1_{I\cap A_i\ne\varnothing}
+                                  \pmod2.               \tag{4}
+\]
+Every$I\in T$ has at least one odd$L_{F(I,b)}$ face above it.
+Different omitted pairs have disjoint sets of actual faces. Consequently
+\[
+        |T|\le\#\{F:L_F\text{ odd}\}\le2.               \tag{5}
+\]
+This is the required bridge retaining actual fixed bits and one common
+cube. It is a necessary consequence for every actual position choice,
+not an assertion that a surviving direction tuple could be completed.
+
+\section{S03: Eight odd coordinate degrees force four direction pairs}
+View$T$ as a simple graph on the eight coordinate labels. Fix a
+coordinate$a$. For any three-set$A$, among the seven pairs containing$a$,
+the number meeting$A$ is7 if$a\in A$, and3 if$a\notin A$.
+Both numbers are odd. Summing(4) over all$b\ne a$ therefore gives
+\[
+ \deg_T(a)\equiv7+\sum_{i=1}^4(7\text{ or }3)
+              \equiv1+4\equiv1\pmod2.                  \tag{6}
+\]
+All eight coordinate degrees are positive odd integers. The handshake
+identity yields$2|T|=\sum_a\deg_T(a)\ge8$, so
+\[
+                             |T|\ge4.                  \tag{7}
+\]
+Equations(5) and(7) contradict one another.
+
+\begin{theorem}
+The complete one-sided degree profile(1) cannot occur in any683-edge
+C4-free subgraph of$Q_8$, with the opposite parity unrestricted.
+\end{theorem}
+\begin{proof}
+An arbitrary graph in this domain satisfies S01. Its five actual low
+roots, retained direction masks and all112 fixed-bit faces give S02,
+regardless of their common positions and permitting repeated masks.
+The elementary parity argument S03 contradicts S02. Hence no such graph
+exists.
+\end{proof}
+
+\section{S04: Optional finite calibration and precise remaining scope}
+Before the short parity argument was extracted,
+\texttt{scan\_four\_threes.py} actually enumerated all
+$\binom{56+4-1}4=455126$ multisets of four three-masks, repetitions
+allowed. It used(4), equivalently
+$t=\mathbf1\oplus\bigoplus_i k([8]\setminus A_i)$, and found
+minimum support size6, attained2800 times; no support of size0,1 or2.
+The full exact histogram is saved in\texttt{FOUR\_THREE\_DIRECTIONS.json}.
+This finite calculation is calibration and is not a proof premise:
+the weaker analytic lower bound4 already contradicts the exact caller.
+No direction survivor was treated as a graph, and no position search,
+ordinary/high-star or hole completion is needed after this necessary
+gate has already closed the entire branch.
+
+This is a local author proof returned for Root's fresh review, modulo
+the caller's historical local imports. No historical certificate was
+replayed, and no Lean, SAT solver or TeX/PDF build is claimed. The other
+five$C(P)=1146$ rows, and all other remaining683-edge profiles, are not
+excluded here. The unrestricted goal$\operatorname{ex}(Q_8,C_4)\le682$
+remains open. The frozen mixed-zero-row proof and review were not edited.
+\end{document}

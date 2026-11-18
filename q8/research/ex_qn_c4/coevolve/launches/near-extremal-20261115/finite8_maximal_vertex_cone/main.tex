@@ -1,0 +1,217 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm,hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\Om}{\Omega^{\mathrm{max}}}
+\begin{document}
+\title{A maximal-only degree-conditioned vertex-frequency cone for $Q_8$}
+\author{Task-local proof candidate}
+\date{16 November 2026}
+\maketitle
+This package gives a necessary condition for inclusion-maximal $C_4$-free
+spanning subgraphs of $Q_8$. It does not prove the upper bound $682$.
+The exact source, complete-domain checks, literal graph calibrations and
+one separating integer kernel are supplied alongside this TeX.
+Fresh semantic review is separate from the author's computational checks.
+
+\section{MV01: actual marked states and maximality}
+At a marked root $v$, order the square edges as
+$(00,10),(00,01),(10,11),(01,11)$, with $v=00$.
+Canonicalize only by interchanging the two axes, preserving $v$.
+The nine nonfull codes, in state order, are
+\[
+ 0,1,3,4,5,6,7,12,13.
+\]
+For the number of retained incident root edges, their groups are
+\[
+ I_0=\{0,3,7\},\quad I_1=\{1,4,5,8\},\quad I_2=\{2,6\}.
+\]
+Write $x_v$ for the nine-state histogram of all $\binom82=28$
+unordered direction pairs, and $d=d_H(v)$. Then
+\[
+ X_0:=\sum_{I_0}x_i=\binom{8-d}{2},\quad
+ X_1:=\sum_{I_1}x_i=d(8-d),\quad
+ X_2:=\sum_{I_2}x_i=\binom d2.                 \tag{1}
+\]
+These count pairs with zero, one, and two retained incident root edges.
+
+\begin{theorem}[MV01]
+If $H\subseteq Q_8$ is inclusion-maximal and $C_4$-free, every vertex
+satisfies $x_8\ge8-d$. In particular $d\ne0$, and $d=1$ forces
+$x_8=7$ and all other $I_1$ coordinates to vanish.
+\end{theorem}
+\begin{proof}
+For every missing root direction $i$, adding that ambient edge creates
+a four-cycle. A cube four-cycle uses two directions, so for some $j\ne i$
+the other three edges in the $\{i,j\}$ square are retained.
+Its other incident root edge is retained and both remote edges are
+retained. The resulting code is $14$ or $13$ depending on axis order;
+both have canonical code $13$, state $8$.
+Conversely every state-$8$ square has exactly one missing root edge.
+Mapping it to that missing direction is therefore a surjection from
+the state-$8$ squares onto the $8-d$ missing root directions. This
+proves the inequality, without claiming uniqueness of completions.
+If $d=0$, (1) forces $x_8=0$, a contradiction. If $d=1$, (1) gives
+$X_1=7$, so the inequality forces the stated pure mixed-state boundary.
+\end{proof}
+
+\section{MV02: complete finite domain}
+Let $\Omega_d$ be all nonnegative integer histograms satisfying (1), and
+\[
+ \Om_d=\{x\in\Omega_d:x_8\ge8-d\}.
+\]
+This is a necessary histogram domain, not a graph realization claim.
+The degree-zero domain is empty. For $1\le d\le8$, replacing $x_8$
+by $y_8=x_8-(8-d)$ bijects it to independent weak compositions into
+groups of sizes $3,4,2$, with totals
+\[
+ A_0=\binom{8-d}{2},\quad A_1=(d-1)(8-d),\quad A_2=\binom d2.
+\]
+Thus
+\[
+ |\Om_d|=\binom{A_0+2}{2}\binom{A_1+3}{3}(A_2+1).
+\]
+For $d=0,\ldots,8$ the counts are
+\[
+ 0,253,22848,75504,89180,50050,13728,1848,29,
+\]
+whose sum is $253440$. The original domains have total $674172$.
+Assigning the first coordinates in each group and setting its final
+coordinate to the remaining total enumerates every weak composition
+once. Adding $8-d$ back to coordinate $8$ proves the native oracle's
+complete coverage. The independent Python checker instead enumerates
+all original domains and filters directly by $x_8\ge8-d$.
+No finite minimum is assigned to $\Om_0=\varnothing$.
+
+\section{MV03: the same actual moment and profile weights}
+We import the exact algebraic vertex sampling identity from
+\texttt{../finite8\_flags/main.tex}, G01--G02, in precisely the state order
+above. Let $\lambda$ be the empirical distribution of the $1120$
+coordinate $Q_4$ restrictions of the same actual graph. For every
+symmetric real matrix $Q$, its existing vertex functional satisfies
+\[
+ \mathbb E_\lambda T_Q=\operatorname{tr}(Q M_5(\lambda)),\qquad
+ M_5(\lambda)=\frac1{256}\sum_v\frac{x_vx_v^{\mathsf T}}{784}.       \tag{2}
+\]
+The identity includes disjoint, overlap-one, and equal direction-pair
+samples with probabilities $15/28,12/28,1/28$; it is algebraic and does
+not require $Q$ to be PSD.
+Define $\gamma_{d,x}$ as the actual fraction of vertices with degree
+$d$ and histogram $x$. Theorem MV01 and (2) give
+\[
+ M_5(\lambda)=\sum_{d=1}^8\sum_{x\in\Om_d}
+       \gamma_{d,x}\frac{xx^{\mathsf T}}{784},\quad
+ \gamma_{d,x}\ge0,\quad \sum_x\gamma_{d,x}=\frac{N_d}{256}.         \tag{3}
+\]
+The actual degree-zero mass is zero. If $\alpha$ is half the sum of the
+two actual parity-profile point masses, then
+\[
+ \sum_p\alpha_p n_d(p)=N_d/2,\qquad
+ \sum_x\gamma_{d,x}=\sum_p\frac{\alpha_p n_d(p)}{128}.             \tag{4}
+\]
+Equations (2)--(4) use the same actual graph and the same $\lambda$ and
+$\alpha$ as the parent's other constraints. Parent profile coverage
+and any maximal-counterexample edge-count reduction are separate
+hypotheses. No fixed edge count is needed here.
+Every generator is PSD, so the full refined cone implies vertex PSD;
+no converse graph realization is asserted.
+
+\section{MV04: exact price and universal cut}
+\begin{theorem}[MV04]
+Suppose $Q$ is symmetric and integer, and integers $B_1,\ldots,B_8$
+satisfy $x^{\mathsf T}Qx+B_d\ge0$ on every $\Om_d$, $1\le d\le8$.
+Every inclusion-maximal $C_4$-free $H\subseteq Q_8$ supplies common
+actual data satisfying
+\[
+ \mathbb E_\lambda T_Q+
+ \sum_p\alpha_p\sum_{d=0}^8\frac{B_dn_d(p)}{128\cdot784}\ge0,     \tag{5}
+\]
+where $B_0=0$ by convention.
+\end{theorem}
+\begin{proof}
+Multiply the pointwise inequalities by $\gamma_{d,x}/784$ and sum.
+Equations (2)--(4) give (5). There are no degree-zero generators;
+$B_0=0$ does not stand for a minimum on the empty domain.
+\end{proof}
+For arbitrary integer $Q$, choose $B_d=-\min_{\Om_d}x^{\mathsf T}Qx$
+for $d=1,\ldots,8$. The minima are finite since these domains are
+finite and nonempty. The native oracle enumerates every element and
+returns exact minima, witnesses and counts, with null minimum and
+witness at degree zero. It also accepts integer input biases.
+For signed int64 entries and biases,
+\[
+ |x^{\mathsf T}Qx+B_d|\le785\cdot2^{63}<2^{73};
+\]
+casts before multiplication and signed 128-bit accumulation safely
+contain every term and cumulative absolute sum. The parser requires
+exactly $81+9$ in-range integer tokens and a symmetric query.
+
+For the existing folded coefficient $c_{5,i,j}(K)$,
+\[
+ T_Q(K)=\sum_{i\le j}\frac{c_{5,i,j}(K)Q_{ij}}{64512}.
+\]
+True matrix numerators are $U_{ii}=2c_{5,i,i}$ and $U_{ij}=c_{5,i,j}$
+for $i\ne j$, so $M_5=\mathbb E_\lambda U/(2\cdot64512)$.
+Generator upper coordinates use $x_i^2/784$ on the diagonal and
+$2x_ix_j/784$ off the diagonal when paired with upper entries of $Q$.
+
+\section{MV05: nine all-$\lambda$ consequences}
+Set $l=(-2,-1,0,-2,-1,-1,0,-2,6)^{\mathsf T}$.
+Equation (1) gives $X_1+2X_2=7d$ and $X_0+X_1+X_2=28$, hence
+\[
+ l^{\mathsf T}x=7x_8-2X_0-X_1=7[x_8-(8-d)]\ge0.
+\]
+For $Q^{(i)}=e_i l^{\mathsf T}+l e_i^{\mathsf T}$,
+\[
+ x^{\mathsf T}Q^{(i)}x=2x_i(l^{\mathsf T}x)\ge0.
+\]
+Thus $\mathbb E_\lambda T_{Q^{(i)}}=2(M_5(\lambda)l)_i\ge0$ for every
+$i$, or $M_5(\lambda)l\ge0$ componentwise. These are consequences of
+the full cone. No claim is made that these nine rows separate the
+parent's current point.
+
+\section{MV06: exact finite checks and boundary failures}
+The frozen files in \texttt{pricing\_master050/} give an integer
+kernel and degree biases from complete native pricing over all
+$253440$ generators. The saved point has $403$ positive local columns
+and $1409$ positive profile columns. Its separately normalized exact
+rational target pairs with (5), after positive normalization $10^6$,
+to approximately $-0.0000887217515259$.
+The complete integer data and exact rational value are in
+\texttt{CONDITIONAL\_VERTEX\_CUT.json}; this separates one abstract
+maximal-scope tuple and is not a whole-model infeasibility certificate.
+The independent Python checker replays every degree minimum using
+ordered arbitrary-precision quadratic forms. It also checks a dense
+query with both int64 endpoints and nonzero biases, and verifies
+rejection of malformed, overflowing and asymmetric input.
+
+The literal $682$-edge seed and the $576$-edge maximal graph with leaves
+are both checked for ambient edges, absence of $C_4$, and a completion
+for every missing edge. Every actual vertex satisfies the refined
+condition and all nine consequences. On all $1120$ coordinate $Q_4$
+restrictions of each graph, the exact matrix identity is
+\[
+ U_{\mathrm{local,total}}=720\sum_v x_vx_v^{\mathsf T}.
+\]
+The seed has $N_4=2,N_5=168,N_6=86$ and eight distinct histogram columns.
+The leaf graph has degree counts $(0,2,14,42,70,70,42,14,2)$ and $182$
+distinct histogram columns. It attains equality in the maximality gate,
+so the genuine leaf boundary is retained.
+
+Maximality cannot be dropped. The empty graph has $d=0$ and $x=28e_0$,
+violating $x_8\ge8$. It gives $\mathbb E T_{Q^{(0)}}=-4$.
+The graph with only edge $01$ has, at root $0$, degree one and
+histogram $(21,7,0,\ldots,0)$, violating $x_8\ge7$.
+These actual nonmaximal graphs preclude applying (5) to arbitrary
+$C_4$-free graphs without a separate maximal-extension argument.
+
+\paragraph{Reproduction and status.}
+Compile \texttt{price\_domain.cpp} with C++17 and run
+\texttt{python3 check.py}. The separate discovery interface is
+\texttt{python3 price\_point.py POINT\_JSON NEW\_RUN\_DIR [MAX\_ROUNDS]}.
+It validates proposed cuts using complete exact minima; failure to
+find a cut is inconclusive. The detailed proof, assumptions, exact
+records, scope and recovery interface are in \texttt{PROOF.md}.
+No TeX build, Lean proof, fresh semantic acceptance, or upper-bound
+certificate is claimed by this package.
+\end{document}

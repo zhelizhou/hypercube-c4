@@ -1,0 +1,35 @@
+{
+  "status": "FOUR_EXACT_CONNECTOR_PARAMETERS_ADDED",
+  "parameters": [
+    {
+      "block": 0,
+      "row": 7890,
+      "cut_sha256": "cc8a07aac98338203c923abebe3fa039a0fca7608801a9491c8408b55ed1eea1",
+      "old_point_normalized_pairing": "-1693100059519359311974933324979/96000048000000000000000000000000000"
+    },
+    {
+      "block": 1,
+      "row": 7891,
+      "cut_sha256": "22ec3ac6f46491e8bd3c747f9a46c940821ad8c6c6d9f295778ea57fcf3b947a",
+      "old_point_normalized_pairing": "-40678471308812660802963900023419/288000144000000000000000000000000000"
+    },
+    {
+      "block": 2,
+      "row": 7892,
+      "cut_sha256": "c5bc0528ef995fb6f5a268a047c22e49f5aa5793900c6eda61bdbc7cac2a1bea",
+      "old_point_normalized_pairing": "-13091007345096861722064084910031/64000032000000000000000000000000000"
+    },
+    {
+      "block": 3,
+      "row": 7893,
+      "cut_sha256": "f68b2271f4baa3a7b09fda580995cb70543657e77b71db3a3302c97555fa165b",
+      "old_point_normalized_pairing": "-48456514482098124277661496750029/576000288000000000000000000000000000"
+    }
+  ],
+  "old_cut_library_sha256": "d86788ba30474a8786357220673920eee11abbf7025e069a1a11c512f41ed485",
+  "new_cut_library_sha256": "9108ddde8b374ed391f04aa82b7c58419f712589cde3af3b683b07332f827053",
+  "new_full_rows": 7894,
+  "same356eq14838library1409alpha1751beta": true,
+  "PD_qualification": "Root exactLDL blocks1/2/3strictPD atoldpoint; block0hadPSDdefect; notwholefamilybarrier",
+  "concrete_replay": "INDEPENDENT_CHECK.json"
+}

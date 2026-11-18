@@ -1,0 +1,9 @@
+{
+  "model_status": "HighsModelStatus.kTimeLimit",
+  "eqres": 5.551115123125783e-16,
+  "ineqviol": 0.00020815789819477465,
+  "artificial_max": 0.0,
+  "minimum_variable": -0.0055659599362678615,
+  "objective": 0.0,
+  "master": 2
+}

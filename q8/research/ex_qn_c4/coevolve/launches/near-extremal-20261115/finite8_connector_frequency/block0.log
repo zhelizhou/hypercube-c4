@@ -1,0 +1,11 @@
+{
+  "primal_status": 2,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "primal_seconds": 0.40796362399851205,
+  "exact_status": "NOT_YET_CERTIFIED",
+  "status": "NUMERIC_INFEASIBLE_EXACT_DUAL_PENDING",
+  "dual_status": 0,
+  "dual_seconds": 2.0242801050007984,
+  "dual_objective": -0.00318273076138342,
+  "minimum_generator_value": -1.0755285551056204e-16
+}

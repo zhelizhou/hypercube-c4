@@ -1,0 +1,41 @@
+{
+  "status": "complete author proofs; independent review requested separately",
+  "claims": [
+    "At most one specified-side degree<3 root:2S+c6<=317",
+    "At most two specified-side degree<3 roots:2S+c6<=321"
+  ],
+  "opposite_parity": "unrestricted",
+  "new_solver_runs": 0,
+  "historical_traces_strictly_replayed": 2,
+  "verified_additions": [
+    2618,
+    2801
+  ],
+  "fresh_exact_code_coverage": 120,
+  "sharpness": "not established; observed historical value316 independently checked",
+  "files": {
+    "PROOF.md": "d89d28cf29345145bcba76eaee444f45908f1fe5ab98db6148208e9e4fef554f",
+    "TWO_LOW_EXTENSION.md": "21bd93947610aa60f4c0df6c6e66462dfb6903d4dc7df5d3fa301b019b41eb63",
+    "check_import.py": "46f5079ec35c86ae5adec2caeed38de949f096812859960c031705d2e08f3673",
+    "IMPORT_CHECK.json": "5bd813d13ae63292aba2bb8fffc2265e96e90dd73c71f7521d630e89c0de0eef",
+    "check_import.stdout.txt": "b9c5b4c006af3f4a4d8e9b9b72655fbfc173393675df062cf2e7b7e14bd5b447",
+    "import_rup.stdout.txt": "d67f131ae704e647be7332f0ad390fb074b503c225a3815d07cbc6e1fdaf7031",
+    "import_rup.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "check_two_low.py": "b98deb79ecbcd32efd0314fbfe6df58aefabc96b0cb9678706f40c8b6e2f135a",
+    "TWO_LOW_CHECK.json": "fff23071789b2c9c5134da3c3bbad970ae6ebccce5688864ad82c12cff9e847d",
+    "check_two_low.stdout.txt": "fff23071789b2c9c5134da3c3bbad970ae6ebccce5688864ad82c12cff9e847d",
+    "two_low_rup.stdout.txt": "3969c46b914fd178c0f3de8bb26741099749f7431839aae12b18efc5a9298237",
+    "two_low_rup.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scan_witnesses.py": "368b65201485cd76bd69dc194586ba50a0051245d3139c300c9c2973e6c25b3b",
+    "WITNESS_SCAN.json": "50a04555ab57880e304fc4b6004a1b699f2bcab11ca0f96d304a5c117a07b761",
+    "scan_witnesses.stdout.txt": "0de5418553127c19f0c7fb85a33091527d8a56599d4c0ab95a1c1fdc0bbe6063",
+    "historical_316.edges": "7d814744c00fab7ca0a60764a60e29d81996f932c40a18a0f7cd2f2800ef3c71",
+    "historical_316_verified.json": "ed090d76758f6c870a17f37731bdd1ad0f0348419d61657922f1f3ad96c50dc2"
+  },
+  "corrected_discovery_error": {
+    "file": "scan_witnesses_initial_failed.py",
+    "error": "Initial investigation paragraph incorrectly called all26 sides min3; exact assertion failed and was corrected to24 min3 plus2 single degree2 sides. Mathematics unaffected.",
+    "initial_script_sha256": "46b07d46d76c470380dc500a7e317be23fa7ca24d122dd00622d12cf795af778",
+    "exit_code": 1
+  }
+}

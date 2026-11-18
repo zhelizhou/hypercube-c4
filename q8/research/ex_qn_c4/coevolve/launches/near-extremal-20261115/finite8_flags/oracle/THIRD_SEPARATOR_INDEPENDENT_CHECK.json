@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "check": "literal common-neighbor C4 criterion and separately evaluated exact finite8 score",
+  "source_sha256": "c78c235ad2dde9b9a954fae0c713aded05e006fb2e142aa1e6826494eb2747cd",
+  "graph_mask": 1774744440,
+  "edge_count": 16,
+  "score_S": 75264,
+  "scope": "legal Q4 local separator violator only, not a Q8 graph"
+}

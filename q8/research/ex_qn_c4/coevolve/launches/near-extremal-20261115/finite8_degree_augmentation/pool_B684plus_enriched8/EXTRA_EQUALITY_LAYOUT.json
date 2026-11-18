@@ -1,0 +1,17 @@
+{
+  "base_equalities": 89,
+  "balance_start": 89,
+  "balance_rows": 36,
+  "balance_LP_positive_divisor": 7,
+  "moment_start": 125,
+  "moment_rows": 27,
+  "moment_LP_positive_divisor": 129024,
+  "moment_lambda_integer_multiplier": 7,
+  "moment_beta_integer_multiplier": -2304,
+  "moment_original_packed_weight_factor": "7/2",
+  "balance_matrix": "edge_vertex_bridge_inputs/BALANCE_CURRENT_36x1751.npz",
+  "moment_beta_matrix": "edge_vertex_bridge_inputs/MOMENT_BETA_CURRENT_27x1751.npz",
+  "moment_selector_matrix": "edge_vertex_bridge_inputs/MOMENT_PACKED9_SELECTOR_TWICE_27x45.npz",
+  "same_beta_order": true,
+  "no_independence_claim_for63_rows": true
+}

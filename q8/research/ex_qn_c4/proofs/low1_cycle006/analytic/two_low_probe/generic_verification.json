@@ -1,0 +1,19 @@
+{
+  "n": 4,
+  "edges": 20,
+  "squares": {
+    "0": 1,
+    "1": 1,
+    "2": 7,
+    "3": 15
+  },
+  "c4_common_neighbors": 0,
+  "degree_histogram": {
+    "1": 2,
+    "2": 5,
+    "3": 8,
+    "4": 1
+  },
+  "sha256": "32e4849646f6873650f5cbf57d0c94b29813a67d29eeb327e1c9db0d52b77b7c",
+  "valid_c4_free": true
+}

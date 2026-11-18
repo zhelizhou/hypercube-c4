@@ -1,0 +1,124 @@
+{
+  "primary_683_goal": "OPEN",
+  "finite8_bridge": "Candidate direct proof plus exact geometry regression; no canonical audit",
+  "six_block_family": "Strict rational PSD primal obstruction above683/1024, author exact verified",
+  "family_point_density": "76799371703/113777777664",
+  "family_point_scope": "Distribution on818 legalQ4 graphs, not actualQ8 graph",
+  "optimization_scope": "35 actual small restricted-pool rounds; no same-family continuation",
+  "active_processes": [],
+  "ownership": "Worker files only; Root owns deps/ and oracle/ and their reports",
+  "files": {
+    "STATEMENT.md": {
+      "bytes": 2267,
+      "sha256": "fb82d1e5d8ce7cf84a55c229a151593f023308593312f98de2f95fdd9615b232"
+    },
+    "finite_flags.py": {
+      "bytes": 6881,
+      "sha256": "e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25"
+    },
+    "working_lp.py": {
+      "bytes": 8229,
+      "sha256": "26d91801f23d964e1092f20bd9b5d066bdc1078162186e6a9f5f0fe99cd546b3"
+    },
+    "working_lp.started.json": {
+      "bytes": 1720,
+      "sha256": "c0aa5d31bd1ac9276d3205955166dd721cba0203a7848ecdfa0509769c69dd78"
+    },
+    "working_lp.history.json": {
+      "bytes": 19498,
+      "sha256": "2ebf8b3fe9d380ac4178caf3ea7af3d0dfefcbf0f8e7621e4576a6a753e2fa86"
+    },
+    "working_lp.RESULT.json": {
+      "bytes": 374,
+      "sha256": "93c136fc8ffb05e38da65ff5268784da3a7a582aff1fea6ca1765ba4f706e646"
+    },
+    "working_lp.log": {
+      "bytes": 16456,
+      "sha256": "677c0434c949e2e8c8c08a2cf4d5e9faf8b1c841b8a5fcb7a38da4d432633b4b"
+    },
+    "working_candidate.json": {
+      "bytes": 372092,
+      "sha256": "e025062107d773faf226e8c2b77e50aebd686bc73f2d8917bf142fa8cf7dff0e"
+    },
+    "working_features.npz": {
+      "bytes": 35697,
+      "sha256": "a6267f9b639d05d1405c4694fb4665b458c09e6097eb03ad1e4923a801e194d1"
+    },
+    "working_density.npy": {
+      "bytes": 9408,
+      "sha256": "09f2157a24fe2b2677ad11cf5bebe2aaaffc650a612c02b5d9347103f1295e09"
+    },
+    "working_graphs.json": {
+      "bytes": 13849,
+      "sha256": "757ea429f431279929372fe481b45dfd57bb465c716f0cf22d18d1113ed1e263"
+    },
+    "FAMILY_OBSTRUCTION.json": {
+      "bytes": 93825,
+      "sha256": "fdbd082699eff6d46899d6a501945881cf6f6fed48735dd3a326c5db8080aec6"
+    },
+    "point_reproduction.json": {
+      "bytes": 93825,
+      "sha256": "fdbd082699eff6d46899d6a501945881cf6f6fed48735dd3a326c5db8080aec6"
+    },
+    "certify_lp_point.py": {
+      "bytes": 3669,
+      "sha256": "921615872581414d8a2088c3b1dbda13675093183ec847ccc7e574623391ae3e"
+    },
+    "verify_obstruction.py": {
+      "bytes": 8182,
+      "sha256": "bace65c9200e75b48b80178f5b7426da3b31c899f39ea7e6b88c4ce99f397841"
+    },
+    "OBSTRUCTION_VERIFICATION.json": {
+      "bytes": 1260,
+      "sha256": "6a8233b1044ba5c93769a2e4a546fb856dc8c31b3ac0a61c90e8dfd9876c6368"
+    },
+    "obstruction-verification.stdout.json": {
+      "bytes": 1260,
+      "sha256": "6a8233b1044ba5c93769a2e4a546fb856dc8c31b3ac0a61c90e8dfd9876c6368"
+    },
+    "FINITE8_BRIDGE_AND_OBSTRUCTION.md": {
+      "bytes": 20046,
+      "sha256": "067fb6b97ce0cbb497400c8a702d44df9cb7b828c0a3832bf551065bf302de5b"
+    },
+    "RESULT.md": {
+      "bytes": 2940,
+      "sha256": "9bbdf19d6456a7f9df066fc6e032d9b7d8a54d2938c8e70d337e4bb188cc8e6d"
+    },
+    "Q7_A_point.json": {
+      "bytes": 39729,
+      "sha256": "78315daec275a4e8508d73cf5652d8a9c096678820cb8d6d8fff97b599813027"
+    },
+    "Q7_A_slices.json": {
+      "bytes": 39870,
+      "sha256": "71a37b3dfcba1f82fd1f2ec873ed1bf062af9da90f9c3041dd7e729eb0d9a588"
+    },
+    "Q7_A_EXACT_MATRIX_CHECK.json": {
+      "bytes": 3394,
+      "sha256": "326fd5a4724ccf1e66cc82a9bc025ab024b01a0294d06afdfe674d05f12c56f6"
+    },
+    "Q7_B_point.json": {
+      "bytes": 43432,
+      "sha256": "10bdd2a55c42213f3824e223c88abdac5733d3f279a108655e589f1f391d33de"
+    },
+    "Q7_B_slices.json": {
+      "bytes": 39863,
+      "sha256": "7ea34fde232346dee3dcaff6f455af29511315a30317ffc810547504233ee2af"
+    },
+    "Q7_B_EXACT_MATRIX_CHECK.json": {
+      "bytes": 3566,
+      "sha256": "0dcec010cecb2222c9977aa4163e2eadb16e3f3a01bf371302b793c0a58e3ac2"
+    },
+    "Q8_seed682_point.json": {
+      "bytes": 42706,
+      "sha256": "25e4b5b109d5e0bfa03ea142256aade81902d5ee6cf294578f986a5202b5c01f"
+    },
+    "Q8_seed682_slices.json": {
+      "bytes": 159198,
+      "sha256": "c929df3790e5da3dd969d4d0d92ed3b442917956e47bd2e4ecf03d5d7328b113"
+    },
+    "Q8_seed682_EXACT_MATRIX_CHECK.json": {
+      "bytes": 15436,
+      "sha256": "5f3c5e3f715b885f224484a6d935f84c0992769bc89bc2d298ce35b3c5c18aa8"
+    }
+  }
+}

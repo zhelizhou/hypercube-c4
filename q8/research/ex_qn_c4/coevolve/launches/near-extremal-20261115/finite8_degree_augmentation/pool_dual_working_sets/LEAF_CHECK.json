@@ -1,0 +1,79 @@
+{
+  "scope": "elementary maximality consequences; necessary restrictions, no682 theorem",
+  "histograms": {
+    "total": 1716,
+    "removed": 230,
+    "kept": 1486,
+    "endpoint_C2_invariant": true,
+    "old_moment_plus_endpoint_classes": 918,
+    "mixed_allowed_bad_classes": 0
+  },
+  "calibration": {
+    "initial_edges": 15,
+    "final_edges": 576,
+    "C4_free": true,
+    "maximal": true,
+    "leaf0_preserved": true,
+    "degree_counts": {
+      "0": 0,
+      "1": 2,
+      "2": 14,
+      "3": 42,
+      "4": 70,
+      "5": 70,
+      "6": 42,
+      "7": 14,
+      "8": 2
+    },
+    "leaves": [
+      0,
+      131
+    ],
+    "full_neighbors": [
+      1,
+      3
+    ],
+    "pure_leaf_edge_histograms": [
+      {
+        "edge": [
+          0,
+          1
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          7
+        ]
+      },
+      {
+        "edge": [
+          3,
+          131
+        ],
+        "counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          7,
+          0
+        ]
+      }
+    ],
+    "missing_edges": 448,
+    "closing_histogram": {
+      "1": 148,
+      "6": 2,
+      "5": 15,
+      "4": 50,
+      "3": 99,
+      "2": 134
+    },
+    "sha256": "c5a8229e71f85a76a0f225233285241324816024772c80878b6d51b2cf1480af"
+  }
+}

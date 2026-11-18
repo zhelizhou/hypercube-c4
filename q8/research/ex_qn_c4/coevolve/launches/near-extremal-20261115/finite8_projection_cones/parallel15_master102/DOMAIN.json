@@ -1,0 +1,27 @@
+{
+  "source_matrix_sha256": "f96b3d46d0b54bb3d4395156d7c06e3667d28a695e8e1363201a2ee596f43a88",
+  "source_histogram_sha256": "078492d4aa90c700d28e442eea316d914d274a79c654df6989314013d1b1c066",
+  "generic_label_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "coverage": "All54264 unique nonnegative16-label sum6 vectors; each normalized column=xxT/36. OldsupportstateIDs are not used.",
+  "labels": 15,
+  "histograms": 38760,
+  "tail_zero_filter": true,
+  "source_domain_labels": 16
+}

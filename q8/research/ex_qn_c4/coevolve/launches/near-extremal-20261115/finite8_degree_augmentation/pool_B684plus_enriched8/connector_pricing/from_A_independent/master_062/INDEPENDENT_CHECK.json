@@ -1,0 +1,63 @@
+{
+  "status": "ALL_EMITTED_CUTS_EXACTLY_REPLAYED",
+  "actual_Q4_masks": 892,
+  "results": [
+    {
+      "block": 0,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 240,
+      "normalized_pairing": "-4947833694357917502357197/720000360000000000000000000000",
+      "float_normalized_pairing": -6.871987806169871e-06,
+      "full_state_dimension": 240,
+      "exact_nonPSD_noncopositive_witness": {
+        "total": 4,
+        "histogram": {
+          "0": 1,
+          "6": 3
+        },
+        "quadratic": -3199872
+      },
+      "cut_sha256": "9deb88095a43ee8f7f9e64d0f9b8b383cef2179f8b37f46f6e0f3c9cd9fe6eb0"
+    },
+    {
+      "block": 1,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 66,
+      "normalized_pairing": "-3485431642001357468875153103/57600028800000000000000000000000",
+      "float_normalized_pairing": -6.051093575150014e-05,
+      "full_state_dimension": 212,
+      "exact_nonPSD_noncopositive_witness": {
+        "total": 4,
+        "histogram": {
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "quadratic": -31070
+      },
+      "cut_sha256": "16add964d37b3d34f50bb3bb69fca282a46f4fbacbf61a4ebd9fdbc6876a534a"
+    },
+    {
+      "block": 3,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 128,
+      "normalized_pairing": "-204962776159741987181052587/7542861600000000000000000000000",
+      "float_normalized_pairing": -2.7173079267388652e-05,
+      "full_state_dimension": 187,
+      "exact_nonPSD_noncopositive_witness": {
+        "total": 4,
+        "histogram": {
+          "1": 1,
+          "3": 2,
+          "6": 1
+        },
+        "quadratic": -245842
+      },
+      "cut_sha256": "aa58cede5e1b0060a21550c5280392c571a3dc6b52ef9acc9dcdb42aea8ede5e"
+    }
+  ],
+  "scope": "Concrete parameter replay of the alreadyfreshreviewed universal connectorfinite6 implication; not wholefamilyNO orfullPSD/graphacceptance"
+}

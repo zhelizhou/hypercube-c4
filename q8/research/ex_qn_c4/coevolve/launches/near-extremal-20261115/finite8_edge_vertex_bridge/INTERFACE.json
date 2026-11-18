@@ -1,0 +1,103 @@
+{
+  "status": "EXACT_MAP_EXPORT_AND_DEDUP_CHECKS_PASS",
+  "source_files": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/GENERATOR_HISTOGRAMS.json": "d6c9385399fda253ab516f0bcc49982236651d1a97f6693defd28d6a4606e07f",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/GENERATOR_HISTOGRAMS.json": "b6425ccefcae05b586c78e2448d38bd5899c8064a6fcdf4818e711767b983b36",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/GENERATOR_DEDUPLICATION.json": "00c05b46a4a67e85a8bdb5b32b53e597ba24261a8eb552ef278594d22ed38e7c",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_edge_degree_dynamic/GENERATOR_DEDUPLICATION.json": "4685e27fc3257dcc7f13265f88f64fc875a62844b8a7c0e10176efd66904c49e"
+  },
+  "order_sha256": "06a2c42861dee00e89f1e8bf21e89a0f0f145f98b7404910bc146cbcabb22a92",
+  "artifacts": {
+    "full_C": {
+      "npz": "C_FULL_162x5148.npz",
+      "json": "C_FULL_162x5148.json",
+      "shape": [
+        162,
+        5148
+      ],
+      "nnz": 35182,
+      "json_sha256": "13ec6cdaea13705af3b28cab10f76a48a8af980b098055896a03515c0ea78c0f"
+    },
+    "missing_C": {
+      "npz": "C_MISSING_81x5148.npz",
+      "json": "C_MISSING_81x5148.json",
+      "shape": [
+        81,
+        5148
+      ],
+      "nnz": 23948,
+      "json_sha256": "4e4fe89fe81aaace0657b3296de6789df1392009a65ffdc9d51be08a93e0296a"
+    },
+    "retained_C": {
+      "npz": "C_RETAINED_81x5148.npz",
+      "json": "C_RETAINED_81x5148.json",
+      "shape": [
+        81,
+        5148
+      ],
+      "nnz": 11234,
+      "json_sha256": "3d717ef13d0d75979a7f733099d5490c7db57bd72645a142142cc6fcad2692fd"
+    },
+    "full_balance": {
+      "npz": "BALANCE_FULL_36x5148.npz",
+      "json": "BALANCE_FULL_36x5148.json",
+      "shape": [
+        36,
+        5148
+      ],
+      "nnz": 19624,
+      "json_sha256": "9e01cdc46761f139b48418f2a407c12c82f7941b2d5da8e2afbdfae04b7647bb"
+    },
+    "old_balance": {
+      "npz": "BALANCE_OLD_36x2788.npz",
+      "json": "BALANCE_OLD_36x2788.json",
+      "shape": [
+        36,
+        2788
+      ],
+      "nnz": 10238,
+      "json_sha256": "abd52e4a1e0ea1ad91a0dc0293f565d9c6fd4223e32f39642759f5d74dace4dc"
+    },
+    "old_C": {
+      "npz": "C_OLD_162x2788.npz",
+      "json": "C_OLD_162x2788.json",
+      "shape": [
+        162,
+        2788
+      ],
+      "nnz": 18359,
+      "json_sha256": "75282074d78ff87e84a5b47fc554da14b74feadec9828ca669951765d1856211"
+    },
+    "current_balance": {
+      "npz": "BALANCE_CURRENT_36x1751.npz",
+      "json": "BALANCE_CURRENT_36x1751.json",
+      "shape": [
+        36,
+        1751
+      ],
+      "nnz": 7054,
+      "json_sha256": "10fdbab3d504634f5fd6abaf1a6e38f7ce58e9467c8622d7d86ab05a7e74e6af"
+    },
+    "current_C": {
+      "npz": "C_CURRENT_162x1751.npz",
+      "json": "C_CURRENT_162x1751.json",
+      "shape": [
+        162,
+        1751
+      ],
+      "nnz": 11881,
+      "json_sha256": "eec3e4afbeb49a0c30502fb789317b02586fde6f87f3541ae3f50d7e4349e33c"
+    }
+  },
+  "current_equation": "BALANCE_CURRENT_36x1751 @ beta = 0; no additional denominator; beta indexed by current selected_original_indices",
+  "sign": "retained C minus missing C",
+  "full_C_definition": "C[r,d,j] = sum over two endpoints and seven flags, counted by endpoint full degree and canonical vertex state; zero for other root type",
+  "coverage": {
+    "original_generators": 5148,
+    "old_dedup_classes": 2788,
+    "current_raw_histograms": 3432,
+    "current_dedup_columns": 1751,
+    "every_old_and_current_group_preserves_all162_C_rows": true
+  },
+  "scope": "Necessary identities for actual C4-free Q8, no maximality or fixed-edgecount required. Does not prove upper682."
+}

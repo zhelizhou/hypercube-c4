@@ -1,0 +1,130 @@
+{
+  "status": "PASS",
+  "scope": "finite local identities and integer branches only",
+  "marked_Q4": {
+    "attempted": 4096,
+    "C4_free": 3715,
+    "at_most_one_hole": 370,
+    "types_h_b_t": [
+      {
+        "h": 0,
+        "b": 0,
+        "t": 2,
+        "count": 3
+      },
+      {
+        "h": 0,
+        "b": 1,
+        "t": 2,
+        "count": 12
+      },
+      {
+        "h": 0,
+        "b": 2,
+        "t": 2,
+        "count": 12
+      },
+      {
+        "h": 0,
+        "b": 4,
+        "t": 0,
+        "count": 163
+      },
+      {
+        "h": 1,
+        "b": 3,
+        "t": 1,
+        "count": 180
+      }
+    ]
+  },
+  "integer_rows": 12,
+  "surviving_upper_bound_rows": [
+    {
+      "target": 159,
+      "alpha": 0,
+      "beta": 1,
+      "z": [
+        13,
+        0,
+        1,
+        1
+      ],
+      "a": 10,
+      "c": 2,
+      "top_degree_bound": 5,
+      "c4": 1,
+      "S2": 43,
+      "upper": 159,
+      "backward_full_f_counts": [
+        5,
+        4,
+        1
+      ]
+    }
+  ],
+  "final_forward_two_required": 6,
+  "top_capacity": [
+    {
+      "absent_direction": 0,
+      "eligible_four_sets": [
+        30,
+        46,
+        54,
+        58,
+        60
+      ]
+    },
+    {
+      "absent_direction": 1,
+      "eligible_four_sets": [
+        29,
+        45,
+        53,
+        57,
+        60
+      ]
+    },
+    {
+      "absent_direction": 2,
+      "eligible_four_sets": [
+        27,
+        43,
+        51,
+        57,
+        58
+      ]
+    },
+    {
+      "absent_direction": 3,
+      "eligible_four_sets": [
+        23,
+        39,
+        51,
+        53,
+        54
+      ]
+    },
+    {
+      "absent_direction": 4,
+      "eligible_four_sets": [
+        15,
+        39,
+        43,
+        45,
+        46
+      ]
+    },
+    {
+      "absent_direction": 5,
+      "eligible_four_sets": [
+        15,
+        23,
+        27,
+        29,
+        30
+      ]
+    }
+  ],
+  "source_sha256": "b12bdc62a5a76b5d68a067bbdc087d9a9d6b71ad18dfdc3ff029242c43f31978"
+}

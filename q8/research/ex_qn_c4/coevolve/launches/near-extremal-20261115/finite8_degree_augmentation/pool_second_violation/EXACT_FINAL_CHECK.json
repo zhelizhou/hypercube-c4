@@ -1,0 +1,80 @@
+{
+  "status": "EXACT_PROFILE_FREE_CALLER_AND_RESTRICTED1177_SEPARATOR",
+  "graph_count": 1177,
+  "distinct_feature_columns": 64,
+  "w": [
+    -70,
+    -35,
+    -30,
+    -35,
+    -34,
+    -15,
+    30,
+    105,
+    210
+  ],
+  "degree_tangent_slope": 45,
+  "degree_tangent_intercept": -240,
+  "per_degree_nonnegative_excess": [
+    170,
+    160,
+    120,
+    70,
+    26,
+    0,
+    0,
+    30,
+    90
+  ],
+  "sum_global_degrees": 1366,
+  "global_vertices": 256,
+  "global_degree_weighted_sum_lower_bound": 30,
+  "actual683_mean_u_lower_bound": "3/112",
+  "v_equals_u_plus_4h0": true,
+  "actual683_mean_v_lower_bound": "3/112",
+  "q_block": 2,
+  "q_nonzero": [
+    [
+      1,
+      -1
+    ],
+    [
+      41,
+      -1
+    ],
+    [
+      59,
+      1
+    ],
+    [
+      91,
+      -1
+    ],
+    [
+      109,
+      1
+    ],
+    [
+      141,
+      -1
+    ],
+    [
+      151,
+      -1
+    ],
+    [
+      159,
+      2
+    ]
+  ],
+  "q_outer_is_PSD": true,
+  "integer_score": "1512*(3h0+3h4-h2)+sum_i<=j c[2,i,j]*q_i*q_j",
+  "integer_score_minmax": [
+    -22176,
+    0
+  ],
+  "actual683_mean_integer_score_lower_bound": "81/2",
+  "uses_frozen_profile_cover_as_premise": false,
+  "full_Q4_separation_done_here": false,
+  "primary683_goal": "OPEN"
+}

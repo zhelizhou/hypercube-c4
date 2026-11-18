@@ -1,0 +1,52 @@
+{
+  "owner": "/root/prove_mixed_zero_row",
+  "pid": 41662,
+  "stage": "POSITIVE_NUMERIC_MARGIN_REQUIRES_EXACT_VALIDATION",
+  "current_scope": "pool_B684plus_enriched8",
+  "utc": "2026-11-15T23:38:59.756982+00:00",
+  "seconds": 132.0930770949999,
+  "history": [
+    {
+      "scope": "pool_B684plus_enriched7",
+      "source": "pool_B684plus_enriched6",
+      "new_features": 6,
+      "library": 15150,
+      "numerical_library_gap": 0.0001866386404076733,
+      "complete_price": {
+        "status": "NUMERIC_COMPLETE_ORACLE_MARGIN_DIAGNOSTIC_ONLY",
+        "numeric_delta": 0.00018663864010748377,
+        "numeric_full_lambda_max_of_rounded_query": 0.004049537679268973,
+        "numeric_finite_alpha_max": -1.8540724511240114e-14,
+        "numeric_finite_beta_max": -6.815292004624052e-14,
+        "margin_before_uniform_rounding_and_exact_row_validation": -0.003862899039074796,
+        "is_exact_fullNO": false,
+        "query_dir": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched7/full_oracle_001",
+        "exact_max": 261243774765,
+        "actual_Q4_mask": 3736813663,
+        "seconds": 5.831164540999453
+      }
+    },
+    {
+      "scope": "pool_B684plus_enriched8",
+      "source": "pool_B684plus_enriched7",
+      "new_features": 2,
+      "library": 15152,
+      "numerical_library_gap": 0.00018598645322108628,
+      "complete_price": {
+        "status": "NUMERIC_COMPLETE_ORACLE_MARGIN_DIAGNOSTIC_ONLY",
+        "numeric_delta": 0.0001859864532259281,
+        "numeric_full_lambda_max_of_rounded_query": 2.3826574900793653e-10,
+        "numeric_finite_alpha_max": 4.218847493575595e-15,
+        "numeric_finite_beta_max": 6.786427032039221e-17,
+        "margin_before_uniform_rounding_and_exact_row_validation": 0.00018598621495589238,
+        "is_exact_fullNO": false,
+        "query_dir": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/full_oracle_001",
+        "exact_max": 15371,
+        "actual_Q4_mask": 2548748666,
+        "seconds": 5.748427476006327
+      }
+    }
+  ],
+  "goal": "OPEN",
+  "numeric_margin": 0.00018598621495589238
+}

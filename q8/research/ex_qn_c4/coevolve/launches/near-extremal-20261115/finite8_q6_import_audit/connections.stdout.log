@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "fresh standard-library local analytic connection checks; not Q6 graph enumeration",
+  "high_columns": 213,
+  "origin_nonlow_masks": 41,
+  "origin_excess_histogram": {
+    "1": 23,
+    "2": 12,
+    "3": 6
+  },
+  "simultaneous_replacement_markings": 210,
+  "script_sha256": "d65b650b616a0ccc8606c004571af44c323b4bbf1c029a31154f5d121aeefec5",
+  "literal_boundary_witness": {
+    "path": "q6_sources/q8_upper_independent/results/q6_degree_potential_2d4.json",
+    "sha256": "0281e25604b40b765ac45a6c9d8778d78a1589d30de399dbd154bfac0be5e55b",
+    "S": 157,
+    "c": 2,
+    "specified_minimum": 3,
+    "2S_plus_c": 316,
+    "stronger_S_plus_2c": 161,
+    "all_240_squares_checked": true
+  }
+}

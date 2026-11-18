@@ -1,0 +1,17 @@
+{
+  "domain": "all multisets of four retained3masks on8 coordinates; repeated masks allowed",
+  "count": 455126,
+  "xor_weight_histogram": {
+    "6": 2800,
+    "10": 51800,
+    "12": 96670,
+    "14": 162120,
+    "16": 71400,
+    "18": 33880,
+    "20": 31500,
+    "22": 2520,
+    "24": 840,
+    "28": 1596
+  },
+  "survivors": []
+}

@@ -1,0 +1,160 @@
+{
+  "audit_skill": "proof-checker",
+  "verdict": "PASS",
+  "reason_code": "all_local_proofs_complete",
+  "summary": "E01\u2013E05 local edge7 bridge, pointwise pullback/PSD redundancy, exact moments, three finite7 separators and complete same-lambda cone interface checked; semantic review same-family provisional, full682 open.",
+  "audited_input_hashes": {
+    "main.tex": "sha256:588363042570d364c5338fae3f52c9c6810b01791d2d96844b67bb6238fee233",
+    "PROOF.md": "sha256:a20446da4fdeb79c4ad13f3f99f32400f9017f3f9d14a828669ab86d322b946a",
+    "PROOF_SKELETON.md": "sha256:481fbcefbb252ebb087f7d2ab1f5cfe48b36e01e2a909a526e5c5a628476eb7e",
+    "REVIEWER_ROUTE.json": "sha256:b12aa140373395353a78ec350c68e7988ef15a02ac6a3b8f503ffa9f5d41ac7e",
+    "EDGE_CUTS.json": "sha256:560667d8bdaf44b9f905fb47a4c5e171a90fb409e90090c05a289700a566ec91",
+    "frozen_root0.RESULT.json": "sha256:7f883db96127fc711e1b8a707fa32740dcd5907a218400b43da8f7b4e7cbd7f8",
+    "frozen_root1.RESULT.json": "sha256:632364e063c2862bbbd8bf176a1eb8b030d3270459c3b948e4977e96d339adbd",
+    "degree_snapshot_root0.RESULT.json": "sha256:9863b25d1c6d5a659a787b641a8ee3aa11f54d9f3b6532f7cff2a48e1e0f771d",
+    "degree_snapshot.json": "sha256:dab419542250d7c690e127074f9f726ad635420d41187bec98dd89b567494530",
+    "degree_snapshot_meta.json": "sha256:41c0ca3a66336ea477b21ac58a6cda8874d7db7a568e0b7b57c060c50ec2574c",
+    "FROZEN_EDGE_MOMENTS.json": "sha256:9d539b8357946a1e72ac57c355baba66616ec7c3f7fb8acba38869fac189fcc5",
+    "DEGREE_SNAPSHOT_EDGE_MOMENTS.json": "sha256:c6acdf704433bc522cd7642a7b2be75c1981d2be4c04dff5210f15e97d9f11cf",
+    "edge_flags.py": "sha256:480e8227a767336fdb9671d4499da692c854abd4a041731fdfc67b61195d55cd",
+    "lift.py": "sha256:c92ed6cb7ea021a0fb799f80aa0c7924f923fe09b4218f50c714292e80492278",
+    "score.py": "sha256:10e4af1d9fbdfd31498d7a3a59902ecef371cb151c4bc449d4db11906430181c",
+    "verify.py": "sha256:7d61b254794cc7c4d286ab799a58481b12782a403fe41f167e1dea7ddc83f54e",
+    "check_bridge.py": "sha256:5c55b6c75084bf1cd8bac65d7a91e10ff5f4443e9fa58be1ec06994c9d78aefc",
+    "export_cones.py": "sha256:03e848fe2bb389da6dc63fffa461246d8c290b2ee6ca66368eff5ec79e0e069a",
+    "GENERATOR_INTERFACE.json": "sha256:df2977fefcb7700575825c21d910995a1011018d976601af6ef29624fee2435d",
+    "GENERATOR_CSR_INTEGER.json": "sha256:4b220ba1ad77d20d54235b2a7e2ab9bb6fe12a396512277d415212ed17e5c48d",
+    "GENERATOR_HISTOGRAMS.json": "sha256:d6c9385399fda253ab516f0bcc49982236651d1a97f6693defd28d6a4606e07f",
+    "GENERATOR_NUMERATOR.npz": "sha256:670b8654c06f826b9d8366f4a65a930672ed464684c0bd6ffcaf1949800ecc5f",
+    "GENERATOR_NORMALIZED.npz": "sha256:617a63d2a5861fc4a90e39a2841a20250a742a66aad02cf5e9d76b288827327d",
+    "RESULT.md": "sha256:71cb3a84e841247768c3f9ef6fe4b2644df88a7996445e44665479e1508a77a9",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/FAMILY_OBSTRUCTION.json": "sha256:fdbd082699eff6d46899d6a501945881cf6f6fed48735dd3a326c5db8080aec6",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/finite_flags.py": "sha256:e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/Q8_seed682_point.json": "sha256:25e4b5b109d5e0bfa03ea142256aade81902d5ee6cf294578f986a5202b5c01f",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges": "sha256:185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c",
+    "/mnt/c/users/anony/desktop/project/math-rsi/.agents/skills/proof-checker/SKILL.md": "sha256:716a86370b1768b616943d449ab106b901fa55e239ab76ef9f5eebb9779ba39e"
+  },
+  "trace_path": "review/",
+  "thread_id": "/root/review_edge7_pullback_and_cone",
+  "executor_model": null,
+  "executor_family": "openai",
+  "reviewer_model": null,
+  "reviewer_family": "openai",
+  "requested_reviewer_model": "gpt-6.1-sol",
+  "requested_reviewer_reasoning": "ultra",
+  "reviewer_reasoning": null,
+  "actual_identity_attestation": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-11-15T19:34:32.504401+00:00",
+  "details": {
+    "theorems_audited": 2,
+    "source_units_audited": [
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05"
+    ],
+    "coverage_receipt": "RECEIPT.json",
+    "issues": [],
+    "counterexample_pass_executed": true,
+    "mathematical_counterexample_found": false,
+    "exact_check_result": "INDEPENDENT_CHECK.json",
+    "complete_generator_export_read_after_available": true,
+    "normalized_npz_is_approximate": true,
+    "deterministic_checks": {
+      "status": "EXACT_CHECKS_PASSED",
+      "frozen_support": 818,
+      "frozen_weight_sum": "11199999988800",
+      "frozen_LDL_positive_pivots": [
+        [
+          "10955256052760640",
+          "344599346598445370190404160/422656483517",
+          "8807478434405031495192880320/829281341563",
+          "2999633467180760602466059007394654484800/339794692685379301512071"
+        ],
+        [
+          "7924182331642560",
+          "4290050579883278037809601600/101905636981",
+          "92888379882422483930411749531091542080/33102242128728997205321",
+          "14430330575744367555944140541074440281547768000/12906326403119926294185972935159"
+        ]
+      ],
+      "snapshot_weights": 175,
+      "snapshot_raw_decimal_sum": "5000000000000036670707/5000000000000000000000",
+      "snapshot_status": "EIGEN_CUT_ITERATION_BOUND",
+      "snapshot_iteration": 10,
+      "cuts": [
+        {
+          "name": "frozen_root0",
+          "domain": 3432,
+          "minimum": 0,
+          "zeros": 9,
+          "raw_pairing": "-27921397669/11851851840",
+          "witness_value": -264
+        },
+        {
+          "name": "frozen_root1",
+          "domain": 1716,
+          "minimum": 0,
+          "zeros": 13,
+          "raw_pairing": "-20810671173/3950617280",
+          "witness_value": -288
+        },
+        {
+          "name": "degree_snapshot_root0",
+          "domain": 3432,
+          "minimum": 0,
+          "zeros": 111,
+          "raw_pairing": "-34656869948258354962251/20000000000000146682828",
+          "witness_value": -336
+        }
+      ],
+      "seed": {
+        "edge_count": 682,
+        "roots": {
+          "1": 682,
+          "0": 342
+        },
+        "restrictions": 1120,
+        "distinct_restriction_masks": 818,
+        "direct_bridge_equal": true,
+        "normalized_means": [
+          "1/3840",
+          "1/2944",
+          "1/3840"
+        ]
+      },
+      "pointwise_lift_sample_count": 882,
+      "face_stabilizer_actions": 18,
+      "full_CSR_shape": [
+        64,
+        5148
+      ],
+      "full_CSR_nnz": 72234,
+      "generator_domain_complete": true,
+      "npz_match": true,
+      "consumer": "20 actual masks exact U_upper agreement",
+      "mutation_checks": [
+        "common gauge differs from independent argument flip",
+        "offdiagonal upper moment differs from folded score coefficient",
+        "wrong 196/2 scaling detected algebraically",
+        "totals5/6 demonstrate total7 cannot be promoted to copositivity"
+      ]
+    },
+    "full682_goal": "OPEN",
+    "snapshot_accepted_feasible": false,
+    "edge_PSD_new_strength": false,
+    "TeX_compilation": "not requested/performed",
+    "render_html": false
+  },
+  "actual_host_identity": {
+    "model": null,
+    "reasoning_effort": null,
+    "family": null,
+    "backend": null,
+    "reason": "Noindependentruntimeidentityattestation; requestedSol/ultra separate. Conservativeassurancesame-family/provisional."
+  },
+  "root_integration_note": "Rawreviewunchangedinreview/; Rootcopiedauditandaddedidentityclarificationonly. Allreviewedinputhashesmatchedat integration."
+}

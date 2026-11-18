@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "historical_input": {
+    "variables": 1612,
+    "clauses": 6132,
+    "independently_rebuilt": true
+  },
+  "cnf_sha256": "99070336bb5f71f9bc665a1c060883e8d344fe77380e9b0cead7f7a71fc98feb",
+  "proof_sha256": "be01abb9cb75a1314cb53d363c3843c61888dc900cacfca132c0eefd84a13941",
+  "strict_replay": {
+    "returncode": 0,
+    "seconds": 0.1098155039944686,
+    "result": {
+      "valid": true,
+      "final_empty_clause": true,
+      "verified_additions": 2801,
+      "deletions_ignored": 3421
+    },
+    "checker_binary_sha256": "8474c69adb6ff44983a38faf0cb6599db26786d32de242707741410884fe820d",
+    "checker_source_sha256": "a820366a44435d9dbad99056b8b4c2ef67461e85f2b7c8d434bfba8a50d03dae"
+  },
+  "forced_square_checks": 60,
+  "simultaneous_replacement_markings": 210,
+  "integer_rows": [
+    {
+      "c": 0,
+      "S": 159,
+      "weighted": 318
+    },
+    {
+      "c": 1,
+      "S": 160,
+      "weighted": 321
+    },
+    {
+      "c": 2,
+      "S": 158,
+      "weighted": 318
+    },
+    {
+      "c": 3,
+      "S": 159,
+      "weighted": 321
+    },
+    {
+      "c": 4,
+      "S": 157,
+      "weighted": 318
+    }
+  ],
+  "source_sha256": "b98deb79ecbcd32efd0314fbfe6df58aefabc96b0cb9678706f40c8b6e2f135a"
+}

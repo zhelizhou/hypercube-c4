@@ -1,0 +1,242 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}{Theorem}
+\begin{document}
+\title{Actual-face overlap strengthens the full 683-edge degree gate}
+\author{Near-extremal campaign, 2026-11-15}
+\maketitle
+
+\section{E01: Domain and exact imported interface}
+Let $G\subseteq Q_8$ be C4-free with exactly 683 edges, and fix either
+actual bipartition class $P$. The opposite class is unrestricted.
+Let $n_d=|\{v\in P:d_G(v)=d\}|$, so $\sum n_d=128$ and
+$\sum d n_d=683$. For each of the 112 coordinate $Q_6$ faces $F$, set
+\[
+ L_F=|\{v\in P\cap F:d_{G[F]}(v)\le2\}|,\quad
+ S_F=\sum_{v\in P\cap F}\binom{d_{G[F]}(v)}3,\quad
+ c_F=|\{v\in P\cap F:d_{G[F]}(v)=6\}|.
+\]
+The same graph and roots are used in every restriction.
+
+We import the dimension-local bounds in the actual Cycle007 sources:
+$2S_F+c_F\le316$ if $L_F=0$, $\le317$ if $L_F=1$, and
+$\le321$ if $L_F=2$. Each permits arbitrary opposite degrees, including
+zero. For $L_F=3$ the bound is 322: star injection gives $S_F\le160$,
+full roots have $c_F\le4$, and
+$S_F\equiv29+c_F\pmod3$ gives weighted caps $316,319,322,319,322$
+for $c_F=0,\ldots,4$. For $L_F\ge4$, $S_F\le160,c_F\le4$ give 324.
+Thus define
+\[
+ t(0)=0,\quad t(1)=1,\quad t(2)=5,\quad t(3)=6,
+ \quad t(\ell)=8\quad(4\le\ell\le32),
+\]
+so every actual face satisfies $2S_F+c_F\le316+t(L_F)$.
+These are proved local imports, not inequalities fitted to this campaign's
+graphs. Their historical proof/replay limits remain explicit in the skeleton.
+
+\section{E02: Equality retains the actual low-root overlap}
+Set $b(d)=\binom d3-10d+40$ and $b_P=\sum_dn_db(d)$.
+The specified-side star sum is $10\cdot683-5120+b_P$.
+Every actual $Q_3$ star lies in ten $Q_6$ faces, and a global degree-$d$
+root is full in $\binom d6$ such faces. Hence
+\[
+ Q:=\sum_F(2S_F+c_F)=20\sum_{v\in P}\binom{d_G(v)}3
+                        +\sum_dn_d\binom d6.                 \tag{1}
+\]
+A root of degree $d$ is low in
+\[
+ \lambda(d)=\sum_{j=0}^2\binom dj\binom{8-d}{6-j}
+ =(28,28,28,18,6,0,0,0,0)_d
+\]
+containing faces, so $\Lambda:=\sum_FL_F=\sum_dn_d\lambda(d)$.
+Define the actual overlap loss
+\[
+ \Phi=\sum_F\left(\frac52 L_F-t(L_F)\right)\ge0.
+\]
+Its summand is zero exactly for $L_F\in\{0,2\}$, and is positive
+otherwise (values $3/2,3/2$ at 1 and 3, and $5L_F/2-8\ge2$ at 4 or more).
+Summing the local bounds gives
+\[
+ Q\le112\cdot316+\frac52\Lambda-\Phi.                       \tag{2}
+\]
+Using the two degree sums to eliminate $n_5,n_6$, (1)--(2) give
+\[
+ C(P)+\Phi\le1149,\qquad
+ C(P)=735n_0+534n_1+333n_2+177n_3+66n_4+105n_7+345n_8.       \tag{3}
+\]
+For an explicit check, before subtracting $(5/2)\lambda(d)$ the
+coefficients after elimination are
+$(805,604,403,222,81,0,0,105,345)$, and
+$138432-201\cdot683=1149$.
+
+\begin{lemma}
+If $C(P)=1149$, every actual $Q_6$ face has exactly zero or two low
+specified-side roots. In particular every face containing a particular
+low root must contain another distinct low root.
+\end{lemma}
+\begin{proof}
+Equation (3) forces $\Phi=0$. All its summands are nonnegative and only
+the values zero and two have zero summand. The final statement follows.
+\end{proof}
+No regularity, minimum degree or parity-square condition on $G$ was used.
+
+\section{E03: Actual low-face sets and pair intersections}
+For a global root $v\in P$ let $W(v)$ be the set of containing $Q_6$
+faces on which it is low. Let $R(v)$ be its actual retained direction set.
+A face is specified by an omitted coordinate pair $I$ and its two fixed
+bits. It belongs to $W(v)$ exactly when those bits equal $v_I$ and
+$|R(v)\setminus I|\le2$.
+For degree at most two, $|W(v)|=28$; degree three gives 18, degree four
+gives six, and degree at least five gives zero.
+
+For distinct $u,v\in P$ the Hamming distance $r$ is 2,4,6 or 8.
+A face can contain both only if $I$ avoids all differing coordinates,
+so there are at most $\binom{8-r}{2}\le15$ common containing faces.
+If $v$ has degree three, its omitted pair must meet $R(v)$. For $r=2$
+there are six available coordinates, of which at most three belong to
+$R(v)$, giving at most $\binom62-\binom32=12$ choices. For $r\ge4$
+there are at most six choices in total. Thus
+\[
+ |W(u)\cap W(v)|\le12\quad\hbox{if }d(v)=3.                 \tag{4}
+\]
+If $d(v)=4$, the omitted pair must be contained in its four retained
+directions, so the intersection is at most six. These bounds do not
+assume that independently chosen stars extend to a full graph.
+
+For degrees $i,j\in\{0,1,2,3,4\}$ the following uniform bounds therefore
+apply to distinct same-parity roots:
+\[
+M_{ij}=\begin{cases}15&i,j\le2,\\12&\max(i,j)=3,\\6&\max(i,j)=4.
+\end{cases}                                                    \tag{5}
+\]
+Put $\lambda_i=\lambda(i)$ and $k=\sum_{i=0}^4n_i$. A profile-only
+lower bound $\Psi\le2\Phi$ is
+\[
+\Psi=\begin{cases}
+0&k=0,\\
+3\lambda_i&k=1\text{ with its low root of degree }i,\\
+3(\lambda_i+\lambda_j-2M_{ij})&k=2,\\
+3\max\left(0,\max_{i:n_i>0}\{\lambda_i-
+                \sum_{j=0}^4 M_{ij}(n_j-\mathbf1_{i=j})\}\right)&k\ge3.
+\end{cases}                                                    \tag{6}
+\]
+For one root all its low faces have $L_F=1$. For two roots the number
+of such faces is $\lambda_i+\lambda_j-2|W(u)\cap W(v)|$ and all other
+face counts are zero or two. For three or more roots, fix one of degree
+$i$. At least $\lambda_i-\sum_jM_{ij}(n_j-\mathbf1_{i=j})$ of its low
+faces contain no other low root, by the union bound on the actual
+intersections. Each contributes $3/2$ to $\Phi$. Taking the maximum,
+not the sum, proves (6). In particular every original graph satisfies
+\[
+                  2C(P)+\Psi\le2298.                         \tag{7}
+\]
+
+\section{E04: Five exact exclusions}
+\begin{theorem}
+The following specified-side profiles $(n_0,\ldots,n_8)$ cannot occur
+in any C4-free 683-edge subgraph of $Q_8$:
+\[
+\begin{array}{c|rrrrrrrrr}
+ A&0&0&0&1&2&86&31&8&0\\
+ B&0&0&0&2&0&84&39&1&2\\
+ C&0&0&1&0&6&73&44&4&0\\
+ D&0&1&1&1&0&74&50&1&0\\
+ E&1&0&0&1&2&73&50&1&0
+\end{array}
+\]
+There is no restriction on the opposite-side degree profile.
+\end{theorem}
+\begin{proof}
+Each row has 128 vertices, degree sum 683 and $C(P)=1149$; thus every
+low-face count is zero or two by the lemma. Only the displayed roots of
+degrees at most four can be low after restriction.
+
+In A the degree-three root is low on 18 faces, but the two degree-four
+roots supply only twelve other low incidences in total. They cannot give
+a partner on every one of those 18 distinct faces.
+
+In B both degree-three roots would have to be low on exactly the same
+18 faces. Two distinct roots share at most fifteen containing faces,
+a contradiction.
+
+In D the degree-one root is low on all its 28 faces. Its intersections
+with the degree-two and degree-three roots have sizes at most 15 and 12,
+respectively, so at most 27 of those faces have a partner.
+In E the degree-zero root similarly has 28 faces, while its intersections
+with the degree-three and two degree-four roots have total at most
+$12+6+6=24$. Both are impossible.
+
+For C let $u$ be the unique degree-two root and $v_1,\ldots,v_6$ the
+degree-four roots. Translate the entire graph by $u$, so $u=0$.
+Write $R_j=R(v_j)$, each of size four. For any omitted pair $I$, summing
+the even local low counts over its four fixed-bit faces shows
+\[
+ 1+|\{j:I\subseteq R_j\}|\equiv0\pmod2.                    \tag{8}
+\]
+The one comes from $u$, which is always low; all other low incidences
+are exactly those with $I\subseteq R_j$. Thus every coordinate pair
+belongs to an odd number of the six four-sets.
+
+Here is the complete consequence for those six sets, permitting repeated
+sets initially. Let $r_a$ count sets containing coordinate $a$. Summing
+(8) over the seven pairs containing $a$ gives $3r_a\equiv7\pmod2$,
+so $r_a$ is odd. Covering all seven pairs also requires $3r_a\ge7$,
+hence $r_a\ge3$. Since $\sum_a r_a=24$, every $r_a=3$.
+Each coordinate therefore gives a three-subset of the six block indices.
+For a coordinate $a$, its intersection sizes with the seven other
+three-subsets are odd and total $3r_a=9$; exactly one is three and the
+other six are one. Intersection three means identical three-subsets.
+Consequently the eight coordinates split into four pairs $A,B,C,D$ of
+identical incidence signatures. Each four-set $R_j$ consists of exactly
+two such pairs. Each pair of different pairs occurs in precisely one
+$R_j$, since their signatures intersect once. The six $R_j$ are exactly
+the six unions of two of $A,B,C,D$.
+
+For the unique block $R_j=A\cup B$, every omitted pair with one
+coordinate in $A$ and one in $B$ is contained in no other $R_k$.
+The face containing $u=0$ then needs $v_j$ as its only possible partner.
+This forces $(v_j)_a=(v_j)_b=0$ for every such pair, hence $v_j$ is zero
+on all four coordinates of $R_j$. The same holds for every block.
+Now omit the two coordinates of $A$ and fix them to zero. This face
+contains $u$ and the three degree-four roots belonging to $A\cup B$,
+$A\cup C$ and $A\cup D$, all low there. It has at least four low roots,
+contradicting the required zero-or-two count. This excludes C.
+\end{proof}
+
+\section{E05: Complete finite profile cover and exact filter}
+Every original graph has nonnegative integer $n_0,\ldots,n_8$ with
+the two degree sums, $C(P)\le1149$, and $b_P\le82$ (nonnegative global
+star holes). Consider precisely this necessary integer relaxation,
+without asserting that any of its points is a graph.
+Enumerate $n_0,n_1,n_2,n_3,n_4,n_7,n_8$ using their positive coefficients
+in $C(P)$. The remaining two values are uniquely
+\[
+ n_6=683-\sum_{d\ne5,6}dn_d-5\left(128-\sum_{d\ne5,6}n_d\right),
+ \quad n_5=128-\sum_{d\ne5,6}n_d-n_6.
+\]
+Keeping their nonnegative values and $b_P\le82$ is complete for the
+declared relaxation. The exact enumeration gives 814 profiles.
+Equation (7) rejects sixteen; the separate six-block argument for C
+rejects one more not rejected by (7). Thus 797 profiles remain in this
+specified necessary cover. The complete input and output rows are saved
+in PROFILES.json, and an independently structured finite checker must
+verify these counts before computational acceptance. The written proof
+establishes why every discarded row is impossible and why every original
+graph maps into the enumerated inputs.
+
+\section{E06: Main-target connection and limits}
+Every arbitrary 683-edge C4-free Q8 graph has both parity profiles
+subject to (3), including all degrees zero through eight. The theorem
+therefore removes these five profiles on either side of the full domain;
+it does not assume them for all candidates or discard their complement.
+The previous odd-small-defect gate still permits restricting the original
+683 problem to at least nineteen even squares, at its recorded import
+and same-family assurance. No square-parity hypothesis was needed here.
+Neither these exclusions nor an unsuccessful solver search proves the
+unrestricted upper bound 682. No literature priority is claimed.
+The count797 describes only the explicit one-sided integer relaxation,
+not a new graph classification or a claim that all previous independent
+restrictions have been intersected. The actual-face inequality (3) can
+be stricter than its profile-only consequence (7).
+\end{document}

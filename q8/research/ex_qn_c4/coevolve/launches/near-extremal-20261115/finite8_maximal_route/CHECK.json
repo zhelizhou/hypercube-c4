@@ -1,0 +1,48 @@
+{
+  "scope": "Necessary relaxation rows and complete seven-flag multiset generators, not graph enumeration or an upper bound 682",
+  "profile_counts": {
+    "683": {
+      "all_profiles": 814,
+      "maximal_profiles": 783
+    },
+    "684": {
+      "all_profiles": 393,
+      "maximal_profiles": 385
+    },
+    "685": {
+      "all_profiles": 171,
+      "maximal_profiles": 170
+    },
+    "686": {
+      "all_profiles": 66,
+      "maximal_profiles": 66
+    },
+    "687": {
+      "all_profiles": 20,
+      "maximal_profiles": 20
+    },
+    "688": {
+      "all_profiles": 4,
+      "maximal_profiles": 4
+    }
+  },
+  "generator_counts": {
+    "root0_maximal": 1716,
+    "root1": 1716
+  },
+  "seed": {
+    "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges",
+    "sha256": "185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c",
+    "edges": 682,
+    "C4_free": true,
+    "missing_edges": 342,
+    "all_missing_edges_closed": true,
+    "closing_square_histogram": {
+      "3": 41,
+      "4": 159,
+      "5": 120,
+      "6": 22
+    }
+  },
+  "historical_683_cover_exact_match": true
+}

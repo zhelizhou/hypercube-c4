@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "mode": "q6",
+  "seconds": 231.34573116300453,
+  "result": {
+    "status": "PASS",
+    "scope": "25 independently reconstructed local inputs, complete finite case covers, strict real trace replays only",
+    "case_count": 25,
+    "verified_additions": 4383882,
+    "elapsed_seconds": 226.1692014260043,
+    "no_solver": true,
+    "no_old_writes": true
+  },
+  "scope": "replay of the specified finite computation, not a new semantic review or upper682 proof"
+}

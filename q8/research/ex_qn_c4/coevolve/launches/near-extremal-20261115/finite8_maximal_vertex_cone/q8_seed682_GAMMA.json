@@ -1,0 +1,125 @@
+{
+  "vertex_denominator": 256,
+  "columns": [
+    {
+      "degree": 4,
+      "histogram": [
+        0,
+        3,
+        0,
+        6,
+        0,
+        0,
+        6,
+        0,
+        13
+      ],
+      "multiplicity": 2
+    },
+    {
+      "degree": 5,
+      "histogram": [
+        0,
+        1,
+        0,
+        3,
+        0,
+        0,
+        10,
+        0,
+        14
+      ],
+      "multiplicity": 8
+    },
+    {
+      "degree": 5,
+      "histogram": [
+        0,
+        2,
+        0,
+        3,
+        0,
+        0,
+        10,
+        0,
+        13
+      ],
+      "multiplicity": 57
+    },
+    {
+      "degree": 5,
+      "histogram": [
+        0,
+        3,
+        0,
+        3,
+        0,
+        0,
+        10,
+        0,
+        12
+      ],
+      "multiplicity": 100
+    },
+    {
+      "degree": 5,
+      "histogram": [
+        0,
+        4,
+        0,
+        3,
+        0,
+        0,
+        10,
+        0,
+        11
+      ],
+      "multiplicity": 3
+    },
+    {
+      "degree": 6,
+      "histogram": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        15,
+        0,
+        11
+      ],
+      "multiplicity": 24
+    },
+    {
+      "degree": 6,
+      "histogram": [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        15,
+        0,
+        10
+      ],
+      "multiplicity": 48
+    },
+    {
+      "degree": 6,
+      "histogram": [
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        15,
+        0,
+        9
+      ],
+      "multiplicity": 14
+    }
+  ]
+}

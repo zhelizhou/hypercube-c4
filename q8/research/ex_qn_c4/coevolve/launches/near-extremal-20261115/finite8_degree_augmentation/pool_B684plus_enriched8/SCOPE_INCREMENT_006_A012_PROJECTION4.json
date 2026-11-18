@@ -1,0 +1,69 @@
+{
+  "status": "FOUR_GLOBAL_PROJECTION_KERNELS_IMPORTED_EXACT_PASS",
+  "before": 8040,
+  "after": 8044,
+  "alpha_case_unchanged": 645,
+  "beta_unchanged": 1751,
+  "equalities_unchanged": 356,
+  "checks": [
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/projection_A012_joint_counts16/block0.EXACT_CUT.json",
+      "source_sha256": "b4fad8c7f7a94b0487e688ccfc0a62d8388f5985bfa0e1e622d7412c7a7177b1",
+      "row": 8040,
+      "histograms": 54264,
+      "minimum_small_count_quadratic": 28,
+      "all_full_kernel_entries_rebuilt": true,
+      "all_exported_root_actions_invariant": true,
+      "actual_A012_exact_raw_pair": "-19196683381816168534532921/6000000000000000000000000",
+      "source_normalized_pair": "-19196683381816168534532921/57425520000000000000000000000000",
+      "LP_positive_normalization": 16777216,
+      "LP_pair": -1.9070191563979953e-07,
+      "no_additional_stabilizer_factor": true
+    },
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/projection_A012_parity_parallel_shape10/block3.EXACT_CUT.json",
+      "source_sha256": "81fadfa6eeb330ece980d856c399c035d049ae02f8a0f2022e759927f6fe35ab",
+      "row": 8041,
+      "histograms": 5005,
+      "minimum_small_count_quadratic": 20,
+      "all_full_kernel_entries_rebuilt": true,
+      "all_exported_root_actions_invariant": true,
+      "actual_A012_exact_raw_pair": "-9345998979942908104829213729/18000000000000000000000000",
+      "source_normalized_pair": "-9345998979942908104829213729/144000072000000000000000000000000",
+      "LP_positive_normalization": 8388608,
+      "LP_pair": -6.18961054745178e-05,
+      "no_additional_stabilizer_factor": true
+    },
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/projection_A012_joint_shape15/block0.EXACT_CUT.json",
+      "source_sha256": "abd9f27298da6a46b430293bb972d35bf5bef9a5ae0d9fceafde3f3a671d62b3",
+      "row": 8042,
+      "histograms": 38760,
+      "minimum_small_count_quadratic": 30,
+      "all_full_kernel_entries_rebuilt": true,
+      "all_exported_root_actions_invariant": true,
+      "actual_A012_exact_raw_pair": "-16079972229661031140983413/6000000000000000000000000",
+      "source_normalized_pair": "-16079972229661031140983413/56000016000000000000000000000000",
+      "LP_positive_normalization": 16777216,
+      "LP_pair": -1.597401721245153e-07,
+      "no_additional_stabilizer_factor": true
+    },
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/projection_A012_joint_shape15/block3.EXACT_CUT.json",
+      "source_sha256": "119489a7144e1711d4314d20a1fd560ddeb8cb0059a4a966275801621bfc9b0e",
+      "row": 8043,
+      "histograms": 38760,
+      "minimum_small_count_quadratic": 24,
+      "all_full_kernel_entries_rebuilt": true,
+      "all_exported_root_actions_invariant": true,
+      "actual_A012_exact_raw_pair": "-271289173705550616000843491/1000000000000000000000000",
+      "source_normalized_pair": "-271289173705550616000843491/8000004000000000000000000000000",
+      "LP_positive_normalization": 8388608,
+      "LP_pair": -3.234018966025718e-05,
+      "no_additional_stabilizer_factor": true
+    }
+  ],
+  "seconds": 0.8098603709950112,
+  "goal": "OPEN",
+  "generic_review_scope": "fresh Sol ultra same-family/provisional as communicated by Root; no wholeGoal acceptance"
+}

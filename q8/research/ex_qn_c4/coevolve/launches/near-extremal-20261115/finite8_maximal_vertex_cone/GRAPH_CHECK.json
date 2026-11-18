@@ -1,0 +1,64 @@
+[
+  {
+    "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges",
+    "sha256": "185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c",
+    "edges": 682,
+    "C4_free": true,
+    "maximal": true,
+    "missing_edges": 342,
+    "closing_count_histogram": {
+      "5": 120,
+      "3": 41,
+      "4": 159,
+      "6": 22
+    },
+    "degree_counts": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 2,
+      "5": 168,
+      "6": 86,
+      "7": 0,
+      "8": 0
+    },
+    "histograms": 8,
+    "minimum_maximality_slack": 7,
+    "Q4_restrictions": 1120,
+    "moment_integer_identity": "U_local=720 sum_v x_v x_vT",
+    "RLT_all9": true
+  },
+  {
+    "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/CALIBRATION.edges",
+    "sha256": "c5a8229e71f85a76a0f225233285241324816024772c80878b6d51b2cf1480af",
+    "edges": 576,
+    "C4_free": true,
+    "maximal": true,
+    "missing_edges": 448,
+    "closing_count_histogram": {
+      "1": 148,
+      "6": 2,
+      "5": 15,
+      "4": 50,
+      "3": 99,
+      "2": 134
+    },
+    "degree_counts": {
+      "0": 0,
+      "1": 2,
+      "2": 14,
+      "3": 42,
+      "4": 70,
+      "5": 70,
+      "6": 42,
+      "7": 14,
+      "8": 2
+    },
+    "histograms": 182,
+    "minimum_maximality_slack": 0,
+    "Q4_restrictions": 1120,
+    "moment_integer_identity": "U_local=720 sum_v x_v x_vT",
+    "RLT_all9": true
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "status": "FULL_ORACLE_NONPOSITIVE_CANDIDATE",
+  "command": [
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/oracle_matrices.txt",
+    "--linear",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/oracle_linear.txt"
+  ],
+  "cwd_readonly_root_oracle": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle",
+  "returncode": 0,
+  "seconds": 2.2179260609991616,
+  "exact_max_integer_numerator": -37440,
+  "printed_denominator": 64512,
+  "worst_graph": 3889906149,
+  "literal_C4_common_neighbor_check": "PASS",
+  "python_exact_score_equals_oracle": true,
+  "source_scope": "Root existing complete common-Q4 layer-pair oracle; independent full proof review not performed here",
+  "primary683_goal": "OPEN",
+  "hashes": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/LOCAL_PRICE_SCORE.json": "125cbfcfcde48eb95693e701a3cd6d78ff4db23e677aab3f89b9d2d789acd97b",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/oracle_matrices.txt": "1a909bcc59b9ff22c679fc0d2c0ffed6e6a145e83688053793319e746feee372",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/oracle_linear.txt": "1c2c16f76a493f9b171a145d7748b7993b1e092a5716524f43f9d6ef03c02506",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator": "1a412cd6e6de274df4f7c1fe813d1195255e8c787dbdb6993b221e31300123b7",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator.cpp": "f85871b29940f76277a23696280245764f0089554fe6dade6c80e3bfb08aa2e5",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/keys.bin": "dcae76d76813708a3c625bd09d9782c651be45eb3a1ec2799e1831b3eb789ce1",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/own_oracle.stdout.txt": "efe0ef1c69575939bc3aeed19b52d2021e27d38274c5536deed04889b5dc111b"
+  }
+}

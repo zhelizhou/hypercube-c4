@@ -1,0 +1,101 @@
+{
+  "status": "BOUNDED_SMALL_PROJECTION_DISCOVERY",
+  "cuts": [
+    "block3.EXACT_CUT.json"
+  ],
+  "history": [
+    {
+      "block": 0,
+      "ordered_mass": "1327059346295030092242438506496",
+      "status": "NO_MEANINGFUL_CUT_IN_BOUNDED_PROBE",
+      "LP_seconds": 0.531487788000959,
+      "numeric_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "numeric_objective": 1.089540666763108e-08,
+      "exact_normalized_pairing": "2689518461675039/12000000000000000000000000",
+      "float_normalized_pairing": 2.2412653847291992e-10,
+      "finite6_minimum": 0,
+      "positive_scale": 8000000
+    },
+    {
+      "block": 1,
+      "ordered_mass": "10141268984622837821603032858368",
+      "status": "NO_MEANINGFUL_CUT_IN_BOUNDED_PROBE",
+      "LP_seconds": 0.5552124989990261,
+      "numeric_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "numeric_objective": 6.652747786673236e-09,
+      "exact_normalized_pairing": "1673296249789372623/1600000000000000000000000000",
+      "float_normalized_pairing": 1.0458101561183578e-09,
+      "finite6_minimum": 0,
+      "positive_scale": 2000000
+    },
+    {
+      "block": 2,
+      "ordered_mass": "17563312051822485488119772107776",
+      "status": "NO_MEANINGFUL_CUT_IN_BOUNDED_PROBE",
+      "LP_seconds": 0.6625846320021083,
+      "numeric_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "numeric_objective": 4.348632178187148e-09,
+      "exact_normalized_pairing": "21310374983897973619/36000000000000000000000000000",
+      "float_normalized_pairing": 5.919548606638327e-10,
+      "finite6_minimum": 0,
+      "positive_scale": 4000000
+    },
+    {
+      "block": 3,
+      "ordered_mass": "1012968447555519508506397502208",
+      "status": "MEANINGFUL_EXACT_CUT_FOUND",
+      "LP_seconds": 1.0802313390013296,
+      "numeric_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "numeric_objective": -0.004061124059977373,
+      "exact_normalized_pairing": "-15940415645124021372345799259/500000250000000000000000000000000",
+      "float_normalized_pairing": -3.1880815349840365e-05,
+      "finite6_minimum": 28,
+      "positive_scale": 8000004
+    },
+    {
+      "block": 4,
+      "ordered_mass": "98979391092743353103223818666496",
+      "status": "NO_MEANINGFUL_CUT_IN_BOUNDED_PROBE",
+      "LP_seconds": 0.6934945670000161,
+      "numeric_status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "numeric_objective": 5.702998412599782e-10,
+      "exact_normalized_pairing": "349999572332021153/800000000000000000000000000",
+      "float_normalized_pairing": 4.3749946541502643e-10,
+      "finite6_minimum": 0,
+      "positive_scale": 4000000
+    }
+  ],
+  "domain": {
+    "source_matrix_sha256": "f96b3d46d0b54bb3d4395156d7c06e3667d28a695e8e1363201a2ee596f43a88",
+    "source_histogram_sha256": "078492d4aa90c700d28e442eea316d914d274a79c654df6989314013d1b1c066",
+    "generic_label_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "coverage": "All54264 unique nonnegative16-label sum6 vectors; each normalized column=xxT/36. OldsupportstateIDs are not used.",
+    "labels": 15,
+    "histograms": 38760,
+    "tail_zero_filter": true,
+    "source_domain_labels": 16
+  },
+  "scope": "NoCut/timeout is inconclusive, not cone membership or whole-family NO; whole682 OPEN."
+}

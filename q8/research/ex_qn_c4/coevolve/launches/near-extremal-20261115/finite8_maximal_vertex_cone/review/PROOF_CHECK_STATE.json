@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "rounds": 1,
+  "threadId": "/root/review_maximal_vertex_cone",
+  "fatal_fixed": 0,
+  "critical_fixed": 0,
+  "major_fixed": 0,
+  "minor_fixed": 0,
+  "counterexamples_found_in_claimed_scope": 0,
+  "scope_boundary_counterexamples_verified": 2,
+  "acceptance_gate": "substantive PASS; same-family provisional, actual model identity unattested",
+  "timestamp": "2026-11-15T21:25:35.768386+00:00"
+}

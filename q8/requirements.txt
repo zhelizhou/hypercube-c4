@@ -1,0 +1,4 @@
+# Optional exact-coefficient reconstruction; versions used by the original task.
+# quick/q4/q6 modes do not need these packages.
+numpy==2.5.4
+scipy==1.18.1

@@ -1,0 +1,75 @@
+{
+  "status": "PASS_ACTUAL_GENERIC_LOADER_AND_FULL_KERNEL_CONSUMER",
+  "mapping_cases": [
+    {
+      "case": "valid L=1",
+      "accepted": true
+    },
+    {
+      "case": "valid L=3",
+      "accepted": true
+    },
+    {
+      "case": "valid L=16",
+      "accepted": true
+    },
+    {
+      "case": "L0",
+      "rejected": true
+    },
+    {
+      "case": "L17",
+      "rejected": true
+    },
+    {
+      "case": "floatL",
+      "rejected": true
+    },
+    {
+      "case": "booleanL",
+      "rejected": true
+    },
+    {
+      "case": "missing_block",
+      "rejected": true
+    },
+    {
+      "case": "extra_block",
+      "rejected": true
+    },
+    {
+      "case": "missing_state",
+      "rejected": true
+    },
+    {
+      "case": "negative",
+      "rejected": true
+    },
+    {
+      "case": "out_of_range",
+      "rejected": true
+    },
+    {
+      "case": "boolean",
+      "rejected": true
+    },
+    {
+      "case": "float",
+      "rejected": true
+    }
+  ],
+  "no_lp_run": true,
+  "actual_graphs_per_block": 762,
+  "blocks": 5,
+  "entrywise_generic_ordered_moments_equal_native_projection": true,
+  "distinct_state_same_label_collisions": 9593,
+  "raw_generic_pairings": [
+    "53313224787540428267971233/500000000000000000000000000",
+    "355601716783904445908291749/1000000000000000000000000000",
+    "1447698961924433428540567733/2000000000000000000000000000",
+    "13517076701819364034483361/200000000000000000000000000",
+    "1989043188181292953076792189/2000000000000000000000000000"
+  ],
+  "future_column_scorer_checks": "Every graph gets literal full-kernel value and native exact scorer value, for all five generic full kernels; arbitrary new legal Q4 columns use the identical stateless formula.",
+  "whole682": "OPEN"
+}

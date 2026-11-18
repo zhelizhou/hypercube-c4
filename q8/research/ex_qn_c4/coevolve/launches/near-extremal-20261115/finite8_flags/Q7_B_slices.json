@@ -1,0 +1,2807 @@
+{
+  "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_q7_gluing_cycle007/B.edges",
+  "source_sha256": "02cf502514a66add90f55c06f0adc994657c555234d209d72deb725d92954b78",
+  "n": 7,
+  "records": [
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2121985239
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3182286714
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 2916588507
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 48,
+      "mask_original_Q4_order": 2129362383
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 2679585756
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 80,
+      "mask_original_Q4_order": 4132404135
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 96,
+      "mask_original_Q4_order": 2129196534
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": 112,
+      "mask_original_Q4_order": 3175075419
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3682053335
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3886929838
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 2799500251
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 40,
+      "mask_original_Q4_order": 2599124345
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 1874492380
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 72,
+      "mask_original_Q4_order": 4182735731
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 96,
+      "mask_original_Q4_order": 3689264630
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "base": 104,
+      "mask_original_Q4_order": 3879718543
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2042477783
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3621230510
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3554473850
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 24,
+      "mask_original_Q4_order": 1844148957
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3781127132
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 72,
+      "mask_original_Q4_order": 3202939763
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 80,
+      "mask_original_Q4_order": 3202726823
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "base": 88,
+      "mask_original_Q4_order": 1262470391
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3032337623
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3954653102
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3954866042
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 24,
+      "mask_original_Q4_order": 508525277
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3546246107
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 40,
+      "mask_original_Q4_order": 2112421241
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 48,
+      "mask_original_Q4_order": 2045099471
+    },
+    {
+      "axes": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "base": 56,
+      "mask_original_Q4_order": 3342847671
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2069819091
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3987339132
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 2797452751
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 36,
+      "mask_original_Q4_order": 2598886835
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 2679585756
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 68,
+      "mask_original_Q4_order": 4132404135
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 96,
+      "mask_original_Q4_order": 2077030386
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "base": 100,
+      "mask_original_Q4_order": 3980127837
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2044526291
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3621468028
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3552425454
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 20,
+      "mask_original_Q4_order": 1843911327
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3783207900
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 68,
+      "mask_original_Q4_order": 3202735015
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 80,
+      "mask_original_Q4_order": 3201104755
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "base": 84,
+      "mask_original_Q4_order": 1262216439
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3032338131
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3954866044
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3954652654
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 20,
+      "mask_original_Q4_order": 508525215
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3548327375
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 36,
+      "mask_original_Q4_order": 2112216499
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 48,
+      "mask_original_Q4_order": 2043476955
+    },
+    {
+      "axes": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "base": 52,
+      "mask_original_Q4_order": 3342593661
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 964017815
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3621468140
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3619394942
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 12,
+      "mask_original_Q4_order": 1844107995
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3782962140
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 68,
+      "mask_original_Q4_order": 3203193715
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 72,
+      "mask_original_Q4_order": 3200646055
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "base": 76,
+      "mask_original_Q4_order": 1262462199
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3032338071
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3954653164
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3954865534
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 12,
+      "mask_original_Q4_order": 508525275
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 2474338139
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 36,
+      "mask_original_Q4_order": 2112675251
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 40,
+      "mask_original_Q4_order": 2110127033
+    },
+    {
+      "axes": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "base": 44,
+      "mask_original_Q4_order": 3342839469
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 882952071
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3680451452
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 12,
+      "mask_original_Q4_order": 2129362383
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 2608805694
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 20,
+      "mask_original_Q4_order": 2129362383
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 24,
+      "mask_original_Q4_order": 2127264717
+    },
+    {
+      "axes": [
+        0,
+        1,
+        5,
+        6
+      ],
+      "base": 28,
+      "mask_original_Q4_order": 3241447026
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3078539995
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3739841918
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 1786723757
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 34,
+      "mask_original_Q4_order": 2849500094
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 66,
+      "mask_original_Q4_order": 3883850686
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 96,
+      "mask_original_Q4_order": 3085751290
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "base": 98,
+      "mask_original_Q4_order": 3732630623
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2111494875
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3602638206
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 2541697004
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 18,
+      "mask_original_Q4_order": 2094526103
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3913264510
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 66,
+      "mask_original_Q4_order": 3167091646
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 80,
+      "mask_original_Q4_order": 1055709171
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "base": 82,
+      "mask_original_Q4_order": 1803249645
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3168266971
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3921405310
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 1803499500
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 18,
+      "mask_original_Q4_order": 1048501911
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3611274669
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 34,
+      "mask_original_Q4_order": 2093349822
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 48,
+      "mask_original_Q4_order": 1038931955
+    },
+    {
+      "axes": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "base": 50,
+      "mask_original_Q4_order": 3598413182
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2109447263
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3337282554
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 2541197238
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 10,
+      "mask_original_Q4_order": 2111520461
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3914853310
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 66,
+      "mask_original_Q4_order": 3165502846
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 72,
+      "mask_original_Q4_order": 1055487981
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "base": 74,
+      "mask_original_Q4_order": 1803470835
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3166432351
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3923239930
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 1803474870
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 10,
+      "mask_original_Q4_order": 1048526541
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3612863417
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 34,
+      "mask_original_Q4_order": 1823325870
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 40,
+      "mask_original_Q4_order": 1038710649
+    },
+    {
+      "axes": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "base": 42,
+      "mask_original_Q4_order": 3615411635
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2095771087
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3380522618
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3678379382
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 10,
+      "mask_original_Q4_order": 2127264717
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3680451452
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 18,
+      "mask_original_Q4_order": 1856757443
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 24,
+      "mask_original_Q4_order": 920778639
+    },
+    {
+      "axes": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "base": 26,
+      "mask_original_Q4_order": 3547708798
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2111519453
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3337283450
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 2541197230
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 6,
+      "mask_original_Q4_order": 2109447383
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3913272702
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 66,
+      "mask_original_Q4_order": 3169172414
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 68,
+      "mask_original_Q4_order": 1055455219
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "base": 70,
+      "mask_original_Q4_order": 1801414637
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3168266973
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3921405818
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 1803499438
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 6,
+      "mask_original_Q4_order": 1048501463
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3611282867
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 34,
+      "mask_original_Q4_order": 1826995886
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 36,
+      "mask_original_Q4_order": 1038677881
+    },
+    {
+      "axes": [
+        0,
+        3,
+        4,
+        6
+      ],
+      "base": 38,
+      "mask_original_Q4_order": 3613354937
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2093673421
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3380522618
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 6,
+      "mask_original_Q4_order": 2125192647
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3678379382
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 18,
+      "mask_original_Q4_order": 1860927179
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 20,
+      "mask_original_Q4_order": 920778639
+    },
+    {
+      "axes": [
+        0,
+        3,
+        5,
+        6
+      ],
+      "base": 22,
+      "mask_original_Q4_order": 3545611132
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2095771087
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 2304680504
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3678379382
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 6,
+      "mask_original_Q4_order": 2129362383
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 10,
+      "mask_original_Q4_order": 2125192647
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 12,
+      "mask_original_Q4_order": 918680461
+    },
+    {
+      "axes": [
+        0,
+        4,
+        5,
+        6
+      ],
+      "base": 14,
+      "mask_original_Q4_order": 3547708798
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3186088923
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 1119728701
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 33,
+      "mask_original_Q4_order": 3186088923
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 65,
+      "mask_original_Q4_order": 3891053215
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 96,
+      "mask_original_Q4_order": 3186088923
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "base": 97,
+      "mask_original_Q4_order": 3682549118
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 4249082843
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2529017214
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3183328893
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 17,
+      "mask_original_Q4_order": 1776801779
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 1774042494
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 65,
+      "mask_original_Q4_order": 4242006687
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 80,
+      "mask_original_Q4_order": 2531776499
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "base": 81,
+      "mask_original_Q4_order": 1065303756
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2530733019
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 4230610302
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 1769946749
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 17,
+      "mask_original_Q4_order": 1072482291
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 4257068093
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 33,
+      "mask_original_Q4_order": 1775758299
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 48,
+      "mask_original_Q4_order": 3186088923
+    },
+    {
+      "axes": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "base": 49,
+      "mask_original_Q4_order": 2524921469
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3715341775
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2531064766
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 3216281271
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 9,
+      "mask_original_Q4_order": 1777039341
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 1776090046
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 65,
+      "mask_original_Q4_order": 4240172127
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 72,
+      "mask_original_Q4_order": 2532014061
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": 73,
+      "mask_original_Q4_order": 1065279186
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2528898511
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 4232444862
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 1769922231
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 9,
+      "mask_original_Q4_order": 1072506861
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3722245945
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 33,
+      "mask_original_Q4_order": 1773923791
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 40,
+      "mask_original_Q4_order": 3219880776
+    },
+    {
+      "axes": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "base": 41,
+      "mask_original_Q4_order": 2524896951
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3598380495
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2632759162
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 4189558007
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 9,
+      "mask_original_Q4_order": 1876781997
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3654760429
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 17,
+      "mask_original_Q4_order": 1874709927
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 24,
+      "mask_original_Q4_order": 3068722110
+    },
+    {
+      "axes": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "base": 25,
+      "mask_original_Q4_order": 2473848411
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3721508845
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2524896638
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 3219397566
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 5,
+      "mask_original_Q4_order": 1773922291
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 1769921918
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 65,
+      "mask_original_Q4_order": 4242006687
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 68,
+      "mask_original_Q4_order": 2528897011
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "base": 69,
+      "mask_original_Q4_order": 1065303756
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2530732013
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 4230610302
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 1769946046
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 5,
+      "mask_original_Q4_order": 1072482291
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 3716078875
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 33,
+      "mask_original_Q4_order": 1775757293
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 36,
+      "mask_original_Q4_order": 3216764481
+    },
+    {
+      "axes": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "base": 37,
+      "mask_original_Q4_order": 2524920766
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 3604670445
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2632760698
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 4192678398
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 5,
+      "mask_original_Q4_order": 1874710183
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 3648495055
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 17,
+      "mask_original_Q4_order": 1876780973
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 20,
+      "mask_original_Q4_order": 3065577143
+    },
+    {
+      "axes": [
+        1,
+        3,
+        5,
+        6
+      ],
+      "base": 21,
+      "mask_original_Q4_order": 2473847643
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 1455091047
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2632760186
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 4192702974
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 5,
+      "mask_original_Q4_order": 1876782765
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 4185340127
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 9,
+      "mask_original_Q4_order": 1874708391
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 12,
+      "mask_original_Q4_order": 3067673277
+    },
+    {
+      "axes": [
+        1,
+        4,
+        5,
+        6
+      ],
+      "base": 13,
+      "mask_original_Q4_order": 2473848155
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2144874109
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2531777999
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 4000480219
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 3,
+      "mask_original_Q4_order": 1774042807
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 64,
+      "mask_original_Q4_order": 1776803279
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 65,
+      "mask_original_Q4_order": 2128412343
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 66,
+      "mask_original_Q4_order": 2529017527
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "base": 67,
+      "mask_original_Q4_order": 2129362383
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 2531065469
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2129362383
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 1777040347
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 3,
+      "mask_original_Q4_order": 2128412343
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 32,
+      "mask_original_Q4_order": 2145901954
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 33,
+      "mask_original_Q4_order": 1776090749
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 34,
+      "mask_original_Q4_order": 4005410599
+    },
+    {
+      "axes": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "base": 35,
+      "mask_original_Q4_order": 2532015067
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 4141413117
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2659138907
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 3916905435
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 3,
+      "mask_original_Q4_order": 1857927079
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 16,
+      "mask_original_Q4_order": 2045222270
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 17,
+      "mask_original_Q4_order": 1742204589
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 18,
+      "mask_original_Q4_order": 3871008755
+    },
+    {
+      "axes": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": 19,
+      "mask_original_Q4_order": 2548554618
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 4135221471
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2663233395
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 2849356729
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 3,
+      "mask_original_Q4_order": 1853832591
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 8,
+      "mask_original_Q4_order": 2042080375
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 9,
+      "mask_original_Q4_order": 1743248302
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 10,
+      "mask_original_Q4_order": 4142584318
+    },
+    {
+      "axes": [
+        2,
+        4,
+        5,
+        6
+      ],
+      "base": 11,
+      "mask_original_Q4_order": 2547510905
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 0,
+      "mask_original_Q4_order": 4142461438
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 1,
+      "mask_original_Q4_order": 2659139163
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 2,
+      "mask_original_Q4_order": 2849455033
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 3,
+      "mask_original_Q4_order": 1857928615
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 4,
+      "mask_original_Q4_order": 2042076279
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 5,
+      "mask_original_Q4_order": 1742203821
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 6,
+      "mask_original_Q4_order": 4135250143
+    },
+    {
+      "axes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "base": 7,
+      "mask_original_Q4_order": 2548553594
+    }
+  ]
+}

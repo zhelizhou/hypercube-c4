@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "all_input_hashes_current": true,
+  "all_frozen_package_files_unchanged": true,
+  "source_units": 25,
+  "semantic_obligations": 29,
+  "acyclic": true,
+  "required_artifacts_present": true
+}

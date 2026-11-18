@@ -1,0 +1,42 @@
+{
+  "status": "PASS_EXACT_CONNECTOR_GEOMETRY_PSD_AND_FINITE6_CUTS",
+  "same_input_point_sha256": "223b58046502fdd7eae1847fc6fc9ab3f27dfbeca9c1f1647b14f06a54d28aa9",
+  "actual_graph_weights": 202,
+  "lambda_mass_preserved_exact": "9999999999999698585929/10000000000000000000000",
+  "five_projected_matrices_independently_recomputed": true,
+  "PSD_eligible_blocks": [
+    0,
+    4
+  ],
+  "old_PSD_violations_only_blocks": [
+    1,
+    2,
+    3
+  ],
+  "checks": [
+    {
+      "block": 0,
+      "projected_moment_exact_PSD": true,
+      "complete_histograms": 54264,
+      "minimum": 0,
+      "full_states_covered": 240,
+      "all16_connector_labels_covered": true,
+      "negative_witness_total": 4,
+      "exact_target_feature_raw": "-5650710530085758525389/15000000000000000000000",
+      "normalization": 12160
+    },
+    {
+      "block": 4,
+      "projected_moment_exact_PSD": true,
+      "complete_histograms": 54264,
+      "minimum": 0,
+      "full_states_covered": 170,
+      "all16_connector_labels_covered": true,
+      "negative_witness_total": 4,
+      "exact_target_feature_raw": "-2909599605897848271617/3000000000000000000000",
+      "normalization": 7600
+    }
+  ],
+  "scope": "Two validprojectedfrequency kernels cutthe samefrozenpoint. No682claim; inputnotacceptedfeasiblepoint/graph.",
+  "source_sha256": "4f8041ff044f97338339274236219af840516275b8f18e15e2d07a5c8eb04d2c"
+}

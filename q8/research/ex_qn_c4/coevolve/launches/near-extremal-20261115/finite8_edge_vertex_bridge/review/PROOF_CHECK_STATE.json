@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "verdict": "PASS",
+  "assurance": "same-family/provisional; actual identity unattested",
+  "round": 1,
+  "issues_open": [],
+  "generated_at": "2026-11-15T21:33:10.230820+00:00",
+  "canonical_integration": "Root only",
+  "main682": "OPEN",
+  "no_followup_jobs_started": true
+}

@@ -1,0 +1,460 @@
+{
+  "scope": "Only top-level .json files in the named historical results directory with explicit edges below64",
+  "claim": "This bounded scan is not a search of all graphs or all project files; the actual single-low rows are recorded explicitly.",
+  "edge_list_files": [
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21.json",
+      "sha256": "5958208848c1448e67ba24132177526629dce58c8bedf209fc48b5fff59938c2"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21_oppmin3.json",
+      "sha256": "813231a7fb68f2712e2a435b7cca3745fe798d8809fa8df6a17becd98633cb36"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12.json",
+      "sha256": "b2e492ab1ae3b1616bc58a8f1c71e3f7caf83a99357e7111435c85031997702f"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12_oppmin3.json",
+      "sha256": "861249f84e6f096e632b567d08472b4b756f40f314452d68c157897d34c995ea"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_2d4_2_sharp.json",
+      "sha256": "fe14907a7d41fc109a1c6a3b2e6bdc60b763645ed627b931fc4bb120f4e06134"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_3_2_sharp.json",
+      "sha256": "af65e3b728f8216e7ca4b0932cda596fb6334a107fdf6c583a1ff72c0d7b8bb7"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_3_3_sharp.json",
+      "sha256": "2a3c81740a7bc88063dad3438723e0e0c06932bd2602b106bf90cf022d817bc6"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_3_sharp.json",
+      "sha256": "0d8efefaafa9d80b9eca29ab87e35760c5c479e056a8a16d844ed3f62fc36a8d"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_4_sharp.json",
+      "sha256": "1095bbd84ce257ca3a20ad13df4cd69df85e7efec5adccee944e9a503e186e17"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_degree_potential_2d4.json",
+      "sha256": "0281e25604b40b765ac45a6c9d8778d78a1589d30de399dbd154bfac0be5e55b"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_hist_M130_1_cQ1_b4_4_qroot31.json",
+      "sha256": "dd2f410d0c732d1fbe8dedb5f8512bf244230da360bb26c4955bacf47709cc7a"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_hist_M130_1_cQ1_b4_4_qroot7.json",
+      "sha256": "a0e348d76e0473b12f98de283719f01a04a0c54a4a3c6fbfa0773ee464f11eb2"
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_positive_defect.json",
+      "sha256": "631dfeb65769dd69ea841f0394d6789d0e27900a84fbb776990f52d4f073fb8c"
+    }
+  ],
+  "eligible_parity_sides": [
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21.json",
+      "parity": 0,
+      "S": 152,
+      "c6": 3,
+      "weighted": 307,
+      "low_count": 0,
+      "histogram": {
+        "3": 12,
+        "4": 15,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21.json",
+      "parity": 1,
+      "S": 142,
+      "c6": 0,
+      "weighted": 284,
+      "low_count": 1,
+      "histogram": {
+        "2": 1,
+        "3": 10,
+        "4": 13,
+        "5": 8
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21_oppmin3.json",
+      "parity": 0,
+      "S": 152,
+      "c6": 3,
+      "weighted": 307,
+      "low_count": 0,
+      "histogram": {
+        "3": 12,
+        "4": 15,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21_oppmin3.json",
+      "parity": 1,
+      "S": 138,
+      "c6": 1,
+      "weighted": 277,
+      "low_count": 0,
+      "histogram": {
+        "3": 10,
+        "4": 17,
+        "5": 4,
+        "6": 1
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12.json",
+      "parity": 0,
+      "S": 144,
+      "c6": 4,
+      "weighted": 292,
+      "low_count": 0,
+      "histogram": {
+        "3": 16,
+        "4": 12,
+        "6": 4
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12.json",
+      "parity": 1,
+      "S": 118,
+      "c6": 0,
+      "weighted": 236,
+      "low_count": 1,
+      "histogram": {
+        "2": 1,
+        "3": 10,
+        "4": 17,
+        "5": 4
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12_oppmin3.json",
+      "parity": 0,
+      "S": 144,
+      "c6": 4,
+      "weighted": 292,
+      "low_count": 0,
+      "histogram": {
+        "3": 16,
+        "4": 12,
+        "6": 4
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12_oppmin3.json",
+      "parity": 1,
+      "S": 119,
+      "c6": 0,
+      "weighted": 238,
+      "low_count": 0,
+      "histogram": {
+        "3": 13,
+        "4": 14,
+        "5": 5
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_2d4_2_sharp.json",
+      "parity": 0,
+      "S": 151,
+      "c6": 2,
+      "weighted": 304,
+      "low_count": 0,
+      "histogram": {
+        "3": 11,
+        "4": 15,
+        "5": 4,
+        "6": 2
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_2d4_2_sharp.json",
+      "parity": 1,
+      "S": 148,
+      "c6": 2,
+      "weighted": 298,
+      "low_count": 0,
+      "histogram": {
+        "3": 10,
+        "4": 17,
+        "5": 3,
+        "6": 2
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_3_2_sharp.json",
+      "parity": 0,
+      "S": 149,
+      "c6": 3,
+      "weighted": 301,
+      "low_count": 0,
+      "histogram": {
+        "3": 13,
+        "4": 14,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_3_2_sharp.json",
+      "parity": 1,
+      "S": 145,
+      "c6": 2,
+      "weighted": 292,
+      "low_count": 0,
+      "histogram": {
+        "3": 13,
+        "4": 13,
+        "5": 4,
+        "6": 2
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_3_3_sharp.json",
+      "parity": 0,
+      "S": 146,
+      "c6": 3,
+      "weighted": 295,
+      "low_count": 0,
+      "histogram": {
+        "3": 14,
+        "4": 13,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_3_3_sharp.json",
+      "parity": 1,
+      "S": 146,
+      "c6": 3,
+      "weighted": 295,
+      "low_count": 0,
+      "histogram": {
+        "3": 14,
+        "4": 13,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_3_sharp.json",
+      "parity": 0,
+      "S": 144,
+      "c6": 4,
+      "weighted": 292,
+      "low_count": 0,
+      "histogram": {
+        "3": 16,
+        "4": 12,
+        "6": 4
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_3_sharp.json",
+      "parity": 1,
+      "S": 140,
+      "c6": 3,
+      "weighted": 283,
+      "low_count": 0,
+      "histogram": {
+        "3": 16,
+        "4": 11,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_4_sharp.json",
+      "parity": 0,
+      "S": 141,
+      "c6": 4,
+      "weighted": 286,
+      "low_count": 0,
+      "histogram": {
+        "3": 17,
+        "4": 11,
+        "6": 4
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_4_sharp.json",
+      "parity": 1,
+      "S": 141,
+      "c6": 4,
+      "weighted": 286,
+      "low_count": 0,
+      "histogram": {
+        "3": 17,
+        "4": 11,
+        "6": 4
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_degree_potential_2d4.json",
+      "parity": 0,
+      "S": 157,
+      "c6": 2,
+      "weighted": 316,
+      "low_count": 0,
+      "histogram": {
+        "3": 7,
+        "4": 20,
+        "5": 3,
+        "6": 2
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_degree_potential_2d4.json",
+      "parity": 1,
+      "S": 149,
+      "c6": 0,
+      "weighted": 298,
+      "low_count": 0,
+      "histogram": {
+        "3": 7,
+        "4": 18,
+        "5": 7
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_hist_M130_1_cQ1_b4_4_qroot31.json",
+      "parity": 0,
+      "S": 156,
+      "c6": 1,
+      "weighted": 313,
+      "low_count": 0,
+      "histogram": {
+        "3": 4,
+        "4": 23,
+        "5": 4,
+        "6": 1
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_hist_M130_1_cQ1_b4_4_qroot31.json",
+      "parity": 1,
+      "S": 156,
+      "c6": 1,
+      "weighted": 313,
+      "low_count": 0,
+      "histogram": {
+        "3": 4,
+        "4": 23,
+        "5": 4,
+        "6": 1
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_hist_M130_1_cQ1_b4_4_qroot7.json",
+      "parity": 0,
+      "S": 156,
+      "c6": 1,
+      "weighted": 313,
+      "low_count": 0,
+      "histogram": {
+        "3": 4,
+        "4": 23,
+        "5": 4,
+        "6": 1
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_hist_M130_1_cQ1_b4_4_qroot7.json",
+      "parity": 1,
+      "S": 156,
+      "c6": 1,
+      "weighted": 313,
+      "low_count": 0,
+      "histogram": {
+        "3": 4,
+        "4": 23,
+        "5": 4,
+        "6": 1
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_positive_defect.json",
+      "parity": 0,
+      "S": 152,
+      "c6": 0,
+      "weighted": 304,
+      "low_count": 0,
+      "histogram": {
+        "3": 10,
+        "4": 13,
+        "5": 9
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_positive_defect.json",
+      "parity": 1,
+      "S": 152,
+      "c6": 0,
+      "weighted": 304,
+      "low_count": 0,
+      "histogram": {
+        "3": 10,
+        "4": 13,
+        "5": 9
+      }
+    }
+  ],
+  "maximum_observed": {
+    "file": "q6_sources/q8_upper_independent/results/q6_degree_potential_2d4.json",
+    "parity": 0,
+    "S": 157,
+    "c6": 2,
+    "weighted": 316,
+    "low_count": 0,
+    "histogram": {
+      "3": 7,
+      "4": 20,
+      "5": 3,
+      "6": 2
+    }
+  },
+  "single_low_rows": [
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21.json",
+      "parity": 1,
+      "S": 142,
+      "c6": 0,
+      "weighted": 284,
+      "low_count": 1,
+      "histogram": {
+        "2": 1,
+        "3": 10,
+        "4": 13,
+        "5": 8
+      }
+    },
+    {
+      "file": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12.json",
+      "parity": 1,
+      "S": 118,
+      "c6": 0,
+      "weighted": 236,
+      "low_count": 1,
+      "histogram": {
+        "2": 1,
+        "3": 10,
+        "4": 17,
+        "5": 4
+      }
+    }
+  ],
+  "scanner_sha256": "368b65201485cd76bd69dc194586ba50a0051245d3139c300c9c2973e6c25b3b"
+}

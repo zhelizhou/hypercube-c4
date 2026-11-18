@@ -1,0 +1,14 @@
+{
+  "missing": "expected 90 int64 tokens",
+  "extra": "extra trailing token",
+  "overflow": "invalid or out-of-range int64 token",
+  "underflow": "invalid or out-of-range int64 token",
+  "decimal": "invalid or out-of-range int64 token",
+  "trailing_chars": "invalid or out-of-range int64 token",
+  "bare_minus": "invalid or out-of-range int64 token",
+  "hex": "invalid or out-of-range int64 token",
+  "nan": "invalid or out-of-range int64 token",
+  "asymmetry": "query must be symmetric",
+  "unreadable_path": "cannot open query",
+  "too_many_paths": "expected zero or one query path"
+}

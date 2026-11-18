@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "implementation": "Root independent multiset enumeration",
+  "checks": [
+    {
+      "block": 1,
+      "count_sum6": 54264,
+      "minimum_sum6": 0,
+      "zero_histograms": 90,
+      "count_sum_le5": 20349,
+      "minimum_sum_le5": -288,
+      "outside_J": 288,
+      "negative_multiset": [
+        11,
+        13,
+        15,
+        15
+      ],
+      "stabilizer_order": 2,
+      "pairing": "-3610114753901/1991111109120",
+      "certificate_sha256": "a36986ab797589dd1a9a5c1549c9a2e7e349041127cea25398a245c557bc392f"
+    },
+    {
+      "block": 4,
+      "count_sum6": 54264,
+      "minimum_sum6": 0,
+      "zero_histograms": 517,
+      "count_sum_le5": 20349,
+      "minimum_sum_le5": -111408,
+      "outside_J": 111408,
+      "negative_multiset": [
+        3,
+        6,
+        9,
+        13,
+        15
+      ],
+      "stabilizer_order": 2,
+      "pairing": "-74037620441662063/17919999982080",
+      "certificate_sha256": "5bcf9d724103cb0dab9b5be9401716b89582c7f28a47f8350de6200ec7b3d980"
+    }
+  ],
+  "point_sha256": "fdbd082699eff6d46899d6a501945881cf6f6fed48735dd3a326c5db8080aec6",
+  "scope": "Two finite6 full-state kernels and negative frozen-point pairing; no upper682 conclusion"
+}

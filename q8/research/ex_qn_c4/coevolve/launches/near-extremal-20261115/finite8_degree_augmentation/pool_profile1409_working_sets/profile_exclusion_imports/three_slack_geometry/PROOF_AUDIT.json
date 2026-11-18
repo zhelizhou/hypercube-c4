@@ -1,0 +1,105 @@
+{
+  "audit_skill": "proof-checker",
+  "verdict": "PASS",
+  "reason_code": "all_proofs_complete_modulo_explicit_historical_imports",
+  "summary": "The stated one-sided profile is excluded by the actual-face slack and eight-odd-degree contradiction, modulo retained historical local imports; one cosmetic wording issue was closed. Same-family/provisional. Global upper682 remains OPEN.",
+  "audited_input_hashes": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_geometry/main.tex": "sha256:d2bd53f39ff5c164c49f53603961e46e1a34fc946fbf4bda1864957d36e0cfd8",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_geometry/PROOF_SKELETON.md": "sha256:d3b9a3073bdf6371dd87677c39d5e759aee3e9652859f7359f46596b23877b76",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/q8_crowded_faces/main.tex": "sha256:e10d8fe17b4c760f7431653b85ef2a4460f48c9af02901f68e252604bed933d1",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/GENERAL_WEIGHTED_GATE.md": "sha256:2a67bbee9027457ecfcafb07376dbae69fa67f87994c1f1883b4b318acb0698d",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/local_weighted/PROOF.md": "sha256:d89d28cf29345145bcba76eaee444f45908f1fe5ab98db6148208e9e4fef554f",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/local_weighted/TWO_LOW_EXTENSION.md": "sha256:21bd93947610aa60f4c0df6c6e66462dfb6903d4dc7df5d3fa301b019b41eb63",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q6_three_full_structure_cycle010/PROOF.md": "sha256:9c7b7ceb2b11e3a07669cea8dc3b7118f6c75120e6e0136037a9522d342a23e4",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_triple_geometry_cycle010/PROOF.md": "sha256:d7bafd0af86b3a6cbdfe1c9faf2add1f684db0c03eb18e1cc3cfdf188ebdfd47",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/analytic/PROOF.md": "sha256:39e1f9a86971aed331185ce01711a2f507cc4dd95290e123b1bb9fc20569995d",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/Q8_BRIDGE.md": "sha256:6e975f65f70e9418602d553d4ff13f811a3ba720e08b2988b5676300f4e2a7df",
+    "q6_sources/q8_upper_independent/REFINEMENT_688.md": "sha256:a2260728d115b4ce13c602edbb7f3a755d45b883640e7dff0adff6b6372fd16f",
+    "q6_sources/q8_upper_independent/REFINEMENT_K3.md": "sha256:9630851daa0418e70d7ecc0cab479fabe17cceae8e0d659362ca4369089f11c9",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_geometry/scan_four_threes.py": "sha256:7dd037a101e7361c2b97e7a2b6bf3e1f33bfeada97ce592a3ece69f890384dcc",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_geometry/FOUR_THREE_DIRECTIONS.json": "sha256:aa43e29db7e704ea96bfd4bb98e9e5fa0224bea598279ce58a900b5b307ca8f4"
+  },
+  "trace_path": "review/",
+  "thread_id": "/root/review_three_slack_parity",
+  "executor_model": null,
+  "executor_family": "openai",
+  "reviewer_model": null,
+  "reviewer_family": "openai",
+  "requested_reviewer_model": "gpt-6.1-sol",
+  "requested_reviewer_reasoning": "ultra",
+  "reviewer_reasoning": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "identity_evidence": {
+    "requested_model": "gpt-6.1-sol",
+    "requested_effort": "ultra",
+    "backend": "codex",
+    "transport": "native",
+    "actual_returned_model": null,
+    "actual_returned_effort": null,
+    "actual_serving_identity_independently_observable": false,
+    "route_recheck_path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_geometry/REVIEWER_ROUTE.recheck.json",
+    "route_recheck": {
+      "backend": "codex",
+      "host": "codex",
+      "source": "host-default",
+      "model": "gpt-6.1-sol",
+      "effort": "ultra",
+      "transport": "native",
+      "fresh_tool": "spawn_agent",
+      "continuation_tool": "send_input"
+    },
+    "route_recheck_is_initial_call_receipt": false,
+    "route_recheck_is_model_invocation": false,
+    "review_independence": "same-family",
+    "acceptance_status": "provisional",
+    "family_comparison_basis": "declared native Codex / OpenAI same-family setup; no independent serving-model attestation"
+  },
+  "review_completed": true,
+  "review_scope_complete": true,
+  "generated_at": "2026-11-15T18:27:00.963812+00:00",
+  "details": {
+    "theorems_audited": 1,
+    "issues": [],
+    "closed_issues": [
+      {
+        "issue_id": "E01",
+        "severity": "MINOR",
+        "status": "closed",
+        "file": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/three_slack_geometry/main.tex",
+        "line": 13,
+        "original_statement": "The two degree sums are128 and683.",
+        "fixed_statement": "The specified parity has128 vertices and degree sum683.",
+        "original_sha256": "d7b93c2c2704dfe185a5bce4d8c4980a74a15987d720c94e68444d7b905bc361",
+        "final_sha256": "d2bd53f39ff5c164c49f53603961e46e1a34fc946fbf4bda1864957d36e0cfd8",
+        "final_hash_matches_root_receipt": true,
+        "whole_file_inverse_substitution_recovers_original_hash": true,
+        "mathematical_source_changed": false,
+        "new_mathematical_review_required": false
+      }
+    ],
+    "source_unit_coverage": {
+      "assigned": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "covered": [
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "fraction": "4/4",
+      "source_execution_only": true
+    },
+    "import_status": "explicit historical local imports not replayed in this review",
+    "counterexamples_found": 0,
+    "optional_calibration_is_proof_premise": false,
+    "global_upper_682_status": "OPEN",
+    "render_html": false,
+    "tex_build_performed": false
+  },
+  "primary_proof_status": "open"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "SCIENTIFIC_RECONSTRUCTION_AND_ACTUAL_COMPLETE_QUERY_BINDINGS_CONFIRMED",
+  "main682": "OPEN",
+  "scope": "deterministic-local B3/B8 scientific reconstruction; ordinary maximal interface; no canonical proof-checker",
+  "B3_current_producer_byte_replay": {
+    "EXACT_COMBINATION.json": {
+      "byte_identical": true,
+      "sha256": "68d5ffe28149241bac422e7a5c88e103769a9e0743b32d1ef8a21a8fbb57ef30"
+    },
+    "LOCAL_PRICE_SCORE.json": {
+      "byte_identical": true,
+      "sha256": "4a0dd0ae58aa7bafc37856bd9b3c810265061b95de407bd827569f2b1359f09d"
+    },
+    "oracle_matrices.txt": {
+      "byte_identical": true,
+      "sha256": "cd486c2604488f61865120f2b2068194a235aafdcafa44024090e541b1a8ebcb"
+    },
+    "oracle_linear.txt": {
+      "byte_identical": true,
+      "sha256": "a4874747363aecc6290aaa502709e89bfd61d9487c3e7ae303c39d0d2f00cbd8"
+    }
+  },
+  "B3_result_changed_fields": [
+    "parameter_source_hashes",
+    "seconds"
+  ],
+  "B8_two_separate_oracle_implementations_agree_raw_max": -37440,
+  "B8_literal_tied_witness_scores": {
+    "146532333": -37440,
+    "3889906149": -37440
+  }
+}

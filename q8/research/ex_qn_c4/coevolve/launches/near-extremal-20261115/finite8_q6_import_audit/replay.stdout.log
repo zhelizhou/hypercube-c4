@@ -1,0 +1,27 @@
+Geometry, 16 labelled hole orbits and checker tests passed.
+{"completed": "q6_fullstar_d4", "additions": 3337, "seconds": 0.0962397740004235}
+{"completed": "q6_one_hole_b8", "additions": 60247, "seconds": 2.767932713999471}
+{"completed": "q6_fullstar_d6", "additions": 75440, "seconds": 3.4606388579995837}
+{"completed": "q6_one_hole_b24", "additions": 30488, "seconds": 1.1367338449999806}
+{"completed": "q6_star159_c4", "additions": 28291, "seconds": 0.8624844650039449}
+{"completed": "q6_one_hole_b56", "additions": 58600, "seconds": 2.732065281001269}
+{"completed": "q6_one_low_full_r2", "additions": 407926, "seconds": 42.65518501099723}
+{"completed": "q6_low2_hole_m7_b8_six2", "additions": 222768, "seconds": 18.88931443799811}
+{"completed": "q6_low2_hole_m7_b0_six2", "additions": 560775, "seconds": 65.52233223099756}
+{"completed": "q6_low2_hole_m7_b24_six2", "additions": 168516, "seconds": 11.775854403997073}
+{"completed": "q6_low2_hole_m7_b56_six2", "additions": 257440, "seconds": 19.928187258003163}
+{"completed": "q6_low2_hole_m13_b0_six2", "additions": 246184, "seconds": 20.88386091800203}
+{"completed": "q6_low2_hole_m13_b2_six2", "additions": 208056, "seconds": 15.79855129399948}
+{"completed": "q6_low2_hole_m13_b16_six2", "additions": 201654, "seconds": 15.005659129994456}
+{"completed": "q6_low2_hole_m13_b18_six2", "additions": 158385, "seconds": 10.542165015998762}
+{"completed": "q6_low2_hole_m13_b48_six2", "additions": 188896, "seconds": 13.587750582002627}
+{"completed": "q6_low2_hole_m13_b50_six2", "additions": 219424, "seconds": 16.46926775800239}
+{"completed": "q6_low2_hole_m28_b1_six2", "additions": 203730, "seconds": 15.020495269003732}
+{"completed": "q6_low2_hole_m28_b0_six2", "additions": 326475, "seconds": 32.401732500002254}
+{"completed": "q6_low2_hole_m28_b3_six2", "additions": 205823, "seconds": 17.388979695999296}
+{"completed": "q6_low2_hole_m28_b32_six2", "additions": 203378, "seconds": 18.326179374002095}
+{"completed": "q6_low2_hole_m28_b33_six2", "additions": 144825, "seconds": 11.70726228300191}
+{"completed": "q6_code_degree_4_score17_low1", "additions": 2618, "seconds": 0.14549181999609573}
+{"completed": "q6_code_degree_4_score18_low2", "additions": 2801, "seconds": 0.1496949139982462}
+{"completed": "q6_low2_hole_m28_b35_six2", "additions": 197805, "seconds": 15.81408682899928}
+{"status": "PASS", "scope": "25 independently reconstructed local inputs, complete finite case covers, strict real trace replays only", "case_count": 25, "verified_additions": 4383882, "elapsed_seconds": 198.49056791699695, "no_solver": true, "no_old_writes": true}

@@ -1,0 +1,25 @@
+{
+  "scope": "Exactlythree actual full P roots, no degree lower assumptions, other full roots forbidden. Necessary high-star packing only.",
+  "full_roots": [
+    0,
+    15,
+    51
+  ],
+  "local_cap_histogram": {
+    "3": 1,
+    "4": 15,
+    "5": 13
+  },
+  "column_count": 213,
+  "column_degree_histogram": {
+    "4": 183,
+    "5": 30
+  },
+  "pair_conflict_count": 3360,
+  "face_rows": 100,
+  "numeric_H_bound": 27.000000000000004,
+  "dual_exactly_valid": true,
+  "exact_H_bound": "27",
+  "identity": "S+L=89+3H, H=N4+3N5",
+  "script_sha256": "60e51eec630849e7eb04751710e1dd0aedce3c7eebebd35b47687c0ab5d36027"
+}

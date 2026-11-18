@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "scope": "Exact 23-slot upper certificate and exact clique-LP primal; not graph attainment or a full-graph search.",
+  "full_triples": 480,
+  "parity_preserving_isometries_checked": 23040,
+  "local_cap_histogram": {
+    "3": 1,
+    "4": 15,
+    "5": 13
+  },
+  "all_allowable_local_masks": 1206,
+  "high_columns": 213,
+  "conflict_edges_including_same_root": 4320,
+  "maximal_cliques": 422,
+  "certificate_slots": [
+    {
+      "kind": "square",
+      "roots": [
+        5,
+        53
+      ],
+      "directions": 48
+    },
+    {
+      "kind": "square",
+      "roots": [
+        6,
+        54
+      ],
+      "directions": 48
+    },
+    {
+      "kind": "square",
+      "roots": [
+        9,
+        57
+      ],
+      "directions": 48
+    },
+    {
+      "kind": "square",
+      "roots": [
+        10,
+        58
+      ],
+      "directions": 48
+    },
+    {
+      "kind": "square",
+      "roots": [
+        12,
+        60
+      ],
+      "directions": 48
+    },
+    {
+      "kind": "square",
+      "roots": [
+        17,
+        29
+      ],
+      "directions": 12
+    },
+    {
+      "kind": "square",
+      "roots": [
+        18,
+        30
+      ],
+      "directions": 12
+    },
+    {
+      "kind": "square",
+      "roots": [
+        33,
+        45
+      ],
+      "directions": 12
+    },
+    {
+      "kind": "square",
+      "roots": [
+        34,
+        46
+      ],
+      "directions": 12
+    },
+    {
+      "kind": "square",
+      "roots": [
+        48,
+        60
+      ],
+      "directions": 12
+    },
+    {
+      "kind": "square",
+      "roots": [
+        20,
+        23
+      ],
+      "directions": 3
+    },
+    {
+      "kind": "square",
+      "roots": [
+        24,
+        27
+      ],
+      "directions": 3
+    },
+    {
+      "kind": "square",
+      "roots": [
+        36,
+        39
+      ],
+      "directions": 3
+    },
+    {
+      "kind": "square",
+      "roots": [
+        40,
+        43
+      ],
+      "directions": 3
+    },
+    {
+      "kind": "square",
+      "roots": [
+        60,
+        63
+      ],
+      "directions": 3
+    },
+    {
+      "kind": "three_face",
+      "directions": 21,
+      "base": 40
+    },
+    {
+      "kind": "three_face",
+      "directions": 37,
+      "base": 24
+    },
+    {
+      "kind": "three_face",
+      "directions": 25,
+      "base": 36
+    },
+    {
+      "kind": "three_face",
+      "directions": 41,
+      "base": 20
+    },
+    {
+      "kind": "three_face",
+      "directions": 22,
+      "base": 40
+    },
+    {
+      "kind": "three_face",
+      "directions": 38,
+      "base": 24
+    },
+    {
+      "kind": "three_face",
+      "directions": 26,
+      "base": 36
+    },
+    {
+      "kind": "three_face",
+      "directions": 42,
+      "base": 20
+    }
+  ],
+  "coverage_histogram": {
+    "(4, 1)": 156,
+    "(4, 2)": 3,
+    "(4, 3)": 24,
+    "(5, 3)": 24,
+    "(5, 6)": 6
+  },
+  "exact_H_upper": 23,
+  "exact_relaxation_primal": 23,
+  "S_plus_L_upper": 158,
+  "older_face_relaxation_dual_H": 27,
+  "witnesses": [
+    {
+      "path": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21.json",
+      "sha256": "5958208848c1448e67ba24132177526629dce58c8bedf209fc48b5fff59938c2",
+      "edges": 124,
+      "S": 152,
+      "L": 0,
+      "full": [
+        0,
+        15,
+        51
+      ],
+      "squares_checked": 240,
+      "specified_histogram": {
+        "3": 12,
+        "4": 15,
+        "5": 2,
+        "6": 3
+      }
+    },
+    {
+      "path": "q6_sources/q8_upper_independent/results/q6_code_degree_3_score21_oppmin3.json",
+      "sha256": "813231a7fb68f2712e2a435b7cca3745fe798d8809fa8df6a17becd98633cb36",
+      "edges": 124,
+      "S": 152,
+      "L": 0,
+      "full": [
+        0,
+        15,
+        51
+      ],
+      "squares_checked": 240,
+      "specified_histogram": {
+        "3": 12,
+        "4": 15,
+        "5": 2,
+        "6": 3
+      }
+    }
+  ],
+  "source_hashes": {
+    "PACKING.json": "b3c2a66fba337f1982693c48141e0410b72e16df2094d410e6ee8931b0f8c13d",
+    "CLIQUES.json": "d32b761237cd1725bfff707748511573c38a97b0b2080a1150c5a351c49a1d24",
+    "check_exact.py": "d4c3727d9c3965999b33e169f4c17bf9d6bdecc3d8165a20d0518db33c86c41a"
+  }
+}

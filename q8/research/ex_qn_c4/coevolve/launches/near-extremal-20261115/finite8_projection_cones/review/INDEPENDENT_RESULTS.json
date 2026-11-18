@@ -1,0 +1,370 @@
+{
+  "status": "INDEPENDENT_EXACT_REPLAY_COMPLETE",
+  "started_at": "2026-11-15T22:31:34.009196+00:00",
+  "completed_at": "2026-11-15T22:31:39.460137+00:00",
+  "state_dimensions": [
+    240,
+    212,
+    190,
+    187,
+    170
+  ],
+  "stabilizer_sizes": [
+    8,
+    2,
+    2,
+    4,
+    2
+  ],
+  "histogram_counts": [
+    {
+      "L": 1,
+      "count": 1
+    },
+    {
+      "L": 2,
+      "count": 7
+    },
+    {
+      "L": 3,
+      "count": 28
+    },
+    {
+      "L": 4,
+      "count": 84
+    },
+    {
+      "L": 5,
+      "count": 210
+    },
+    {
+      "L": 6,
+      "count": 462
+    },
+    {
+      "L": 7,
+      "count": 924
+    },
+    {
+      "L": 8,
+      "count": 1716
+    },
+    {
+      "L": 9,
+      "count": 3003
+    },
+    {
+      "L": 10,
+      "count": 5005
+    },
+    {
+      "L": 11,
+      "count": 8008
+    },
+    {
+      "L": 12,
+      "count": 12376
+    },
+    {
+      "L": 13,
+      "count": 18564
+    },
+    {
+      "L": 14,
+      "count": 27132
+    },
+    {
+      "L": 15,
+      "count": 38760
+    },
+    {
+      "L": 16,
+      "count": 54264
+    }
+  ],
+  "finite6_minimum": 28,
+  "minimizer": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    4
+  ],
+  "before_repair_minimum": -8,
+  "J_repair": 1,
+  "full_kernel_scale": 8000004,
+  "noncopositive_full_witness": {
+    "code_counts": {
+      "32": 1,
+      "64": 1,
+      "112": 2
+    },
+    "total": 4,
+    "quadratic": -1454496
+  },
+  "actual_graphs_checked": 762,
+  "exact_lambda_sum": "999999999403515826619043431/1000000000000000000000000000",
+  "raw_pairing": "-15940415645124021372345799259/62500000000000000000000000",
+  "normalized_pairing": "-15940415645124021372345799259/500000250000000000000000000000000",
+  "projected_moments_entrywise_equal": true,
+  "projection_collisions_exercised": 5314,
+  "native_scorer_all_actual_graphs_equal": true,
+  "full_kernel_consumer_equal": true,
+  "generic_non_equivariance_witnesses": [
+    {
+      "block": 0,
+      "states": [
+        3,
+        0
+      ],
+      "label": 0,
+      "image_labels": [
+        2,
+        0
+      ]
+    },
+    {
+      "block": 1,
+      "states": [
+        16,
+        1
+      ],
+      "label": 1,
+      "image_labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "block": 2,
+      "states": [
+        3,
+        0
+      ],
+      "label": 0,
+      "image_labels": [
+        2,
+        0
+      ]
+    },
+    {
+      "block": 3,
+      "states": [
+        16,
+        1
+      ],
+      "label": 1,
+      "image_labels": [
+        1,
+        2
+      ]
+    },
+    {
+      "block": 4,
+      "states": [
+        16,
+        1
+      ],
+      "label": 1,
+      "image_labels": [
+        1,
+        2
+      ]
+    }
+  ],
+  "unused_label_boundaries": [
+    {
+      "L": 1,
+      "unused_labels": 0,
+      "all_six_on_one_state": 1728
+    },
+    {
+      "L": 2,
+      "unused_labels": 1,
+      "all_six_on_one_state": 1728
+    },
+    {
+      "L": 3,
+      "unused_labels": 2,
+      "all_six_on_one_state": 1728
+    },
+    {
+      "L": 15,
+      "unused_labels": 14,
+      "all_six_on_one_state": 1728
+    },
+    {
+      "L": 16,
+      "unused_labels": 15,
+      "all_six_on_one_state": 1728
+    }
+  ],
+  "actual682_calibration": {
+    "edges": 682,
+    "roots": 1792,
+    "slices": 1120,
+    "root_type_counts": {
+      "4": 1491,
+      "1": 301
+    },
+    "distinct_slices": 818,
+    "direct_sums": [
+      0,
+      47664,
+      0,
+      0,
+      75672
+    ],
+    "local_sums": [
+      0,
+      238320,
+      0,
+      0,
+      378360
+    ],
+    "raw_values": [
+      "0",
+      "331/448",
+      "0",
+      "0",
+      "1051/896"
+    ]
+  },
+  "non_equivariant682_calibration": {
+    "edges": 682,
+    "roots": 1792,
+    "slices": 1120,
+    "root_type_counts": {
+      "4": 1491,
+      "1": 301
+    },
+    "distinct_slices": 818,
+    "direct_sums": [
+      0,
+      47664,
+      0,
+      0,
+      75672
+    ],
+    "local_sums": [
+      0,
+      238320,
+      0,
+      0,
+      378360
+    ],
+    "raw_values": [
+      "0",
+      "331/448",
+      "0",
+      "0",
+      "1051/896"
+    ]
+  },
+  "nonzero_sparseQ8_calibration": {
+    "edges": 2,
+    "roots": 1792,
+    "slices": 1120,
+    "root_type_counts": {
+      "3": 1,
+      "0": 1779,
+      "1": 12
+    },
+    "distinct_slices": 3,
+    "direct_sums": [
+      0,
+      0,
+      0,
+      288000144,
+      0
+    ],
+    "local_sums": [
+      0,
+      0,
+      0,
+      1440000720,
+      0
+    ],
+    "raw_values": [
+      "0",
+      "0",
+      "0",
+      "2000001/448",
+      "0"
+    ]
+  },
+  "empty_graph_calibration": {
+    "edges": 0,
+    "roots": 1792,
+    "slices": 1120,
+    "root_type_counts": {
+      "0": 1792
+    },
+    "distinct_slices": 1,
+    "direct_sums": [
+      3096576,
+      0,
+      0,
+      0,
+      0
+    ],
+    "local_sums": [
+      15482880,
+      0,
+      0,
+      0,
+      0
+    ],
+    "raw_values": [
+      "48",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "one_direction_matching_calibration": {
+    "edges": 128,
+    "roots": 1792,
+    "slices": 1120,
+    "root_type_counts": {
+      "3": 448,
+      "0": 1344
+    },
+    "distinct_slices": 2,
+    "direct_sums": [
+      2322432,
+      0,
+      0,
+      387072,
+      0
+    ],
+    "local_sums": [
+      11612160,
+      0,
+      0,
+      1935360,
+      0
+    ],
+    "raw_values": [
+      "36",
+      "0",
+      "0",
+      "6",
+      "0"
+    ]
+  },
+  "no_lp_run": true,
+  "main_upper682": "OPEN",
+  "script_sha256": "5cbcc2089d434c6c1c63bc8b5270da61388ed2d8e3ca9a85b3830cd511c468ed"
+}

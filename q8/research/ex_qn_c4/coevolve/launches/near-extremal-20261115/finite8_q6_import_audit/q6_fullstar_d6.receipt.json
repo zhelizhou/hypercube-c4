@@ -1,0 +1,35 @@
+{
+  "name": "q6_fullstar_d6",
+  "family": "minimum_three",
+  "reconstructed_clause_multiset": {
+    "variables": 832,
+    "clauses": 3452
+  },
+  "strict_syntax": {
+    "variables": 832,
+    "clauses": 3452,
+    "additions": 75440,
+    "deletions": 67404,
+    "last_noncomment_is_empty": true
+  },
+  "command": [
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_q6_import_audit/isolated/check_rup_cached",
+    "q6_sources/q8_upper_independent/results/q6_fullstar_d6.cnf",
+    "q6_sources/q8_upper_independent/results/q6_fullstar_d6.drat"
+  ],
+  "returncode": 0,
+  "real_replay": {
+    "valid": true,
+    "verified_additions": 75440,
+    "processed_deletions": 67404,
+    "history_fallbacks": 11,
+    "restored_prior_reasons": 518,
+    "final_empty_clause": true,
+    "seconds": 2.80479
+  },
+  "cnf_sha256": "4ee4f42ea1bfe896cc2b9d91210291aea9331cf9aebe0be799df21cdb4fa0e96",
+  "proof_sha256": "0e883dd62a9bd41cb8504bdae96ee20254e0dff2fe8bd4a431b8100f4cf182c6",
+  "checker_source_sha256": "192f8b3994631bf78bf5ffa02d979e945b465f90ef55756568ad231e7806b5c9",
+  "checker_binary_sha256": "5e40dd7122d0ee665c96351d8d4844d39abf9666c7d27db56c2e44b0eb2a7fbe",
+  "elapsed_seconds": 3.4606388579995837
+}

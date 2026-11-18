@@ -1,0 +1,226 @@
+{
+  "status": "EXACT_LITERAL_BETA_POINT_DIAGNOSTIC_NEW_BALANCE",
+  "input": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/point_bank/master_050.json",
+  "input_sha256": "1655fe4d8df1d3989b37bef86ec016834581657d1f93becc4d00153b9055f2f1",
+  "formula": "For eachdegree d and mixedvertexQ2state j, retained-rootincidences equal missing-rootincidences: eachactualQ2hasoneeach",
+  "rows": [
+    {
+      "degree": 0,
+      "state": 1,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 0,
+      "state": 4,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 0,
+      "state": 5,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 0,
+      "state": 8,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 1,
+      "state": 1,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 1,
+      "state": 4,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 1,
+      "state": 5,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 1,
+      "state": 8,
+      "exact_difference": "-31989448032727/1000000000000000000000000000",
+      "float_difference": -3.1989448032727e-14
+    },
+    {
+      "degree": 2,
+      "state": 1,
+      "exact_difference": "-237479760189925415676071/200000000000000000000000000",
+      "float_difference": -0.001187398800949627
+    },
+    {
+      "degree": 2,
+      "state": 4,
+      "exact_difference": "-1175781402116945273446633/1000000000000000000000000000",
+      "float_difference": -0.0011757814021169453
+    },
+    {
+      "degree": 2,
+      "state": 5,
+      "exact_difference": "-555297046420460939125599/1000000000000000000000000000",
+      "float_difference": -0.000555297046420461
+    },
+    {
+      "degree": 2,
+      "state": 8,
+      "exact_difference": "2918477249489652541147313/1000000000000000000000000000",
+      "float_difference": 0.0029184772494896525
+    },
+    {
+      "degree": 3,
+      "state": 1,
+      "exact_difference": "-234285132602689460604673/250000000000000000000000000",
+      "float_difference": -0.0009371405304107579
+    },
+    {
+      "degree": 3,
+      "state": 4,
+      "exact_difference": "-1058437724648804382414327/1000000000000000000000000000",
+      "float_difference": -0.0010584377246488045
+    },
+    {
+      "degree": 3,
+      "state": 5,
+      "exact_difference": "61606793480796945620137/100000000000000000000000000",
+      "float_difference": 0.0006160679348079694
+    },
+    {
+      "degree": 3,
+      "state": 8,
+      "exact_difference": "86219395015913292303409/62500000000000000000000000",
+      "float_difference": 0.0013795103202546128
+    },
+    {
+      "degree": 4,
+      "state": 1,
+      "exact_difference": "-993582113383054807637603/250000000000000000000000000",
+      "float_difference": -0.00397432845353222
+    },
+    {
+      "degree": 4,
+      "state": 4,
+      "exact_difference": "-4510711420782828555843587/1000000000000000000000000000",
+      "float_difference": -0.004510711420782828
+    },
+    {
+      "degree": 4,
+      "state": 5,
+      "exact_difference": "89119461352418890457193/62500000000000000000000000",
+      "float_difference": 0.0014259113816387022
+    },
+    {
+      "degree": 4,
+      "state": 8,
+      "exact_difference": "1411825698535973021517103/200000000000000000000000000",
+      "float_difference": 0.007059128492679865
+    },
+    {
+      "degree": 5,
+      "state": 1,
+      "exact_difference": "15509702285670171044899423/1000000000000000000000000000",
+      "float_difference": 0.015509702285670172
+    },
+    {
+      "degree": 5,
+      "state": 4,
+      "exact_difference": "675996222340032447996937/40000000000000000000000000",
+      "float_difference": 0.01689990555850081
+    },
+    {
+      "degree": 5,
+      "state": 5,
+      "exact_difference": "-309855740745200455513401/125000000000000000000000000",
+      "float_difference": -0.0024788459259616038
+    },
+    {
+      "degree": 5,
+      "state": 8,
+      "exact_difference": "-5986152383641351302835021/200000000000000000000000000",
+      "float_difference": -0.029930761918206757
+    },
+    {
+      "degree": 6,
+      "state": 1,
+      "exact_difference": "-9410863091046196546162671/1000000000000000000000000000",
+      "float_difference": -0.009410863091046197
+    },
+    {
+      "degree": 6,
+      "state": 4,
+      "exact_difference": "-5077509473760054010552841/500000000000000000000000000",
+      "float_difference": -0.010155018947520108
+    },
+    {
+      "degree": 6,
+      "state": 5,
+      "exact_difference": "496085598727372461668811/500000000000000000000000000",
+      "float_difference": 0.0009921711974547449
+    },
+    {
+      "degree": 6,
+      "state": 8,
+      "exact_difference": "18573710841115694728705301/1000000000000000000000000000",
+      "float_difference": 0.018573710841115695
+    },
+    {
+      "degree": 7,
+      "state": 1,
+      "exact_difference": "14294670628244804817/500000000000000000000000000",
+      "float_difference": 2.8589341256489608e-08
+    },
+    {
+      "degree": 7,
+      "state": 4,
+      "exact_difference": "10984082455921218833/250000000000000000000000000",
+      "float_difference": 4.3936329823684874e-08
+    },
+    {
+      "degree": 7,
+      "state": 5,
+      "exact_difference": "-7541788882671264537/1000000000000000000000000000",
+      "float_difference": -7.541788882671264e-09
+    },
+    {
+      "degree": 7,
+      "state": 8,
+      "exact_difference": "-64983889404781423837/1000000000000000000000000000",
+      "float_difference": -6.498388940478142e-08
+    },
+    {
+      "degree": 8,
+      "state": 1,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 8,
+      "state": 4,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 8,
+      "state": 5,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    },
+    {
+      "degree": 8,
+      "state": 8,
+      "exact_difference": "0",
+      "float_difference": 0.0
+    }
+  ],
+  "max_absolute_difference": 0.029930761918206757,
+  "scope": "New same-object bridge derived by Root; complete proof/interface/freshreview pending, no whole682claim"
+}

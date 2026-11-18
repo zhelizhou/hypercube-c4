@@ -1,0 +1,27 @@
+{
+  "status": "PASS_INDEPENDENT_LITERAL_CUBE_GEOMETRY",
+  "graphs": [
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges",
+      "sha256": "185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c",
+      "edges": 682,
+      "all162_integer_incidence_identities": "PASS",
+      "all36_mixed_conditional_balances": "PASS"
+    },
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/CALIBRATION.edges",
+      "sha256": "c5a8229e71f85a76a0f225233285241324816024772c80878b6d51b2cf1480af",
+      "edges": 576,
+      "all162_integer_incidence_identities": "PASS",
+      "all36_mixed_conditional_balances": "PASS"
+    },
+    {
+      "source": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/review/SAME_PARITY_COUNTEREXAMPLE.edges",
+      "sha256": "53bf8547e15ed87236da70001e9aa80a8d59757714e38133b8ae79f3e9662cfa",
+      "edges": 584,
+      "all162_integer_incidence_identities": "PASS",
+      "all36_mixed_conditional_balances": "PASS"
+    }
+  ],
+  "scope": "General C4freeQ8 incidence identities; no densityclaim"
+}

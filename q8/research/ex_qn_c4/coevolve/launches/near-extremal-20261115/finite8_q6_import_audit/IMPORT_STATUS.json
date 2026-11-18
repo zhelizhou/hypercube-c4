@@ -1,0 +1,33 @@
+{
+  "scope": "local Q6 necessary-premise imports for finite8_maximal_route; not a global proof audit",
+  "result": "LOCAL_IMPORTS_DISCHARGED",
+  "main_goal": "OPEN",
+  "exact_gate": "For every C4-free G subset Q6 and either parity P,4S_P+2c_P<=632+5L_P, with opposite degrees unrestricted and low degrees0/1/2 included.",
+  "requested_backend": "codex-native",
+  "requested_model": "gpt-6.1-sol",
+  "requested_reasoning": "ultra",
+  "actual_model_identity": null,
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "deterministic_status": "25 input reconstructions and strict actual RUP replays completed successfully",
+  "case_count": 25,
+  "verified_additions": 4383882,
+  "remaining_local_obligations": [],
+  "shared_wiki_or_goal_modified": false,
+  "new_solver_or_search": false,
+  "sources_changed": false,
+  "generated_at": "2026-11-15T21:55:48.103218+00:00",
+  "artifacts": {
+    "PROOF.md": "a466000782cc76b1ff8da0b6c12728fb679fb278109894d0aec5c4072827c49a",
+    "VERIFICATION.md": "f3777baaa4c1d9c51470c6748899924aeb3a0fb032a2a5a31174070edfd28050",
+    "run_audit.py": "7df2b1da50f3b02d40bb5fb05a5a643ec9ffe855bb25ffba25a35c17836d7092",
+    "check_connections.py": "d65b650b616a0ccc8606c004571af44c323b4bbf1c029a31154f5d121aeefec5",
+    "FRESH_REPLAYS.json": "9d7a4b741e56cad881f01d3481477462986a97de677043cdec19ba4cd2b9f28f",
+    "CHECKER_TESTS.json": "f505f5508772ece8824a0405cdc03444b102dbcbd1d7108e50e4ff649b08b2fe",
+    "COVERAGE.json": "570ef50cb9bdb162f3eeb46d80d621f5d6b421e9afcfd7d541e63f80883e5205",
+    "CONNECTIONS.json": "e3cfd6002dd5b9b8de98b723ea754c54e1e992220eab1adf9d78a2c70c37c17c",
+    "SOURCE_UNITS.json": "5f5221b12e773b6d7dc642da18ae8ab892ada40ae21080f66bfcfbdfdb723224",
+    "DEPENDENCIES.json": "ae27f71c215a3c6fcfd9ad35a6cdd78ff80aac05983e5bd8e86d8649ff5be743",
+    "reproduce.sh": "0183f9f23f7ff8ecfff1fd5782999a9cfa55e26b601ee6955f6c35e322fa9105"
+  }
+}

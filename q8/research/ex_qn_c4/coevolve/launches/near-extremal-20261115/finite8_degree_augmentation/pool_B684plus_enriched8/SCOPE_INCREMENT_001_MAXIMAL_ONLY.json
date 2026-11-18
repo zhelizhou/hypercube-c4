@@ -1,0 +1,14 @@
+{
+  "status": "MAXIMAL_ONLY_EXACT_VERTEX_PARAMETER_ADDED",
+  "new_full_row_index": 5384,
+  "new_full_rows": 5385,
+  "prior_cut_library_sha256": "ba27e057adcb4c9b74fa4b7b36ca268be4207aec085ee1e6caa46db1eaf192ac",
+  "new_cut_library_sha256": "1453fe83e3fb20b6b4482fcb792732cb453994357523fd11aa8d22a649aa70b0",
+  "cut_sha256": "99e4dfceb6fb048bd0e92375474f5e678d86fab269443255dd073a6d8d460a71",
+  "independent_domain_histograms": 253440,
+  "degree0_domain": "EMPTY; actual alpha degree0 mass0 exactly",
+  "validity_scope": "MAXIMAL_ONLY",
+  "general_semantic_review_not_claimed": true,
+  "Root_geometry_cover": "one ID8 Q2 witness per missing root direction; distinct missing directions have distinct witnessingQ2s",
+  "same_lambda_alpha_beta": true
+}

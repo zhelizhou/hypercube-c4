@@ -1,0 +1,34 @@
+{
+  "status": "ACTIVE_DUAL_IO_EQUIVALENCE_PASS",
+  "full_rows": 8002,
+  "active_rows": 239,
+  "read_old_full_seconds": 7.228080449000117,
+  "write_active_seconds": 1.426821696004481,
+  "exact_float_linear_combination_difference_max": 0,
+  "full_AL_bytes": 498530024,
+  "active_AL_bytes": 12434709,
+  "all_old_valid_rows_retained_in_master_and_full_point_checks": true,
+  "inactive_dual_zero": true,
+  "successor_scripts": [
+    {
+      "source": "edge3_allclass_working_sets.py",
+      "output": "edge3_allclass_working_sets_active_dual.py",
+      "source_sha256": "f7e9e45e7641e1307d3f8aac9149224b77fa8d4bf45028ae9ca4a7fd56ecb127",
+      "output_sha256": "96d5e531e301905574c4d58c82c1c82893f16a684db245065a07a7ec88f65412"
+    },
+    {
+      "source": "pool_case_A683_run.py",
+      "output": "pool_case_A683_run_active_dual.py",
+      "source_sha256": "04c820d5f4de88fa7bd8550d2f144fe2486780b2ac043943c780b38ac6ee7625",
+      "output_sha256": "60a754f917970fc11de1fb29089dc6b8204595087fda00b4eec85bd5e4c9bdd0"
+    },
+    {
+      "source": "pool_case_B684plus_run.py",
+      "output": "pool_case_B684plus_run_active_dual.py",
+      "source_sha256": "6e5c9895cf86eb78df72a28f9cef936c542409d4f3345ba0eab9e9cd9eca8554",
+      "output_sha256": "4dc40f6d9ca82d9d62fa5affa1ed7b09f743fd30c3598905b617cfe949618842"
+    }
+  ],
+  "active_extractor_original_integer_score_all_coefficients_identical": true,
+  "fullQ4_oracle_repeat_unnecessary_for_identical_score": true
+}

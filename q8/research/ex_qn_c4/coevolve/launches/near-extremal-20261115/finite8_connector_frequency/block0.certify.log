@@ -1,0 +1,59 @@
+{
+  "block": 0,
+  "canonical_root_mask": 0,
+  "positive_normalization": 12160,
+  "finite6": {
+    "histograms": 54264,
+    "minimum": 0,
+    "minimizing_histogram": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    "zeros": 360
+  },
+  "small_histograms": {
+    "minimum_total_le5": -2432,
+    "negative_witness": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  "point_pairing": {
+    "integer_trace_Q_U": -486051516955856605319860224,
+    "moment_denominator": 1290240000000000000000000000,
+    "exact_mean_feature": "-5650710530085758525389/15000000000000000000000"
+  },
+  "arithmetic_recovery": {
+    "method": "rational_recovery",
+    "denominator": 760,
+    "diagonal_repair": 0
+  }
+}

@@ -1,0 +1,1149 @@
+{
+  "scope": "Nine actual degree4 marked stars only;36-edge union is partial, other P stars free. NOT a683 graph or a completed degree profile.",
+  "refuted_projection_claim": "No compatible9 degree4 stars can give marked_L in{0,2} on every containingQ6 face.",
+  "marks": [
+    {
+      "vertex": 135,
+      "retained_mask": 120
+    },
+    {
+      "vertex": 153,
+      "retained_mask": 102
+    },
+    {
+      "vertex": 225,
+      "retained_mask": 30
+    },
+    {
+      "vertex": 170,
+      "retained_mask": 85
+    },
+    {
+      "vertex": 210,
+      "retained_mask": 45
+    },
+    {
+      "vertex": 204,
+      "retained_mask": 51
+    },
+    {
+      "vertex": 180,
+      "retained_mask": 75
+    },
+    {
+      "vertex": 120,
+      "retained_mask": 120
+    },
+    {
+      "vertex": 123,
+      "retained_mask": 120
+    }
+  ],
+  "marked_low_face_distribution": {
+    "0": 85,
+    "2": 27
+  },
+  "rows": [
+    {
+      "omitted": [
+        0,
+        1
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        204,
+        180
+      ]
+    },
+    {
+      "omitted": [
+        0,
+        1
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        1
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        1
+      ],
+      "fixed": 3,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        2
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        170,
+        210
+      ]
+    },
+    {
+      "omitted": [
+        0,
+        2
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        2
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        2
+      ],
+      "fixed": 5,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        3
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        210,
+        180
+      ]
+    },
+    {
+      "omitted": [
+        0,
+        3
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        3
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        3
+      ],
+      "fixed": 9,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        4
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        170,
+        204
+      ]
+    },
+    {
+      "omitted": [
+        0,
+        4
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        4
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        4
+      ],
+      "fixed": 17,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        5
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        210,
+        204
+      ]
+    },
+    {
+      "omitted": [
+        0,
+        5
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        5
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        5
+      ],
+      "fixed": 33,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        6
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        170,
+        180
+      ]
+    },
+    {
+      "omitted": [
+        0,
+        6
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        6
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        6
+      ],
+      "fixed": 65,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        7
+      ],
+      "fixed": 1,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        0,
+        7
+      ],
+      "fixed": 129,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        2
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        153,
+        225
+      ]
+    },
+    {
+      "omitted": [
+        1,
+        2
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        2
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        2
+      ],
+      "fixed": 6,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        3
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        225,
+        180
+      ]
+    },
+    {
+      "omitted": [
+        1,
+        3
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        3
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        3
+      ],
+      "fixed": 10,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        4
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        225,
+        204
+      ]
+    },
+    {
+      "omitted": [
+        1,
+        4
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        4
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        4
+      ],
+      "fixed": 18,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        5
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        153,
+        204
+      ]
+    },
+    {
+      "omitted": [
+        1,
+        5
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        5
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        5
+      ],
+      "fixed": 34,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        6
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        153,
+        180
+      ]
+    },
+    {
+      "omitted": [
+        1,
+        6
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        6
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        6
+      ],
+      "fixed": 66,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        7
+      ],
+      "fixed": 2,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        1,
+        7
+      ],
+      "fixed": 130,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        3
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        225,
+        210
+      ]
+    },
+    {
+      "omitted": [
+        2,
+        3
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        3
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        3
+      ],
+      "fixed": 12,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        4
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        225,
+        170
+      ]
+    },
+    {
+      "omitted": [
+        2,
+        4
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        4
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        4
+      ],
+      "fixed": 20,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        5
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        153,
+        210
+      ]
+    },
+    {
+      "omitted": [
+        2,
+        5
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        5
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        5
+      ],
+      "fixed": 36,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        6
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        153,
+        170
+      ]
+    },
+    {
+      "omitted": [
+        2,
+        6
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        6
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        6
+      ],
+      "fixed": 68,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        7
+      ],
+      "fixed": 4,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        2,
+        7
+      ],
+      "fixed": 132,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        4
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        135,
+        225
+      ]
+    },
+    {
+      "omitted": [
+        3,
+        4
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        4
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        4
+      ],
+      "fixed": 24,
+      "marked_L": 2,
+      "marked_roots": [
+        120,
+        123
+      ]
+    },
+    {
+      "omitted": [
+        3,
+        5
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        135,
+        210
+      ]
+    },
+    {
+      "omitted": [
+        3,
+        5
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        5
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        5
+      ],
+      "fixed": 40,
+      "marked_L": 2,
+      "marked_roots": [
+        120,
+        123
+      ]
+    },
+    {
+      "omitted": [
+        3,
+        6
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        135,
+        180
+      ]
+    },
+    {
+      "omitted": [
+        3,
+        6
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        6
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        6
+      ],
+      "fixed": 72,
+      "marked_L": 2,
+      "marked_roots": [
+        120,
+        123
+      ]
+    },
+    {
+      "omitted": [
+        3,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        7
+      ],
+      "fixed": 8,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        3,
+        7
+      ],
+      "fixed": 136,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        5
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        135,
+        204
+      ]
+    },
+    {
+      "omitted": [
+        4,
+        5
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        5
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        5
+      ],
+      "fixed": 48,
+      "marked_L": 2,
+      "marked_roots": [
+        120,
+        123
+      ]
+    },
+    {
+      "omitted": [
+        4,
+        6
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        135,
+        170
+      ]
+    },
+    {
+      "omitted": [
+        4,
+        6
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        6
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        6
+      ],
+      "fixed": 80,
+      "marked_L": 2,
+      "marked_roots": [
+        120,
+        123
+      ]
+    },
+    {
+      "omitted": [
+        4,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        7
+      ],
+      "fixed": 16,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        4,
+        7
+      ],
+      "fixed": 144,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        5,
+        6
+      ],
+      "fixed": 0,
+      "marked_L": 2,
+      "marked_roots": [
+        135,
+        153
+      ]
+    },
+    {
+      "omitted": [
+        5,
+        6
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        5,
+        6
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        5,
+        6
+      ],
+      "fixed": 96,
+      "marked_L": 2,
+      "marked_roots": [
+        120,
+        123
+      ]
+    },
+    {
+      "omitted": [
+        5,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        5,
+        7
+      ],
+      "fixed": 32,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        5,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        5,
+        7
+      ],
+      "fixed": 160,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        6,
+        7
+      ],
+      "fixed": 0,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        6,
+        7
+      ],
+      "fixed": 64,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        6,
+        7
+      ],
+      "fixed": 128,
+      "marked_L": 0,
+      "marked_roots": []
+    },
+    {
+      "omitted": [
+        6,
+        7
+      ],
+      "fixed": 192,
+      "marked_L": 0,
+      "marked_roots": []
+    }
+  ],
+  "positive_partial_verification": {
+    "valid": true,
+    "edges": 36,
+    "squares": {
+      "0": 1594,
+      "1": 144,
+      "2": 54
+    },
+    "c4_common_neighbors": 0,
+    "ambient_edges": 1024
+  },
+  "unresolved": "Complete all unmarked P stars with71degree5,45degree6,2degree7,1degree8 in the same actualQ8; no completion is supplied."
+}

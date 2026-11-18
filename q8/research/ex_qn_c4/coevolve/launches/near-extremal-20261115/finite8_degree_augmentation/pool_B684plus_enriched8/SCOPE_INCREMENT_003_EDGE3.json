@@ -1,0 +1,27 @@
+{
+  "status": "EXACT_EDGE3_SAMPLING_CONSUMER_AND_LIFT_CHECKED",
+  "current_lambda_rows": 14090,
+  "current_beta_columns": 1751,
+  "all204_L_rows_match_directRoot_and_literalLift": true,
+  "all204_H_entries_rebuilt_from35_position_triples": true,
+  "all3432raw_to1751_groups_preserveH": true,
+  "actual682_integer_identity_each204": "sum1120L = sum1024H",
+  "actual682_total_rawobjects_both_sides": 71680,
+  "oracle_span": "all204L use existing5faceblocks viaL=4T_K/5",
+  "same_lambda_beta": true,
+  "old_scopes_preserved": true,
+  "proof_and_fresh_review": "new sampling+lift proof underRootreview, not claimed byconsumer arithmetic",
+  "hashes": {
+    "ACTUAL_CHECK.json": "a6be64650cc365514a8a35d53b3d33e2988cc21553cbb8e06af251fb6c4559a9",
+    "BETA_HYPERGEOM_CURRENT_204x1751.npz": "8de369ee505d4bd191fd324566afa8ec099faab2e2f21547381abe149ba689b4",
+    "BETA_HYPERGEOM_FULL_204x5148.npz": "a4186992b8dc2ddc46910decb3c7a0b1ad31006694811b18c1c06d541643cd20",
+    "INTERFACE.json": "0f2f490059674a088410bb90503ce93085bfbc79e5f7efc370c5995dd891d300",
+    "LIFT_build_check_lift.py": "d56f4cd2d500df9c18344970f44f589d227c325b6609345b08ef06d413f791d2",
+    "LIFT_CHECK_RESULT.json": "cd4c50cff8424afa0aa4ca399b26b865dcad60a295cfc15ed0e19a805c0a4073",
+    "LIFT_EDGE3_LIFT_PACKED_KERNELS.npz": "42ed0c23d53d9321bca53ecc41b0f61f9586c9a60dd8d07b010098c2fc04cc16",
+    "LIFT_PROOF.md": "99d5bb05bc22226527cd33d901f8366e5acc094e1509fae3386f5fad8a2999ca",
+    "LIFT_ROW_ORDER.json": "53b9f21587a74878dbed7e911303b8a6c32c7ba54f1546047fa7cbb9bcd244ca",
+    "LOCAL_COUNTS_204x14090.npz": "31f252ea4c026a62c97de12b12903058cca82096313cb4b354b4b29923426f99",
+    "ORDER.json": "bc5db92914103b0cd799a9ca19565f767829f71576e910497e7ae738c555bde3"
+  }
+}

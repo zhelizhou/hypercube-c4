@@ -1,0 +1,439 @@
+{
+  "audit_skill": "proof-checker",
+  "verdict": "PASS",
+  "reason_code": "all_scoped_proofs_complete",
+  "summary": "All universal same-object incidence and degree-group moment identities and the stated finite packed-feature interfaces check; fresh same-family/provisional review, main682 remains OPEN.",
+  "audited_input_hashes": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/GENERATOR_HISTOGRAMS.json": "sha256:d6c9385399fda253ab516f0bcc49982236651d1a97f6693defd28d6a4606e07f",
+    "C_FULL_162x5148.npz": "sha256:9f2307556043d43b0a806e6d4b040433c9696b1b023f91103a2e30255729ab1e",
+    "C_FULL_162x5148.json": "sha256:13ec6cdaea13705af3b28cab10f76a48a8af980b098055896a03515c0ea78c0f",
+    "C_MISSING_81x5148.npz": "sha256:ad9a536fc8709c261fb9e56cf8de2f5ee6e43bf6fb9189cb4bc40b59d640efd3",
+    "C_MISSING_81x5148.json": "sha256:4e4fe89fe81aaace0657b3296de6789df1392009a65ffdc9d51be08a93e0296a",
+    "C_RETAINED_81x5148.npz": "sha256:447e73066deb511fbeae7c3fe99923ad9c4d2468c8b0236f6b36def2c6522eac",
+    "C_RETAINED_81x5148.json": "sha256:3d717ef13d0d75979a7f733099d5490c7db57bd72645a142142cc6fcad2692fd",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_edge_degree_dynamic/GENERATOR_DEDUPLICATION.json": "sha256:4685e27fc3257dcc7f13265f88f64fc875a62844b8a7c0e10176efd66904c49e",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/GENERATOR_HISTOGRAMS.json": "sha256:b6425ccefcae05b586c78e2448d38bd5899c8064a6fcdf4818e711767b983b36",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/GENERATOR_DEDUPLICATION.json": "sha256:00c05b46a4a67e85a8bdb5b32b53e597ba24261a8eb552ef278594d22ed38e7c",
+    "ORDER.json": "sha256:06a2c42861dee00e89f1e8bf21e89a0f0f145f98b7404910bc146cbcabb22a92",
+    "BALANCE_FULL_36x5148.npz": "sha256:2fdedf5c074b860659b7b4de99fdea7ed5c50215ce1c76355ebe2923ee969bb8",
+    "BALANCE_FULL_36x5148.json": "sha256:9e01cdc46761f139b48418f2a407c12c82f7941b2d5da8e2afbdfae04b7647bb",
+    "C_OLD_162x2788.npz": "sha256:6244d835ca29feafbda197decdf92dcfbfc491f544a0b0d594ca0881a85d045a",
+    "C_OLD_162x2788.json": "sha256:75282074d78ff87e84a5b47fc554da14b74feadec9828ca669951765d1856211",
+    "BALANCE_OLD_36x2788.npz": "sha256:f68984b732d668b2acf862e1c0e4856764b2545ef66089a0c8d792c1a95885d1",
+    "BALANCE_OLD_36x2788.json": "sha256:abd52e4a1e0ea1ad91a0dc0293f565d9c6fd4223e32f39642759f5d74dace4dc",
+    "C_CURRENT_162x1751.npz": "sha256:7773f7ad54264b1542e5d062cf14c4d4076d7f8db800418328ee447fbf61acf8",
+    "C_CURRENT_162x1751.json": "sha256:eec3e4afbeb49a0c30502fb789317b02586fde6f87f3541ae3f50d7e4349e33c",
+    "BALANCE_CURRENT_36x1751.npz": "sha256:8a36bf787e2e9d8e82330305871d0daf109540a91be91e6baa31650e85dd3623",
+    "BALANCE_CURRENT_36x1751.json": "sha256:10fdbab3d504634f5fd6abaf1a6e38f7ce58e9467c8622d7d86ab05a7e74e6af",
+    "MOMENT_BETA_FULL_27x5148.npz": "sha256:a75091820dd2e633ee934a8b41b6a1733d34618a83225071a1a44e8d355f12cb",
+    "MOMENT_BETA_FULL_27x5148.json": "sha256:4005e712a7a44e74dc702ce631772768f43c4479af331cf3f6ca8789d8cc40c0",
+    "MOMENT_BETA_CURRENT_27x1751.npz": "sha256:0a49128e5b3ec40a4c059c11754d2145214a1fbe3e22605c0bf3a1048e936219",
+    "MOMENT_BETA_CURRENT_27x1751.json": "sha256:370b801b4fe8af67ce1af85176bbb091f29bf886c4378ac16f5e38fc82f5d969",
+    "MOMENT_PACKED9_SELECTOR_TWICE_27x45.npz": "sha256:618350b71e0d4eac372c301a1f1419129a7ed1ffea9a994be179960876ccfec0",
+    "MOMENT_PACKED9_SELECTOR_TWICE_27x45.json": "sha256:67e94a0e6106cdefdcb15d714136df21d26d34112b2034e449086bc9466a3fea",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/POOL_GRAPH_CODES.json": "sha256:f791e08fd97bd35d56d05c09ec8fb2fb44ef6f6c81cfbfabeec098ec1288044a",
+    "MOMENT_ORDER.json": "sha256:b272f04626e518cfed6fed519e43de59ba30a3732cd23cdfa4dc9964cbadd4c6",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_inventory/LP_STARTED.json": "sha256:cfbc13c7b765e50b817c3406132694f274dc2de4a2845c6ed7edfb8b22ed20b3",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/INTEGER_FEATURES.npz": "sha256:46f70450d889cea10bd9d0fc73872c188bc7458f39c3ae6c3a127da792a69f2b",
+    "MOMENT_LAMBDA_CURRENT_POOL_27x14090.npz": "sha256:dd7776037a3a9ce74f8b31af000f1d0fc71b3271caa0acbc4154ed5b1825b3e1",
+    "MOMENT_LAMBDA_CURRENT_POOL_27x14090.json": "sha256:567e367caf09dc8d6557e7e0ba03fc3386b086dbeb3c3215d875301ec0ee4b27",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges": "sha256:185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/CALIBRATION.edges": "sha256:c5a8229e71f85a76a0f225233285241324816024772c80878b6d51b2cf1480af",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_leaf_gate/review/SAME_PARITY_COUNTEREXAMPLE.edges": "sha256:53bf8547e15ed87236da70001e9aa80a8d59757714e38133b8ae79f3e9662cfa",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/point_bank/master_050.json": "sha256:1655fe4d8df1d3989b37bef86ec016834581657d1f93becc4d00153b9055f2f1",
+    "MASTER050_DIAGNOSTIC.json": "sha256:9eccff845c2e948f71c80157387c3aec3880da157799858dcdd7283e5297d03a",
+    "INTERFACE.json": "sha256:a708c764b35578a3a6eba4be83bb42aa7bf93fd39a77d151443863cd4a13a004",
+    "MOMENT_INTERFACE.json": "sha256:0587b1983d6d85855871a5519f7ce870112db35c3e2b44f49e9ea78af41b8247",
+    "PROOF.md": "sha256:66bdb4064557629d327a1acd1c69e7d57dfc296e9eceb781fe0d2cafdce8b0d6",
+    "README.md": "sha256:e58f2ace09c84b823b1b7fd34ce415b6770f5887192a24ebabd5ac574b289f90",
+    "export_bridge.py": "sha256:002766fe66432d1c93dc88c8d84eedf2bddb6e87f5de89d3cf824348fe40b07c",
+    "export_moment_bridge.py": "sha256:0836ec6ee53c311937cc932193f61e62f35661f887d85ca07ad11975e74b8799",
+    "check_bridge.py": "sha256:c822e664e205773867c51430b7a64356f4c10b27840d59e13cd4e3202513d973",
+    "check_master050.py": "sha256:c2aedd7074c1d1aae6335d8f0ec7645588e5fd739c86e7e34fea8d18b68bf767",
+    "MANIFEST.json": "sha256:cd6a225ba044ed0968fe7861eb362122de447223db9c6c5b3fbc08b88b11b6dc",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/finite_flags.py": "sha256:e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/edge_flags.py": "sha256:480e8227a767336fdb9671d4499da692c854abd4a041731fdfc67b61195d55cd",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/PROOF.md": "sha256:a20446da4fdeb79c4ad13f3f99f32400f9017f3f9d14a828669ab86d322b946a",
+    "/mnt/c/users/anony/desktop/project/math-rsi/base/skills/proof-checker/SKILL.md": "sha256:36b0d62ed059b489db549c7e96d51c5bc4a1cf11a9c7061405e05be8eba75b1f",
+    "/mnt/c/users/anony/desktop/project/math-rsi/base/skills/shared-references/assurance-contract.md": "sha256:4320cc8f8614f95914a1b8594759a8e0264f9e8ba02b7dca8305acab0c43b282"
+  },
+  "input_base_directory": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_vertex_bridge",
+  "trace_path": "review/",
+  "agent_id": "/root/review_edge_vertex_bridge",
+  "thread_id": null,
+  "executor_model": null,
+  "executor_family": "openai",
+  "reviewer_model": null,
+  "reviewer_family": "openai",
+  "reviewer_reasoning": null,
+  "requested_reviewer_model": "gpt-6.1-sol",
+  "requested_reviewer_reasoning": "ultra",
+  "actual_returned_identity": null,
+  "actual_identity_attestation": null,
+  "reviewer_route": {
+    "backend": "codex",
+    "transport": "native",
+    "host_default": true,
+    "resolved_by": "Root before dispatch"
+  },
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "identity_note": "Actual model and actual effort were not returned; requested model/effort are recorded separately and confer no identity attestation or cross-family acceptance.",
+  "generated_at": "2026-11-15T21:33:10.230820+00:00",
+  "details": {
+    "theorems_audited": 4,
+    "theorem_count_convention": "Four substantive result families:162 incidence identities,36 balances,27 moment identities,exact packed consumer. The prose proof has no named theorem environments.",
+    "semantic_obligations": 15,
+    "issues": [],
+    "open_fatal": 0,
+    "open_critical": 0,
+    "open_major": 0,
+    "open_minor": 0,
+    "source_unit_coverage_complete": true,
+    "source_unit_count": 59,
+    "semantic_dag_acyclic": true,
+    "full_universal_generator_count": 5148,
+    "old_dedup_class_count": 2788,
+    "current_dedup_class_count": 1751,
+    "current_raw_histograms": 3432,
+    "current_class_covered_raw_histograms": 3202,
+    "current_pruned_raw_histograms": 230,
+    "packed_vertex_columns_checked": 14090,
+    "new_out_of_pool_feature_columns_checked": 31,
+    "actual682_current_adapter_same_beta_lambda": {
+      "ambient_edge_mass": 1024,
+      "restriction_mass": 1120,
+      "distinct_raw_lambda_columns": 818,
+      "distinct_lambda_pool_columns": 50,
+      "raw_codes_requiring_frame_transport": 775,
+      "whole_Q4_frame_transports_all_packed45_invariant": true,
+      "C_and_B36_and_B27_class_aggregation": true,
+      "all27_packed_consumer_equations": true
+    },
+    "whole_graph_calibration_count": 9,
+    "actual_graphs": [
+      {
+        "name": "actual682",
+        "edges": 682,
+        "degree_counts_by_parity": [
+          {
+            "5": 84,
+            "6": 43,
+            "4": 1
+          },
+          {
+            "6": 43,
+            "5": 84,
+            "4": 1
+          }
+        ],
+        "distinct_Q4_masks": 818,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "calibration576",
+        "edges": 576,
+        "degree_counts_by_parity": [
+          {
+            "1": 1,
+            "8": 1,
+            "7": 7,
+            "6": 21,
+            "5": 35,
+            "4": 35,
+            "3": 21,
+            "2": 7
+          },
+          {
+            "8": 1,
+            "7": 7,
+            "6": 21,
+            "5": 35,
+            "4": 35,
+            "3": 21,
+            "2": 7,
+            "1": 1
+          }
+        ],
+        "distinct_Q4_masks": 30,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "actual584",
+        "edges": 584,
+        "degree_counts_by_parity": [
+          {
+            "1": 1,
+            "4": 56,
+            "6": 17,
+            "5": 48,
+            "3": 5,
+            "2": 1
+          },
+          {
+            "8": 1,
+            "5": 48,
+            "4": 47,
+            "6": 16,
+            "3": 15,
+            "7": 1
+          }
+        ],
+        "distinct_Q4_masks": 1120,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "empty",
+        "edges": 0,
+        "degree_counts_by_parity": [
+          {
+            "0": 128
+          },
+          {
+            "0": 128
+          }
+        ],
+        "distinct_Q4_masks": 1,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "perfect_matching",
+        "edges": 128,
+        "degree_counts_by_parity": [
+          {
+            "1": 128
+          },
+          {
+            "1": 128
+          }
+        ],
+        "distinct_Q4_masks": 2,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "star_even",
+        "edges": 8,
+        "degree_counts_by_parity": [
+          {
+            "8": 1,
+            "0": 127
+          },
+          {
+            "1": 8,
+            "0": 120
+          }
+        ],
+        "distinct_Q4_masks": 2,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "star_odd",
+        "edges": 8,
+        "degree_counts_by_parity": [
+          {
+            "1": 8,
+            "0": 120
+          },
+          {
+            "8": 1,
+            "0": 127
+          }
+        ],
+        "distinct_Q4_masks": 3,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "seed_one_edge_deleted",
+        "edges": 681,
+        "degree_counts_by_parity": [
+          {
+            "4": 2,
+            "6": 43,
+            "5": 83
+          },
+          {
+            "5": 85,
+            "6": 42,
+            "4": 1
+          }
+        ],
+        "distinct_Q4_masks": 830,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      },
+      {
+        "name": "seed_xor137",
+        "edges": 682,
+        "degree_counts_by_parity": [
+          {
+            "6": 43,
+            "5": 84,
+            "4": 1
+          },
+          {
+            "5": 84,
+            "6": 43,
+            "4": 1
+          }
+        ],
+        "distinct_Q4_masks": 842,
+        "all162_incidence": true,
+        "all36_balances": true,
+        "all27_moments": true,
+        "full81_second_moment": true,
+        "gamma_first_moment": true
+      }
+    ],
+    "counterexample_pass": {
+      "executed": true,
+      "actual_graph_count": 9,
+      "attempts": [
+        "all5148 legal raw histograms including zeros/pure states",
+        "synchronized endpoint reversal for all5148 columns",
+        "degree0 and8",
+        "both vertex parities",
+        "nonmaximal empty/matching/star/deleted-edge graphs",
+        "asymmetric actual584 graph",
+        "all14090 stored local graphs",
+        "31 out-of-pool newly packed graph columns",
+        "five rejected mutations"
+      ],
+      "mathematical_counterexamples_found": 0
+    },
+    "mutations_rejected": {
+      "C_entry_plus1": true,
+      "single_balance_sign_flip": true,
+      "392_to393": true,
+      "drop_offdiag_factor2": true,
+      "literal_C4": true
+    },
+    "master050_diagnostic": {
+      "arithmetic": "exact serialized decimal rational weights; no renormalization",
+      "beta_mass": "999999999999997055955717073/1000000000000000000000000000",
+      "lambda_mass": "49999999985395736091285097/50000000000000000000000000",
+      "B36_residuals": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "-31989448032727/1000000000000000000000000000",
+        "-237479760189925415676071/200000000000000000000000000",
+        "-1175781402116945273446633/1000000000000000000000000000",
+        "-555297046420460939125599/1000000000000000000000000000",
+        "2918477249489652541147313/1000000000000000000000000000",
+        "-234285132602689460604673/250000000000000000000000000",
+        "-1058437724648804382414327/1000000000000000000000000000",
+        "61606793480796945620137/100000000000000000000000000",
+        "86219395015913292303409/62500000000000000000000000",
+        "-993582113383054807637603/250000000000000000000000000",
+        "-4510711420782828555843587/1000000000000000000000000000",
+        "89119461352418890457193/62500000000000000000000000",
+        "1411825698535973021517103/200000000000000000000000000",
+        "15509702285670171044899423/1000000000000000000000000000",
+        "675996222340032447996937/40000000000000000000000000",
+        "-309855740745200455513401/125000000000000000000000000",
+        "-5986152383641351302835021/200000000000000000000000000",
+        "-9410863091046196546162671/1000000000000000000000000000",
+        "-5077509473760054010552841/500000000000000000000000000",
+        "496085598727372461668811/500000000000000000000000000",
+        "18573710841115694728705301/1000000000000000000000000000",
+        "14294670628244804817/500000000000000000000000000",
+        "10984082455921218833/250000000000000000000000000",
+        "-7541788882671264537/1000000000000000000000000000",
+        "-64983889404781423837/1000000000000000000000000000",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "B27_minus392M5_residuals": [
+        "1931592581596616403898923157/48000000000000000000000000000",
+        "-29650856751120586624254529/3200000000000000000000000000",
+        "-1491197994304013812526677/64000000000000000000000000",
+        "-1381501158772716988873903831/48000000000000000000000000000",
+        "-788292416986476763559921111/16000000000000000000000000000",
+        "132401106759147856236639529/16000000000000000000000000000",
+        "14911987899157916572736197/640000000000000000000000000",
+        "-110018162496696835109347043/9600000000000000000000000000",
+        "160829080262026091590867691/3200000000000000000000000000",
+        "-643864327300693060182928637/8000000000000000000000000000",
+        "444763573850380827760187989/24000000000000000000000000000",
+        "745598845209939548592471517/16000000000000000000000000000",
+        "230250376288892731689868471/4000000000000000000000000000",
+        "591219027836162192126390867/6000000000000000000000000000",
+        "-794406004391653086505095247/48000000000000000000000000000",
+        "-745598597920779889139774051/16000000000000000000000000000",
+        "183363478391060280102896833/8000000000000000000000000000",
+        "-1608290042980509620311831943/16000000000000000000000000000",
+        "643864377385121159814940723/16000000000000000000000000000",
+        "-148254263061408799114204537/16000000000000000000000000000",
+        "-1118398668765972427768826677/48000000000000000000000000000",
+        "-460500616347361157047762799/16000000000000000000000000000",
+        "-788292076379418172458928329/16000000000000000000000000000",
+        "33100311815501772392354419/4000000000000000000000000000",
+        "186399799341323570009994843/8000000000000000000000000000",
+        "-183363562135700211576549097/16000000000000000000000000000",
+        "6282385464597378832546303/125000000000000000000000000"
+      ],
+      "max_B36_exact": "5986152383641351302835021/200000000000000000000000000",
+      "max_B27_exact": "1608290042980509620311831943/16000000000000000000000000000",
+      "max_B36_float": 0.029930761918206757,
+      "max_B27_float": 0.10051812768628185,
+      "all63_serialized_author_residuals_match_independent_reconstruction": true
+    },
+    "original_source_unchanged": true,
+    "no_author_PASS_premise": true,
+    "no_Root_check_premise": true,
+    "no_LP_run": true,
+    "no_tex": true,
+    "no_html": true,
+    "receipt": "review/RECEIPT.json",
+    "raw_review": "review/REVIEW.md",
+    "obligation_ledger": "review/SEMANTIC_OBLIGATIONS.json",
+    "independent_checker": "review/independent_checker.py",
+    "independent_results": "review/INDEPENDENT_RESULTS.json",
+    "scope_exclusions": [
+      "main682 bound",
+      "whole-model infeasibility",
+      "global realizability",
+      "separate maximality/leaf pruning theorem",
+      "complete Q4 classification",
+      "63-row independence",
+      "Lean formalization"
+    ]
+  }
+}

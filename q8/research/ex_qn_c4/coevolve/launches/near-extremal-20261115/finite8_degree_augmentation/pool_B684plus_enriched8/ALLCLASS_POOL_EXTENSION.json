@@ -1,0 +1,44 @@
+{
+  "status": "ALL_POSITIVE_CLASS_ACTUAL_COLUMNS_ADDED_EXACTLY",
+  "raw_positive_classes": 776,
+  "already_identical_graph_masks": 26,
+  "exact_F_hist_edgeU_aliases": [
+    {
+      "actual_graph_mask": 3889684781,
+      "exact_equal_F_hist_edgeU_representative": 387947902
+    },
+    {
+      "actual_graph_mask": 3889685421,
+      "exact_equal_F_hist_edgeU_representative": 3065888429
+    }
+  ],
+  "new_unique_feature_columns": 748,
+  "old_library": 14090,
+  "new_library": 14838,
+  "active_initial": 764,
+  "initial_new_active": 64,
+  "all_new_library_priced": true,
+  "all_old_valid_rows": 7042,
+  "conditional_feature_files_extended": [
+    "CONDITIONAL_VERTEX_FEATURES.npz",
+    "CONDITIONAL_VERTEX_FEATURES2.npz",
+    "CONDITIONAL_VERTEX_FEATURES3.npz",
+    "vertex_pricing/initial4/FEATURES.npz",
+    "vertex_pricing/master_017/FEATURES.npz",
+    "vertex_pricing/master_054/FEATURES.npz",
+    "maximal_vertex_parameters/initial_master050/FEATURES.npz",
+    "vertex_pricing/master_082/FEATURES.npz",
+    "vertex_pricing/master_116/FEATURES.npz",
+    "vertex_pricing/master_143/FEATURES.npz",
+    "vertex_pricing/master_163/FEATURES.npz",
+    "vertex_pricing/master_195/FEATURES.npz"
+  ],
+  "new_ordered_vertex_geometry_features_checked": 748,
+  "all204_new_L_lift_literal_integer_residuals": 0,
+  "same_alpha1409_beta1751_356equalities": true,
+  "edge3_moment_lambda_columns_recomputed_from_newF_eachstart": true,
+  "static14090calibration_files_left_frozen": true,
+  "no_complete_feature_classification_claim": true,
+  "source_batch_sha256": "7a24d9c3f7fe5b716a59ab72ff74e532a96b0fdde4b3e7129ff74d4b132725f0",
+  "seconds": 16.753762972002733
+}

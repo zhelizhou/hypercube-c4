@@ -1,0 +1,42 @@
+{
+  "status": "PASS_ALL_LITERAL_POINT_FULL_SCORES_AND_NONZERO_ROOT6",
+  "actual_Q4_masks": 762,
+  "exact_normalized_pairing": "-15940415645124021372345799259/500000250000000000000000000000000",
+  "explicit_legal_Q4s": [
+    {
+      "mask": 10,
+      "root_mask": 6,
+      "value": "1/24"
+    },
+    {
+      "mask": 11,
+      "root_mask": 7,
+      "value": "0"
+    },
+    {
+      "mask": 3,
+      "root_mask": 3,
+      "value": "0"
+    }
+  ],
+  "small_kernel_total4_negative_witness": {
+    "total": 4,
+    "histogram": {
+      "1": 1,
+      "2": 1,
+      "4": 2
+    },
+    "quadratic": -38312
+  },
+  "full_kernel_total4_negative_witness": {
+    "total": 4,
+    "full_flag_code_histogram": {
+      "32": 1,
+      "64": 1,
+      "112": 2
+    },
+    "quadratic": -1454496
+  },
+  "cut_sha256": "7dbfa0d60749c220a88a3e3b462c9a24b70acfc23405337e7454238fd595573f",
+  "checker_sha256": "da7a78d1b477b0e96b97f4ffb16df9a9585d195ed9c728921d7a7b9ada458970"
+}

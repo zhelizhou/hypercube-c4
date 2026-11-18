@@ -1,0 +1,14 @@
+{
+  "scope": "Full Q4 separation of precise new coupled dual, not a fullQ8proof unless max<=0",
+  "formula": "F(K)=3h4-h0-h2+144*q^T M0(K)q, q=e115-e236",
+  "kernel": "Q0=144*q*q^T,others0",
+  "density_coefficient": 0,
+  "unary_coefficients": [
+    -1,
+    0,
+    -1,
+    0,
+    3
+  ],
+  "denominator": 64512
+}

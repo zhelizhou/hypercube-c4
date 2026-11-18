@@ -1,0 +1,20 @@
+{
+  "COVERAGE_AND_VERIFICATION.md": "313454f529087a4cdcafcf4db68fe8f9d382f62c31a73a3708a4c6ae79e48d6b",
+  "INPUT_MANIFEST.json": "495d5c295a5567ba748d580727cf7d53f88350b914b8a2dfa3837a4c35efd6b8",
+  "RESULT.json": "d67b16520257d6d7dde632495b88c4cf62c78f491b64f1a84e900cdbe5c0e51c",
+  "RUNS.json": "2a30dcf65d8340de2661493bff708666826c32240903506b51ecbc8b798158db",
+  "calibration.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "calibration.stdout.txt": "744b5c8039d03a092f98c19c77ab693d20bfe3c5860ca06a5598a7db462415c0",
+  "calibration_linear.txt": "99321ed319ed5756493511a3d999df9ae045a17146b2958b888483d3c6618cbb",
+  "calibration_matrices.txt": "81e85e961fd4eafaa7309a7d18c48903793b6bf689e73610630abed6de154d4c",
+  "compile.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "compile.stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cost_probe.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cost_probe.stdout.txt": "bc9b6fb4302ef87a57aa97cc0fa99a4b9d3c7735f731092a83238254778f1893",
+  "full.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "full.stdout.txt": "3abb81f2bb1a5c8be3f78efc21c74e72afe82b0b704773ad28cab4e064f40a30",
+  "independent_q4": "93b6ada9af79c1cc15ff91cda2ce1156ea5219a5e913ddd90156f34dc6bd626a",
+  "independent_q4.cpp": "df2cc05dd8f96ef7d9497d57ee01106e8cb4eed10dff173749a16f48f2b53211",
+  "oracle_linear.txt": "9220e518ddc448986d40b12a2495b78f5cc5735a924da524715f2fe250e53713",
+  "oracle_matrices.txt": "d76afe3322661041d1f1b2d39b2e5a43ddf116add57e5ecc4b701398bb35a116"
+}

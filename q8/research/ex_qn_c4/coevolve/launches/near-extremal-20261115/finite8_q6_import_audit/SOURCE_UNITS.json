@@ -1,0 +1,248 @@
+{
+  "coverage": "all declared source units read at indicated exact scopes",
+  "declared_count": 30,
+  "covered_count": 30,
+  "source_coverage_is_not_automatic_proof_completeness": true,
+  "units": [
+    {
+      "unit_id": "NAV-1",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/research-wiki/index.md",
+      "sha256": "e63a596e94758f0fbf728cedd0145ad70d21c1c1c277c3e42c2ab0229b45d13f",
+      "line_count": 124,
+      "read_scope": "navigation to the requested three entities",
+      "covered": true
+    },
+    {
+      "unit_id": "NAV-2",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/research-wiki/experiments/q6-weighted-low317321.md",
+      "sha256": "a59b63876871da6a40be8cabfe5950f321c75778ed124f3f04c69f4a49838bba",
+      "line_count": 28,
+      "read_scope": "full entity; conditioned proof provenance",
+      "covered": true
+    },
+    {
+      "unit_id": "NAV-3",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/research-wiki/experiments/q6-one-low-star158-cycle006.md",
+      "sha256": "37c052236f9f98f51664bfd214707fa9c0320504751c1dcef257cd1709c65f6b",
+      "line_count": 28,
+      "read_scope": "full entity; historical imports and new degree-one scope",
+      "covered": true
+    },
+    {
+      "unit_id": "NAV-4",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/research-wiki/experiments/q6-three-full-23-slots.md",
+      "sha256": "1e7f28478335c8a4b9f13ab2f25d0176999358f6d0a8962f0c7ab23966ea050d",
+      "line_count": 28,
+      "read_scope": "full entity; exact three-full scope",
+      "covered": true
+    },
+    {
+      "unit_id": "CALLER",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_route/PROOF.md",
+      "sha256": "ef8bb815e43873195d54d13257b3e7ceb0e4f624be2cb0e8fa00a56601c7b555",
+      "line_count": 96,
+      "read_scope": "specified-parity universal gate and actual maximal-profile caller",
+      "covered": true
+    },
+    {
+      "unit_id": "GATE",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/GENERAL_WEIGHTED_GATE.md",
+      "sha256": "2a67bbee9027457ecfcafb07376dbae69fa67f87994c1f1883b4b318acb0698d",
+      "line_count": 80,
+      "read_scope": "entire local gate; its Q8/global claims not used",
+      "covered": true
+    },
+    {
+      "unit_id": "ONE-LOW",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/local_weighted/PROOF.md",
+      "sha256": "d89d28cf29345145bcba76eaee444f45908f1fe5ab98db6148208e9e4fef554f",
+      "line_count": 199,
+      "read_scope": "full theorem, all full-code positions, completion and congruence",
+      "covered": true
+    },
+    {
+      "unit_id": "TWO-LOW",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q8_single_three_cycle007/local_weighted/TWO_LOW_EXTENSION.md",
+      "sha256": "21bd93947610aa60f4c0df6c6e66462dfb6903d4dc7df5d3fa301b019b41eb63",
+      "line_count": 147,
+      "read_scope": "full simultaneous replacement, scope and congruence",
+      "covered": true
+    },
+    {
+      "unit_id": "MIN3",
+      "path": "q6_sources/q8_upper_independent/PROOF_PACKAGE.md",
+      "sha256": "0c969044cca1dca807ca690677d6589194759ac911d4150c3795c30b56832cf2",
+      "line_count": 363,
+      "read_scope": "Lemmas1 and3 in full; section2 read for context; no global688 conclusion imported",
+      "covered": true
+    },
+    {
+      "unit_id": "DEG2",
+      "path": "q6_sources/q8_upper_independent/REFINEMENT_688.md",
+      "sha256": "a2260728d115b4ce13c602edbb7f3a755d45b883640e7dff0adff6b6372fd16f",
+      "line_count": 216,
+      "read_scope": "all sections read; only sections1-2 are local premises; c3 trace replaced analytically",
+      "covered": true
+    },
+    {
+      "unit_id": "FOUR-FULL",
+      "path": "q6_sources/q8_upper_independent/REFINEMENT_K3.md",
+      "sha256": "9630851daa0418e70d7ecc0cab479fabe17cceae8e0d659362ca4369089f11c9",
+      "line_count": 191,
+      "read_scope": "all sections read; only local four-full bounds of section2 used",
+      "covered": true
+    },
+    {
+      "unit_id": "L1-ANALYTIC",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/analytic/PROOF.md",
+      "sha256": "39e1f9a86971aed331185ce01711a2f507cc4dd95290e123b1bb9fc20569995d",
+      "line_count": 334,
+      "read_scope": "complete sections1-7 proof; Q8 application read but not imported",
+      "covered": true
+    },
+    {
+      "unit_id": "L1-ALTERNATE",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/orbit_sat/review/REVIEW.md",
+      "sha256": "092e29d3b00e209d02bc892bf7e6a8f46a081a9a08a1397a495b3cbd6c5fa81c",
+      "line_count": 105,
+      "read_scope": "alternate certificate review read; its PASS and eleven traces not used as proof",
+      "covered": true
+    },
+    {
+      "unit_id": "ZERO-EXTENSION",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/Q8_BRIDGE.md",
+      "sha256": "6e975f65f70e9418602d553d4ff13f811a3ba720e08b2988b5676300f4e2a7df",
+      "line_count": 91,
+      "read_scope": "section1 harmless edge addition; Q8 conclusions not imported",
+      "covered": true
+    },
+    {
+      "unit_id": "THREE-FULL",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q6_three_full_structure_cycle010/PROOF.md",
+      "sha256": "9c7b7ceb2b11e3a07669cea8dc3b7118f6c75120e6e0136037a9522d342a23e4",
+      "line_count": 103,
+      "read_scope": "entire 23-slot proof and exact scope",
+      "covered": true
+    },
+    {
+      "unit_id": "ORIGIN",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/q6_three_full_structure_cycle010/ORIGIN_COROLLARY.md",
+      "sha256": "d6eceb810312e1ffeb9c9a529fe817e0597c434b0f0c148949ecc32aaea29584",
+      "line_count": 29,
+      "read_scope": "entire missing-fourth-root nonlow refinement",
+      "covered": true
+    },
+    {
+      "unit_id": "PRODUCER-THRESHOLD",
+      "path": "q6_sources/q8_upper_independent/q6_degree_cnf.py",
+      "sha256": "c55a8ebfecd1a81c00cb4c87debc4c47be56259a6b9448f453d35bd4a31a092b",
+      "line_count": 124,
+      "read_scope": "complete threshold/cardinality producer read, never imported or executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CHECKER-DIRECT",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/proofs/low1_cycle006/orbit_sat/review/direct_rup.cpp",
+      "sha256": "a820366a44435d9dbad99056b8b4c2ef67461e85f2b7c8d434bfba8a50d03dae",
+      "line_count": 47,
+      "read_scope": "complete parser/full-scan RUP code; copied and compiled",
+      "covered": true
+    },
+    {
+      "unit_id": "WORKFLOW-VERIFY",
+      "path": "/mnt/c/users/anony/desktop/project/math-rsi/.agents/skills/mathrsi-verify/SKILL.md",
+      "sha256": "849e6e5d1169b6b5d103135a9ce6eb0225c88c217f982e7fa45da0cd2d6df127",
+      "line_count": 187,
+      "read_scope": "read current task-directed verification contract",
+      "covered": true
+    },
+    {
+      "unit_id": "WORKFLOW-CHECKER",
+      "path": "/mnt/c/users/anony/desktop/project/math-rsi/.agents/skills/proof-checker/SKILL.md",
+      "sha256": "716a86370b1768b616943d449ab106b901fa55e239ab76ef9f5eebb9779ba39e",
+      "line_count": 605,
+      "read_scope": "read current proof checker and assurance contract; local deterministic scope",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-audit_star_cases",
+      "path": "q6_sources/q8_upper_independent/audit_star_cases.py",
+      "sha256": "22ca6245fa1f405647261597b9e3bfa4db48e0d9d5a1019cb86f7e5e8aaeb716",
+      "line_count": 152,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-audit_low2_star158",
+      "path": "q6_sources/q8_upper_independent/audit_low2_star158.py",
+      "sha256": "4ccf985de1f73032f5281bf10794090d07f082641847b9c9a4d75bd4eb2fde7b",
+      "line_count": 86,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-audit_rup",
+      "path": "q6_sources/q8_upper_independent/audit_rup.py",
+      "sha256": "5bf4ea7cfde5d5cca33738e5f81f7cb35227c1be3914332e11497fc49311545a",
+      "line_count": 82,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-audit_history_checker",
+      "path": "q6_sources/q8_upper_independent/audit_history_checker.py",
+      "sha256": "aa04209c8d75977e4367afefec8b6f8a2babbd947a79220821b0885ba4fa1197",
+      "line_count": 55,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-check_rup",
+      "path": "q6_sources/q8_upper_independent/check_rup.cpp",
+      "sha256": "ae17fcf0994257d8316d2f8e0212b50b0d90af9b70510a3b69f6f3f956c16ebf",
+      "line_count": 66,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-check_rup_active",
+      "path": "q6_sources/q8_upper_independent/check_rup_active.cpp",
+      "sha256": "bfaed12baf2b1b1310d526935c1d574b831b874023fbef6e261d44f8e7590fc0",
+      "line_count": 79,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-check_rup_cached",
+      "path": "q6_sources/q8_upper_independent/check_rup_cached.cpp",
+      "sha256": "192f8b3994631bf78bf5ffa02d979e945b465f90ef55756568ad231e7806b5c9",
+      "line_count": 92,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-build_cached_checker",
+      "path": "q6_sources/q8_upper_independent/build_cached_checker.py",
+      "sha256": "d2e8718f35b3fd1e73cea70ca68758cf1a0e1a875c030fb6172fc3119f85d195",
+      "line_count": 40,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-rebuild_local_cnf",
+      "path": "q6_sources/q8_upper_independent/rebuild_local_cnf.py",
+      "sha256": "c49d619bde50f9e8000df0c681384e1ba8e98bf06bf34e9722baffd4fbd74146",
+      "line_count": 104,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    },
+    {
+      "unit_id": "CODE-rebuild_degree_cnf",
+      "path": "q6_sources/q8_upper_independent/rebuild_degree_cnf.py",
+      "sha256": "e4fbf187f67db2733a29e63ddb8671bf1b8614882c4a0a9578e8a81ccb632496",
+      "line_count": 75,
+      "read_scope": "entire source read; original main never executed",
+      "covered": true
+    }
+  ]
+}

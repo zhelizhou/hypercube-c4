@@ -1,0 +1,146 @@
+{
+  "status": "EXACT_RESTRICTED_SECOND_SEPARATOR",
+  "graph_columns": 64,
+  "q_block": 2,
+  "q_original_state_support": [
+    1,
+    23,
+    35,
+    41,
+    54,
+    55,
+    59,
+    71,
+    73,
+    91,
+    96,
+    102,
+    103,
+    109,
+    133,
+    135,
+    141,
+    146,
+    151,
+    153,
+    155,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    165,
+    173,
+    174,
+    176,
+    177,
+    185,
+    187,
+    188,
+    189
+  ],
+  "q_nonzero": [
+    [
+      1,
+      -1
+    ],
+    [
+      41,
+      -1
+    ],
+    [
+      59,
+      1
+    ],
+    [
+      91,
+      -1
+    ],
+    [
+      109,
+      1
+    ],
+    [
+      141,
+      -1
+    ],
+    [
+      151,
+      -1
+    ],
+    [
+      159,
+      2
+    ]
+  ],
+  "unary_score": "v=3h0+3h4-h2",
+  "unary_hist_weights": [
+    3,
+    0,
+    -1,
+    0,
+    3
+  ],
+  "scale": 2,
+  "q": [
+    -1,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -1,
+    0,
+    -1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "beta": "128/3",
+  "interval_lower": "128/3",
+  "interval_upper": "None",
+  "score_min": "-44/3",
+  "score_max": "0",
+  "coefficient_denominator": 64512,
+  "global_mean_v_lower_bound": "3/112",
+  "analytic_lower_bound_uses_profile_cover": false,
+  "local_score": "v+beta*q^T M2(K) q",
+  "all_current_columns_score_le0": true,
+  "trials": [
+    {
+      "scale": 1,
+      "works": false
+    },
+    {
+      "scale": 2,
+      "works": true
+    }
+  ],
+  "full_domain_separation_done": false,
+  "primary683_goal": "OPEN"
+}

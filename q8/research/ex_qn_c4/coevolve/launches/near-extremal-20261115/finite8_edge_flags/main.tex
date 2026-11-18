@@ -1,0 +1,297 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm,booktabs}
+\usepackage{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newcommand{\E}{\mathbb E}
+\newcommand{\tr}{\operatorname{tr}}
+\newcommand{\file}[1]{\texttt{\detokenize{#1}}}
+\title{Edge flags: exact PSD redundancy and finite-seven directions}
+\author{Task-local candidate for fresh verification}
+\date{16 November 2026}
+\begin{document}
+\maketitle
+
+\paragraph{Result and scope.}
+Edge-root PSD blocks are pointwise contained in the original full-face
+PSD family.  Integer-seven frequency kernels can nevertheless give
+additional directions within the larger full-face finite-six cone.
+This package gives three exact such kernels and their actual negative
+target pairings.  The original full upper bound682 remains open.
+The target of the third kernel is a frozen numerical intermediate,
+not a claimed feasible graph or relaxation point.  All previous source,
+point and review files are read only.
+
+\section{E01: actual states and the exact edge bridge}
+
+Orient an ambient root edge from \(u\) to \(v\), with \(u<v\).
+Let \(r\in\{0,1\}\) be its retained value.  For an external direction,
+its full \(Q_2\) flag records three bits: the connector at \(u\), the
+connector at \(v\), then the edge opposite \(uv\).
+For \(r=0\), states \(0,\ldots,7\) are legal.  For \(r=1\), state7
+would close a \(C_4\), so states \(0,\ldots,6\) are legal.
+The common endpoint flip is
+\[
+ f(s)=(s\mathbin{\&}4)+2(s\mathbin{\&}1)
+                  +((s\mathbin{\&}2)/2).
+\]
+For a symmetric kernel \(Q_r\), define
+\(\overline Q_r=(Q_r+P_fQ_rP_f^{\mathsf T})/2\).
+Both flag arguments use the same endpoint action.
+
+For a legal labelled \(K\subseteq Q_4\), each of its32 ambient edges
+has three external flags \(s_1,s_2,s_3\).  Define
+\[
+ T_{\rm edge}(K)=\frac1{672}\sum_{e\subset Q_4}
+ \left(6\sum_{a<b}\overline Q_{r_e}[s_a,s_b]
+              +\sum_a\overline Q_{r_e}[s_a,s_a]\right).
+ \tag{E01.1}
+\]
+All entries come from the same actual \(K\).
+
+\begin{theorem}[Exact whole-\(Q_8\) bridge]\label{thm:edge}
+For any actual \(C_4\)-free \(G\subseteq Q_8\), if \(x_e\) is the count
+vector of its seven external flags at ambient edge \(e\), then
+\[
+ \E_{K\text{ uniform coordinate }Q_4}T_{\rm edge}(K)
+ =\frac1{1024}\sum_{e\subset Q_8}
+       \frac{x_e^{\mathsf T}\overline Q_{r_e}x_e}{49}.
+ \tag{E01.2}
+\]
+Thus the expectation is nonnegative for PSD kernels, or for any kernels
+nonnegative on all nonnegative integer total-seven vectors.
+\end{theorem}
+\begin{proof}
+Each global edge is in \(\binom73=35\) of the1120 coordinate \(Q_4\)'s.
+Uniform restriction/root sampling therefore makes the1024 global edges
+uniform and selects a uniform three-subset of their seven external axes.
+For \(u=x_e/7\), independent draws give
+\[
+ uu^{\mathsf T}=\frac67R_{\ne}+\frac17\operatorname{diag}(u).
+\]
+The mean over the three local unordered cross pairs is the distinct-axis
+average for a symmetric kernel; the mean over the three diagonal terms
+is the single-axis average.  Formula (E01.1) is exactly
+\(1/32\) times \(6/7\) of the former plus \(1/7\) of the latter.
+This proves the identity.  Its final implication follows term by term,
+since every \(x_e\) is a nonnegative integer vector of total seven.
+No degree, parity or seed condition is used.
+\end{proof}
+
+With denominator64512, each endpoint action contributes288 to a cross
+entry and48 to a diagonal entry in the symmetric upper-coordinate
+linear score.  Equivalently the pre-average coefficients are
+\(96(6\,\text{cross}+\text{diagonal})\).
+\file{edge_flags.py} reconstructs these coefficients in the original
+bottom12/top12/cross8 \(Q_4\) edge-mask order.
+
+\section{E02: exact pullback and PSD redundancy}
+
+Fix a root face \(F\) and one of its four edges \(e\).
+Let \(s_0\) be \(F\) viewed as a one-direction edge flag at \(e\).
+Each external full-face flag \(g\) determines the edge flag \(s(g)\)
+at that same edge.  In the appropriate edge state space set
+\[
+ v_g=6e_{s(g)}+e_{s_0},\qquad
+ V_{F,e}=(v_g)_g,\qquad
+ P_F=\frac1{196}\sum_{e\subset F}V_{F,e}^{\mathsf T}
+                      \overline Q_{r_e}V_{F,e}.
+ \tag{E02.1}
+\]
+All vectors use actual bits and common endpoint frames.
+
+\begin{theorem}[Pointwise containment and integer pullback]\label{thm:lift}
+Using \(P_F\) in the original finite-eight face feature gives exactly
+\(T_{\rm edge}(K)\) on every legal labelled \(K\subseteq Q_4\).
+If the edge kernels are PSD, all five full-face kernels are PSD.
+If they are only valid on every integer total-seven histogram, all
+five full-face kernels are valid on every integer total-six histogram.
+\end{theorem}
+\begin{proof}
+Endpoint averaging makes (E02.1) invariant under each actual face
+stabilizer: a face symmetry permutes its four edges and may flip their
+endpoints, always acting on all associated flags together.
+
+Fix a local root edge and its three external flags \(s_0,s_a,s_b\).
+The finite-eight face law is \(5/6\) cross plus \(1/12\) per diagonal.
+For the face having base \(s_0\), expansion of (E02.1) gives, before
+\(1/(24\cdot196)\),
+\[
+ 30Q(s_a,s_b)+6Q(s_0,s_a)+6Q(s_0,s_b)
+ +3Q(s_a,s_a)+3Q(s_b,s_b)+Q(s_0,s_0).
+\]
+Summing the three base choices gives coefficient \(30+6+6=42\)
+on each unordered cross and \(1+3+3=7\) on each diagonal.
+Since \(7/(24\cdot196)=1/672\), this is (E01.1) exactly.
+This proves pointwise equality, not merely equality of global averages.
+
+For PSD edge kernels, congruence and summation in (E02.1) preserve PSD.
+For the second claim take any full-face integer count vector \(x\ge0\)
+of total six.  For each edge,
+\[
+ V_{F,e}x=6z_e,\qquad
+ z_e=\sum_gx_ge_{s(g)}+e_{s_0},\qquad
+ z_e\in\mathbb Z_{\ge0}^{d_{r_e}},\quad\sum z_e=7.
+\]
+Legality of the full-face state ensures every read edge-flag state is
+in its correct \(7\)- or \(8\)-state space.
+Therefore \(x^{\mathsf T}P_Fx=(36/196)\sum_e
+z_e^{\mathsf T}\overline Q_{r_e}z_e\ge0\).
+\end{proof}
+
+Thus edge PSD supplies no new relaxation strength.  Finite-seven edge
+directions are contained in the complete finite-six face-kernel cone,
+but can be useful beyond a currently selected finite list of cuts.
+The archive's old \file{fold_old.py} already absorbed earlier partial-edge
+PSD blocks; this package does not claim a newly discovered PSD capability.
+Its finite-eight normalization and integer-count pullback are explicit.
+
+\section{E03: exact moments and actual regression}
+
+For a local probability distribution with integer weights \(w_g/W\),
+let \(U_r\) be twice the summed integer edge coefficient matrix.
+Its actual moment is
+\[
+ M_r=\frac{U_r}{2\cdot64512W};
+\]
+an upper off-diagonal coefficient is split between the two symmetric
+moment entries.
+The original frozen818-point is
+\file{../finite8_flags/FAMILY_OBSTRUCTION.json}, SHA256
+\begin{center}\scriptsize\ttfamily
+fdbd082699eff6d46899d6a501945881cf6f6fed48735dd3a326c5db8080aec6.
+\end{center}
+\file{FROZEN_EDGE_MOMENTS.json} reconstructs both actual edge matrices.
+The missing-root support is \(1,2,4,7\); the retained-root support is
+\(0,3,5,6\).  Both supported \(4\)-by-\(4\) matrices have positive
+exact rational LDL factors and zero other rows.  This confirms, rather
+than contradicts, the PSD redundancy theorem.
+
+On the actual682 \(Q_8\) seed, direct outer products at all1024 root
+edges, each with seven flags, equal the sum of local edge moments over
+all1120 common \(Q_4\) restrictions, with the exact normalization above.
+The independent implementation verifies this integer identity.
+A further regression checks the pointwise lift on all818 frozen support
+graphs and64 general legal \(Q_4\)'s, with exact error zero, including
+all18 canonical face-stabilizer actions.  These samples supplement,
+not replace, the proof of Theorem~\ref{thm:lift}.
+
+\section{E04: three exact finite-seven directions}
+
+The compact complete kernels are in \file{EDGE_CUTS.json}.
+The finite domains are the full weak compositions of seven into eight
+or seven coordinates:
+\[
+ |\Omega_7(8)|=\binom{14}{7}=3432,\qquad
+ |\Omega_7(7)|=\binom{13}{7}=1716.
+\]
+Each kernel is an integer symmetric matrix invariant under the common
+endpoint flip.  Complete integer evaluation gives minimum zero:
+\[
+\begin{array}{l|c|r|r}
+\text{name}&r&\text{all histograms}&\min x^{\mathsf T}Qx\\\hline
+\texttt{frozen\_root0}&0&3432&0\\
+\texttt{frozen\_root1}&1&1716&0\\
+\texttt{degree\_snapshot\_root0}&0&3432&0
+\end{array}
+\tag{E04.1}
+\]
+Their respective exact target pairings are
+\[
+ -\frac{27921397669}{11851851840},\qquad
+ -\frac{20810671173}{3950617280},\qquad
+ -\frac{34656869948258354962251}{20000000000000146682828}.
+ \tag{E04.2}
+\]
+These are computed from actual local graph masks and exact weights,
+not inferred from a numerical LP status.
+If any target belonged to its full finite-seven cone, its pairing with
+the corresponding kernel would be a nonnegative combination of the
+nonnegative values in (E04.1), contradicting (E04.2).
+
+All three kernels are genuinely non-PSD and non-copositive.
+Explicit nonnegative integer vectors giving negative forms are
+\[
+\begin{array}{l|l|r}
+\text{name}&x&x^{\mathsf T}Qx\\\hline
+\texttt{frozen\_root0}&(0,1,1,0,0,0,0,3)&-264\\
+\texttt{frozen\_root1}&(2,0,0,4,0,0,0)&-288\\
+\texttt{degree\_snapshot\_root0}&(2,0,0,2,1,0,0,0)&-336.
+\end{array}
+\tag{E04.3}
+\]
+Their totals are five, six and five, so they do not contradict total-seven
+validity.  No claim of complete-positivity nonmembership follows merely
+from these finite-domain tests.
+
+The third target is \file{degree_snapshot.json}: a read-only copy of
+iteration10 with status \texttt{EIGEN\_CUT\_ITERATION\_BOUND} and175
+nonzero graph weights.  The stored JSON decimals were interpreted as
+exact rationals and renormalized.  Its exact edge moments are in
+\file{DEGREE_SNAPSHOT_EDGE_MOMENTS.json}.
+It is an explicitly defined intermediate local distribution, not an
+accepted PSD/degree feasible point or a graph.  Consequently the third
+cut provides a valid pricing direction at that state, but does not
+prove independence from every current augmented constraint.
+
+\paragraph{Exact acceptance protocol.}
+Read the actual kernels and target inputs, regenerate every histogram
+in (E04.1), and evaluate its integer quadratic form.  Check symmetry,
+the common endpoint permutation and the witnesses (E04.3).
+Independently reconstruct the local matrices and exact weights and
+evaluate (E04.2).  The producer enumerates multisets; the standalone
+\file{verify.py} uses recursive weak compositions and an independently
+ordered geometric moment construction.  It imports no producer,
+optimizer or scientific package.  It also rechecks both frozen LDL
+identities and the whole actual682-seed regression.
+Neither author \texttt{PASS} receipts nor LP infeasibility statuses
+are mathematical premises for fresh review.
+
+\section{E05: complete small cone and consumer interface}
+
+The strongest finite caller need not retain only three target kernels.
+For each \(r\), the complete necessary moment condition is
+\[
+ M_r(\lambda)=
+ \sum_{x\in\Omega_7(d_r)}\beta_{r,x}
+ \frac{xx^{\mathsf T}+P_fx x^{\mathsf T}P_f^{\mathsf T}}{98},
+ \qquad \beta_{r,x}\ge0.
+ \tag{E05.1}
+\]
+This preserves the same original local-graph weights \(\lambda\);
+\(\beta\) are auxiliary frequency coefficients, not separately selected
+graphs.  Each averaged generator has ordered entry sum one, so the sum
+of \(\beta_{r,x}\) equals the root-type probability already represented
+by \(M_r(\lambda)\).  No separately fixed conditional mass is needed.
+The complete domain has only \(3432+1716\) generators.
+It is valid for actual graphs by the integer-seven root law and common
+endpoint transport.  Satisfying it does not produce a graph.
+
+For a selected cut, \file{score.value_on_graph(g,name)} gives its exact
+normalized feature, with positive scales1320,828,1680 in the order above.
+\file{score.full_face_lift(name)} returns five existing face-block
+integer numerator matrices and denominator \(196\) times the scale.
+The native face scorer can therefore evaluate the new direction without
+changing its legal graph domain.  Candidate weights for these valid
+features must be nonnegative; a PSD-only Gram acceptance wrapper cannot
+certify them.
+
+For the actual682 seed all three normalized means are nonnegative.
+The snapshot cut's seed mean is \(1/3840\), and its exact snapshot mean is
+\[
+ -\frac{11552289982752784987417}{11200000000000082142383680}.
+\]
+Its value on the legal oracle graph1774744440 is \(11/120\).
+These are interface regressions, not graph exclusions.
+
+\paragraph{Return.}
+\file{PROOF.md} retains the detailed caller; \file{BRIDGE_CHECK.json},
+\file{VERIFICATION.json} and \file{FEATURE_CHECK.json} record actual
+checks.  Root's separate checker in \file{../finite8_root_checks/}
+is independent external evidence, not a substituted premise here.
+This bounded task stops at exact redundancy, complete finite7 directions
+and a compact full-cone interface.  No canonical claim, old job restart,
+new LP campaign or full682 conclusion is made.
+\end{document}

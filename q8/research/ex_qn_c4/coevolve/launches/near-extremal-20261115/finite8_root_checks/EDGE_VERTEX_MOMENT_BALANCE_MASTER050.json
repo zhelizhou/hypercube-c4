@@ -1,0 +1,172 @@
+{
+  "status": "EXACT_BETA_LAMBDA_CONDITIONAL_VERTEX_GROUP_MOMENT_DIAGNOSTIC",
+  "input": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_profile1409_working_sets/point_bank/master_050.json",
+  "input_sha256": "1655fe4d8df1d3989b37bef86ec016834581657d1f93becc4d00153b9055f2f1",
+  "formula": "Sum_beta C_all_(d,i)*F_group(d) =392*sum_(j in group) M5_(i,j)(lambda)",
+  "rows": [
+    {
+      "group": 0,
+      "state": 0,
+      "exact_difference": "1931592581596616403898923157/48000000000000000000000000000",
+      "float_difference": 0.04024151211659618
+    },
+    {
+      "group": 0,
+      "state": 1,
+      "exact_difference": "-29650856751120586624254529/3200000000000000000000000000",
+      "float_difference": -0.009265892734725183
+    },
+    {
+      "group": 0,
+      "state": 2,
+      "exact_difference": "-1491197994304013812526677/64000000000000000000000000",
+      "float_difference": -0.023299968661000217
+    },
+    {
+      "group": 0,
+      "state": 3,
+      "exact_difference": "-1381501158772716988873903831/48000000000000000000000000000",
+      "float_difference": -0.02878127414109827
+    },
+    {
+      "group": 0,
+      "state": 4,
+      "exact_difference": "-788292416986476763559921111/16000000000000000000000000000",
+      "float_difference": -0.0492682760616548
+    },
+    {
+      "group": 0,
+      "state": 5,
+      "exact_difference": "132401106759147856236639529/16000000000000000000000000000",
+      "float_difference": 0.00827506917244674
+    },
+    {
+      "group": 0,
+      "state": 6,
+      "exact_difference": "14911987899157916572736197/640000000000000000000000000",
+      "float_difference": 0.023299981092434245
+    },
+    {
+      "group": 0,
+      "state": 7,
+      "exact_difference": "-110018162496696835109347043/9600000000000000000000000000",
+      "float_difference": -0.011460225260072588
+    },
+    {
+      "group": 0,
+      "state": 8,
+      "exact_difference": "160829080262026091590867691/3200000000000000000000000000",
+      "float_difference": 0.050259087581883154
+    },
+    {
+      "group": 1,
+      "state": 0,
+      "exact_difference": "-643864327300693060182928637/8000000000000000000000000000",
+      "float_difference": -0.08048304091258664
+    },
+    {
+      "group": 1,
+      "state": 1,
+      "exact_difference": "444763573850380827760187989/24000000000000000000000000000",
+      "float_difference": 0.018531815577099202
+    },
+    {
+      "group": 1,
+      "state": 2,
+      "exact_difference": "745598845209939548592471517/16000000000000000000000000000",
+      "float_difference": 0.046599927825621223
+    },
+    {
+      "group": 1,
+      "state": 3,
+      "exact_difference": "230250376288892731689868471/4000000000000000000000000000",
+      "float_difference": 0.05756259407222318
+    },
+    {
+      "group": 1,
+      "state": 4,
+      "exact_difference": "591219027836162192126390867/6000000000000000000000000000",
+      "float_difference": 0.09853650463936037
+    },
+    {
+      "group": 1,
+      "state": 5,
+      "exact_difference": "-794406004391653086505095247/48000000000000000000000000000",
+      "float_difference": -0.016550125091492774
+    },
+    {
+      "group": 1,
+      "state": 6,
+      "exact_difference": "-745598597920779889139774051/16000000000000000000000000000",
+      "float_difference": -0.04659991237004874
+    },
+    {
+      "group": 1,
+      "state": 7,
+      "exact_difference": "183363478391060280102896833/8000000000000000000000000000",
+      "float_difference": 0.022920434798882536
+    },
+    {
+      "group": 1,
+      "state": 8,
+      "exact_difference": "-1608290042980509620311831943/16000000000000000000000000000",
+      "float_difference": -0.10051812768628185
+    },
+    {
+      "group": 2,
+      "state": 0,
+      "exact_difference": "643864377385121159814940723/16000000000000000000000000000",
+      "float_difference": 0.04024152358657007
+    },
+    {
+      "group": 2,
+      "state": 1,
+      "exact_difference": "-148254263061408799114204537/16000000000000000000000000000",
+      "float_difference": -0.00926589144133805
+    },
+    {
+      "group": 2,
+      "state": 2,
+      "exact_difference": "-1118398668765972427768826677/48000000000000000000000000000",
+      "float_difference": -0.023299972265957758
+    },
+    {
+      "group": 2,
+      "state": 3,
+      "exact_difference": "-460500616347361157047762799/16000000000000000000000000000",
+      "float_difference": -0.028781288521710073
+    },
+    {
+      "group": 2,
+      "state": 4,
+      "exact_difference": "-788292076379418172458928329/16000000000000000000000000000",
+      "float_difference": -0.04926825477371364
+    },
+    {
+      "group": 2,
+      "state": 5,
+      "exact_difference": "33100311815501772392354419/4000000000000000000000000000",
+      "float_difference": 0.008275077953875443
+    },
+    {
+      "group": 2,
+      "state": 6,
+      "exact_difference": "186399799341323570009994843/8000000000000000000000000000",
+      "float_difference": 0.023299974917665445
+    },
+    {
+      "group": 2,
+      "state": 7,
+      "exact_difference": "-183363562135700211576549097/16000000000000000000000000000",
+      "float_difference": -0.011460222633481263
+    },
+    {
+      "group": 2,
+      "state": 8,
+      "exact_difference": "6282385464597378832546303/125000000000000000000000000",
+      "float_difference": 0.05025908371677903
+    }
+  ],
+  "max_absolute_difference": 0.10051812768628185,
+  "scope": "New Root-derived general sameobject moment identities; complete proof/interface/freshreview pending"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "ALL_EMITTED_CUTS_EXACTLY_REPLAYED",
+  "actual_Q4_masks": 552,
+  "results": [
+    {
+      "block": 0,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 176,
+      "normalized_pairing": "-249291039052034318530591811/115200057600000000000000000000000",
+      "float_normalized_pairing": -2.1639836320015377e-06,
+      "full_state_dimension": 240,
+      "exact_nonPSD_noncopositive_witness": {
+        "total": 4,
+        "histogram": {
+          "0": 1,
+          "15": 3
+        },
+        "quadratic": -2666576
+      },
+      "cut_sha256": "cabd11ecea6b1251fa865e6414630f4e49de63334c9874279281686aa1fc14d9"
+    },
+    {
+      "block": 1,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 56,
+      "normalized_pairing": "-142652062659971576891879521/19301040000000000000000000000000",
+      "float_normalized_pairing": -7.39090031728713e-06,
+      "full_state_dimension": 212,
+      "exact_nonPSD_noncopositive_witness": null,
+      "cut_sha256": "fc9527847f4a31f330b36d48c9c5867ed1542787cf574c235f78af4fb1ddd241"
+    },
+    {
+      "block": 2,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 52,
+      "normalized_pairing": "-57197343123037571890417230589/1920000960000000000000000000000000",
+      "float_normalized_pairing": -2.979026798144808e-05,
+      "full_state_dimension": 190,
+      "exact_nonPSD_noncopositive_witness": {
+        "total": 4,
+        "histogram": {
+          "0": 1,
+          "9": 1,
+          "15": 2
+        },
+        "quadratic": -702444
+      },
+      "cut_sha256": "d5c0f665ac54bf8594673b435445a7e8400a224025fb42b0379b1a8b1b27d4b0"
+    },
+    {
+      "block": 3,
+      "status": "PASS_EXACT_INDEPENDENT_DOMAIN_AND_LITERAL_GEOMETRY",
+      "histograms": 54264,
+      "finite6_minimum": 104,
+      "normalized_pairing": "-279326316333933867472211059/56571444000000000000000000000000",
+      "float_normalized_pairing": -4.93758505322816e-06,
+      "full_state_dimension": 187,
+      "exact_nonPSD_noncopositive_witness": {
+        "total": 4,
+        "histogram": {
+          "1": 2,
+          "13": 1,
+          "14": 1
+        },
+        "quadratic": -2285664
+      },
+      "cut_sha256": "28494f6d1cda8d58dbcedde5102f01f4bc9da23879e6f6a38dc044f739ad48b4"
+    }
+  ],
+  "scope": "Concrete parameter replay of the alreadyfreshreviewed universal connectorfinite6 implication; not wholefamilyNO orfullPSD/graphacceptance"
+}

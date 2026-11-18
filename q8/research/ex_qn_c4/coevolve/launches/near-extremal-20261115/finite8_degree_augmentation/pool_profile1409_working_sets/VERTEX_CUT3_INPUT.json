@@ -1,0 +1,13 @@
+{
+  "status": "THIRD_CONDITIONAL_VERTEX_KERNEL_FROZEN",
+  "source_sha256": "d289fea38c2ced2a795c458cea2e0acc9cf5f347e8c8e0660c1d5a451c663c71",
+  "Root_full_domain_receipt": "VERTEX_CUT3_ROOT_CHECK.json",
+  "old_scope_last_point_master": 109,
+  "new_cut_pairing_at_that_old_point_exact_decimal": "-1184527985361325564752873484525561/10752000000000000000000000000000000000",
+  "new_cut_pairing_float": -0.0001101681534004209,
+  "true682_joint_exact_mean": "175019011/100352000000",
+  "full_old_cut_rows_retained": 3250,
+  "full_new_valid_rows": 3251,
+  "same_lambda_alpha_beta": true,
+  "no_fixed683_density_or_even_gate": true
+}

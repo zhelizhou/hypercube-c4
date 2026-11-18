@@ -1,0 +1,527 @@
+{
+  "planned_unit_ids": [
+    "PROOF:CLAIM",
+    "PROOF:DEFINITIONS",
+    "PROOF:SMALL_DOMAIN",
+    "PROOF:FULL_H_SUM",
+    "PROOF:WHOLE_Q8_BRIDGE",
+    "PROOF:NATIVE_MOMENTS",
+    "PROOF:CONCRETE_CUT",
+    "PROOF:CHECKS_SCOPE",
+    "PACKAGE:README.md",
+    "PACKAGE:price_projection_point.py",
+    "PACKAGE:check_projection_point.py",
+    "PACKAGE:score.py",
+    "PACKAGE:check_full_score.py",
+    "PACKAGE:check_generic_boundary.py",
+    "PACKAGE:check_sparse_calibration.py",
+    "DEPENDENCY:finite8_flags/finite_flags.py",
+    "DEPENDENCY:finite8_connector_frequency/membership.py",
+    "IMPORT:G01_STATES_ACTIONS",
+    "IMPORT:G01_SCORE_NORMALIZATION",
+    "IMPORT:G02_FACE_SAMPLING",
+    "DATA:parallel15_master102/MAPPING.json",
+    "DATA:parallel15_master102/block3.EXACT_CUT.json",
+    "DATA:parallel15_master102/PROJECTED_MOMENTS.json",
+    "DATA:parallel15_master102/DOMAIN.json",
+    "DATA:parallel15_master102/INPUT_POINT.json",
+    "DATA:parallel15_master102/STARTED.json",
+    "DATA:parallel15_master102/HISTORY.json",
+    "DATA:parallel15_master102/RESULT.json",
+    "DATA:parallel15_master102/INDEPENDENT_CHECK.json",
+    "DATA:parallel15_master102/FULL_SCORE_CHECK.json",
+    "DATA:parallel15_master102/NONZERO_Q8_CALIBRATION.json",
+    "DATA:GENERIC_BOUNDARY_CHECK.json",
+    "DATA:PACKAGE_MANIFEST.json",
+    "INPUT:generator_matrix.npz",
+    "INPUT:histograms16_sum6.npy",
+    "INPUT:SCOPE_INCREMENT_004_CONNECTOR4.json",
+    "INPUT:q8_seed682.edges"
+  ],
+  "completed_unit_ids": [
+    "PROOF:CLAIM",
+    "PROOF:DEFINITIONS",
+    "PROOF:SMALL_DOMAIN",
+    "PROOF:FULL_H_SUM",
+    "PROOF:WHOLE_Q8_BRIDGE",
+    "PROOF:NATIVE_MOMENTS",
+    "PROOF:CONCRETE_CUT",
+    "PROOF:CHECKS_SCOPE",
+    "PACKAGE:README.md",
+    "PACKAGE:price_projection_point.py",
+    "PACKAGE:check_projection_point.py",
+    "PACKAGE:score.py",
+    "PACKAGE:check_full_score.py",
+    "PACKAGE:check_generic_boundary.py",
+    "PACKAGE:check_sparse_calibration.py",
+    "DEPENDENCY:finite8_flags/finite_flags.py",
+    "DEPENDENCY:finite8_connector_frequency/membership.py",
+    "IMPORT:G01_STATES_ACTIONS",
+    "IMPORT:G01_SCORE_NORMALIZATION",
+    "IMPORT:G02_FACE_SAMPLING",
+    "DATA:parallel15_master102/MAPPING.json",
+    "DATA:parallel15_master102/block3.EXACT_CUT.json",
+    "DATA:parallel15_master102/PROJECTED_MOMENTS.json",
+    "DATA:parallel15_master102/DOMAIN.json",
+    "DATA:parallel15_master102/INPUT_POINT.json",
+    "DATA:parallel15_master102/STARTED.json",
+    "DATA:parallel15_master102/HISTORY.json",
+    "DATA:parallel15_master102/RESULT.json",
+    "DATA:parallel15_master102/INDEPENDENT_CHECK.json",
+    "DATA:parallel15_master102/FULL_SCORE_CHECK.json",
+    "DATA:parallel15_master102/NONZERO_Q8_CALIBRATION.json",
+    "DATA:GENERIC_BOUNDARY_CHECK.json",
+    "DATA:PACKAGE_MANIFEST.json",
+    "INPUT:generator_matrix.npz",
+    "INPUT:histograms16_sum6.npy",
+    "INPUT:SCOPE_INCREMENT_004_CONNECTOR4.json",
+    "INPUT:q8_seed682.edges"
+  ],
+  "failed_unit_ids": [],
+  "uncovered_unit_ids": [],
+  "coverage_complete": true,
+  "units": [
+    {
+      "unit_id": "PROOF:CLAIM",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        1,
+        11
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:DEFINITIONS",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        12,
+        19
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:SMALL_DOMAIN",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        20,
+        33
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:FULL_H_SUM",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        34,
+        47
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:WHOLE_Q8_BRIDGE",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        48,
+        65
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:NATIVE_MOMENTS",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        66,
+        79
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:CONCRETE_CUT",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        80,
+        97
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PROOF:CHECKS_SCOPE",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md",
+      "lines": [
+        98,
+        107
+      ],
+      "kind": "canonical_proof",
+      "review_method": "Entire source span read; obligations adjudicated below; exact data replay separately.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:README.md",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/README.md",
+      "lines": [
+        1,
+        61
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:price_projection_point.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/price_projection_point.py",
+      "lines": [
+        1,
+        82
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:check_projection_point.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_projection_point.py",
+      "lines": [
+        1,
+        122
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:score.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/score.py",
+      "lines": [
+        1,
+        20
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:check_full_score.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_full_score.py",
+      "lines": [
+        1,
+        39
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:check_generic_boundary.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_generic_boundary.py",
+      "lines": [
+        1,
+        29
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "PACKAGE:check_sparse_calibration.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_sparse_calibration.py",
+      "lines": [
+        1,
+        30
+      ],
+      "kind": "interface_or_implementation",
+      "review_method": "Entire file read. No author checker main/LP was run; independent replay and selected pure loader/scorer calls only.",
+      "covered": true
+    },
+    {
+      "unit_id": "DEPENDENCY:finite8_flags/finite_flags.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/finite_flags.py",
+      "lines": [
+        1,
+        183
+      ],
+      "kind": "dependency_code",
+      "review_method": "Entire source read; source definitions not used to construct reviewer geometry or histogram enumeration.",
+      "covered": true
+    },
+    {
+      "unit_id": "DEPENDENCY:finite8_connector_frequency/membership.py",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_connector_frequency/membership.py",
+      "lines": [
+        1,
+        74
+      ],
+      "kind": "dependency_code",
+      "review_method": "Entire source read; source definitions not used to construct reviewer geometry or histogram enumeration.",
+      "covered": true
+    },
+    {
+      "unit_id": "IMPORT:G01_STATES_ACTIONS",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/main.tex",
+      "lines": [
+        54,
+        114
+      ],
+      "kind": "selected_import",
+      "review_method": "Actual source span read and face identities rederived. Later old PSD/barrier results are outside this audit.",
+      "covered": true
+    },
+    {
+      "unit_id": "IMPORT:G01_SCORE_NORMALIZATION",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/main.tex",
+      "lines": [
+        133,
+        208
+      ],
+      "kind": "selected_import",
+      "review_method": "Actual source span read and face identities rederived. Later old PSD/barrier results are outside this audit.",
+      "covered": true
+    },
+    {
+      "unit_id": "IMPORT:G02_FACE_SAMPLING",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/main.tex",
+      "lines": [
+        210,
+        257
+      ],
+      "kind": "selected_import",
+      "review_method": "Actual source span read and face identities rederived. Later old PSD/barrier results are outside this audit.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/MAPPING.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/MAPPING.json",
+      "lines": [
+        1,
+        2026
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/block3.EXACT_CUT.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/block3.EXACT_CUT.json",
+      "lines": [
+        1,
+        36758
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/PROJECTED_MOMENTS.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/PROJECTED_MOMENTS.json",
+      "lines": [
+        1,
+        1292
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/DOMAIN.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/DOMAIN.json",
+      "lines": [
+        1,
+        27
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/INPUT_POINT.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/INPUT_POINT.json",
+      "lines": [
+        1,
+        31213
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "Every lambda graph mask/decimal weight reconstructed exactly, plus asserted scope/status metadata; unrelated alpha/beta contents parsed but their mathematical obligations are outside this audit.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/STARTED.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/STARTED.json",
+      "lines": [
+        1,
+        11
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "Full discovery/provenance metadata inspected, without repeating any LP or treating NoCut as cone membership.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/HISTORY.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/HISTORY.json",
+      "lines": [
+        1,
+        67
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "Full discovery/provenance metadata inspected, without repeating any LP or treating NoCut as cone membership.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/RESULT.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/RESULT.json",
+      "lines": [
+        1,
+        101
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "Full discovery/provenance metadata inspected, without repeating any LP or treating NoCut as cone membership.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/INDEPENDENT_CHECK.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/INDEPENDENT_CHECK.json",
+      "lines": [
+        1,
+        48
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/FULL_SCORE_CHECK.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/FULL_SCORE_CHECK.json",
+      "lines": [
+        1,
+        42
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:parallel15_master102/NONZERO_Q8_CALIBRATION.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/NONZERO_Q8_CALIBRATION.json",
+      "lines": [
+        1,
+        31
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:GENERIC_BOUNDARY_CHECK.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/GENERIC_BOUNDARY_CHECK.json",
+      "lines": [
+        1,
+        1122
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "DATA:PACKAGE_MANIFEST.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PACKAGE_MANIFEST.json",
+      "lines": [
+        1,
+        43
+      ],
+      "kind": "data_or_nonpremise_receipt",
+      "review_method": "JSON fully parsed. All theorem-relevant data reconstructed independently; author status fields are not premises.",
+      "covered": true
+    },
+    {
+      "unit_id": "INPUT:generator_matrix.npz",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_frequency_cone/generator_matrix.npz",
+      "lines": [
+        null,
+        null
+      ],
+      "kind": "array_or_geometry_or_provenance",
+      "review_method": "Full array/edge content checked; scope increment is provenance only.",
+      "covered": true
+    },
+    {
+      "unit_id": "INPUT:histograms16_sum6.npy",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_frequency_cone/histograms16_sum6.npy",
+      "lines": [
+        null,
+        null
+      ],
+      "kind": "array_or_geometry_or_provenance",
+      "review_method": "Full array/edge content checked; scope increment is provenance only.",
+      "covered": true
+    },
+    {
+      "unit_id": "INPUT:SCOPE_INCREMENT_004_CONNECTOR4.json",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_edge3_allclass1/SCOPE_INCREMENT_004_CONNECTOR4.json",
+      "lines": [
+        null,
+        null
+      ],
+      "kind": "array_or_geometry_or_provenance",
+      "review_method": "Full array/edge content checked; scope increment is provenance only.",
+      "covered": true
+    },
+    {
+      "unit_id": "INPUT:q8_seed682.edges",
+      "path": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges",
+      "lines": [
+        null,
+        null
+      ],
+      "kind": "array_or_geometry_or_provenance",
+      "review_method": "Full array/edge content checked; scope increment is provenance only.",
+      "covered": true
+    }
+  ],
+  "input_hashes": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md": "sha256:8858788461f354709cfa4cd502d63c067b1407aea097298a84de0b48e82281af",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/README.md": "sha256:eb015ac94cc9661b5b7859a684894a700bc893b81bc2bb2184aa1d28909fab23",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/price_projection_point.py": "sha256:44e6f15335b9d1aaf80f6a3dc3d90bdeb1c2993660a4568e41f66ff317e57efe",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_projection_point.py": "sha256:33d693c8fddc8c3d41bb1ee66a24d246776d4504c123f6daff6c5f9949f1c6fb",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/score.py": "sha256:8fefec63264b49aadf5667929a5e5508694e9d259c46385c432c7f8a64e1f883",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_full_score.py": "sha256:da7a78d1b477b0e96b97f4ffb16df9a9585d195ed9c728921d7a7b9ada458970",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_generic_boundary.py": "sha256:0f476fedbebf0a39dc51a76e11ced85f4c65c301e568aeab3738e2454ed8ac50",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/check_sparse_calibration.py": "sha256:dad7128b1ee74be7584d5a14ee8ef7c84df518c6540ed34633f6458a90761d8c",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/finite_flags.py": "sha256:e228f4ff4638639bdabeee001c8fd663bfaf4fa0f189f20d7e27cb6f1114ee25",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_connector_frequency/membership.py": "sha256:74564608bc50b51117679481dfb26c6d437584697f853650062ce96f33856797",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/main.tex": "sha256:ef3981ad303489f22a40589efd4c424459e6b552dc3ab6ca7d87fc3814b2550c",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/MAPPING.json": "sha256:53bebc5cad2d99d7adaa7606bb84fe0efd4e30dd7d466993a7917784705e49d1",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/block3.EXACT_CUT.json": "sha256:7dbfa0d60749c220a88a3e3b462c9a24b70acfc23405337e7454238fd595573f",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/PROJECTED_MOMENTS.json": "sha256:1e8e59e9f6319c9fa71d1afaa4f92cb001bb238577879efde561195f35905a71",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/DOMAIN.json": "sha256:35e9b36fa98e5590984b705ff789ec16d0d12fc846effe2d98d64d1c2647c9bd",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/INPUT_POINT.json": "sha256:edb7e4aeff257229fe93c1b0c2c944d9ec7397329990b8563ce2b0962e08220d",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/STARTED.json": "sha256:b55964895abf6aff6a11f6817d384968c75e17bf48cc9b74aadf13f5ce5e1758",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/HISTORY.json": "sha256:6a3a7db94c05aa233a3c1c0a282b32211bd3d1e611b1d40e38e45f874540b1a4",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/RESULT.json": "sha256:42b5b1ca04f9934df0e5e266a83b2f4513cae1809937608a107fcb5a1e1648e6",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/INDEPENDENT_CHECK.json": "sha256:6d2646411a4ceb3a49520ff5e508e52592fbc657462ee20dc125175a6d4bc9aa",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/FULL_SCORE_CHECK.json": "sha256:df0dc9e81128a364805f26d2e0f7578a6b86433b00574ecbf824d858fcf0a321",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/parallel15_master102/NONZERO_Q8_CALIBRATION.json": "sha256:91eb1e0eb6491575ad29f68a5c4a4c8475dcf5b37bb1b4f19ac693b5833f7160",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/GENERIC_BOUNDARY_CHECK.json": "sha256:aa46678b034438557fdf1476b2569a73731ac212f99901a49449e068d151c215",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PACKAGE_MANIFEST.json": "sha256:4586200955e628603443865c683bf325392b6dee3a8c659b2abb2ec6ba239de8",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_frequency_cone/generator_matrix.npz": "sha256:f96b3d46d0b54bb3d4395156d7c06e3667d28a695e8e1363201a2ee596f43a88",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_frequency_cone/histograms16_sum6.npy": "sha256:078492d4aa90c700d28e442eea316d914d274a79c654df6989314013d1b1c066",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_edge3_allclass1/SCOPE_INCREMENT_004_CONNECTOR4.json": "sha256:b03d4f1795d712ab7df23ec9c9945d956989707d3907355d0bc004e382071e63",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/data/q8_seed682.edges": "sha256:185d2857fa64b4ff8f53314363333f5ca1ee85c3560d254027d1b2e623c56a2c"
+  },
+  "package_manifest_entry_hashes_match": true,
+  "dependency_manifest_entry_hashes_match": true,
+  "no_extraction_fanout": true,
+  "sequential_inventory_note": "This is the explicit source-unit inventory for this sequential reviewer. No extraction workers were dispatched; no claim of an unrecorded predispatch freeze is made.",
+  "receipt_scope": "Execution coverage of declared canonical proof, code, selected imports, and relevant data only. This receipt alone does not prove that all obligations were discovered or that any theorem is true."
+}

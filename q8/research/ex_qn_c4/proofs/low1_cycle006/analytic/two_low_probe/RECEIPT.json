@@ -1,0 +1,13 @@
+{
+  "status": "actual Q4 witness verified; no Q6 exclusion claimed",
+  "author_checker_exit_code": 0,
+  "generic_checker_exit_code": 0,
+  "files": {
+    "REPORT.md": "fafb9cc237989f628e9e05fcc17a1d08ce9738351102cd82c1a420d7962acdc4",
+    "check_q4_witness.py": "c6dd163b8561d687faed38cc4b396e04ca6dc626d023179923ee33c1270b0d89",
+    "Q4_WITNESS.json": "46367f080b5014f94663f7a96bc85031bc8ff576de059f20035fba75e04c1fbf",
+    "q4_witness.edges": "32e4849646f6873650f5cbf57d0c94b29813a67d29eeb327e1c9db0d52b77b7c",
+    "generic_verification.json": "8575eef78352495cbe72119eaf5f78d336b6142e4c666e25b22b87e9d8d6d90f",
+    "check_q4_witness.stdout.txt": "46367f080b5014f94663f7a96bc85031bc8ff576de059f20035fba75e04c1fbf"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_LEGAL_Q4_MAXIMUM_MATCHES_PARENT",
+  "independent_implementation": true,
+  "read_producer_geometry_or_cpp_or_keys": false,
+  "raw_max": 4924508303670,
+  "own_witness_mask": 3001496046,
+  "parent_comparison_witness_mask": 3923956094,
+  "parent_comparison_witness_literal_raw_score": 4924508303670,
+  "q3_legal_masks": 2902,
+  "all_ordered_layer_pairs": 8421604,
+  "pair_orbits": 90179,
+  "legal_marked_completions": 13150453,
+  "hidden_direction_pruning": false,
+  "literal_raw_matrix_witness_score": "PASS",
+  "literal_common_neighbor_check": "PASS",
+  "all_384_q4_isometry_raw_literal_scores": "PASS",
+  "actual_absolute_score_bound": 124395477268976,
+  "score_accumulator_bits": 128,
+  "calibration": {
+    "description": "nonconstant root-marked Qv additive function canceled by degree histogram",
+    "raw_max": 0,
+    "maximizing_marked_completions": 13150453,
+    "domain_size": 13150453
+  },
+  "raw_integer_input_normalization": {
+    "D_metadata": 1,
+    "denominator_metadata": 64512,
+    "extra_1e9_scale": "supplied by parent; not encoded in read matrix header"
+  },
+  "source_sha256": "df2cc05dd8f96ef7d9497d57ee01106e8cb4eed10dff173749a16f48f2b53211",
+  "mathematical_scope": "Exact maximum of the supplied signed finite Q4 functional only. Original 682/683 goal and full combined certificate are not proved."
+}

@@ -1,0 +1,13 @@
+Collecting numpy
+  Using cached numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting scipy
+  Using cached scipy-1.18.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting highspy
+  Downloading highspy-1.16.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (12 kB)
+Using cached numpy-2.5.4-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+Using cached scipy-1.18.1-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+Downloading highspy-1.16.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 4.3 MB/s eta 0:00:00
+Installing collected packages: numpy, scipy, highspy
+
+Successfully installed highspy-1.16.0 numpy-2.5.4 scipy-1.18.1

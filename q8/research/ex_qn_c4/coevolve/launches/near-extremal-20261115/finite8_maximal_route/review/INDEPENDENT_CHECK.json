@@ -1,0 +1,481 @@
+{
+  "status": "PASS",
+  "implementation_difference": "B-budget reverse recursion with degree-6 correction; weak compositions; literal square masks; no producer imports",
+  "checks": [
+    {
+      "name": "profile_top_keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "independent_profile_unique_683",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "caps_683",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_rows_fields_683_all_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_683_all_profiles",
+      "pass": true,
+      "detail": 814
+    },
+    {
+      "name": "all_rows_fields_683_maximal_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_683_maximal_profiles",
+      "pass": true,
+      "detail": 783
+    },
+    {
+      "name": "independent_profile_unique_684",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "caps_684",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_rows_fields_684_all_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_684_all_profiles",
+      "pass": true,
+      "detail": 393
+    },
+    {
+      "name": "all_rows_fields_684_maximal_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_684_maximal_profiles",
+      "pass": true,
+      "detail": 385
+    },
+    {
+      "name": "independent_profile_unique_685",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "caps_685",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_rows_fields_685_all_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_685_all_profiles",
+      "pass": true,
+      "detail": 171
+    },
+    {
+      "name": "all_rows_fields_685_maximal_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_685_maximal_profiles",
+      "pass": true,
+      "detail": 170
+    },
+    {
+      "name": "independent_profile_unique_686",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "caps_686",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_rows_fields_686_all_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_686_all_profiles",
+      "pass": true,
+      "detail": 66
+    },
+    {
+      "name": "all_rows_fields_686_maximal_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_686_maximal_profiles",
+      "pass": true,
+      "detail": 66
+    },
+    {
+      "name": "independent_profile_unique_687",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "caps_687",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_rows_fields_687_all_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_687_all_profiles",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "name": "all_rows_fields_687_maximal_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_687_maximal_profiles",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "name": "independent_profile_unique_688",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "caps_688",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_rows_fields_688_all_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_688_all_profiles",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "name": "all_rows_fields_688_maximal_profiles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "full_saved_set_688_maximal_profiles",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "name": "all_profile_count_vector",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "max_profile_count_vector",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "historical_683_literal_unfiltered_set",
+      "pass": true,
+      "detail": "old artifact read-only; no old filters used"
+    },
+    {
+      "name": "generator_top_keys",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "root0_complete",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "root1_complete",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "unrestricted_root0_count",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "root0_endpoint_action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "root1_endpoint_action",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "literal_l_vector",
+      "pass": true,
+      "detail": [
+        28,
+        28,
+        28,
+        18,
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "literal_full_vector",
+      "pass": true,
+      "detail": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        7,
+        28
+      ]
+    },
+    {
+      "name": "all_nine_coefficient_identities",
+      "pass": true,
+      "detail": [
+        -140,
+        -140,
+        -140,
+        -50,
+        130,
+        400,
+        802,
+        1414,
+        2296
+      ]
+    },
+    {
+      "name": "global_rhs_arithmetic",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "star_capacity_arithmetic",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Q3_in_Q6_multiplicity",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_cube_C4s_are_coordinate_squares",
+      "pass": true,
+      "detail": 7168
+    },
+    {
+      "name": "seed_edges_literal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "ambient_edges",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seed_C4_free",
+      "pass": true,
+      "detail": {
+        "coordinate_squares_checked": 1792
+      }
+    },
+    {
+      "name": "seed_inclusion_maximal",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seed_missing_closure_histogram",
+      "pass": true,
+      "detail": {
+        "4": 159,
+        "5": 120,
+        "6": 22,
+        "3": 41
+      }
+    },
+    {
+      "name": "same_actual_parity_Q6_tallies_0",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seed_112_local_import_evaluations_0",
+      "pass": true,
+      "detail": "finite compatibility only, not a proof of import"
+    },
+    {
+      "name": "same_actual_parity_Q6_tallies_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seed_112_local_import_evaluations_1",
+      "pass": true,
+      "detail": "finite compatibility only, not a proof of import"
+    },
+    {
+      "name": "boundary_m689_is_impossible_for_nonnegative_C",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "all_mutation_checks_discriminating",
+      "pass": true,
+      "detail": [
+        {
+          "mutation": "retain only m=683",
+          "detected": true,
+          "scope": "omits arithmetic candidates; no graph realization claimed"
+        },
+        {
+          "mutation": "drop one valid m=688 row",
+          "detected": true
+        },
+        {
+          "mutation": "weaken missing-edge condition x7>=1 to x7>=0",
+          "detected": true,
+          "extra_invalid_local_rows": 1716
+        },
+        {
+          "mutation": "allow retained state7",
+          "detected": true,
+          "extra_square_creating_rows": 1716
+        },
+        {
+          "mutation": "independently flip only one endpoint state without swapping1/2 and5/6",
+          "detected": true,
+          "scope": "actual endpoint reversal fixed globally"
+        },
+        {
+          "mutation": "force alpha to a single profile row",
+          "detected": true,
+          "scope": "two distinct same-m necessary candidate rows test the algebra; no graph realization claimed"
+        }
+      ]
+    },
+    {
+      "name": "producer_receipt_profile_counts",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "producer_receipt_seed",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "profile_counts": {
+    "683": {
+      "all_profiles": 814,
+      "maximal_profiles": 783
+    },
+    "684": {
+      "all_profiles": 393,
+      "maximal_profiles": 385
+    },
+    "685": {
+      "all_profiles": 171,
+      "maximal_profiles": 170
+    },
+    "686": {
+      "all_profiles": 66,
+      "maximal_profiles": 66
+    },
+    "687": {
+      "all_profiles": 20,
+      "maximal_profiles": 20
+    },
+    "688": {
+      "all_profiles": 4,
+      "maximal_profiles": 4
+    }
+  },
+  "generator_counts": {
+    "root0_maximal": 1716,
+    "root1": 1716
+  },
+  "seed_parities": [
+    {
+      "parity": 0,
+      "n": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        84,
+        43,
+        0,
+        0
+      ],
+      "Q6_tallies_S_c_L": [
+        17040,
+        43,
+        6
+      ]
+    },
+    {
+      "parity": 1,
+      "n": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        84,
+        43,
+        0,
+        0
+      ],
+      "Q6_tallies_S_c_L": [
+        17040,
+        43,
+        6
+      ]
+    }
+  ],
+  "seed_closure_histogram": {
+    "4": 159,
+    "5": 120,
+    "6": 22,
+    "3": 41
+  },
+  "historical_traces_rerun": false,
+  "LP_run": false
+}

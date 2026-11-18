@@ -1,0 +1,647 @@
+{
+  "status": "PASS_ALL_FULL_CODES_AND_ACTUAL_STAR_PAIR_CAPACITY",
+  "all_even_four_full_codes": 120,
+  "generated_code_orbit": 120,
+  "odd_parity_transport": "translation by any odd vertex gives the same checked even domain",
+  "canonical_full_roots": [
+    0,
+    15,
+    51,
+    60
+  ],
+  "local_root_options": [
+    {
+      "vertex": 3,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 12,
+        "3": 8
+      },
+      "maximum_degree": 3,
+      "degree4_masks": [],
+      "forced_pair": null
+    },
+    {
+      "vertex": 5,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        54,
+        57,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 6,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        53,
+        58,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 9,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        53,
+        58,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 10,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        54,
+        57,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 12,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 12,
+        "3": 8
+      },
+      "maximum_degree": 3,
+      "degree4_masks": [],
+      "forced_pair": null
+    },
+    {
+      "vertex": 17,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 18,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        29,
+        46,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 20,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        27,
+        39,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 23,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        23,
+        43,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 24,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        23,
+        43,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 27,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        27,
+        39,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 29,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        29,
+        46,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 30,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 33,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        29,
+        46,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 34,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 36,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        23,
+        43,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 39,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        27,
+        39,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 40,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        27,
+        39,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 43,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        23,
+        43,
+        51
+      ],
+      "forced_pair": 3
+    },
+    {
+      "vertex": 45,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        30,
+        45,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 46,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        15,
+        29,
+        46,
+        60
+      ],
+      "forced_pair": 12
+    },
+    {
+      "vertex": 48,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 12,
+        "3": 8
+      },
+      "maximum_degree": 3,
+      "degree4_masks": [],
+      "forced_pair": null
+    },
+    {
+      "vertex": 53,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        53,
+        58,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 54,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        54,
+        57,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 57,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        54,
+        57,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 58,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 13,
+        "3": 12,
+        "4": 4
+      },
+      "maximum_degree": 4,
+      "degree4_masks": [
+        51,
+        53,
+        58,
+        60
+      ],
+      "forced_pair": 48
+    },
+    {
+      "vertex": 63,
+      "degree_histogram": {
+        "0": 1,
+        "1": 6,
+        "2": 12,
+        "3": 8
+      },
+      "maximum_degree": 3,
+      "degree4_masks": [],
+      "forced_pair": null
+    }
+  ],
+  "special_degree_at_most3": [
+    3,
+    12,
+    48,
+    63
+  ],
+  "degree4_possible_roots": 24,
+  "actual_forced_pairs": [
+    {
+      "roots": [
+        5,
+        53
+      ],
+      "forced_directions_mask": 48,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        6,
+        54
+      ],
+      "forced_directions_mask": 48,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        9,
+        57
+      ],
+      "forced_directions_mask": 48,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        10,
+        58
+      ],
+      "forced_directions_mask": 48,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        17,
+        29
+      ],
+      "forced_directions_mask": 12,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        18,
+        30
+      ],
+      "forced_directions_mask": 12,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        20,
+        23
+      ],
+      "forced_directions_mask": 3,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        24,
+        27
+      ],
+      "forced_directions_mask": 3,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        33,
+        45
+      ],
+      "forced_directions_mask": 12,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        34,
+        46
+      ],
+      "forced_directions_mask": 12,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        36,
+        39
+      ],
+      "forced_directions_mask": 3,
+      "actual_square_pairs_checked": 16
+    },
+    {
+      "roots": [
+        40,
+        43
+      ],
+      "forced_directions_mask": 3,
+      "actual_square_pairs_checked": 16
+    }
+  ],
+  "paired_roots": 24,
+  "degree4_count_upper": 12,
+  "star_identity": "S=80+(28-L)+3*N4",
+  "conclusion": "S<=144-L with no minimum-degree assumption on either parity",
+  "actual_source_calibration": [
+    {
+      "source": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12.json",
+      "sha256": "b2e492ab1ae3b1616bc58a8f1c71e3f7caf83a99357e7111435c85031997702f",
+      "parity": 0,
+      "L": 0,
+      "S": 144,
+      "bound": 144
+    },
+    {
+      "source": "q6_sources/q8_upper_independent/results/q6_code_degree_4_score12_oppmin3.json",
+      "sha256": "861249f84e6f096e632b567d08472b4b756f40f314452d68c157897d34c995ea",
+      "parity": 0,
+      "L": 0,
+      "S": 144,
+      "bound": 144
+    },
+    {
+      "source": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_3_sharp.json",
+      "sha256": "0d8efefaafa9d80b9eca29ab87e35760c5c479e056a8a16d844ed3f62fc36a8d",
+      "parity": 0,
+      "L": 0,
+      "S": 144,
+      "bound": 144
+    },
+    {
+      "source": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_4_sharp.json",
+      "sha256": "1095bbd84ce257ca3a20ad13df4cd69df85e7efec5adccee944e9a503e186e17",
+      "parity": 0,
+      "L": 0,
+      "S": 141,
+      "bound": 144
+    },
+    {
+      "source": "q6_sources/q8_upper_independent/results/q6_coupled_degree_4_4_sharp.json",
+      "sha256": "1095bbd84ce257ca3a20ad13df4cd69df85e7efec5adccee944e9a503e186e17",
+      "parity": 1,
+      "L": 0,
+      "S": 141,
+      "bound": 144
+    }
+  ],
+  "scope": "Complete small local-code proof check, not enumeration of all Q6 graphs. Analytic source and independent review required.",
+  "script_sha256": "87754ad64b195607dbd0dc58e582d6171b3d7f0c0c45500b7af6b5dd1364b677"
+}

@@ -1,0 +1,9 @@
+{
+  "input": "DEGREE_SNAPSHOT_EDGE_MOMENTS.json",
+  "input_sha256": "c6acdf704433bc522cd7642a7b2be75c1981d2be4c04dff5210f15e97d9f11cf",
+  "root": 0,
+  "dimension": 8,
+  "complete_generators": 3432,
+  "time_limit_per_LP": 10,
+  "scope": "Exact rational normalization of an in-progress eigen-cut numerical lambda snapshot, not an accepted feasiblepoint orgraph"
+}

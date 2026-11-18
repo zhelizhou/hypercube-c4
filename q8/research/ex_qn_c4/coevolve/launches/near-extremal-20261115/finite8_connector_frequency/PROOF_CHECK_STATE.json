@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "scope": "Two all-full-state finite-six connector cuts, same-input exact strict separation, root transport and actual Q8 bridge; no full-family NO.",
+  "rounds": 1,
+  "acceptance_gate": "PASS",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "primary_proof_status": "open",
+  "timestamp": "2026-11-15T20:58:27.588716+00:00"
+}

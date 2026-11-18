@@ -1,0 +1,100 @@
+{
+  "status": "SCIENTIFIC_RECONSTRUCTION_AND_ACTUAL_COMPLETE_QUERY_BINDINGS_CONFIRMED",
+  "main682": "OPEN",
+  "scope": "deterministic-local B3/B8 scientific reconstruction; ordinary maximal interface; no canonical proof-checker",
+  "B3_current_producer_byte_replay": {
+    "EXACT_COMBINATION.json": {
+      "byte_identical": true,
+      "sha256": "68d5ffe28149241bac422e7a5c88e103769a9e0743b32d1ef8a21a8fbb57ef30"
+    },
+    "LOCAL_PRICE_SCORE.json": {
+      "byte_identical": true,
+      "sha256": "4a0dd0ae58aa7bafc37856bd9b3c810265061b95de407bd827569f2b1359f09d"
+    },
+    "oracle_matrices.txt": {
+      "byte_identical": true,
+      "sha256": "cd486c2604488f61865120f2b2068194a235aafdcafa44024090e541b1a8ebcb"
+    },
+    "oracle_linear.txt": {
+      "byte_identical": true,
+      "sha256": "a4874747363aecc6290aaa502709e89bfd61d9487c3e7ae303c39d0d2f00cbd8"
+    }
+  },
+  "B3_result_changed_fields": [
+    "parameter_source_hashes",
+    "seconds"
+  ],
+  "B8_two_separate_oracle_implementations_agree_raw_max": -37440,
+  "B8_literal_tied_witness_scores": {
+    "146532333": -37440,
+    "3889906149": -37440
+  },
+  "commands": [
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review",
+      "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -B independent_audit.py > B3.stdout.txt 2> B3.stderr.txt",
+      "exit_code": 0
+    },
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review",
+      "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -B independent_audit.py --scope pool_B684plus_enriched8 --reference B_enriched8_candidate001 --output independent_B8 > B8.stdout.txt 2> B8.stderr.txt",
+      "exit_code": 0
+    },
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review",
+      "command": "PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -B ../../reconstruct_exact_dual.py ../../../finite8_degree_augmentation/pool_B684plus_enriched3 producer_replay > producer_replay.stdout.txt 2> producer_replay.stderr.txt",
+      "exit_code": 0
+    },
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/independent_B8",
+      "command": "../../../../finite8_full_oracle_independent/independent_q4 oracle_matrices.txt --linear oracle_linear.txt > full_oracle.stdout.txt 2> full_oracle.stderr.txt",
+      "exit_code": 0
+    },
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review",
+      "command": "g++ -std=c++17 -O3 -Wall -Wextra ../../../finite8_full_oracle_independent/independent_q4.cpp -o independent_q4_rebuilt > oracle_build.stdout.txt 2> oracle_build.stderr.txt",
+      "exit_code": 0
+    },
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/independent_B8",
+      "command": "../independent_q4_rebuilt oracle_matrices.txt --linear oracle_linear.txt > rebuilt_oracle.stdout.txt 2> rebuilt_oracle.stderr.txt",
+      "exit_code": 0
+    },
+    {
+      "cwd": "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review",
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -B finalize_receipt.py > final_checks.stdout.txt 2> final_checks.stderr.txt",
+      "exit_code": 0
+    }
+  ],
+  "hashes": {
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/FINITE8_BRIDGE_AND_OBSTRUCTION.md": "067fb6b97ce0cbb497400c8a702d44df9cb7b828c0a3832bf551065bf302de5b",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/lift.py": "c92ed6cb7ea021a0fb799f80aa0c7924f923fe09b4218f50c714292e80492278",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/edge_flags.py": "480e8227a767336fdb9671d4499da692c854abd4a041731fdfc67b61195d55cd",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_flags/export_cones.py": "03e848fe2bb389da6dc63fffa461246d8c290b2ee6ca66368eff5ec79e0e069a",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/EDGE_PULLBACK.md": "274ab6e159145a3029699102500e1541950f87b8bbcd60a0f37d85e840c071ec",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/FINAL_CERTIFICATE_INTERFACE.md": "5b70c17c559df428c2e448b43fcac8736b081778bdb4fa135f7204ed4a1a6fe7",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_edge_vertex_bridge/PROOF.md": "66bdb4064557629d327a1acd1c69e7d57dfc296e9eceb781fe0d2cafdce8b0d6",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_maximal_vertex_cone/PROOF.md": "5a40b5aa41a4ef289850194ff4d33b29b4630e8d5538b6b733a2032361149a27",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_connector_frequency/PROOF.md": "ca896326a9ba7c522a2e229c6e92f34002bc63a8c22b284451d9b4027bc18e3a",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_projection_cones/PROOF.md": "8858788461f354709cfa4cd502d63c067b1407aea097298a84de0b48e82281af",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_native_leaf_connector/LEAF_PROOF.md": "ea26239639f647ecefcff1479c19f1b290bb5aff302b9bb46006c68ac29eaa4b",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched3/edge3_sampling_inputs/LIFT_PROOF.md": "99d5bb05bc22226527cd33d901f8366e5acc094e1509fae3386f5fad8a2999ca",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/TWO_CASE_COVER_PROOF.md": "c80ddd846f1badcb1437d8127b67dfa6c809b62928bcff8f0a12b58e3a815ed2",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/reconstruct_exact_dual.py": "fe6d93d9b0519a5039e657398bf23e6e65dc7bf46a7133a607775c21f5f28f80",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/INTERFACE.md": "87da8ae2426b14ca2ff27f0e68f471fac128ce8f5afb3de8d28649a05deb4001",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_full_oracle_independent/independent_q4.cpp": "df2cc05dd8f96ef7d9497d57ee01106e8cb4eed10dff173749a16f48f2b53211",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_full_oracle_independent/independent_q4": "93b6ada9af79c1cc15ff91cda2ce1156ea5219a5e913ddd90156f34dc6bd626a",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator.cpp": "f85871b29940f76277a23696280245764f0089554fe6dade6c80e3bfb08aa2e5",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/finite8_separator": "1a412cd6e6de274df4f7c1fe813d1195255e8c787dbdb6993b221e31300123b7",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_flags/oracle/keys.bin": "dcae76d76813708a3c625bd09d9782c651be45eb3a1ec2799e1831b3eb789ce1",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/independent_audit.py": "143d3a8951fa8405bbea5c61a2904a7144ea2fa87932e9881efc413d38c451d7",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/finalize_receipt.py": "89ed5fb236ad833c34a2f05791b192d616d29b552076782c9593daf957c4b354",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/independent_q4_rebuilt": "93b6ada9af79c1cc15ff91cda2ce1156ea5219a5e913ddd90156f34dc6bd626a",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_row_combination001/own_oracle.stdout.txt": "efe0ef1c69575939bc3aeed19b52d2021e27d38274c5536deed04889b5dc111b",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/exact_primary_oracle001.stdout.txt": "a2b18329ddf47f58860a6b6cd2183c51c7f2bdfe7417f956c6b0fdd7d88f46c3",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/independent_B8/full_oracle.stdout.txt": "a097d23f42f1289ce8abd8cbd3ce26adf349224e4f4f2cbcbcec33ee74ed519a",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/review/independent_B8/rebuilt_oracle.stdout.txt": "c48b1f85896e76d6d457d4b53b867bae2370c5b74b613847c367da37e3747ec4",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/B_enriched3_replay001/full_oracle2.stdout.json": "8d2e66289ee5268a52d1f341762bfe7cfd8dea1132f49d836a6f909a3eea2012",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_root_checks/exact_dual/B_enriched3_replay001/FULL_CERTIFICATE_EVALUATION.json": "91d5c6cc55eb585dfd70b8f0dd4009601845c3f09dcdda4d30dc95db2ad91490"
+  }
+}

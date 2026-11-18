@@ -1,0 +1,165 @@
+\documentclass{article}
+\usepackage{amsmath,amssymb,amsthm}
+\newtheorem{theorem}{Theorem}
+\begin{document}
+\title{Excluding the entire critical nine-degree-four profile by common holes}
+\maketitle
+\section{H01: Every original input gives the same intrinsic holes}
+Let $G\subseteq Q_8$ be C4-free with683 edges, and let one specified
+global parity$P$ have degree counts
+\[
+             (n_0,\ldots,n_8)=(0,0,0,0,9,71,45,2,1).       \tag{1}
+\]
+The opposite parity is unrestricted. Import the actual-face equality
+theorem in q8\_equality\_profiles/main.tex, retaining its explicitly
+declared historical316/317/321 local imports. The cost in(1) is1149,
+so all112 actual coordinate$Q_6$ faces have$L_F=0$ or2 and
+$2S_F+c_F=316$ or321, respectively. Here low means restricted degree
+at most two on$P$; all unmarked roots have global degree at least five
+and cannot be low after omitting two directions.
+
+The nine degree-four roots contribute54 low-face incidences. There
+are consequently27 faces with$L=2$ and85 with$L=0$.
+For$L=2$, the odd weighted equality permits only$(c,S)=(1,160)$ or
+$(3,159)$, since$c\le4$. The second violates the analytic theorem
+$S+L\le158$ for exactly three full roots, with no degree premise on
+either side (q6\_three\_full\_structure\_cycle010/PROOF.md).
+Thus all27 double-low faces have zero specified$Q_3$ holes.
+For$L=0$, the equality gives$c=0,2,4$ and exactly$2+c/2$ holes,
+between two and four.
+
+A specified hole is an actual coordinate$Q_3$ containing no full
+specified three-star. C4-freeness makes the star-to-$Q_3$ map injective:
+two distinct same-parity roots of a$Q_3$ have distance two, so two full
+three-stars would retain a square. Thus holes are intrinsic to the
+same original graph in every containing face. In the whole$Q_8$,
+\[
+ S_P=9\cdot4+71\cdot10+45\cdot20+2\cdot35+56=1772.
+\]
+There are1792 actual$Q_3$ faces, so$G$ has exactly20 specified holes.
+
+\section{H02: A complete finite low-mark projection}
+Use the necessary direction classification in
+nine4\_direction\_structure/main.tex. After one common coordinate
+permutation and root relabeling, the retained masks of the nine roots are
+\[
+       (170,204,102,240,90,60,150,T,T),\quad
+                    T\in\{240,30,15,23\}.                  \tag{2}
+\]
+These are the seven nonzero linear-function1-fibres on$\mathbb F_2^3$
+and the four previously proved types of a four-subset$T$.
+Let$v_j$ be the actual position of root$j$. Its low faces depend only
+on the36 retained-coordinate bits
+\[
+                   b_{ja}=(v_j)_a,\qquad a\in R_j.         \tag{3}
+\]
+Indeed a face with omitted pair$I$ and fixed bits$z$ has this root low
+exactly when$I\subseteq R_j$ and$(v_j)_I=z$. The other position bits
+play no role in deciding its low faces. We drop their constraints,
+root distinctness and common parity in this projection; admitting extra
+marks is safe for a necessary condition.
+
+For each coordinate$a$ occurring in any mask, let$j(a)$ be the first
+such root in(2). One simultaneous translation by the bits
+$d_a=b_{j(a),a}$ makes all$b_{j(a),a}$ zero. Unused coordinates may
+have$d_a=0$. This is one actual cube translation, not a separate move
+of each root. It transports every face and hole together and may
+exchange the two parity names, which does not change the argument.
+
+For an omitted pair$\{a,b\}$, the number$m$ of masks containing it
+is0,2 or4. Even multiplicities in each fixed-bit cell imply
+\[
+       \bigoplus_{j:\{a,b\}\subseteq R_j} b_{ja}=0,
+       \qquad
+       \bigoplus_{j:\{a,b\}\subseteq R_j} b_{jb}=0.        \tag{4}
+\]
+Together with the common translation gauge these are homogeneous
+linear equations on all36 bits. Ordinary exact binary elimination
+gives dimensions8,4,3,3 for the four values of$T$ in(2).
+Enumerate all$256,16,8,8$ solutions, respectively, then count every
+one of the112 actual cells and keep exactly those with count0 or2.
+The resulting numbers of retained-coordinate mark cases are15,5,4,4.
+This complete28-case cover, inducing22 distinct sets of double-low faces,
+is saved in ALL\_LOW\_MARKS.json and produced
+by enumerate\_low\_marks.py. No independent realizability of its marks
+is asserted or needed. Every original graph gives one enumerated
+pattern after the common transformations above.
+
+\section{H03: Common-hole requirements and elementary rejections}
+For each enumerated pattern let$\mathcal B$ be its27 actual double-low
+faces, and$\mathcal U$ all actual$Q_3$ faces contained in none of them.
+By H01 every original hole belongs to$\mathcal U$. There must be one
+set$X\subseteq\mathcal U$ with
+\[
+  |X|=20,\qquad 2\le|\{Q\in X:Q\subseteq F\}|\le4
+                \quad\text{for all85 zero-low faces }F.    \tag{5}
+\]
+Only literal face inclusion is used. No unknown ordinary star or
+separately feasible face completion is chosen. We do not even exclude
+holes filled by the nine known stars; dropping that further necessary
+condition enlarges the domain in(5).
+
+For18 enumerated mark cases a zero-low face has fewer than two elements of
+$\mathcal U$, immediately violating(5). For four more mark cases,
+every zero-low face with exactly two available elements forces both
+into$X$. Their union consists of24 distinct$Q_3$ faces, contradicting
+$|X|=20$. The complete lists and witnesses are in
+ALL\_PATTERN\_RESULTS.json. This leaves three mark cases for each of
+$T=15,23$, six in total. Their$\mathcal U$ have252 elements.
+
+\section{H04: Exact rejection of the remaining six common domains}
+For each remaining mark case introduce one Boolean variable$x_Q$ for
+every$Q\in\mathcal U$. Encode(5) by exact prefix threshold gates,
+as in hole\_layout.py and all\_mark\_holes.py. The threshold
+$u_{i,k}$ means at least$k$ of the first$i$ inputs are true:
+\[
+ u_{i,1}=u_{i-1,1}\lor x_i,\qquad
+ u_{i,k}=u_{i-1,k}\lor(u_{i-1,k-1}\land x_i),
+\]
+with missing thresholds initially false and the obvious first-input
+boundary. Each AND/OR gate is encoded in both directions. For a
+range$[\ell,h]$ retain thresholds through$h+1$, asserting$u_{n,\ell}$
+when$\ell>0$ and$\neg u_{n,h+1}$ when$h<n$. Thus an input assignment
+extends to the gate clauses if and only if its count is in that range;
+induction on$i$ supplies the proof and every auxiliary value.
+The global range is$[20,20]$; each actual good-face range is$[2,4]$.
+Complete short-counter truth calibration covers7423 assignments.
+
+The six CNFs were generated and dispatched once each. All returned
+UNSAT, and every trace was strictly replayed against its own frozen
+CNF with the existing check\_rup\_cached program. The six certified
+addition counts are
+\[
+                   8963,6970,7919,6754,9369,9944,
+\]
+total49919. Every replay validates a final empty clause. Per-case
+INPUT.json lists every actual$Q_3$ variable and every face incidence;
+STARTED.json and RESULT.json bind CNF, solver/checker and trace hashes.
+Replay establishes these finite CNFs inconsistent; H02 and the exact
+encoding bridge, rather than solver failure, connect them to all
+remaining original inputs.
+
+\section{H05: Return to the original graph and limits}
+\begin{theorem}
+No683-edge C4-free subgraph of$Q_8$ has profile(1) on either specified
+parity; the opposite parity is unrestricted.
+\end{theorem}
+\begin{proof}
+Any such actual graph supplies the one intrinsic20-hole set of H01.
+The common direction/translation reduction places its low faces in
+one of the28 exhaustive mark cases of H02. Eighteen and four cases
+are impossible by H03; the remaining six exact common-hole domains
+are inconsistent by H04. This exhausts every input and is a
+contradiction.
+\end{proof}
+The earlier36-edge partial marked patterns remain valid partial graphs.
+Their separate per-face availability did not ensure a common20-hole
+set. This theorem does not retract those projection counterexamples or
+turn any partial graph into a683 graph. It strictly strengthens that
+test by using a single shared hole set.
+
+This is a candidate local computational proof requiring fresh review
+of the complete cover, actual input bridge, encoder and replays.
+Historical local imports are retained rather than replayed. No Lean,
+TeX/PDF compilation or full unrestricted682 proof is asserted here.
+\end{document}

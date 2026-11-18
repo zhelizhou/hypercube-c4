@@ -1,0 +1,29 @@
+{
+  "status": "ROOT_CONSUMED_COMPLETE_THEOREM_B_REVIEW",
+  "timestamp": "2026-11-16T00:03:02.916979+00:00",
+  "whole_proof": "B684_EXCLUSION.md",
+  "whole_proof_sha256": "fe281f42382f0be418e1d1631b5334ddb569efcd5943a1e77dbe3007d7cee541",
+  "raw_review_sha256": "06e69295f34ce46c382d079d6fbd3b649255fc3b4b77e47501fae56257a6ea6b",
+  "audit_sha256": "5c31daa6bc1d86fe94db03a9ff36a7de1b558fa750745775871f914c8582800e",
+  "matched_audited_inputs": 51,
+  "review_scope": "Every C4free subgraph of Q8 has at most683 edges",
+  "main682": "OPEN",
+  "requested_model": "gpt-6.1-sol",
+  "requested_effort": "ultra",
+  "actual_model": null,
+  "actual_effort": null,
+  "semantic_assurance": "same-family/provisional",
+  "exact_arithmetic_margin": "782808475930428709/4209067950080000000000",
+  "m683_not_excluded": true,
+  "prior_consumed_reviewer_artifacts": {
+    "raw_review": "171da5af6cbfa89dfd06fa211215b564015b0e70a3e895f6dc67d3d8679afc6e",
+    "audit": "338425cb4985e46bf8bb7b6b46d9f6e98894e351d228475f7f3ea2e115b0c6da",
+    "matched_inputs": 49
+  },
+  "finalized_timestamp": "2026-11-16T00:06:48.550154+00:00",
+  "final_provenance_delta": "Root read the final raw diff: removed the unsupported adjective expected for six historical RUN001 differences. Added current/historical freeze hashes were matched. Current final scientific and exact query bindings remain valid; historical run-start snapshot is not the final proof premise.",
+  "additional_final_inputs": [
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/FROZEN_CANDIDATE_INPUT_HASHES.json",
+    "/mnt/c/users/anony/desktop/project/research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/RUN001_FROZEN_INPUT_HASHES.json"
+  ]
+}

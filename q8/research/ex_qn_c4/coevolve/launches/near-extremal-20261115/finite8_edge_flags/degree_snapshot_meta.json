@@ -1,0 +1,5 @@
+{
+  "source": "../finite8_degree_augmentation/pool_inventory/FLOAT_CANDIDATE.json",
+  "sha256": "dab419542250d7c690e127074f9f726ad635420d41187bec98dd89b567494530",
+  "scope": "Read-only snapshot of in-progress eigen-cut lambda, not an accepted feasible point"
+}

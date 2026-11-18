@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "independent_geometry": true,
+  "copositive_trianglefree_graphs_verified": true,
+  "COP_terms_checked": 35,
+  "largest_COP_graph_order": 41,
+  "integer_PSD_base_Gram_verified": true,
+  "matrix_component_decomposition_verified": true,
+  "signed_cubic_decomposition_verified": true,
+  "cubic_terms_checked": 29,
+  "cubic_breakdown": {
+    "cyclic_AMGM": 0,
+    "symmetric_cubic": 2,
+    "slice_PSD": 27,
+    "slice_COP": 0
+  },
+  "D_cubic_numerator": "3706061930017200",
+  "D_face_numerator": "7575884897332014330",
+  "D_vertex_numerator": "3003195380705520820",
+  "graphs_checked": 3212821,
+  "square_checks": 77107704,
+  "maximum_numerator": "530132585168888748284",
+  "common_denominator": "885443715538058477568",
+  "maximizing_id": 342161,
+  "maximizing_mask": 6725412,
+  "second_maximum_numerator": "530132585157328361296",
+  "second_maximizing_id": 2667001
+}

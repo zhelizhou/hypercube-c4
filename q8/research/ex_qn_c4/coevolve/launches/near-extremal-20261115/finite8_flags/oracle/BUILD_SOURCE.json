@@ -1,0 +1,6 @@
+{
+  "base_readonly_source": "/mnt/c/users/anony/desktop/project/math-rsi/plugins/hypercube-extremal/archive/source/certificate_final_q4/verify_local.cpp",
+  "base_sha256": "a8aebf92cf78cbe8d1384697226f8e45eb78cb9c5d03d0921fb840de2da9d98d",
+  "finite8_source_sha256": "2111ef5aeecc91c830b7259b8feef666b267e40c5a3d3a88e2e3b868fe69ef49",
+  "scope": "Reuse complete Q4 common-graph coverage; replace only score by exactfinite8collision/overlap coefficients, add128bit accumulation and named-graph calibration. No optimization or Q8 proof yet."
+}

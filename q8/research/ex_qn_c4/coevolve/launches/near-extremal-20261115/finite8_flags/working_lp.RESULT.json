@@ -1,0 +1,10 @@
+{
+  "status": "RESTRICTED_CANDIDATE_ONLY",
+  "scope": "Finite8 six-block candidate restricted to the actual common-Q4 working pool, not full-domain acceptance",
+  "iterations": 35,
+  "restricted_best": 0.6759921289039941,
+  "primary683_goal": "OPEN",
+  "full_domain_separation_done": false,
+  "integer_gram_acceptance_done": false,
+  "elapsed_seconds": 2.1500159640017955
+}
