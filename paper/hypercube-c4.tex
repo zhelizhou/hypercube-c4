@@ -6,7 +6,7 @@
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage[hidelinks]{hyperref}
-\hypersetup{pdftitle={Finite and Asymptotic Bounds for C4-Free Subgraphs of Hypercubes}}
+\hypersetup{pdftitle={Four-Cycle-Free Subgraphs of the Seven-Dimensional Hypercube}}
 
 \numberwithin{equation}{section}
 \newtheorem{theorem}{Theorem}[section]
@@ -15,11 +15,10 @@
 \newcommand{\ex}{\operatorname{ex}}
 \newcommand{\one}{\mathbf{1}}
 
-\title[Bounds for four-cycle-free subgraphs of hypercubes]
-  {Finite and Asymptotic Bounds for \texorpdfstring{$C_4$}{C4}-Free Subgraphs of Hypercubes}
+\title[Four-cycle-free subgraphs of the seven-cube]
+  {Four-Cycle-Free Subgraphs of the Seven-Dimensional Hypercube}
 % Add author names and affiliations here.
-\thanks{Working draft. The proof in dimension seven is included. The proofs
-of the dimension-eight and asymptotic bounds will appear in the full manuscript.}
+\thanks{Working draft.}
 
 \begin{document}
 
@@ -30,8 +29,8 @@ Let \(\ex(Q_n,C_4)\) denote the largest number of edges in a
 three-edge stars on the two parity classes forces every degree to be
 four or five. A square-counting identity and a relation between opposite
 facets then reduce the proof to five possible exceptions to a local
-inequality. Three six-dimensional obstruction lemmas, established using
-independently checked propositional refutations, complete the argument.
+inequality. The three six-dimensional obstructions used in the proof
+are certified by \(21\) independently checked propositional refutations.
 \end{abstract}
 
 \maketitle
@@ -45,67 +44,31 @@ Erd\H{o}s~\cite{erdos}, we consider the extremal function
   f(n)=\ex(Q_n,C_4)
        =\max\{e(G):G\subseteq Q_n,\ G\text{ is }C_4\text{-free}\}.
 \]
-Writing \(\rho_n=f(n)/(n2^{n-1})\), the corresponding asymptotic
-question concerns
-\[
-  \pi_\square(C_4)=\lim_{n\to\infty}\rho_n.
-\]
-The limit exists by averaging over coordinate faces. Keeping the edges
-between alternating pairs of consecutive weight layers gives density at
-least \(1/2\) by choosing the denser of the two alternating classes.
-Brass, Harborth, and Nienborg~\cite{bhn} gave stronger finite-dimensional
-constructions, and Baber~\cite{baber} proved the asymptotic upper bound
-\(\pi_\square(C_4)\le 0.60318\) using flag algebras. In small dimensions,
-Harborth and Nienborg~\cite{hn} determined \(f(6)=132\).
+Brass, Harborth, and Nienborg~\cite{bhn} studied finite-dimensional
+bounds and constructions. Harborth and Nienborg~\cite{hn} determined
+\(f(6)=132\).
 
 An odd-square edge set meets every coordinate square in one or three
 edges and is therefore \(C_4\)-free. The fully frustrated hypercube
 construction of Derrida, Pomeau, Toulouse, and Vannimenus~\cite{dptv}
-attains \(304\) edges in dimension seven. Marinari, Parisi, and
-Ritort~\cite{mpr} reported the corresponding attainment in dimension
-eight in the spin formulation. Minamoto~\cite{minamoto} gives
-machine-verifiable edge lists for the \(304\)- and \(682\)-edge odd-square
-constructions and determines the odd-square optima in these dimensions.
-Minamoto's Open Problem~1 asks whether the seven-dimensional bound is
-also exact in the unrestricted class. Our first result answers this
-question.
+attains \(304\) edges in dimension seven. Minamoto~\cite{minamoto} gives
+a machine-verifiable edge list and proves that \(304\) is optimal
+among odd-square subgraphs of \(Q_7\). Minamoto's Open Problem~1 asks
+whether \(304\) is also optimal in the unrestricted class. We answer
+this question affirmatively.
 
 \begin{theorem}\label{thm:q7}
 The maximum number of edges in a \(C_4\)-free subgraph of \(Q_7\) is
 \(304\).
 \end{theorem}
 
-We also obtain the following two bounds for unrestricted \(C_4\)-free
-subgraphs. Their proofs are reserved for the full manuscript.
-
-\begin{theorem}\label{thm:q8}
-In dimension eight,
-\[
-  682\le \ex(Q_8,C_4)\le 683.
-\]
-\end{theorem}
-
-\begin{theorem}\label{thm:asymptotic}
-The asymptotic edge density satisfies
-\[
-  \pi_\square(C_4)\le
-  \frac{332729110702593}{562949953421312}
-  =0.591045631464114\ldots .
-\]
-\end{theorem}
-
-The three proofs use restrictions of a single graph to coordinate faces.
-For Theorem~\ref{thm:q7}, the central inequality relates the number of
-edges in a six-dimensional facet to the difference between two types of
-squares in that facet. Counting across opposite facets reduces possible
-violations to five profiles. The required local exclusions are certified
-by \(21\) finite propositional refutations. For Theorem~\ref{thm:q8}, a
-different six-dimensional inequality reduces the problem to
-inclusion-maximal graphs with \(684\) to \(688\) edges. A rational
-certificate then uses relations among four-dimensional restrictions,
-parity-side degree distributions, and edge-neighborhood histograms.
-For Theorem~\ref{thm:asymptotic}, we bound a flag-algebra score using the
-constraint that overlapping faces agree on their common edges.
+For the upper bound, we suppose a \(305\)-edge example exists and
+restrict it to coordinate faces. The central inequality relates the
+edge count of a six-dimensional facet to the difference between the
+number of empty squares and the number of squares containing exactly
+two opposite edges. Counting across opposite facets leaves five
+possible profiles for a violation of this inequality. The required
+local exclusions use \(21\) propositional refutations.
 
 Section~\ref{sec:prelims} gives the basic counting identities.
 Section~\ref{sec:q7} proves Theorem~\ref{thm:q7}.
@@ -126,23 +89,14 @@ restriction. An \((n-1)\)-dimensional coordinate face of \(Q_n\) is a
 \begin{lemma}[Face multiplicities]\label{lem:multiplicities}
 There are \(\binom nk 2^{n-k}\) coordinate \(k\)-faces of \(Q_n\), and
 each coordinate \(r\)-face lies in \(\binom{n-r}{k-r}\) of them for
-\(r\le k\le n\). In particular, restricting to a uniformly random
-\(k\)-face preserves the expected edge density.
+\(r\le k\le n\).
 \end{lemma}
 
 \begin{proof}
-To extend an \(r\)-face to a \(k\)-face, choose \(k-r\) additional
-coordinates to free. In the edge case this gives
-\[
-  \mathbb{E}_F e(G[F])
-   = e(G)\frac{\binom{n-1}{k-1}}{\binom nk\,2^{n-k}}
-   = \frac{k2^{k-1}}{n2^{n-1}}\,e(G).
-\]
+Choose the \(k\) free coordinates and assign values to the remaining
+\(n-k\). To extend an \(r\)-face to a \(k\)-face, choose \(k-r\) of
+its fixed coordinates to free.
 \end{proof}
-
-Restrictions preserve \(C_4\)-freeness. Applying
-Lemma~\ref{lem:multiplicities} to an extremal graph gives
-\(\rho_n\le\rho_k\) for \(1\le k\le n\).
 
 A \emph{full three-star} consists of three retained edges incident
 with a common vertex, its root. The three directions determine a
@@ -666,15 +620,12 @@ is available in Minamoto's repository~\cite{minamotodata}.
 \subsection*{Data and code availability}
 The manuscript, inputs, and verification programs are available in the
 \href{https://github.com/zhelizhou/hypercube-c4}{companion repository}.
-The README for each result identifies its proof, replay commands, and
-any required release assets.
+The \href{https://github.com/zhelizhou/hypercube-c4/tree/main/q7}
+{seven-dimensional proof materials} include replay instructions. The
+\href{https://github.com/zhelizhou/hypercube-c4/releases/tag/artifacts-v0.1}
+{artifact release} contains the \(21\) refutation traces.
 
-\begin{thebibliography}{9}
-
-\bibitem{baber}
-R.~Baber,
-\emph{Tur\'an densities of hypercubes},
-\href{https://arxiv.org/abs/1201.3587v2}{arXiv:1201.3587v2}, 2012.
+\begin{thebibliography}{6}
 
 \bibitem{bhn}
 P.~Brass, H.~Harborth, and H.~Nienborg,
@@ -699,12 +650,6 @@ Academic Press, London, 1984, pp.~1--17.
 H.~Harborth and H.~Nienborg,
 \emph{Maximum number of edges in a six-cube without four-cycles},
 Bull. Inst. Combin. Appl. \textbf{12} (1994), 55--60.
-
-\bibitem{mpr}
-E.~Marinari, G.~Parisi, and F.~Ritort,
-\emph{The fully frustrated hypercubic model is glassy and aging at large \(D\)},
-J. Phys. A \textbf{28} (1995), 327--334.
-\href{https://arxiv.org/abs/cond-mat/9410089}{arXiv:cond-mat/9410089}.
 
 \bibitem{minamoto}
 M.~Minamoto,
