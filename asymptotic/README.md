@@ -1,7 +1,6 @@
 # Asymptotic upper bound
 
-The [proof](proof.pdf) establishes
-$\pi_\square(C_4)\le332729110702593/562949953421312=0.591045631464114\ldots$.
+The [proof](proof.pdf) bounds the limiting edge density by 332729110702593 / 562949953421312, approximately 0.591045631464114.
 
 The final seven-dimensional score certificate, all its integer inputs, and both compatibility searches are in this directory. [The proof and replay notes](证明与复算.txt) describe the scoring identities, coverage arguments, thresholds, and exact normalization. [receipt.json](receipt.json) records the frozen result and parameters.
 

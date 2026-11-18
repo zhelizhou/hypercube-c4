@@ -1,6 +1,6 @@
 # Eight-dimensional upper bound
 
-Theorem B proves $\operatorname{ex}(Q_8,C_4)\le683$. Minamoto's [682-edge construction](https://arxiv.org/abs/2603.29127v5) gives the other end of the interval. An [edge list](research/ex_qn_c4/data/q8_seed682.edges) for the lower bound is included.
+Theorem B proves ex(Q₈, C₄) ≤ 683. Minamoto's [682-edge construction](https://arxiv.org/abs/2603.29127v5) gives the other end of the interval. An [edge list](research/ex_qn_c4/data/q8_seed682.edges) for the lower bound is included.
 
 - [Proof of Theorem B](research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/B684_EXCLUSION.md)
 - [83 active constraints and their sources](research/ex_qn_c4/coevolve/launches/near-extremal-20261115/finite8_degree_augmentation/pool_B684plus_enriched8/B684_ACTIVE_83_PARAMETERS.md)

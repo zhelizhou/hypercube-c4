@@ -1,11 +1,11 @@
 # Seven-dimensional proof
 
-The [paper](../paper/hypercube-c4.pdf) proves $\operatorname{ex}(Q_7,C_4)=304$. Its certificate appendix identifies the single degree-two obstruction (Lemma 3.1) and the ten symmetry cases for each of R0 and R1 (Lemma 3.2).
+The [paper](../paper/hypercube-c4.pdf) proves ex(Q₇, C₄) = 304. Its certificate appendix identifies the single degree-two obstruction (Lemma 3.1) and the ten symmetry cases for each of R0 and R1 (Lemma 3.2).
 
 - [instances/](instances/) contains the 21 DIMACS inputs, two-hole orbits, hashes and archived checking reports.
 - [tools/](tools/) contains the original PowerShell RUP checkers.
 - [witness-304.json](witness-304.json) contains a local witness. See the introduction for attribution of the previously known lower bound.
-- [source-proof-zh.html](source-proof-zh.html) is the historical Chinese draft. The LaTeX version contains the corrected parity-side and five-face degree statements.
+- [source-proof-zh.html](source-proof-zh.html) is the historical Chinese draft. The manuscript contains the corrected parity-side and five-face degree statements.
 
 With Python 3.11 or later, check the witness and all 21 formula hashes from the repository root:
 
