@@ -7,7 +7,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Security.Cryptography;
-public class RethlasFastHistoryRupCheck {
+public class MathRsiFastHistoryRupCheck {
  int n,originalEnd; bool empty=false;
  List<int[]> clauses=new List<int[]>();
  Dictionary<string,Stack<int>> ids=new Dictionary<string,Stack<int>>();
@@ -47,8 +47,8 @@ public class RethlasFastHistoryRupCheck {
   return false;
  }
  string Hash(string path){using(var f=File.OpenRead(path))using(var h=SHA256.Create())return BitConverter.ToString(h.ComputeHash(f)).Replace("-","").ToLowerInvariant();}
- RethlasFastHistoryRupCheck AllPreviouslyValidated(string prefix,long stop) {
-  var fresh=new RethlasFastHistoryRupCheck();fresh.n=n;fresh.watches=Enumerable.Range(0,2*n+1).Select(_=>new List<int>()).ToArray();fresh.values=new sbyte[n+1];fresh.trail=new int[n+1];
+ MathRsiFastHistoryRupCheck AllPreviouslyValidated(string prefix,long stop) {
+  var fresh=new MathRsiFastHistoryRupCheck();fresh.n=n;fresh.watches=Enumerable.Range(0,2*n+1).Select(_=>new List<int>()).ToArray();fresh.values=new sbyte[n+1];fresh.trail=new int[n+1];
   foreach(string l in File.ReadLines(prefix+".cnf"))if(l.Length>0&&l[0]!='c'&&l[0]!='p')fresh.Add(fresh.Parse(l));
   long k=0;foreach(string l in File.ReadLines(prefix+".drup")){k++;if(k>=stop)break;if(String.IsNullOrWhiteSpace(l)||l.StartsWith("d "))continue;fresh.Add(fresh.Parse(l));}
   return fresh;
@@ -58,7 +58,7 @@ public class RethlasFastHistoryRupCheck {
   watches=Enumerable.Range(0,2*n+1).Select(_=>new List<int>()).ToArray();values=new sbyte[n+1];trail=new int[n+1];
   foreach(string line in File.ReadLines(prefix+".cnf")){if(line.Length==0||line[0]=='p'||line[0]=='c')continue;var c=Parse(line);if(c.Any(z=>Math.Abs(z)>n))throw new Exception("Invalid variable");Add(c);seen++;}
   if(seen!=count)throw new Exception("Wrong input count");originalEnd=clauses.Count;originals=new Dictionary<int,int>(units);
-  RethlasFastHistoryRupCheck history=null;var fallbackLines=new List<long>();
+  MathRsiFastHistoryRupCheck history=null;var fallbackLines=new List<long>();
   long lineNo=0,checkedCount=0,deleted=0;bool derivedEmpty=false;var sw=Stopwatch.StartNew();
   foreach(string line in File.ReadLines(prefix+".drup")){lineNo++;if(String.IsNullOrWhiteSpace(line))continue;
    if(line.StartsWith("d ")){Delete(Parse(line,true));deleted++;continue;}
@@ -82,7 +82,7 @@ public class RethlasFastHistoryRupCheck {
 '@
 Add-Type -TypeDefinition $source -Language CSharp -CompilerOptions /optimize+
 $taskPrefix=(Resolve-Path -LiteralPath ($Prefix+'.cnf')).Path -replace '\.cnf$',''
-$result=[RethlasFastHistoryRupCheck]::new().Run($taskPrefix)
+$result=[MathRsiFastHistoryRupCheck]::new().Run($taskPrefix)
 $json=$result | ConvertTo-Json
 $json | Set-Content -LiteralPath ($taskPrefix+'.checked_history_cs.json') -Encoding utf8
 Write-Output $json
